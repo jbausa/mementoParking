@@ -1,2 +1,11 @@
+En la carpeta mementoParking 
+Enlaces de interés acerca de la aplicación:
+
 Github -> https://github.com/jbausa/mementoParking
 Heroku -> memento-parking.herokuapp.com
+
+Para subir al repo de Github:
+
+1. git add -A
+2. git commit -am "Comentario"
+3. git push mementoParking (git remote add mementoParking git@github.com:jbausa/mementoParking.git)
