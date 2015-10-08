@@ -1,0 +1,130 @@
+\chapter{Introducción}
+
+% MÓVILES
+
+\drop{E}{s} evidente que las nuevas tecnologías han cambiado nuestra forma de ver el mundo. No hace más veinte años, durante los primeros años de la década de los 90, era raro ver teléfonos móviles, ya que eran productos considerados elitistas. Al poco tiempo de comenzar la socialización mediante la bajada del precio medio, debido a la bajada del coste y las mejoras en las tecnologías de producción, la posesión de un aparato de telefonía móvil, era la norma. Si bien en un principio únicamente servían para realizar llamadas sin necesidad de estar localizado en un punto fijo anclado a la red telefónica, poco a poco fueron cambiando los hábitos de consumo para llegar a lo que actualmente podemos observar. Las pequeñas pantallas en blanco y negro, útiles para ver la identidad de la llamada que recibías, poco a poco fueron dando a pantallas capaces de mostrar varias líneas de texto al mismo tiempo, necesario para la creciente demanda de mensajes de texto y para albergar pequeños juegos como el famoso \textit{snake} de Nokia (figura \ref{fig:Nokia_snake}). 
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=60mm]{images/introduccion/Nokia_snake.jpg}
+\caption{Nokia 3310 con el juego Snake}
+\label{fig:Nokia_snake}
+\end{figure}
+
+La llegada de Apple a este mercado (figura \ref{fig:Iphone}) supuso una auténtica revolución, ya que cambió el paradigma del teléfono móvil como elemento comunicativo, para convertirlo en algo más.Una estación de trabajo integral llamada a sustituir agendas de trabajo, relojes, reproductores de música, centralitas...\\
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=60mm]{images/introduccion/Iphone1.jpg}
+\caption{iPhone 1}
+\label{fig:Iphone}
+\end{figure}
+
+
+% INTERNET
+
+\todo[inline]{Falta buscar y poner algo de bibliografía}
+
+Internet, puede ser considerado una de las diez tecnologías que más ha cambiado el mundo, y probablemente la que más rápidamente lo ha conseguido. La aparición de las primeras enciclopedias (figura \ref{fig:Introduccion_enciclopedia}), escritas y editadas con la intención de acercar el conocimiento a las masas, fueron escritas con el propósito de recoger y presentar todo el conocimiento que existía en aquella época. Los enciclopedistas (figura \ref{fig:Introduccion_enciclopedistas}), acorde a las ideas de la ilustración, consideraban que cualquier tipo de mal provenía de la ignorancia, y por tanto la manera de combatir la raíz de los problemas era brindar a las personas la oportunidad de acceder al corpus de conocimientos existente, hasta entonces encerrado en las instituciones académicas y eclesiásticas.
+
+% Imágenes de la primera enciclopedia
+\begin{figure}[hbtp]
+\centering
+\subfigure[Árbol de la ciencia de Llull. 1505]{\includegraphics[width=60mm, height=80mm]{./images/introduccion/Arbol_del_conocimiento.jpg}}
+\hspace{10mm}
+\subfigure[Portada de L'Encyclopédie. 1751]{\includegraphics[height=80mm]{./images/introduccion/Enciclopedia_portada.jpg}}
+\vspace{10mm}
+\subfigure[Estructura organizada del conocimiento humano. 1752]{\includegraphics[width=80mm, height=110mm]{./images/introduccion/Conocimiento_humano.jpeg}}
+\caption{Árbol de la ciencia de Llull y l'Encyclopédie de Diderot y d'Alembert}
+\label{fig:Introduccion_enciclopedia}
+\end{figure}
+% FIN imágenes de la primera enciclopedia
+
+% Imágenes enciclopedistas
+\begin{figure}[hbtp]
+\centering
+\subfigure[Retrato de Denis Diderot. 1767]{\includegraphics[width=60mm]{./images/introduccion/Diderot}}
+\hspace{20mm}
+\subfigure[Retrato de Jean Le Rond d'Alembert. 1753]{\includegraphics[width=60mm]{images/introduccion/D_Alembert.jpeg}}
+\caption{Primeros enciclopedistas}
+\label{fig:Introduccion_enciclopedistas}
+\end{figure}
+% FIN imágenes enciclopedistas
+
+Aunque inicialmente las redes de computadores que finalmente acabarían desembocando en lo que actualmente conocemos como Internet, eran de uso militar, en el año 1983 ARPANET comienza su andadura permitiendo el intercambio masivo de datos masivo con el acceso de universidades y centros de investigación (figura \ref{fig:Arpanet}).%http://www.analfatecnicos.net/pregunta.php?id=77
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=180mm]{images/introduccion/Mapa_de_Arpanet.jpg}
+\caption{Mapa de Arpanet}
+\label{fig:Arpanet}
+\end{figure}
+
+
+En el año 2012 existían en internet 634 millones de páginas web. La enciclopedia de Diderot y d'Alembert comprendía un total de 28 volúmenes con 72.999 artículos (figura \ref{fig:Crecimiento_Internet}). %https://es.wikipedia.org/wiki/L%27Encyclop%C3%A9die http://aci.info/2013/10/24/the-history-and-evolution-of-the-internet-media-and-news-in-5-infographics/
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=1]{images/introduccion/Gráfico_páginas_web.jpg}
+\caption{Crecimiento Internet}
+\label{fig:Crecimiento_Internet}
+\end{figure}
+
+
+Pero la cantidad disponible de información no es una cuantificación válida de su calidad. El acceso a la información es extremadamente sencillo, pero también lo es la creación de contenidos. De la misma manera que los grandes proyectos enciclopédicos fueron escritos por grandes científicos, matemáticos, ingenieros y filósofos de la época, actualmente cualquier persona con un ordenador puede crear contenido fácilmente y ponerlo a disposición del mundo.
+
+% GPS
+
+La geolocalicalización es una faceta omnipresente en la vida diaria actual, es por ello que no resulta extraño que los dispositivos móviles guarden automáticamente la posición en la que se realiza una fotografía o el lugar desde donde se escribe un comentario en una red social. Aunque existen varios proyectos de geolocalización, como Galileo, Glonass, IRNSS y Beidou, GPS es el más conocido, y su nombre se utiliza como sinónimo de cualquier proyecto de posicionamiento por satélite.
+
+\missingfigure{Proyectos de geolocalización}
+
+% PRESENTAR EL PROYECTO
+
+Conociendo estos hechos y teniendo en cuenta que prácticamente todos los modelos de dispositivos móviles del mercado permiten el acceso a internet e incorporan receptores GPS,resulta interesante abordar un trabajo dedicado a ahondar en el conocimiento de temas tan extendidos como la geolocalización, los dispositivos móviles y el desarrollo web.
+
+Es un hecho cotidiano olvidar el lugar de aparcamiento del vehículo, la dirección exacta del alojamiento hotelero y un sinfín de ejemplos similares. Desarrollar una aplicación que permita guardar, recuperar y mostrar el camino hacia una dirección exacta, resulta una opción interesante.
+
+La idea general, consiste en un sistema que permita al usuario almacenar de forma sencilla y rápida una posición geográfica para más tarde permitir recuperarla. Se permitirá que varios usuarios accedan a una misma posición almacenada, bien para mostrarla, bien para modificarla, ateniéndonos a la posibilidad de que varios usuarios pueden compartir el uso o propiedad de un mismo vehículo.
+
+
+
+
+\section{Título del proyecto}
+
+En la portada ---y otras páginas de presentación--- el nombre o título del
+proyecto debe aparecer sin comillas, cursiva u otros formatos. Si se cita el
+título de otra obra, o el nombre de un capítulo sí debe aparecer entre
+comillas. Por cierto, las comillas que deben usarse en castellano son las
+«latinas», dejando las ``inglesas'' para los raros casos en los que aparezca una
+cita en el cuerpo otra~\cite{sousa}.
+
+
+\section{Estructura del documento}
+
+Pueden incluirse aquí una sección con algunos consejos para la lectura del
+documento dependiendo de la motivación o conocimientos del lector.  También
+puede ser útil incluir una lista con el nombre y finalidad de cada uno de los
+capítulos restantes.
+
+\begin{definitionlist}
+\item[Capítulo \ref{chap:antecedentes}: \nameref{chap:antecedentes}] Explica herramientas
+  y aspectos básicos de edición con \LaTeX.
+\item[Capítulo \ref{chap:objetivos}: \nameref{chap:objetivos}] Finalidad y justificación
+  (con todo detalle) del presente documento.
+\end{definitionlist}
+
+
+\section{Más texto para que ocupe varias páginas}
+
+\blindtext
+\blinditemize[4]
+\blindmathpaper
+
+
+% Local Variables:
+%  coding: utf-8
+%  mode: latex
+%  mode: flyspell
+%  ispell-local-dictionary: "castellano8"
+% End:
