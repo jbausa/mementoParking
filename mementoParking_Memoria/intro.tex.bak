@@ -75,9 +75,15 @@ Pero la cantidad disponible de información no es una cuantificación válida de
 
 % GPS
 
-La geolocalicalización es una faceta omnipresente en la vida diaria actual, es por ello que no resulta extraño que los dispositivos móviles guarden automáticamente la posición en la que se realiza una fotografía o el lugar desde donde se escribe un comentario en una red social. Aunque existen varios proyectos de geolocalización, como Galileo, Glonass, IRNSS y Beidou, GPS es el más conocido, y su nombre se utiliza como sinónimo de cualquier proyecto de posicionamiento por satélite.
+La geolocalicalización es una faceta omnipresente en la vida diaria actual, es por ello que no resulta extraño que los dispositivos móviles guarden automáticamente la posición en la que se realiza una fotografía o el lugar desde donde se escribe un comentario en una red social. Aunque existen varios proyectos de geolocalización (figura \ref{Logos_satelites}), como Galileo, Glonass, IRNSS y Beidou, GPS es el más conocido, y su nombre se utiliza como sinónimo de cualquier proyecto de posicionamiento por satélite.
 
-\missingfigure{Proyectos de geolocalización}
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=1]{images/introduccion/Sistemas_posicionamiento_satelites.jpg}
+\caption{Logotipos de proyectos de geolocalización}
+\label{Logos_satelites}
+\end{figure}
+
 
 % PRESENTAR EL PROYECTO
 
@@ -85,7 +91,7 @@ Conociendo estos hechos y teniendo en cuenta que prácticamente todos los modelo
 
 Es un hecho cotidiano olvidar el lugar de aparcamiento del vehículo, la dirección exacta del alojamiento hotelero y un sinfín de ejemplos similares. Desarrollar una aplicación que permita guardar, recuperar y mostrar el camino hacia una dirección exacta, resulta una opción interesante.
 
-La idea general, consiste en un sistema que permita al usuario almacenar de forma sencilla y rápida una posición geográfica para más tarde permitir recuperarla. Se permitirá que varios usuarios accedan a una misma posición almacenada, bien para mostrarla, bien para modificarla, ateniéndonos a la posibilidad de que varios usuarios pueden compartir el uso o propiedad de un mismo vehículo.
+La idea general, consiste en un sistema que permita al usuario almacenar de forma sencilla y rápida una posición geográfica para más tarde permitir recuperarla. Aunque los usos pueden ser variados, el desarrollo se centrará en el almacenamiento de la posición de aparcamiento de vehículos.Se permitirá que varios usuarios accedan a una misma posición almacenada, bien para mostrarla, bien para modificarla, ateniéndonos a la posibilidad de que varios usuarios pueden compartir el uso o propiedad de un mismo vehículo.
 
 
 
