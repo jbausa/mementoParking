@@ -1,8 +1,10 @@
 \documentclass[twoside]{esi-tfg}
-\usepackage{custom}
-\usepackage{subfigure}
-\usepackage{float}
-\usepackage{todonotes}
+\usepackage{custom, tikz, subfigure, float, todonotes}
+\usepackage[table]{xcolor}
+\usepackage[export]{adjustbox}
+
+\usetikzlibrary{shapes,shadows}
+\tikzstyle{shadowBox} = [draw=black, fill=white, rectangle, inner sep=10pt, style=rounded corners, drop shadow={fill=black,   opacity=1}, text width=14cm]
 
 \input{metadata.tex}
 

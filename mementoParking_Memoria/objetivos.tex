@@ -16,31 +16,67 @@ En este capítulo se expone el objetivo principal del TFG, así como los objetiv
 
 \section{Objetivo general}
 
-El hito final que se pretende lograr, destacando el problema específico que
-resuelve o la funcionalidad que aporta la aplicación o sistema desarrollado.
+%El hito final que se pretende lograr, destacando el problema específico que
+%resuelve o la funcionalidad que aporta la aplicación o sistema desarrollado.
+El objetivo principal de este TFG consiste en el desarrollo de un producto software que permita al usuario almacenar una posición geográfica (típicamente, el lugar de aparcamiento de uno o varios vehículos) y recuperar más tarde esta posición para mostrarla. El usuario podrá utilizar el producto bien desde un navegador web, accediendo a y autenticándose en el servidor, bien a través del dispositivo móvil \ref{fig:Preview_App}. En este último caso, se brinda la opción, una vez recuperada la posición, de mostrar una ruta guiada hasta el lugar de aparcamiento.
+
+%Imagen App (Aproximacion)
+\begin{figure}[hbtp]
+\centering
+\includegraphics[height=60mm, fbox={\fboxrule} 4mm]{images/objetivos/telefono_parking.jpg}
+\caption{Aproximación de la aplicación.}
+\label{fig:Preview_App}
+\end{figure}
+%https://dotfirst.io/
+
+\begin{tikzpicture}
+	\node[shadowBox] {El objetivo del TFG será la realización de una página web diseñada para almacenar y recuperar coordenadas geográficas y la modificación de las mismas por parte de varios usuarios.};
+\end{tikzpicture}
+
+En la figura \ref{fig:arquitectura} se puede ver un diagrama de la arquitectura del sistema que se implementará en el presente TFG.
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=0.75, fbox={\fboxrule} 4mm]{images/objetivos/arquitectura.png}
+\caption{Arquitectura de la aplicación}
+\label{fig:arquitectura}
+\end{figure}
 
 
 \section{Objetivos específicos}
 
-Los objetivos específicos son las partes independientes del proyecto que tienen
-valor por si mismas.
+En la tabla \ref{tab:objetivos}
 
-Por ejemplo, si el objetivo general fuera destruir una flota enemiga, los
-objetivos específicos podrían ser: hundir el portaaviones, inutilizar las
-torretas de los destructores, eliminar los cazas enemigos, etc.
+\begin{table}[hp]
+  \centering 
+  \rowcolors{1}{gray!25}{white}
+  \begin{tabular}{p{0.2\linewidth}p{0.7\linewidth}}
+    \multicolumn{1}{l}{\cellcolor{black!30}\textbf{Id Objetivo}} & 
+ 	\multicolumn{1}{c}{\cellcolor{black!30}\textbf{Descripción del objetivo}}\\
+    \toprule
+    Objetivo 1 & Realizar una página web para el acceso a la herramienta \\
+	Objetivo 2 & Añadir gestión de usuarios a la página (registro y control de acceso) \\
+	Objetivo 3 & Permitir el almacenamiento, edición y recuperación de datos a través de la página web \\
+	Objetivo 4 & Mostrar los datos almacenados mediante la inclusión de mapa \\
+	Objetivo 5 & Facilitar a un usuario permitir a otros usuarios la edición de los datos almacenados \\
+	Objetivo 6 & Añadir opción para mostrar recorrido desde el punto actual al punto almacenado \\
+    \hline
+  \end{tabular}
+  \caption{Objetivos parciales del TFG}
+  \label{tab:objetivos}
+\end{table}
 
-Los objetivos específicos no son tareas; análisis, diseño, etc. no tienen valor
-intrínseco para el cliente, si por ejemplo el proyecto se cancela en la fase de
-diseño no se le entrega nada de valor al cliente, luego no se cubre ningún
-objetivo.
-
-No se deben confundir los objetivos del proyecto con los objetivos del
-alumno. Indicar como objetivo que el alumno va a aprender o a estudiar
-determinada disciplina o herramienta no aporta nada al cliente. Deben ser
-entregables que el cliente puede valorar y por los que estaría dispuesto
-a pagar. Resumiendo, son \textbf{objetivos}, no subjetivos.
 
 \subsection{Objetivo 1}
+\emph{Realizar una página web para el acceso a la herramienta.}\\
+El comienzo del desarrollo será la implementación de una página web que sirva como marco y base para el resto de objetivos. Al termino de este punto debe existir una página web accesible con todos los elementos típicos que se un usuario espera encontrar, esto es, una página de inicio, contacto, acerca de, y una estructura reconocible y visualmente agradable. También se prestará atención a la accesibilidad desde dispositivos móviles comprobando que la visualización es correcta y no se pierde ni funcionalidad ni estética al cambiar el método de acceso. En la figura \ref{fig:prototipo_Home} se puede observar un prototipo inicial de la página principal de la aplicación.
+
+% IMAGEN: prototipo_Home
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=0.5, fbox={\fboxrule} 4mm]{images/objetivos/prototipo_Home.png}
+\caption{Prototipo. Home}
+\label{fig:prototipo_Home}
+\end{figure}
 
 \subsection{Objetivo 2}
 
