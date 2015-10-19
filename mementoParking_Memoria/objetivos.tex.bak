@@ -44,7 +44,7 @@ En la figura \ref{fig:arquitectura} se puede ver un diagrama de la arquitectura 
 
 \section{Objetivos específicos}
 
-En la tabla \ref{tab:objetivos}
+En la tabla \ref{tab:objetivos} se puede observar los objetivos necesarios para la consecución del TFG.
 
 \begin{table}[hp]
   \centering 
@@ -108,6 +108,16 @@ En este punto daremos un paso más en la gestión de usuarios permitiendo que in
 \emph{Añadir opción para mostrar recorrido desde el punto actual al punto almacenado.}\\
 El objetivo final será añadir funcionalidades auxiliares, como mostrar una ruta desde la localización del usuario hasta la posición almacenada.
 
+\section{Objetivos académicos}
+La consecución del TFG lleva una serie de objetivos académicos aparejados, entre los que cabe destacar el aprendizaje y asentamiento de las siguientes tecnologías:
+
+\begin{itemize}[labelindent=\parindent,leftmargin=2cm]
+	\item Ruby on Rails
+	\item MongoDB
+	\item AngularJS
+	\item Bootstrap
+	\item Android
+\end{itemize}
 
 % Local Variables:
 %  coding: utf-8
