@@ -2,15 +2,16 @@
 
 {\small
 \begin{acronym}[XXXXXXXX]
-
   % ??? %
-  \Acro{GNU}     {\acs{GNU} is Not Unix}
-  \acro{OO}      {Orientación a Objetos}
-  \acro{RPC}     {Remote Procedure Call}
-  % ??? %
-  \acro{ARPANET} {Advanced Research Projects Agency Network}
-  \acro{GPS}     {Global Positioning System}
-  \acro{TFG}     {Trabajo Fin de Grado}
+  \Acro{GNU}		{\acs{GNU} is Not Unix}
+  \acro{OO}			{Orientación a Objetos}
+  \acro{RPC}		{Remote Procedure Call}
+  \Acro{ARPANET}	{Advanced Research Projects Agency Network}
+  \acro{GPS}		{Global Positioning System}
+  \acro{TFG}		{Trabajo Fin de Grado}
+  \acro{SIG}		{Sistemas de Información Geográfica}
+  \Acro{GLONASS}	{Globalnaya Navigatsionnaya Sputnikovaya Sistema}
+  \Acro{IRNSS}		{Indian Regional Navigation Satellite System}
 \end{acronym}
 }
 

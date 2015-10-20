@@ -12,13 +12,13 @@
 %trabajo''. En este caso, se añadirán las hipótesis de trabajo que el alumno, con
 %su TFG, pretende demostrar».
 
-En este capítulo se expone el objetivo principal del TFG, así como los objetivos parciales que se intentarán conseguir con la realización de este trabajo.
+\drop{E}{n} este capítulo se expone el objetivo principal del \ac{TFG}, así como los objetivos parciales que se intentarán conseguir con la realización de este trabajo.
 
 \section{Objetivo general}
 
 %El hito final que se pretende lograr, destacando el problema específico que
 %resuelve o la funcionalidad que aporta la aplicación o sistema desarrollado.
-El objetivo principal de este TFG consiste en el desarrollo de un producto software que permita al usuario almacenar una posición geográfica (típicamente, el lugar de aparcamiento de uno o varios vehículos) y recuperar más tarde esta posición para mostrarla. El usuario podrá utilizar el producto bien desde un navegador web, accediendo a y autenticándose en el servidor, bien a través del dispositivo móvil \ref{fig:Preview_App}. En este último caso, se brinda la opción, una vez recuperada la posición, de mostrar una ruta guiada hasta el lugar de aparcamiento.
+El objetivo principal de este \ac{TFG} consiste en el desarrollo de un producto software que permita al usuario almacenar una posición geográfica (típicamente, el lugar de aparcamiento de uno o varios vehículos) y recuperar más tarde esta posición para mostrarla. El usuario podrá utilizar el producto bien desde un navegador web, accediendo a y autenticándose en el servidor, bien a través del dispositivo móvil \ref{fig:Preview_App}. En este último caso, se brinda la opción, una vez recuperada la posición, de mostrar una ruta guiada hasta el lugar de aparcamiento.
 
 %Imagen App (Aproximacion)
 \begin{figure}[hbtp]
@@ -30,10 +30,10 @@ El objetivo principal de este TFG consiste en el desarrollo de un producto softw
 %https://dotfirst.io/
 
 \begin{tikzpicture}
-	\node[shadowBox] {El objetivo del TFG será la realización de una página web diseñada para almacenar y recuperar coordenadas geográficas y la modificación de las mismas por parte de varios usuarios.};
+	\node[shadowBox] {El objetivo del \ac{TFG} será la realización de una página web diseñada para almacenar y recuperar coordenadas geográficas y la modificación de las mismas por parte de varios usuarios.};
 \end{tikzpicture}
 
-En la figura \ref{fig:arquitectura} se puede ver un diagrama de la arquitectura del sistema que se implementará en el presente TFG.
+En la figura \ref{fig:arquitectura} se puede ver un diagrama de la arquitectura del sistema que se implementará en el presente \ac{TFG}.
 \begin{figure}[hbtp]
 \centering
 \includegraphics[scale=0.75, fbox={\fboxrule} 4mm]{images/objetivos/arquitectura.png}
@@ -44,7 +44,7 @@ En la figura \ref{fig:arquitectura} se puede ver un diagrama de la arquitectura 
 
 \section{Objetivos específicos}
 
-En la tabla \ref{tab:objetivos} se puede observar los objetivos necesarios para la consecución del TFG.
+En la tabla \ref{tab:objetivos} se puede observar los objetivos necesarios para la consecución del \ac{TFG}.
 
 \begin{table}[hp]
   \centering 
@@ -61,7 +61,7 @@ En la tabla \ref{tab:objetivos} se puede observar los objetivos necesarios para 
 	Objetivo 6 & Añadir opción para mostrar recorrido desde el punto actual al punto almacenado \\
     \hline
   \end{tabular}
-  \caption{Objetivos parciales del TFG}
+  \caption{Objetivos parciales del \ac{TFG}}
   \label{tab:objetivos}
 \end{table}
 
@@ -109,9 +109,9 @@ En este punto daremos un paso más en la gestión de usuarios permitiendo que in
 El objetivo final será añadir funcionalidades auxiliares, como mostrar una ruta desde la localización del usuario hasta la posición almacenada.
 
 \section{Objetivos académicos}
-La consecución del TFG lleva una serie de objetivos académicos aparejados, entre los que cabe destacar el aprendizaje y asentamiento de las siguientes tecnologías:
+La consecución del \ac{TFG} lleva una serie de objetivos académicos aparejados, entre los que cabe destacar el aprendizaje y asentamiento de las siguientes tecnologías:
 
-\begin{itemize}[labelindent=\parindent,leftmargin=2cm]
+\begin{itemize}[label={$\bullet$},labelindent=\parindent,leftmargin=2cm]
 	\item Ruby on Rails
 	\item MongoDB
 	\item AngularJS
