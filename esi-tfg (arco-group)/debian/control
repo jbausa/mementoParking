@@ -1,0 +1,21 @@
+Source: esi-tfg
+Section: shells
+Priority: optional
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.6
+Homepage: https://bitbucket.org/arco_group/esi-tfg
+
+Package: esi-tfg
+Architecture: all
+Depends: ${misc:Depends},
+	 arco-authors (>= 0.20130429-1),
+	 latex-xcolor,
+	 texlive-latex-extra,
+	 texlive-lang-spanish,
+	 texlive-latex-recommended,
+	 texlive-fonts-extra,
+	 cm-super
+Description: a LaTeX class and utilities for TFG typesetting
+ This package provides the esi-tfg LaTeX class created specifically to simplify
+ TFG typesetting.
