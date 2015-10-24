@@ -1,16 +1,21 @@
-\begin{thebibliography}{GM07}
+\begin{thebibliography}{GGE09}
 
-\bibitem[Cai11]{john_snow}
-Alberto Cairo.
+\bibitem[Cai11]{Cai11}
+A.~Cairo.
 \newblock {\em El arte funcional}.
 \newblock Alamut, 2011.
 
-\bibitem[Chr97]{exploring_GIS}
+\bibitem[Chr97]{Chr97}
 N.~R. Chrisman.
 \newblock {\em Exploring Geographic Information Systems}.
 \newblock John Wiley and Sons, 1997.
 
-\bibitem[GM07]{john_snow02}
+\bibitem[GGE09]{Glea09}
+S.~Gleason y D.~Gebre-Egziabher.
+\newblock {\em GNSS Applications and Methods}.
+\newblock Artech House, 2009.
+
+\bibitem[GM07]{Gunn07}
 S.~William~A. Gunn y Michele Masellis.
 \newblock {\em Concepts and Practice of Humanitarian Medicine}.
 \newblock Springer, 2007.
