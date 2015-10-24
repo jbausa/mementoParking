@@ -1,0 +1,59 @@
+% Ejemplos
+	Book{•,
+	author = {•},
+	title = {•},
+	publisher = {•},
+	year = {•},
+	}
+	
+	@Article{Bow93,
+	  author = 	 {Bowman, M. and Debray, S.K.and Peterson, L.L.},
+	  title = 	 {Reasoning about naming systems},
+	  journal = 	 {ACM Trans. Program. Lang. Syst.},
+	  year = 	 {1993},
+	  OPTkey = 	 {},
+	  volume = 	 {15},
+	  number = 	 {5},
+	  pages = 	 {795--825},
+	  month = 	 {Nov},
+	}
+	
+	@TechReport{Ding97,
+	  author = 	 {Ding, W. and Marchionini, G.},
+	  title = 	 {A Study on Video Browsing Strategies. Technical Report},
+	  institution =  {University of Maryland at College Park},
+	  year = 	 {1997},
+	}
+	
+	@Book{Tavel07,
+	  author = 	 {Tavel, P.},
+	  title = 	 {Modeling and Simulation Design},
+	  publisher = 	 {AK Peters Ltd.},
+	  year = 	 {2007},
+	  address = 	 {Natick, MA, USA},
+	}
+
+%FIN Ejemplos
+
+@Book{exploring_GIS,
+author = {Chrisman, N. R.},
+title = {Exploring Geographic Information Systems},
+publisher = {John Wiley and Sons},
+year = {1997},
+}
+
+@Book{john_snow,
+author = {Cairo, Alberto},
+title = {El arte funcional},
+publisher = {Alamut},
+year = {2011},
+}
+
+@Book{john_snow2,
+author = {Gunn, S. William A. and Masellis, Michele},
+title = {Concepts and Practice of Humanitarian Medicine},
+publisher = {Springer},
+year = {2007},
+}
+
+

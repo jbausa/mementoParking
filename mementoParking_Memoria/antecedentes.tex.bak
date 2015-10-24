@@ -9,6 +9,39 @@
 \drop{E}{n} este capítulo se muestra el trabajo de documentación e investigación previa a la realización del presente \ac{TFG}. En primer lugar se abordarán los \ac{SIG}, sus antecedentes y el actual estado en el que se encuentran, más tarde se comentarán algunos aspectos relevantes de las tecnologías web y móviles. Para terminar, se enumerarán algunas aplicaciones similares que podemos encontrar actualmente en el mercado.
 
 \section{\acf{SIG}}
+Debido a que el término \ac{SIG} engloba la integración de muy diversas áreas,no existe una única definición totalmente consensuada \cite{exploring_GIS}. La definición aportada por el \ac{NCGIA} resulta ampliamente aceptada:
+\begin{quote}
+	un SIG es un sistema de hardware, software y procedimientos elaborados para facilitar la obtención, gestión, manipulación, análisis, modelado, representación y salida de datos espacialmente referenciados, para resolver problemas complejos de planificación y gestión.
+\end{quote}
+
+\subsection{Historia de los SIG}
+Uno de los elementos relevantes de los \ac{SIG} son la asociación de información a una imagen concreta y una de las primeras muestras de esto lo podemos encontrar en el Londres victoriano de mediados del siglo XIX. En el año 1854, el doctor John Snow (ver figura \ref{fig:john_snow}) utilizó un mapa del Soho londinense para ubicar los casos de un brote de cólera (ver figura \ref{fig:cholera_map}). Con la ayuda de los registros del hospital de Middlesex y de Henry Whitehead, párroco local, recogió las defunciones producidas mediante una fina línea de color negro que se apilaban unas sobre otras a medida que se producían las muertes, consiguiendo el efecto de asociación de información a imagen comentado en el párrafo anterior \cite{john_snow}.
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=0.5, fbox={\fboxrule} 4mm]{images/03-antecedentes/01-cholera_map.jpg}
+\caption{Arquitectura de la aplicación}
+\label{fig:cholera_map}
+\end{figure}
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=1, fbox={\fboxrule} 0mm]{images/03-antecedentes/02-john_snow.jpg}
+\caption{Arquitectura de la aplicación}
+\label{fig:john_snow}
+\end{figure}
+
+Gracias a ello y referenciando en el mapa la posición de los pozos de agua, pudo comprobar como una gran cantidad de víctimas se encontraban dentro de la zona de influencia de una bomba de agua en Broad Street (ver figura \ref{fig:cholera_map_detail}), que a la postre resultó estar contaminada con heces. Recomendando la clausura de la misma consiguió acabar con la epidemia \ci. Debido a estos logros se le considera el padre de la epidemiología moderna y podemos ilustrar uno de los primeros ejemplos del uso de los \ac{SIG}.
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=1, fbox={\fboxrule} 4mm]{images/03-antecedentes/03-cholera_map_detail.png}
+\caption{Arquitectura de la aplicación}
+\label{fig:cholera_map_detail}
+\end{figure}
+
+
+
 
 \section{Tecnologías web}
 
