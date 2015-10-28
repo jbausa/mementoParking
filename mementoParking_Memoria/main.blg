@@ -4,51 +4,55 @@ The top-level auxiliary file: main.aux
 The style file: es-alpha.bst
 Database file #1: bibliography.bib
 Warning--I didn't find a database entry for "sousa"
-Warning--I didn't find a database entry for "jones_live_map"
-Warning--I didn't find a database entry for "plus_fours_routefinders"
-Warning--I didn't find a database entry for "iter_avto"
-Warning--I didn't find a database entry for "raf"
-Warning--I didn't find a database entry for "tsicada"
-Warning--I didn't find a database entry for "007_korean"
-You've used 4 entries,
+Warning--to sort, need author or key in GPS12
+Warning--to sort, need author or key in Plus14
+Warning--to sort, need author or key in Ori13
+Warning--to sort, need author or key in Kore15
+Warning--to sort, need author or key in Bav15
+Warning--to sort, need author or key in Libr15
+Warning--to sort, need author or key in Apac15
+Warning--to sort, need author or key in Hist15
+Warning--to sort, need author or key in Data14
+Warning--to sort, need author or key in Worl15
+You've used 22 entries,
             2580 wiz_defined-function locations,
-            599 strings with 4922 characters,
-and the built_in function-call counts, 1240 in all, are:
-= -- 104
-> -- 54
-< -- 2
-+ -- 16
-- -- 16
-* -- 66
-:= -- 218
-add.period$ -- 12
-call.type$ -- 4
-change.case$ -- 18
-chr.to.int$ -- 4
-cite$ -- 4
-duplicate$ -- 66
-empty$ -- 109
-format.name$ -- 22
-if$ -- 252
+            687 strings with 7046 characters,
+and the built_in function-call counts, 5747 in all, are:
+= -- 547
+> -- 128
+< -- 10
++ -- 32
+- -- 32
+* -- 282
+:= -- 825
+add.period$ -- 71
+call.type$ -- 22
+change.case$ -- 80
+chr.to.int$ -- 22
+cite$ -- 42
+duplicate$ -- 287
+empty$ -- 620
+format.name$ -- 53
+if$ -- 1277
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 8
-newline$ -- 23
-num.names$ -- 12
-pop$ -- 40
+missing$ -- 14
+newline$ -- 118
+num.names$ -- 36
+pop$ -- 233
 preamble$ -- 1
-purify$ -- 26
+purify$ -- 124
 quote$ -- 0
-skip$ -- 44
+skip$ -- 203
 stack$ -- 0
-substring$ -- 28
-swap$ -- 4
-text.length$ -- 2
-text.prefix$ -- 2
+substring$ -- 164
+swap$ -- 22
+text.length$ -- 10
+text.prefix$ -- 9
 top$ -- 0
-type$ -- 16
-warning$ -- 0
-while$ -- 10
-width$ -- 6
-write$ -- 50
-(There were 7 warnings)
+type$ -- 148
+warning$ -- 10
+while$ -- 26
+width$ -- 28
+write$ -- 270
+(There were 11 warnings)

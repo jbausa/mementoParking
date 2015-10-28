@@ -1,5 +1,22 @@
 \begin{thebibliography}{GGE09}
 
+\bibitem[Ada14]{Adam14}
+D.~Adams.
+\newblock HTML 5 Finalized.
+\newblock \url{http://www.osnews.com/story/28003/HTML_5_Finalized}, October
+  2014.
+\newblock Consultado: Octubre 2015.
+
+\bibitem[Apa]{Apac15}
+Apache. HTTP Server Project.
+\newblock \url{https://httpd.apache.org/}.
+\newblock Consultado: Octubre 2015.
+
+\bibitem[Bav]{Bav15}
+BAV - Vatican library.
+\newblock \url{https://www.vatlib.it/home.php?pag=stampati&ling=eng}.
+\newblock Consultado: Octubre 2015.
+
 \bibitem[Cai11]{Cai11}
 A.~Cairo.
 \newblock {\em El arte funcional}.
@@ -10,6 +27,23 @@ N.~R. Chrisman.
 \newblock {\em Exploring Geographic Information Systems}.
 \newblock John Wiley and Sons, 1997.
 
+\bibitem[Dat14]{Data14}
+Database Friends: Histoty of MySQL.
+\newblock \url{http://www.databasefriends.co/2014/02/history-of-mysql.html},
+  February 2014.
+\newblock Consultado: Octubre 2015.
+
+\bibitem[ES01]{Esco01}
+H.~Escolar~Sobrino.
+\newblock {\em La biblioteca de Alejandría}.
+\newblock Gredos, 2001.
+
+\bibitem[Gai10]{Gaim10}
+N~Gaiman.
+\newblock Neil Gaiman on Libraries.
+\newblock \url{https://www.youtube.com/watch?v=uH-sR1uCQ6g}, April 2010.
+\newblock Consultado: Octubre 2015.
+
 \bibitem[GGE09]{Glea09}
 S.~Gleason y D.~Gebre-Egziabher.
 \newblock {\em GNSS Applications and Methods}.
@@ -19,5 +53,83 @@ S.~Gleason y D.~Gebre-Egziabher.
 S.~William~A. Gunn y Michele Masellis.
 \newblock {\em Concepts and Practice of Humanitarian Medicine}.
 \newblock Springer, 2007.
+
+\bibitem[GPS12]{GPS12}
+El GPS de 1909 Look, Ma, no wires! Cornell class project tests wireless
+  networking.
+\newblock
+  \url{http://resolviendolaincognita.blogspot.com.es/2012/02/el-gps-de-1909.html},
+  February 2012.
+\newblock Consultado: Octubre 2015.
+
+\bibitem[His]{Hist15}
+Historia de PHP.
+\newblock \url{http://php.net/manual/es/history.php.php}.
+\newblock Consultado: Octubre 2015.
+
+\bibitem[Jos94]{Jos94}
+T.~F. Josefo.
+\newblock {\em Sobre la antigüedad de los judíos}.
+\newblock Gredos, 1994.
+
+\bibitem[Kle64]{Klei64}
+L.~Kleinrock.
+\newblock {\em Redes de comunicación: flujo y retraso estocástico de
+  mensajes}.
+\newblock Mcgraw-Hill, 1964.
+
+\bibitem[Kor15]{Kore15}
+Vuelo 007 de Korean Air.
+\newblock \url{http://es.wikipedia.org/wiki/Vuelo_007_de_Korean_Air}, June
+  2015.
+\newblock Consultado: Octubre 2015.
+
+\bibitem[Lib]{Libr15}
+Library of Congress.
+\newblock \url{https://www.loc.gov/about/fascinating-facts/}.
+\newblock Consultado: Octubre 2015.
+
+\bibitem[Ori13]{Ori13}
+Los orígenes del Sistema de Posicionamiento Global (GPS).
+\newblock
+  \url{http://catedraisdefe.etsit.upm.es/wiki/index.php/Los_or%C3%ADgenes_del_Sistema_de_Posicionamiento_Global_(GPS)},
+  April 2013.
+\newblock Consultado: Octubre 2015.
+
+\bibitem[Pal10]{Pala10}
+A.~Palazzesi.
+\newblock Historia del GPS: Cómo el mundo dejó de perderse.
+\newblock
+  \url{http://www.neoteo.com/historia-del-gps-como-el-mundo-dejo-de-perderse/},
+  July 2010.
+\newblock Consultado: Octubre 2015.
+
+\bibitem[Par13]{Parra13}
+S.~Parra.
+\newblock ¿Como funcionaba el primer GPS de la historia, construido en a
+  principios del siglo XX?
+\newblock
+  \url{http://www.xatakaciencia.com/tecnologia/como-funcionaba-el-primer-gps-de-la-historia-construido-en-a-principios-del-siglo-xx},
+  June 2013.
+\newblock Consultado: Octubre 2015.
+
+\bibitem[Plu14]{Plus14}
+Plus Fours Routefinder - Worlds First Navigation System.
+\newblock
+  \url{http://avaxnews.net/educative/plus_fours_routefinder_worlds_first_navigation_system.html},
+  March 2014.
+\newblock Consultado: Octubre 2015.
+
+\bibitem[San]{Sanz15}
+E.~Sanz.
+\newblock ¿Cuántos libros hay en la Biblioteca Nacional de España?
+\newblock
+  \url{http://www.muyhistoria.es/curiosidades/preguntas-respuestas/icuantos-libros-hay-en-la-biblioteca-nacional-de-espana}.
+\newblock Consultado: Octubre 2015.
+
+\bibitem[Wor]{Worl15}
+World Wide Web Consortium (W3C).
+\newblock \url{http://www.w3.org/}.
+\newblock Consultado: Octubre 2015.
 
 \end{thebibliography}
