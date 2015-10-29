@@ -14,45 +14,45 @@ Warning--to sort, need author or key in Apac15
 Warning--to sort, need author or key in Hist15
 Warning--to sort, need author or key in Data14
 Warning--to sort, need author or key in Worl15
-You've used 22 entries,
+You've used 23 entries,
             2580 wiz_defined-function locations,
-            687 strings with 7046 characters,
-and the built_in function-call counts, 5747 in all, are:
-= -- 547
-> -- 128
+            692 strings with 7150 characters,
+and the built_in function-call counts, 6081 in all, are:
+= -- 576
+> -- 147
 < -- 10
-+ -- 32
-- -- 32
-* -- 282
-:= -- 825
-add.period$ -- 71
-call.type$ -- 22
-change.case$ -- 80
-chr.to.int$ -- 22
-cite$ -- 42
-duplicate$ -- 287
-empty$ -- 620
-format.name$ -- 53
-if$ -- 1277
++ -- 39
+- -- 38
+* -- 301
+:= -- 882
+add.period$ -- 74
+call.type$ -- 23
+change.case$ -- 85
+chr.to.int$ -- 23
+cite$ -- 43
+duplicate$ -- 303
+empty$ -- 647
+format.name$ -- 60
+if$ -- 1345
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 14
-newline$ -- 118
-num.names$ -- 36
-pop$ -- 233
+missing$ -- 16
+newline$ -- 123
+num.names$ -- 39
+pop$ -- 243
 preamble$ -- 1
-purify$ -- 124
+purify$ -- 131
 quote$ -- 0
-skip$ -- 203
+skip$ -- 215
 stack$ -- 0
-substring$ -- 164
-swap$ -- 22
+substring$ -- 172
+swap$ -- 23
 text.length$ -- 10
 text.prefix$ -- 9
 top$ -- 0
-type$ -- 148
+type$ -- 152
 warning$ -- 10
-while$ -- 26
-width$ -- 28
-write$ -- 270
+while$ -- 29
+width$ -- 29
+write$ -- 282
 (There were 11 warnings)
