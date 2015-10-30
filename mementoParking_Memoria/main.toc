@@ -27,6 +27,6 @@
 \contentsline {subsection}{\numberline {3.2.1}Tecnolog\IeC {\'\i }as del lado del servidor}{24}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Tecnolog\IeC {\'\i }as del lado del cliente}{25}{subsection.3.2.2}
 \contentsline {section}{\numberline {3.3}Dispositivos m\IeC {\'o}viles}{27}{section.3.3}
-\contentsline {section}{\numberline {3.4}Aplicaciones similares}{27}{section.3.4}
-\contentsline {chapter}{\numberline {A}Ejemplo de anexo}{31}{appendix.Alph1}
-\contentsline {chapter}{Referencias}{33}{appendix*.27}
+\contentsline {section}{\numberline {3.4}Aplicaciones similares}{28}{section.3.4}
+\contentsline {chapter}{\numberline {A}Ejemplo de anexo}{33}{appendix.Alph1}
+\contentsline {chapter}{Referencias}{35}{appendix*.27}
