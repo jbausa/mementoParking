@@ -22,41 +22,48 @@
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Prototipo. Home}}{13}{figure.2.3}
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Prototipo. Home}}{14}{figure.2.4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Primeros instrumentos de navegaci\IeC {\'o}n}}{16}{figure.3.1}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Sextante}}}{16}{figure.3.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Astrolabio}}}{16}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Jones Live Map}}{17}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Plus Fours Routefinder}}{17}{figure.3.3}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Iter Avto}}{18}{figure.3.4}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces \IeC {\'A}rea de influencia con un sat\IeC {\'e}lite}}{20}{figure.3.5}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Doctor Sir John Snow}}{20}{figure.3.6}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Mapa del Soho con los casos de fallecimiento por c\IeC {\'o}lera}}{21}{figure.3.7}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Detalle del mapa del Doctor Snow}}{21}{figure.3.8}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces M\IeC {\'o}dem Bell. 1958}}{23}{figure.3.9}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Modelo cliente-servidor}}{24}{figure.3.10}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Comunicaci\IeC {\'o}n con servidor DNS}}{24}{figure.3.11}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Petici\IeC {\'o}n a servidor est\IeC {\'a}tico}}{25}{figure.3.12}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Petici\IeC {\'o}n a servidor din\IeC {\'a}mico}}{25}{figure.3.13}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Tecnolog\IeC {\'\i }as utilizadas en servidores}}{26}{figure.3.14}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MySQL}}}{26}{figure.3.14}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {PHP}}}{26}{figure.3.14}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Apache}}}{26}{figure.3.14}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Tel\IeC {\'e}grafo \IeC {\'o}ptico}}{28}{figure.3.15}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Tel\IeC {\'e}grafo \IeC {\'o}ptico de Claude Chappe}}}{28}{figure.3.15}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Claude Chappe}}}{28}{figure.3.15}
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Tel\IeC {\'e}grafo}}{29}{figure.3.16}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Samuel Morse}}}{29}{figure.3.16}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {C\IeC {\'o}digo morse}}}{29}{figure.3.16}
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Primer telegrama}}{29}{figure.3.17}
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Inventores del tel\IeC {\'e}fono}}{29}{figure.3.18}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Antonio Meucci}}}{29}{figure.3.18}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Alexander Graham Bell}}}{29}{figure.3.18}
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Primeros tel\IeC {\'e}fonos}}{30}{figure.3.19}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Tel\IeC {\'e}fono de Meucci}}}{30}{figure.3.19}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tel\IeC {\'e}fono de Bell}}}{30}{figure.3.19}
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Primeros tel\IeC {\'e}fonos}}{31}{figure.3.20}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Motorola DynaTAC 8000X}}}{31}{figure.3.20}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Martin Cooper}}}{31}{figure.3.20}
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Tel\IeC {\'e}fono de segunda generaci\IeC {\'o}n. Siemens A56}}{32}{figure.3.21}
-\contentsline {figure}{\numberline {3.22}{\ignorespaces iPhone de Apple}}{32}{figure.3.22}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Primeros instrumentos de navegaci\IeC {\'o}n}}{18}{figure.3.1}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Sextante}}}{18}{figure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Astrolabio}}}{18}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Jones Live Map}}{19}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Plus Fours Routefinder}}{19}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Iter Avto}}{20}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Triangulacion satelital}}{22}{figure.3.5}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Tablilla babil\IeC {\'o}nica y reconstrucci\IeC {\'o}n}}{23}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Mapa Ptolem\IeC {\'a}ico}}{23}{figure.3.7}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Mapamundi de Beato de Li\IeC {\'e}bana}}{24}{figure.3.8}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Mapamundi de Abu Abd Allah Muhammad al-Idrisi.1154}}{25}{figure.3.9}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Primeros mapas de Am\IeC {\'e}rica}}{26}{figure.3.10}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Mapamundi de Juan de la Cosa. 1500}}}{26}{figure.3.10}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Mapamundi de Martin Waldseem\IeC {\"u}ller. 1507}}}{26}{figure.3.10}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Doctor Sir John Snow}}{27}{figure.3.11}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Mapa del Soho con los casos de fallecimiento por c\IeC {\'o}lera}}{27}{figure.3.12}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Detalle del mapa del Doctor Snow}}{28}{figure.3.13}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces M\IeC {\'o}dem Bell. 1958}}{29}{figure.3.14}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Modelo cliente-servidor}}{30}{figure.3.15}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Comunicaci\IeC {\'o}n con servidor DNS}}{31}{figure.3.16}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Petici\IeC {\'o}n a servidor est\IeC {\'a}tico}}{31}{figure.3.17}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Petici\IeC {\'o}n a servidor din\IeC {\'a}mico}}{32}{figure.3.18}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Tecnolog\IeC {\'\i }as utilizadas en servidores}}{32}{figure.3.19}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MySQL}}}{32}{figure.3.19}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {PHP}}}{32}{figure.3.19}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Apache}}}{32}{figure.3.19}
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Tel\IeC {\'e}grafo \IeC {\'o}ptico}}{34}{figure.3.20}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Tel\IeC {\'e}grafo \IeC {\'o}ptico de Claude Chappe}}}{34}{figure.3.20}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Claude Chappe}}}{34}{figure.3.20}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Tel\IeC {\'e}grafo}}{35}{figure.3.21}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Samuel Morse}}}{35}{figure.3.21}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {C\IeC {\'o}digo morse}}}{35}{figure.3.21}
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Primer telegrama}}{35}{figure.3.22}
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Inventores del tel\IeC {\'e}fono}}{36}{figure.3.23}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Antonio Meucci}}}{36}{figure.3.23}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Alexander Graham Bell}}}{36}{figure.3.23}
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Primeros tel\IeC {\'e}fonos}}{37}{figure.3.24}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Tel\IeC {\'e}fono de Meucci}}}{37}{figure.3.24}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tel\IeC {\'e}fono de Bell}}}{37}{figure.3.24}
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Primeros tel\IeC {\'e}fonos}}{37}{figure.3.25}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Motorola DynaTAC 8000X}}}{37}{figure.3.25}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Martin Cooper}}}{37}{figure.3.25}
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Tel\IeC {\'e}fono de segunda generaci\IeC {\'o}n. Siemens A56}}{38}{figure.3.26}
+\contentsline {figure}{\numberline {3.27}{\ignorespaces iPhone de Apple}}{38}{figure.3.27}
 \addvspace {10\p@ }

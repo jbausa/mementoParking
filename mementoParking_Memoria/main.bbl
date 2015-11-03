@@ -1,5 +1,10 @@
 \begin{thebibliography}{GGE09}
 
+\bibitem[AB09]{Aup09}
+J.~Auping~Birch.
+\newblock {\em El origen y la evolución del universo}.
+\newblock Universidad iberoamericana, 2009.
+
 \bibitem[Ada14]{Adam14}
 D.~Adams.
 \newblock HTML 5 Finalized.
@@ -42,11 +47,22 @@ N.~R. Chrisman.
 \newblock {\em Exploring Geographic Information Systems}.
 \newblock John Wiley and Sons, 1997.
 
+\bibitem[Cor00]{Corr00}
+P.~Correia.
+\newblock {\em Guía práctica del GPS}.
+\newblock Marcombo, 2000.
+
 \bibitem[Dat14]{Data14}
 Database Friends: Histoty of MySQL.
 \newblock \url{http://www.databasefriends.co/2014/02/history-of-mysql.html},
   February 2014.
 \newblock Consultado: Octubre 2015.
+
+\bibitem[DSA11]{Diaz15}
+A.~Díaz San~Andrés.
+\newblock Biogeografía.
+\newblock \url{http://biogeografia.netau.net/cartografia.html}, October 2011.
+\newblock Consultado: Noviembre 2015.
 
 \bibitem[ES01]{Esco01}
 H.~Escolar~Sobrino.
@@ -55,6 +71,7 @@ H.~Escolar~Sobrino.
 
 \bibitem[Eve01]{Even01}
 A.~E. Evenson.
+\newblock {\em The Telephone Patent Conspiracy of 1876}.
 \newblock McFarland \& Company, 2001.
 
 \bibitem[Gai10]{Gaim10}
@@ -96,6 +113,11 @@ T.~F. Josefo.
 \newblock {\em Sobre la antigüedad de los judíos}.
 \newblock Gredos, 1994.
 
+\bibitem[Kap10]{Kap10}
+R.~Kapuscinski.
+\newblock {\em Viajes con Heródoto}.
+\newblock Anagrama, 2010.
+
 \bibitem[Kle64]{Klei64}
 L.~Kleinrock.
 \newblock {\em Redes de comunicación: flujo y retraso estocástico de
@@ -107,6 +129,11 @@ Vuelo 007 de Korean Air.
 \newblock \url{http://es.wikipedia.org/wiki/Vuelo_007_de_Korean_Air}, June
   2015.
 \newblock Consultado: Octubre 2015.
+
+\bibitem[LH06]{Lind06}
+A.~Lindón y D.~Hiernaux.
+\newblock {\em Tratado de geografía humana}.
+\newblock Anthropos Editorial, 2006.
 
 \bibitem[Lib]{Libr15}
 Library of Congress.
@@ -157,12 +184,22 @@ E.~Sanz.
   \url{http://www.muyhistoria.es/curiosidades/preguntas-respuestas/icuantos-libros-hay-en-la-biblioteca-nacional-de-espana}.
 \newblock Consultado: Octubre 2015.
 
+\bibitem[Sch07]{Schl07}
+K.~Schlögel.
+\newblock {\em En el espacio leemos el tiempo}.
+\newblock Siruela, 2007.
+
 \bibitem[Sen03]{Uni03}
 United~States Senate.
 \newblock Bill Text: 108th Congress (2003–2004) S.RES.223.IS.
 \newblock \url{http://thomas.loc.gov/cgi-bin/query/z?c108:S.+Res.+223:},
   September 2003.
 \newblock Consultado: Octubre 2015.
+
+\bibitem[VPE06]{Verl06}
+C.~Verlinden y F.~Pérez-Embid.
+\newblock {\em Cristobal Colón y el descubrimiento de América}.
+\newblock Rialp, 2006.
 
 \bibitem[Wor]{Worl15}
 World Wide Web Consortium (W3C).
