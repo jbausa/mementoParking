@@ -23,7 +23,7 @@ El objetivo principal de este \ac{TFG} consiste en el desarrollo de un producto 
 %Imagen App (Aproximacion)
 \begin{figure}[hbtp]
 \centering
-\includegraphics[height=60mm, fbox={\fboxrule} 4mm]{images/objetivos/telefono_parking.jpg}
+\includegraphics[height=60mm, fbox={\fboxrule} 4mm]{images/02-objetivos/01-telefono_parking.jpg}
 \caption{Aproximación de la aplicación.}
 \label{fig:Preview_App}
 \end{figure}
@@ -36,7 +36,7 @@ El objetivo principal de este \ac{TFG} consiste en el desarrollo de un producto 
 En la figura \ref{fig:arquitectura} se puede ver un diagrama de la arquitectura del sistema que se implementará en el presente \ac{TFG}.
 \begin{figure}[hbtp]
 \centering
-\includegraphics[scale=0.75, fbox={\fboxrule} 4mm]{images/objetivos/arquitectura.png}
+\includegraphics[scale=0.75, fbox={\fboxrule} 4mm]{images/02-objetivos/02-arquitectura.png}
 \caption{Arquitectura de la aplicación}
 \label{fig:arquitectura}
 \end{figure}
@@ -73,7 +73,7 @@ El comienzo del desarrollo será la implementación de una página web que sirva
 % IMAGEN: prototipo_Home
 \begin{figure}[hbtp]
 \centering
-\includegraphics[scale=0.5, fbox={\fboxrule} 4mm]{images/objetivos/prototipo_Home.png}
+\includegraphics[scale=0.5, fbox={\fboxrule} 4mm]{images/02-objetivos/03-prototipo_home.png}
 \caption{Prototipo. Home}
 \label{fig:prototipo_Home}
 \end{figure}
@@ -93,7 +93,7 @@ El objetivo número cuatro refina la entrada de coordenadas haciendo que el usua
 % IMAGEN: prototipo_Locations
 \begin{figure}[hbtp]
 \centering
-\includegraphics[scale=0.5, fbox={\fboxrule} 4mm]{images/objetivos/prototipo_Locations.png}
+\includegraphics[scale=0.5, fbox={\fboxrule} 4mm]{images/02-objetivos/04-prototipo_locations.png}
 \caption{Prototipo. Home}
 \label{fig:prototipo_Home}
 \end{figure}

@@ -23,10 +23,11 @@
 \contentsline {section}{\numberline {2.3}Objetivos acad\IeC {\'e}micos}{14}{section.2.3}
 \contentsline {chapter}{\numberline {3}Antecedentes}{15}{chapter.3}
 \contentsline {section}{\numberline {3.1}Localizaci\IeC {\'o}n geogr\IeC {\'a}fica y \acf {SIG}}{15}{section.3.1}
-\contentsline {section}{\numberline {3.2}Internet y la \ac {www}}{20}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Tecnolog\IeC {\'\i }as del lado del servidor}{24}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Tecnolog\IeC {\'\i }as del lado del cliente}{25}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.1.1}Funcionamiento de los gps}{19}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Internet y la \ac {www}}{21}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Tecnolog\IeC {\'\i }as del lado del servidor}{25}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Tecnolog\IeC {\'\i }as del lado del cliente}{26}{subsection.3.2.2}
 \contentsline {section}{\numberline {3.3}Dispositivos m\IeC {\'o}viles}{27}{section.3.3}
-\contentsline {section}{\numberline {3.4}Aplicaciones similares}{28}{section.3.4}
-\contentsline {chapter}{\numberline {A}Ejemplo de anexo}{33}{appendix.Alph1}
-\contentsline {chapter}{Referencias}{35}{appendix*.27}
+\contentsline {section}{\numberline {3.4}Aplicaciones similares}{32}{section.3.4}
+\contentsline {chapter}{\numberline {A}Ejemplo de anexo}{35}{appendix.Alph1}
+\contentsline {chapter}{Referencias}{37}{appendix*.28}

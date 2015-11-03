@@ -14,45 +14,48 @@ Warning--to sort, need author or key in Apac15
 Warning--to sort, need author or key in Hist15
 Warning--to sort, need author or key in Data14
 Warning--to sort, need author or key in Worl15
-You've used 23 entries,
+Warning--empty title in Carb07
+Warning--empty title in Even01
+Warning--empty publisher in Meuc10
+You've used 29 entries,
             2580 wiz_defined-function locations,
-            692 strings with 7150 characters,
-and the built_in function-call counts, 6081 in all, are:
-= -- 576
-> -- 147
-< -- 10
-+ -- 39
-- -- 38
-* -- 301
-:= -- 882
-add.period$ -- 74
-call.type$ -- 23
-change.case$ -- 85
-chr.to.int$ -- 23
-cite$ -- 43
-duplicate$ -- 303
-empty$ -- 647
-format.name$ -- 60
-if$ -- 1345
+            723 strings with 7695 characters,
+and the built_in function-call counts, 7734 in all, are:
+= -- 719
+> -- 195
+< -- 16
++ -- 51
+- -- 50
+* -- 383
+:= -- 1145
+add.period$ -- 92
+call.type$ -- 29
+change.case$ -- 109
+chr.to.int$ -- 29
+cite$ -- 52
+duplicate$ -- 395
+empty$ -- 811
+format.name$ -- 83
+if$ -- 1692
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 16
-newline$ -- 123
-num.names$ -- 39
-pop$ -- 243
+missing$ -- 24
+newline$ -- 153
+num.names$ -- 57
+pop$ -- 309
 preamble$ -- 1
-purify$ -- 131
+purify$ -- 167
 quote$ -- 0
-skip$ -- 215
+skip$ -- 274
 stack$ -- 0
-substring$ -- 172
-swap$ -- 23
-text.length$ -- 10
-text.prefix$ -- 9
+substring$ -- 214
+swap$ -- 27
+text.length$ -- 16
+text.prefix$ -- 14
 top$ -- 0
-type$ -- 152
-warning$ -- 10
-while$ -- 29
-width$ -- 29
-write$ -- 282
-(There were 11 warnings)
+type$ -- 184
+warning$ -- 13
+while$ -- 41
+width$ -- 35
+write$ -- 353
+(There were 14 warnings)

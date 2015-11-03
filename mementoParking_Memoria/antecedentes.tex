@@ -116,9 +116,87 @@ civil eran incapaces de mostrar una resolución menor de 20 metros.
 Durante la primera guerra del golfo, en 1991, se desarrolló una mejora en la precisión del \ac{GPS}
 llamada, \ac{GPS} Diferencial, que conseguía precisiones de entre 1 y 3 metros de exactitud.
 
+\subsection{Funcionamiento de los gps}
 
+La base sobre la que se asienta el funcionamiento del posicionamiento mediante satélites consiste en que sea cual sea nuestra localización en la corteza terrestre, siempre estaremos a la vista de al menos cuatro satélites distintos.
 
-%HISTORIA DEL SIG
+Cada uno de estos satélites transmite información acerca de su localización que será utilizarada por nuestro receptor para calcular la distancia a la que se encuentran, en función del tiempo que tardan las señales en llegar.
+Conociendo la distancia a la que se encuentran, como mínimo, tres satélites, es posible conocer con un cierto grado de aproximación la zona en la cual debemos estar posicionados. Este proceso de localizacion se conoce como triangulación.
+
+Si estamos al alcance de un único satélite, la posible zona en la que nos encontraremos será todo el área de influencia del mismo. En el caso de utilizar dos satélites, la zona en la que podríamos encontrarnos sería la superficie de la intersección de las dos esferas imaginarias creadas con centro cada uno de los satélites y radio la distancia a nuestra posición.
+
+En el caso de utilizar tres satélites, que como hemos comentado anteriormente es el mínimo necesario, la posible localización se ve reducida a dos puntos. Para conocer con precisión cual de esos dos puntos es el correcto haría falta un cuarto satélite, pero en términos generales, uno de ellos no estará ubicado en la corteza terrestre, por lo que podrá descartase y conocer de esta manera nuestra localización (ver figura \ref{fig:triangulacion-satelital}).
+
+\begin{figure}[h!btp]
+\centering
+\includegraphics[scale=0.5, fbox={\fboxrule} 0mm]{images/03-antecedentes/31-funcionamiento_gps.jpg}
+\caption{Triangulacion satelital}
+\label{fig:triangulacion-satelital}
+\end{figure}
+
+Debido a razones de obvias de estrategia militar, la precisión dada por los satélites \ac{GPS} incluía un cierto grado de error aleatorio llamado \textit{disponibilidad selectiva}. Este error fue eliminado el 2 de mayo del año 2000. Habitualmente la precisión para usos civiles se veía limitada a 100 metros \cite{Corr00}.
+
+\subsection{Cartografía\footnote{La labor de documentación está basada en: \cite{Diaz15}.} y \acs{SIG}}
+
+Antes de la aparición de la historia, esto es, antes de la constatación escrita de los acontecimientos, se produjo la aparición de los mapas. Estos estaban realizados con la intención de establecer distancias, recorridos y localizaciones de elementos de cierta importacia.
+
+El mapa más antiguo del que se tiene noticia proviene de la antigua Babilonia y está fechado alrededor de 4500 años a.C. Actualmente está conservado en Museo Británico (ver figura \ref{fig:mapa-babilonio}).
+
+\begin{figure}[h!btp]
+\centering
+\includegraphics[scale=0.5, fbox={\fboxrule} 0mm]{images/03-antecedentes/32-mapa_babilonio.jpg}
+\caption{Tablilla babilónica y reconstrucción}
+\label{fig:mapa-babilonio}
+\end{figure}
+
+La antigua Grecia fue quien colocó las bases para la cartografía actual, aportando grandes conocimientos geométricos, matemático geográficos y  astronómicos. Los cartógrafos griegos, que admitían la forma esférica de la tierra, fueron los iniciadores del sistema de localización geográfica, es decir, las latitudes y longitudes, hicieron las primeras proyecciones \cite{Schl07} y dieron una cifra bastante aproximada del tamaño de nuestro planeta \cite{Aup09}.
+
+Prácticamente todo lo que conocemos de la cartografía de este tiempo se debe a los escritos de Herodoto y Estrabón que mencionan a Anaximándro de Mileto como el realizador de un mapa completo de la tierra incorporando mares y ríos \cite{Kap10}. Pero de entre todos los personajes de la antigua gracia, fue Claudio Ptolomeo el más importante para el campo de la cartografía con su obra \textit{Geographia} en la que se puede apreciar un mapamundo que abarca desde las islas Canarias por el oeste hasta China por el este (ver figura \ref{fig:mapa-ptolomeo}). Debido a que en este mapa aparecen las latitudes, el ecuador la escala y está orientado al norte, es posible apreciar las bases de las cartas de navegación modernas.
+
+\begin{figure}[h!btp]
+\centering
+\includegraphics[scale=0.5, fbox={\fboxrule} 0mm]{images/03-antecedentes/33-mapa_ptolomeo.jpg}
+\caption{Mapa Ptolemáico}
+\label{fig:mapa-ptolomeo}
+\end{figure}
+
+Durante la era romana se sufrió un retroceso en la cartografía, que no volvería a los niveles griegos hasta el siglo XVI, ya que estaban más interesados en la realización de mapas prácticos de fines militares, administrativos y comerciales que en plasmar la realidad sobre el papel.
+
+Durante la edad media, se pierde el concepto de esfera en los mapas y se representa el mundo ateniéndose más a conceptos místicos y religiosos que a la propia realidad. Normalmente aparece Jerusalén en el centro del mapa, como ejemplo en la figura \ref{fig:mapa-beato-liebana} se puede observar el mapamundi incluido de Beato de Liébana.
+
+\begin{figure}[h!btp]
+\centering
+\includegraphics[scale=0.5, fbox={\fboxrule} 0mm]{images/03-antecedentes/34-mapa_beato_liebana.jpg}
+\caption{Mapamundi de Beato de Liébana}
+\label{fig:mapa-beato-liebana}
+\end{figure}
+
+En el año 1154, Al Idrisi, cartógrafo ceutí, presenta un mapa alejado de las convenciones europeas existentes en la época y más cercanos a los planteamientos griegos. En su mapa se puede observar con gran detalle los perfiles de Europa, norte de Africa y gran parte de Asia, aunque está orientado hacia el sur, en lugar de la orientación norte a la que estamos acostumbrados (ver figura \ref{fig:mapa-al-idrisi}).
+
+\begin{figure}[h!btp]
+\centering
+\includegraphics[scale=0.5, fbox={\fboxrule} 0mm]{images/03-antecedentes/35-mapa_al_idrisi.jpg}
+\caption{Mapamundi de Abu Abd Allah Muhammad al-Idrisi.1154}
+\label{fig:mapa-al-idrisi}
+\end{figure}
+
+A mediados del siglo XV da comienzo la cartografía moderna como consecuencia de la recuperación de los escritos de Ptolomeo, la invención de la imprenta y la posibilidad de divulgar los mapas con facilidad y los grandes avances técnicos respecto a la brújula y las embarcaciones, que permitían hacer viajes más largos, para lo que necesitaban mejores cartas de navegación.
+
+En el año 1500 aparece el mapa de Juan de la Cosa, y aunque no existe consenso al respecto, la mayor parte de los autores consideran que este es el primer mapa en que aparece América \cite{Verl06}, aunque hay que esperar al año 1507 para poder ver el nuevo continente con su nombre, propuesto por Américo Vespucio, en el mapa de Martin Waldseemüller (ver figura \ref{fig:mapas-america}).
+
+\begin{figure}[h!btp]
+	\begin{adjustbox}{minipage=\linewidth, fbox}
+		\centering
+		\subfigure[Mapamundi de Juan de la Cosa. 1500]{\includegraphics[width=60mm, height=80mm]{./images/03-antecedentes/36-mapa_juan_de_la_cosa.jpg}}
+		\hspace{10mm}
+		\subfigure[Mapamundi de Martin Waldseemüller. 1507]{\includegraphics[height=80mm]{./images/03-antecedentes/37-mapa_martin_waldseemüller.jpg}}
+	\end{adjustbox}
+	\caption{Primeros mapas de América}
+	\label{fig:mapas-america}
+\end{figure}
+
+Ya en el siglo XX, el desarrollo de la fotografía y la aviación, en el contexto de la Gran Guerra y sobre todo durante la Segunda Guerra Mundial, permitió una gran revolución cartográfica. Siendo conscientes de la gran ventaja militar que suponía el profundo conocimiento del terreno, empiezan a desarrollarse grandes proyectos en este sentido, que culminarán durante la segunda mitad del siglo, en la cartografia de precisión mediante satélites \cite{Lind06}.
+
 Debido a que el término \ac{SIG} engloba la integración de muy diversas áreas,no existe una única definición totalmente consensuada \cite{Chr97}. La definición aportada por el \ac{NCGIA} resulta ampliamente aceptada:
 
 \vspace{5mm}
@@ -162,7 +240,7 @@ Internet puede considerarse como una de las tecnologías que más ha cambiado el
 
 La gran biblioteca de Alejandría, la mayor de las bibliotecas del mundo antiguo, contenía, según Flavio Josefo, antes de su destrucción unos 200.000 volúmenes y consideraban que todo el conocimiento de la humanidad ocuparía un total de 500.000 volúmenes  \cite{Jos94}. Autores modernos han recalculado el posible número de volúmenes, aportando una cifra de unos 50.000 rollos, que podría equivaler a unos 12.500 libros actuales \cite{Esco01}.\\
 
-Los Archivos Secretos Vaticanos contienen un total de 1.600.000 volúmenes \cite{Bav15}, la biblioteca nacional de España 28 millones \cite{Sanz15} y la biblioteca del congreso de los \ac{EE.UU} 160 millones de documentos \cite{Libr15}. Comparando las cifras de algunas de las mayores bibliotecas del mundo con el número de documentos existentes en Internet, podemos hacernos una idea de lo que esta tecnología a supuesto para la humanidad, no solamente en el volumen de información existente, si no en la facilidad de acceso a los mismos. En el año 2012, en Internet existían un total de 8.310 millones de documentos accesibles.
+Los Archivos Secretos Vaticanos contienen un total de 1.600.000 volúmenes \cite{Bav15}, la biblioteca nacional de España 28 millones \cite{Sanz15} y la biblioteca del congreso de los \ac{EE.UU.} 160 millones de documentos \cite{Libr15}. Comparando las cifras de algunas de las mayores bibliotecas del mundo con el número de documentos existentes en Internet, podemos hacernos una idea de lo que esta tecnología a supuesto para la humanidad, no solamente en el volumen de información existente, si no en la facilidad de acceso a los mismos. En el año 2012, en Internet existían un total de 8.310 millones de documentos accesibles.
 
 Aunque no es lícito comparar estas cifras en bruto, ya que tal la cantidad no siempre está relacionada con la calidad, como dijo el escritor Neil Gaiman \cite{Gaim10}:
 
@@ -240,11 +318,11 @@ MySql es un sistema de gestión de bases de datos relacionales desarrollado por 
 \begin{figure}[hbtp]
 	\begin{adjustbox}{minipage=\linewidth, fbox}
 		\centering
-		\subfigure[MySQL]{\includegraphics[scale=0.75]{./images/03-antecedentes/14-mysql.png}}
+		\subfigure[MySQL]{\includegraphics[scale=0.5]{./images/03-antecedentes/14-mysql.png}}
 		\hspace{10mm}
-		\subfigure[PHP]{\includegraphics[scale=0.75]{./images/03-antecedentes/15-php.png}}
+		\subfigure[PHP]{\includegraphics[scale=0.5]{./images/03-antecedentes/15-php.png}}
 		\vspace{10mm}
-		\subfigure[Apache]{\includegraphics[scale=0.75]{./images/03-antecedentes/16-apache.png}}
+		\subfigure[Apache]{\includegraphics[scale=0.5]{./images/03-antecedentes/16-apache.png}}
 	\end{adjustbox}
 	\caption{Tecnologías utilizadas en servidores}
 	\label{fig:mysql_php_apache}
@@ -293,7 +371,7 @@ las aplicaciones de mensajería instantánea. Hace veinte o treinta años nadie 
 
 Podríamos comenzar a explicar los intentos de comunicarse a través de grandes distancias con el telégrafo, primer gran antecedente del teléfono, y es que este invento fue algo revolucionario cuando se presentó. Por primera vez se podían comunicar dos puntos distantes de manera instantánea.
 
-Los orígenes del telégrafo se remontan al S. XVIII cuando Claude Chappe desarrolló para el ejército Francés su precursor inmediato, el telégrafo óptico. Este invento consistía en un sistema de comunicación que emitía una señal visual que podía repetirse en la distancia, aunque solo tenía utilidad en las distancias a las que el ojo pudiera abarcar \cite{Holz94}.
+Los orígenes del telégrafo se remontan al S. XVIII cuando Claude Chappe desarrolló para el ejército Francés su precursor inmediato, el telégrafo óptico. Este invento consistía en un sistema de comunicación que emitía una señal visual que podía repetirse en la distancia, aunque solo tenía utilidad en las distancias a las que el ojo pudiera abarcar (ver figura \ref{fig:telegrafo_optico}) \cite{Holz94}.
 
 \begin{figure}[hbtp]
 	\begin{adjustbox}{minipage=\linewidth, fbox}
@@ -346,6 +424,63 @@ Históricamente, la invención del teléfono se atribuyó a Alexander Graham Bel
 \end{figure}
 
 Antonio Meucci, nacido en Florencia, emigró junto a su esposa Ester Mochi primero a Cuba en octubre de 1835 y después a Staten Island, Nueva York \ac{EE.UU.} en 1850.
+
+Ya que vivían en una casadevarios pisos y debido al reumatismo de su esposa, Meucci construyó el primer teléfono alrededor de 1857, que consistía en un aparato que permitía comunicar su despacho con el  dormitorio donde se encontraba su esposa debido a la enfermedad \cite{Meuc10}. El 28 de diciembre de 1871 presentó la documentación previa a la patente, pero solo consiguió el dinero para renovarla en 1872 y 1873. Meucci ofreció una demostración de su \textit{teletrófono} a la \textit{Western Union Telegraph Company} pero viendo la falta de interés de la empresa en su desarrollo, pidió que la devolución de los materiales presentados, a lo que contestaron diciendo que habían sido perdidos.
+
+Aunque este hecho no está probado, parece ser que estos materiales cayeron en manos de Alexander Graham Bell, que en aquella época trabajaba en los laboratorios de la compañía utilizándolos más tarde para desarrollar su propio teléfono. En 1876, Bell presentó, unas horas antes que su compatriota Elisha Gray, la patente de su teléfono. 
+
+Ante las reclamaciones de Meucci de la autoría del invento, y gracias a la intervención de un amigo, se pudo saber que las patentes relacionadas con el \textit{telégrafo parlante}, se habían extraviado. En investigaciones posteriores se descubrieron pagos a funcionarios por parte de Bell para hacer desaparecer estos documentos. Debido a las pruebas de prevaricación, en 1886 el Secreatrio de Estado llegó a confirmar que existían suficientes pruebas para otorgar la autoría del invento a Antonio Meucci. La demanda cesó como consecuencia de la muerte del demandante en octubre de 1889, después de que los abogados de Bell consiguieran dilatar el proceso mediante recursos judiciales. Como curiosidad, Thomas Alva Edison enviaría una carta al juez posicionándose a favor de Meucci en sus reivindicaciones \cite{Carb07}.
+
+\begin{figure}[hbtp]
+	\begin{adjustbox}{minipage=\linewidth, fbox}
+		\centering
+		\subfigure[Teléfono de Meucci]{\includegraphics[scale=0.5]{./images/03-antecedentes/24-telefono_meucci.jpg}}
+		\hspace{10mm}
+		\subfigure[Teléfono de Bell]{\includegraphics[scale=0.5]{./images/03-antecedentes/25-telefono_bell.png}}
+	\end{adjustbox}
+\caption{Primeros teléfonos}
+	\label{fig:primeros-teléfonos}
+\end{figure}
+
+
+El 9 de octubre de 1876 se realizó una demostración en la Bell y su ayudante Thomas Watson mantuvieron una conversación telefónica entre Cambridge y Boston. La primera frase pronunciada durante este evento fue \textit{"Mr. Watson, come here. I want to see you."} \cite{Even01}.
+
+Dejando de lado los primeros intentos de readiotelefonía, el primer teléfono móvil fue desarrollado por Motorola en 1983. El modelo \ac{DynaTAC} 8000x que tenía una autonomía de 1 hora y permitía treinta minutos de conversación. El precio de venta al público se estableción en casi 4.000 dólares.
+
+Aunque la comercialización se llevo a cabo en la  mencionada fecha, la primera llamada se realizó diez años antes, en abril de 1973 por Martin Cooper, director de Motorola al teléfono fijo de Joel Engel, investigador de los laboratorios Bell, su principal competidora. En una entrevista para la BBC, Cooper comentaba cómo se desarrolló esa primera conversación: "Joel it's Martin and i'm calling you from a cell phone but a real cell phone" \cite{BBC13}\footnote{Cómo curiosidad se incluye el enlace al vídeo promocional del DynaTAC 8000X \url{https://www.youtube.com/watch?v=0WUF3yjgGf4}}.
+
+\begin{figure}[hbtp]
+	\begin{adjustbox}{minipage=\linewidth, fbox}
+		\centering
+		\subfigure[Motorola DynaTAC 8000X]{\includegraphics[height=45mm]{./images/03-antecedentes/27-motorola-dynatac_8000x.jpg}}
+		\hspace{10mm}
+		\subfigure[Martin Cooper]{\includegraphics[width=80mm]{./images/03-antecedentes/28-martin_cooper.jpg}}
+	\end{adjustbox}
+\caption{Primeros teléfonos}
+	\label{fig:primeros-teléfonos}
+\end{figure}
+
+La gran novedad de estos primeros modelos sobre los aparatos de radiotelefonía es que podían ser trasladados y manejados por una sola persona.
+
+La primera generación de teléfonos móviles se desarrolló hasta finales de los años 80. Estos primeros modelos únicamente permitían el intercambio de voz.
+
+La segunda generación llego en los años 90, poniendo el acento en la digitalización de las comunicaciones, ya que ofrecían un aumento sustancial de la calidad de voz y se simplificaba la fabricación reduciendo los costes. En este momento se integró un de los servicios más populares de los teléfonos móviles hasta la aparición de la mensajería instantánea, los \ac{SMS}.
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[height=40mm, fbox={\fboxrule} 4mm]{images/03-antecedentes/29-siemens_a56.jpg}
+\caption{Teléfono de segunda generación. Siemens A56}
+\label{fig:siemens-a56}
+\end{figure}
+
+El siguiente gran salto vino de la mano de Apple y su iPhone, sacado al mercado en el año 2007. Con un diseño estudiado y una pantalla multitáctil, aprovechando la buena imagen de marca conseguida a través del iPod, Apple sacó un teléfono que revolucionó la manera en la que hasta entonces se entendían los teléfonos. Siendo una mezcla de teléfono, ordenador, reproductor de música, agenda personal y reproductor multimedia, no tardó en convertirse en un producto casi imprescindible para el consumidor y por tanto algo a imitar por las compañías rivales. Había nacido la era de los smartphones.
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=60mm, fbox={\fboxrule} 4mm]{images/03-antecedentes/30-iphone.jpg}
+\caption{iPhone de Apple}
+\label{fig:iphone}
+\end{figure}
 
 \section{Aplicaciones similares}
 

@@ -32,28 +32,298 @@
 	  year = 	 {2007},
 	  address = 	 {Natick, MA, USA},
 	}
-
+	
+	%Página web con y sin autores conocidos
+	
+	@Misc{Steele04,
+	  author = 	 {Steele, B.},
+	  title = 	 {Look, Ma, no wires! Cornell class project tests wireless  networking},
+	  howpublished = {\url{http://www.news.cornell.edu/Chronicle/00/5.18.00/wireless_class.html}},
+	  month = 	 {February},
+	  year = 	 {2004},
+	  note = 	 {Cornell Chronicle, 31 from Columbia University},
+	}
+	
+	@Misc{Oxygen,
+	  title = 	 {MIT Project Oxygen: Overview},
+	  howpublished = {\url{http://oxygen.lcs.mit.edu/Overview.html}},
+	  year = 	 {2004},
+	  note = 	 {Computer Science and Artificial Intelligence Laboratory, Massachusetts Institute of Technology},
+	}
+	
 %FIN Ejemplos
 
-@Book{exploring_GIS,
-author = {Chrisman, N. R.},
-title = {Exploring Geographic Information Systems},
-publisher = {John Wiley and Sons},
-year = {1997},
+@Book{Chr97,
+	author = {Chrisman, N. R.},
+	title = {Exploring Geographic Information Systems},
+	publisher = {John Wiley and Sons},
+	year = {1997},
 }
 
-@Book{john_snow,
-author = {Cairo, Alberto},
-title = {El arte funcional},
-publisher = {Alamut},
-year = {2011},
+@Book{Cai11,
+	author = {Cairo, A.},
+	title = {El arte funcional},
+	publisher = {Alamut},
+	year = {2011},
 }
 
-@Book{john_snow2,
-author = {Gunn, S. William A. and Masellis, Michele},
-title = {Concepts and Practice of Humanitarian Medicine},
-publisher = {Springer},
-year = {2007},
+@Book{Gunn07,
+	author = {Gunn, S. William A. and Masellis, Michele},
+	title = {Concepts and Practice of Humanitarian Medicine},
+	publisher = {Springer},
+	year = {2007},
 }
 
+@Misc{GPS12,
+	title	=	{El GPS de 1909 Look, Ma, no wires! Cornell class project tests wireless  networking},
+	howpublished = {\url{http://resolviendolaincognita.blogspot.com.es/2012/02/el-gps-de-1909.html}},
+	month	=	{February},
+	year	=	{2012},
+	note	= 	{Consultado: Octubre 2015}
+}
 
+@Misc{Plus14,
+	title =	{Plus Fours Routefinder - Worlds First Navigation System},
+	howpublished	=	{\url{http://avaxnews.net/educative/plus_fours_routefinder_worlds_first_navigation_system.html}},
+	month	=	{March},
+	year	=	{2014},
+	note	= 	{Consultado: Octubre 2015}
+}
+
+@Misc{Parra13,
+	author = {Parra, S.},
+	title =	{¿Como funcionaba el primer GPS de la historia, construido en a principios del siglo XX?},
+	howpublished	=	{\url{http://www.xatakaciencia.com/tecnologia/como-funcionaba-el-primer-gps-de-la-historia-construido-en-a-principios-del-siglo-xx}},
+	month	=	{June},
+	year	=	{2013},
+	note	= 	{Consultado: Octubre 2015}
+}
+
+@Misc{Ori13,
+	title	=	{Los orígenes del Sistema de Posicionamiento Global (GPS)},
+	howpublished	=	{\url{http://catedraisdefe.etsit.upm.es/wiki/index.php/Los_or%C3%ADgenes_del_Sistema_de_Posicionamiento_Global_(GPS)}},
+	month	=	{April},
+	year	=	{2013},
+	note	= 	{Consultado: Octubre 2015}
+}
+
+@Misc{Kore15,
+	title	=	{Vuelo 007 de Korean Air},
+	howpublished	=	{\url{http://es.wikipedia.org/wiki/Vuelo_007_de_Korean_Air}},
+	month	=	{June},
+	year	=	{2015},
+	note	= 	{Consultado: Octubre 2015}
+}
+
+@Misc{Pala10,
+	author	=	{Palazzesi, A.},
+	title	=	{Historia del GPS: Cómo el mundo dejó de perderse},
+	howpublished	=	{\url{http://www.neoteo.com/historia-del-gps-como-el-mundo-dejo-de-perderse/}},
+	month	=	{July},
+	year	=	{2010},
+	note	= 	{Consultado: Octubre 2015}
+}
+
+@Book{Glea09,
+	author	=	{Gleason, S. and Gebre-Egziabher, D.},
+	title	=	{GNSS Applications and Methods},
+	publisher	=	{Artech House},
+	year	=	{2009}
+}
+
+@Book{Jos94,
+	author	=	{Josefo, T. F.},
+	title	=	{Sobre la antigüedad de los judíos},
+	publisher	=	{Gredos},
+	year	=	{1994},
+}
+
+@Book{Esco01,
+	author	=	{Escolar Sobrino, H.},
+	title	=	{La biblioteca de Alejandría},
+	publisher	=	{Gredos},
+	year	=	{2001},
+}
+@Misc{Bav15,
+	title	=	{BAV - Vatican library},
+	howpublished	=	{\url{https://www.vatlib.it/home.php?pag=stampati&ling=eng}},
+	note	= 	{Consultado: Octubre 2015}
+}
+
+@Misc{Sanz15,
+	author	=	{Sanz, E.},
+	title = {¿Cuántos libros hay en la Biblioteca Nacional de España?},
+	howpublished	=	{\url{http://www.muyhistoria.es/curiosidades/preguntas-respuestas/icuantos-libros-hay-en-la-biblioteca-nacional-de-espana}},
+	note	=	{Consultado: Octubre 2015},
+}
+
+@Misc{Libr15,
+	title	=	{Library of Congress},
+	howpublished	=	{\url{https://www.loc.gov/about/fascinating-facts/}},
+	note	= 	{Consultado: Octubre 2015}
+}
+
+@Misc{,
+	author	=	{Almeida, M. M.},
+	title	=	{¿Cuántas páginas hay en Internet?},
+	howpublished	=	{\url{http://mangasverdes.es/2012/12/25/8310-millones-paginas-web/}},
+	month	=	{December},
+	year	=	{2012},
+	note	=	{Consultado: Octubre 2015},
+}
+
+@Misc{Gaim10,
+	author	=	{Gaiman, N},
+	title	=	{Neil Gaiman on Libraries},
+	howpublished	=	{\url{https://www.youtube.com/watch?v=uH-sR1uCQ6g}},
+	month	=	{April},
+	year	=	{2010},
+	note	=	{Consultado: Octubre 2015},	
+}
+
+@Book{Klei64,
+	author	=	{Kleinrock, L.},
+	title	=	{Redes de comunicación: flujo y retraso estocástico de mensajes},
+	publisher	=	{Mcgraw-Hill},
+	year	=	{1964},
+}
+
+@Misc{Apac15,
+	title	=	{Apache. HTTP Server Project},
+	howpublished	=	{\url{https://httpd.apache.org/}},
+	note	=	{Consultado: Octubre 2015},
+}
+
+@Misc{Hist15,
+	title	=	{Historia de PHP},
+	howpublished	=	{\url{http://php.net/manual/es/history.php.php}},
+	note	=	{Consultado: Octubre 2015},
+}
+
+@Misc{Data14,
+	title 	=	{Database Friends: Histoty of MySQL},
+	howpublished	=	{\url{http://www.databasefriends.co/2014/02/history-of-mysql.html}},
+	month	=	{February},
+	year	=	{2014},
+	note	=	{Consultado: Octubre 2015},
+}
+
+@Misc{Worl15,
+	title	=	{World Wide Web Consortium (W3C)},
+	howpublished	=	{\url{http://www.w3.org/}},
+	note	=	{Consultado: Octubre 2015},
+}
+
+@Misc{Adam14,
+	author	=	{Adams, D.},
+	title	=	{HTML 5 Finalized},
+	howpublished	=	{\url{http://www.osnews.com/story/28003/HTML_5_Finalized}},
+	month	=	{October},
+	year	=	{2014},
+	note	=	{Consultado: Octubre 2015},
+}
+
+@Book{Holz94,
+	author	=	{Holzmann, G. J. and Pehrson, B.},
+	title	=	{The early history of data networks},
+	publisher	=	{Wiley-IEEE Computer Society},
+	year	=	{1994},
+}
+
+@Book{Cab79,
+	author	=	{Cabezas, J. A.},
+	title	=	{Alejandro Graham Bell},
+	publisher	=	{Susaeta Ediciones},
+	year	=	{1979},
+}
+
+@Misc{Uni03,
+	author	=	{United States Senate},
+	title	=	{Bill Text: 108th Congress (2003–2004) S.RES.223.IS},
+	howpublished	=	{\url{http://thomas.loc.gov/cgi-bin/query/z?c108:S.+Res.+223:}},
+	month	=	{September},
+	year	=	{2003},
+	note	=	{Consultado: Octubre 2015},
+}
+
+@Book{Meuc10,
+	author	=	{Meucci, S.},
+	title	=	{Antonio and the electric Scream: The man who invented the telephone},
+	publiisher	=	{Branden Books},
+	year	=	{2010},
+}
+
+@Book{Carb07,
+	author	=	{Carballar Falcón, J. A.},
+	tittle	=	{VoIP : la telefonía de Internet},
+	publisher	=	{Paraninfo},
+	year	=	{2007},	
+}
+
+@Book{Even01,
+	author	=	{Evenson, A. E.},
+	title	=	{The Telephone Patent Conspiracy of 1876},
+	publisher	=	{McFarland \& Company},
+	year	=	{2001},
+}
+
+@Misc{BBC13,
+	author	=	{BBC},
+	title	=	{Interview with mobile phone inventor Marty Cooper},
+	howpublished	=	{\url{Interview with mobile phone inventor Marty Cooper}},
+	month	=	{April},
+	year	=	{2013},
+	note	=	{Consultado: Noviembre 2015},
+}
+
+@Book{Corr00,
+	author	=	{Correia, P.},
+	title	=	{Guía práctica del GPS},
+	publisher	=	{Marcombo},
+	year	=	{2000},
+}
+
+@Book{Schl07,
+	author	=	{Schlögel, K.},
+	title	=	{En el espacio leemos el tiempo},
+	publisher	=	{Siruela},
+	year	=	{2007},
+}
+
+@Book{Aup09,
+	author	=	{Auping Birch, J.},
+	title	=	{El origen y la evolución del universo},
+	publisher	=	{Universidad iberoamericana},
+	year	=	{2009},
+}
+
+@Book{Kap10,
+	author	=	{Kapuscinski, R.},
+	title	=	{Viajes con Heródoto},
+	publisher	=	{Anagrama},
+	year	=	{2010},
+	
+}
+
+@Misc{Diaz15,
+	author	=	{Díaz San Andrés, A.},
+	title	=	{Biogeografía},
+	howpublished	=	{\url{http://biogeografia.netau.net/cartografia.html}},
+	month	=	{October},
+	year	=	{2011},
+	note	=	{Consultado: Noviembre 2015},
+}
+
+@Book{Verl06,
+	author	=	{Verlinden, C. and Pérez-Embid, F.},
+	title	=	{Cristobal Colón y el descubrimiento de América},
+	publisher	=	{Rialp},
+	year	=	{2006},
+}
+
+@Book{,
+	author	=	{Lindón, A. and Hiernaux, D.},
+	title	=	{Tratado de geografía humana},
+	publisher	=	{Anthropos Editorial},
+	year	=	{},
+}
