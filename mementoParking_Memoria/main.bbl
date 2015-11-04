@@ -5,6 +5,14 @@ J.~Auping~Birch.
 \newblock {\em El origen y la evolución del universo}.
 \newblock Universidad iberoamericana, 2009.
 
+\bibitem[ABC13]{ABC13}
+ABC.
+\newblock Google revela que compró Waze por 966 millones de dólares.
+\newblock
+  \url{http://www.abc.es/tecnologia/moviles-aplicaciones/20130726/abci-google-compro-waze-menos-201307261832.html},
+  July 2013.
+\newblock Consultado: Noviembre 2015.
+
 \bibitem[Ada14]{Adam14}
 D.~Adams.
 \newblock HTML 5 Finalized.
@@ -28,6 +36,14 @@ BBC.
 \newblock \url{Interview with mobile phone inventor Marty Cooper}, April 2013.
 \newblock Consultado: Noviembre 2015.
 
+\bibitem[Buz14]{Buzz14}
+Buzzko.
+\newblock Qué es y para qué sirve Swarm, la nueva app de Foursquare.
+\newblock
+  \url{http://buzzko.com/blog/2014/05/16/que-es-y-para-que-sirve-swarm-la-nueva-app-de-foursquare/},
+  May 2014.
+\newblock Consultado: Noviembre 2015.
+
 \bibitem[Cab79]{Cab79}
 J.~A. Cabezas.
 \newblock {\em Alejandro Graham Bell}.
@@ -41,6 +57,12 @@ A.~Cairo.
 \bibitem[CF07]{Carb07}
 J.~A. Carballar~Falcón.
 \newblock Paraninfo, 2007.
+
+\bibitem[CF14]{Cano14}
+C.~Cano~Fernández.
+\newblock ¿Qué es Foursquare y para qué sirve?
+\newblock ¿Qué es Foursquare y para qué sirve?, February 2014.
+\newblock Consultado: Noviembre 2015.
 
 \bibitem[Chr97]{Chr97}
 N.~R. Chrisman.
@@ -57,6 +79,14 @@ Database Friends: Histoty of MySQL.
 \newblock \url{http://www.databasefriends.co/2014/02/history-of-mysql.html},
   February 2014.
 \newblock Consultado: Octubre 2015.
+
+\bibitem[dC13]{Cast13}
+C.~del Castillo.
+\newblock Waze: qué es, cómo funciona y para qué sirve.
+\newblock
+  \url{http://computerhoy.com/noticias/apps/waze-que-es-como-funciona-que-sirve-4231},
+  June 2013.
+\newblock Consultado: Noviembre 2015.
 
 \bibitem[DSA11]{Diaz15}
 A.~Díaz San~Andrés.
@@ -146,6 +176,13 @@ S.~Meucci.
   telephone}.
 \newblock 2010.
 
+\bibitem[Moy12]{Moya12}
+P.~Moya.
+\newblock Strava: una gran aplicación.
+\newblock \url{http://www.palabraderunner.com/2012/11/strava.html}, November
+  2012.
+\newblock Consultado: Noviembre 2015.
+
 \bibitem[Ori13]{Ori13}
 Los orígenes del Sistema de Posicionamiento Global (GPS).
 \newblock
@@ -170,12 +207,36 @@ S.~Parra.
   June 2013.
 \newblock Consultado: Octubre 2015.
 
+\bibitem[Pen11]{Pen11}
+A.~Pena.
+\newblock GPS Android: Waze, conducir es un juego social.
+\newblock
+  \url{http://www.xatakandroid.com/navegacion-y-mapas/gps-android-waze-conducir-es-un-juego-social},
+  August 2011.
+\newblock Consultado: Noviembre 2015.
+
+\bibitem[Pen13]{Pen13}
+A.~Pena.
+\newblock Ingress, cómo un juego de realidad virtual te cambia la vida.
+\newblock
+  \url{http://www.xatakandroid.com/juegos-android/ingress-como-un-juego-de-realidad-virtual-te-cambia-la-vida},
+  December 2013.
+\newblock Consultado: Noviembre 2015.
+
 \bibitem[Plu14]{Plus14}
 Plus Fours Routefinder - Worlds First Navigation System.
 \newblock
   \url{http://avaxnews.net/educative/plus_fours_routefinder_worlds_first_navigation_system.html},
   March 2014.
 \newblock Consultado: Octubre 2015.
+
+\bibitem[Rub13]{Rubi13}
+F.~Rubira.
+\newblock ¿Qué es Foursquare y para qué sirve?
+\newblock
+  \url{http://www.elconfidencialdigital.com/opinion/tribuna_libre/Foursquare-sirve_0_2097990200.html},
+  July 2013.
+\newblock Consultado: Noviembre 2015.
 
 \bibitem[San]{Sanz15}
 E.~Sanz.
@@ -195,6 +256,29 @@ United~States Senate.
 \newblock \url{http://thomas.loc.gov/cgi-bin/query/z?c108:S.+Res.+223:},
   September 2003.
 \newblock Consultado: Octubre 2015.
+
+\bibitem[Unk13]{Unk13}
+Unknown.
+\newblock Life360 - Family Locator, tenlos controlados a todos.
+\newblock \url{https://www.life360.com/family-locator/}, June 2013.
+\newblock Consultado: Noviembre 2015.
+
+\bibitem[Unk14]{Unk14}
+Unknown.
+\newblock Colega, ¿dónde está mi coche? Tu móvil te lo puede decir.
+\newblock
+  \url{http://108tendencias.com/colega-donde-esta-mi-coche-tu-movil-te-lo-puede-decir/},
+  September 2014.
+\newblock Consultado: Noviembre 2015.
+
+\bibitem[Unk15]{Unk15}
+Unknown.
+\newblock GLYMPSE – Un camino seguro y fácil de compartir su ubicación con
+  el dispositivo móvil.
+\newblock
+  http://descargarinstagramapp.com/glympse-un-camino-seguro-y-facil-de-compartir-su-ubicacion-con-el-dispositivo-movil/,
+  January 2015.
+\newblock Consultado: Noviembre 2015.
 
 \bibitem[VPE06]{Verl06}
 C.~Verlinden y F.~Pérez-Embid.

@@ -16,45 +16,45 @@ Warning--to sort, need author or key in Data14
 Warning--to sort, need author or key in Worl15
 Warning--empty title in Carb07
 Warning--empty publisher in Meuc10
-You've used 36 entries,
+You've used 47 entries,
             2580 wiz_defined-function locations,
-            761 strings with 8285 characters,
-and the built_in function-call counts, 9777 in all, are:
-= -- 899
-> -- 273
-< -- 21
-+ -- 74
-- -- 72
-* -- 485
-:= -- 1479
-add.period$ -- 115
-call.type$ -- 36
-change.case$ -- 139
-chr.to.int$ -- 36
-cite$ -- 58
-duplicate$ -- 507
-empty$ -- 1001
-format.name$ -- 115
-if$ -- 2120
+            816 strings with 9954 characters,
+and the built_in function-call counts, 12908 in all, are:
+= -- 1207
+> -- 361
+< -- 32
++ -- 96
+- -- 94
+* -- 628
+:= -- 1963
+add.period$ -- 159
+call.type$ -- 47
+change.case$ -- 183
+chr.to.int$ -- 47
+cite$ -- 69
+duplicate$ -- 639
+empty$ -- 1309
+format.name$ -- 157
+if$ -- 2802
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 36
-newline$ -- 190
-num.names$ -- 78
-pop$ -- 374
+newline$ -- 256
+num.names$ -- 111
+pop$ -- 482
 preamble$ -- 1
-purify$ -- 211
+purify$ -- 277
 quote$ -- 0
-skip$ -- 354
+skip$ -- 466
 stack$ -- 0
-substring$ -- 264
-swap$ -- 35
-text.length$ -- 21
-text.prefix$ -- 17
+substring$ -- 341
+swap$ -- 46
+text.length$ -- 32
+text.prefix$ -- 26
 top$ -- 0
-type$ -- 216
+type$ -- 304
 warning$ -- 12
-while$ -- 57
-width$ -- 39
-write$ -- 441
+while$ -- 79
+width$ -- 50
+write$ -- 595
 (There were 13 warnings)
