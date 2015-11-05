@@ -3,10 +3,10 @@
 \contentsline {chapter}{Abstract}{\es@scroman {vii}}{chapter*.3}
 \contentsline {chapter}{Agradecimientos}{\es@scroman {ix}}{chapter*.4}
 \contentsline {chapter}{\'Indice general}{\es@scroman {xiii}}{chapter*.5}
-\contentsline {chapter}{\'{I}ndice de cuadros}{\es@scroman {xv}}{chapter*.8}
-\contentsline {chapter}{\'{I}ndice de figuras}{\es@scroman {xvii}}{chapter*.10}
-\contentsline {chapter}{\IeC {\'I}ndice de listados}{\es@scroman {xix}}{chapter*.11}
-\contentsline {chapter}{Listado de acr\IeC {\'o}nimos}{\es@scroman {xxi}}{chapter*.12}
+\contentsline {chapter}{\'{I}ndice de cuadros}{\es@scroman {xvii}}{chapter*.8}
+\contentsline {chapter}{\'{I}ndice de figuras}{\es@scroman {xix}}{chapter*.10}
+\contentsline {chapter}{\IeC {\'I}ndice de listados}{\es@scroman {xxi}}{chapter*.11}
+\contentsline {chapter}{Listado de acr\IeC {\'o}nimos}{\es@scroman {xxiii}}{chapter*.12}
 \contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}T\IeC {\'\i }tulo del proyecto}{7}{section.1.1}
 \contentsline {section}{\numberline {1.2}Estructura del documento}{7}{section.1.2}
@@ -39,5 +39,21 @@
 \contentsline {subsection}{\numberline {3.4.7}Life360 Family Locator}{42}{subsection.3.4.7}
 \contentsline {subsection}{\numberline {3.4.8}\IeC {\textquestiondown }D\IeC {\'o}nde est\IeC {\'a} mi coche?}{43}{subsection.3.4.8}
 \contentsline {subsection}{\numberline {3.4.9}Find my car}{43}{subsection.3.4.9}
-\contentsline {chapter}{\numberline {A}Ejemplo de anexo}{47}{appendix.Alph1}
-\contentsline {chapter}{Referencias}{49}{appendix*.28}
+\contentsline {chapter}{\numberline {4}M\IeC {\'e}todo de Trabajo}{45}{chapter.4}
+\contentsline {section}{\numberline {4.1}Dispositivos empleados}{45}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Ordenador port\IeC {\'a}til}{45}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Tel\IeC {\'e}fono m\IeC {\'o}vil}{46}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Kanban}{46}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Roles}{47}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Sprint}{47}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Componentes de Kanban}{47}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}TDD}{47}{section.4.3}
+\contentsline {section}{\numberline {4.4}Marco tecnol\IeC {\'o}gico}{47}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Herramientas de dise\IeC {\~n}o}{47}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Herramientas de gesti\IeC {\'o}n del proyecto}{47}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Herramientas, tecnolog\IeC {\'\i }as y frameworks para el desarrollo}{47}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Herramientas para la gesti\IeC {\'o}n de bases de datos}{47}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.5}Herramientas documentales}{47}{subsection.4.4.5}
+\contentsline {subsection}{\numberline {4.4.6}Herramientas de implantaci\IeC {\'o}n}{47}{subsection.4.4.6}
+\contentsline {chapter}{\numberline {A}Ejemplo de anexo}{51}{appendix.Alph1}
+\contentsline {chapter}{Referencias}{53}{appendix*.29}
