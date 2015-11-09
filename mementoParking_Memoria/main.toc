@@ -3,10 +3,10 @@
 \contentsline {chapter}{Abstract}{\es@scroman {vii}}{chapter*.3}
 \contentsline {chapter}{Agradecimientos}{\es@scroman {ix}}{chapter*.4}
 \contentsline {chapter}{\'Indice general}{\es@scroman {xiii}}{chapter*.5}
-\contentsline {chapter}{\'{I}ndice de cuadros}{\es@scroman {xvii}}{chapter*.8}
-\contentsline {chapter}{\'{I}ndice de figuras}{\es@scroman {xix}}{chapter*.10}
-\contentsline {chapter}{\IeC {\'I}ndice de listados}{\es@scroman {xxi}}{chapter*.11}
-\contentsline {chapter}{Listado de acr\IeC {\'o}nimos}{\es@scroman {xxiii}}{chapter*.12}
+\contentsline {chapter}{\'{I}ndice de cuadros}{\es@scroman {xvii}}{chapter*.9}
+\contentsline {chapter}{\'{I}ndice de figuras}{\es@scroman {xix}}{chapter*.11}
+\contentsline {chapter}{\IeC {\'I}ndice de listados}{\es@scroman {xxi}}{chapter*.12}
+\contentsline {chapter}{Listado de acr\IeC {\'o}nimos}{\es@scroman {xxiii}}{chapter*.13}
 \contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}T\IeC {\'\i }tulo del proyecto}{7}{section.1.1}
 \contentsline {section}{\numberline {1.2}Estructura del documento}{7}{section.1.2}
@@ -43,17 +43,42 @@
 \contentsline {section}{\numberline {4.1}Dispositivos empleados}{45}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Ordenador port\IeC {\'a}til}{45}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}Tel\IeC {\'e}fono m\IeC {\'o}vil}{46}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Kanban}{46}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Roles}{47}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Sprint}{47}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Componentes de Kanban}{47}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}TDD}{47}{section.4.3}
-\contentsline {section}{\numberline {4.4}Marco tecnol\IeC {\'o}gico}{47}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Herramientas de dise\IeC {\~n}o}{47}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Herramientas de gesti\IeC {\'o}n del proyecto}{47}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Herramientas, tecnolog\IeC {\'\i }as y frameworks para el desarrollo}{47}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}Herramientas para la gesti\IeC {\'o}n de bases de datos}{47}{subsection.4.4.4}
-\contentsline {subsection}{\numberline {4.4.5}Herramientas documentales}{47}{subsection.4.4.5}
-\contentsline {subsection}{\numberline {4.4.6}Herramientas de implantaci\IeC {\'o}n}{47}{subsection.4.4.6}
-\contentsline {chapter}{\numberline {A}Ejemplo de anexo}{51}{appendix.Alph1}
-\contentsline {chapter}{Referencias}{53}{appendix*.29}
+\contentsline {section}{\numberline {4.2}Desarrollo evolutivo}{46}{section.4.2}
+\contentsline {section}{\numberline {4.3}Kanban}{47}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Mostrar el proceso}{48}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Limitar el trabajo}{49}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}\acs {TDD}}{50}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Algoritmo \ac {TDD}}{50}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Ventajas de usar \ac {TDD}}{51}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}Marco tecnol\IeC {\'o}gico}{51}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Herramientas de dise\IeC {\~n}o}{52}{subsection.4.5.1}
+\contentsline {subsubsection}{Visual Paradigm}{52}{subsection.4.5.1}
+\contentsline {subsubsection}{Gantt Project}{52}{subsection.4.5.1}
+\contentsline {subsubsection}{Moqups}{52}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Herramientas de gesti\IeC {\'o}n del proyecto}{52}{subsection.4.5.2}
+\contentsline {subsubsection}{Git}{52}{subsection.4.5.2}
+\contentsline {subsubsection}{Github}{52}{subsection.4.5.2}
+\contentsline {subsubsection}{Trello}{52}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Herramientas, tecnolog\IeC {\'\i }as y frameworks para el desarrollo}{52}{subsection.4.5.3}
+\contentsline {subsubsection}{Ruby}{52}{subsection.4.5.3}
+\contentsline {subsubsection}{Rails}{52}{subsection.4.5.3}
+\contentsline {subsubsection}{Java Android}{52}{subsection.4.5.3}
+\contentsline {subsubsection}{AngularJS}{52}{subsection.4.5.3}
+\contentsline {subsubsection}{Bootstrap}{52}{subsection.4.5.3}
+\contentsline {subsubsection}{Rspec}{52}{subsection.4.5.3}
+\contentsline {subsubsection}{HTML}{52}{subsection.4.5.3}
+\contentsline {subsubsection}{CSS}{52}{subsection.4.5.3}
+\contentsline {subsubsection}{JSON}{52}{subsection.4.5.3}
+\contentsline {subsubsection}{Sublime Text 3}{52}{subsection.4.5.3}
+\contentsline {subsubsection}{Midori}{52}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}Herramientas para la gesti\IeC {\'o}n de bases de datos}{52}{subsection.4.5.4}
+\contentsline {subsubsection}{MongoDB}{52}{subsection.4.5.4}
+\contentsline {subsubsection}{RoboMongo}{52}{subsection.4.5.4}
+\contentsline {subsection}{\numberline {4.5.5}Herramientas documentales}{52}{subsection.4.5.5}
+\contentsline {subsubsection}{TexMaker}{52}{subsection.4.5.5}
+\contentsline {subsubsection}{GIMP}{52}{subsection.4.5.5}
+\contentsline {subsubsection}{Microsoft Visio}{52}{subsection.4.5.5}
+\contentsline {subsection}{\numberline {4.5.6}Herramientas de implantaci\IeC {\'o}n}{52}{subsection.4.5.6}
+\contentsline {subsubsection}{Heroku}{52}{subsection.4.5.6}
+\contentsline {chapter}{\numberline {A}Ejemplo de anexo}{55}{appendix.Alph1}
+\contentsline {chapter}{Referencias}{57}{appendix*.30}

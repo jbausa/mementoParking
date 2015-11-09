@@ -2,10 +2,10 @@
 \BOOKMARK [0][-]{chapter*.3}{Abstract}{}% 2
 \BOOKMARK [0][-]{chapter*.4}{Agradecimientos}{}% 3
 \BOOKMARK [0][-]{chapter*.5}{\315ndice general}{}% 4
-\BOOKMARK [0][-]{chapter*.8}{\315ndice de cuadros}{}% 5
-\BOOKMARK [0][-]{chapter*.10}{\315ndice de figuras}{}% 6
-\BOOKMARK [0][-]{chapter*.11}{\315ndice de listados}{}% 7
-\BOOKMARK [0][-]{chapter*.12}{Listado de acr\363nimos}{}% 8
+\BOOKMARK [0][-]{chapter*.9}{\315ndice de cuadros}{}% 5
+\BOOKMARK [0][-]{chapter*.11}{\315ndice de figuras}{}% 6
+\BOOKMARK [0][-]{chapter*.12}{\315ndice de listados}{}% 7
+\BOOKMARK [0][-]{chapter*.13}{Listado de acr\363nimos}{}% 8
 \BOOKMARK [0][-]{chapter.1}{Introducci\363n}{}% 9
 \BOOKMARK [1][-]{section.1.1}{T\355tulo del proyecto}{chapter.1}% 10
 \BOOKMARK [1][-]{section.1.2}{Estructura del documento}{chapter.1}% 11
@@ -42,17 +42,19 @@
 \BOOKMARK [1][-]{section.4.1}{Dispositivos empleados}{chapter.4}% 42
 \BOOKMARK [2][-]{subsection.4.1.1}{Ordenador port\341til}{section.4.1}% 43
 \BOOKMARK [2][-]{subsection.4.1.2}{Tel\351fono m\363vil}{section.4.1}% 44
-\BOOKMARK [1][-]{section.4.2}{Kanban}{chapter.4}% 45
-\BOOKMARK [2][-]{subsection.4.2.1}{Roles}{section.4.2}% 46
-\BOOKMARK [2][-]{subsection.4.2.2}{Sprint}{section.4.2}% 47
-\BOOKMARK [2][-]{subsection.4.2.3}{Componentes de Kanban}{section.4.2}% 48
-\BOOKMARK [1][-]{section.4.3}{TDD}{chapter.4}% 49
-\BOOKMARK [1][-]{section.4.4}{Marco tecnol\363gico}{chapter.4}% 50
-\BOOKMARK [2][-]{subsection.4.4.1}{Herramientas de dise\361o}{section.4.4}% 51
-\BOOKMARK [2][-]{subsection.4.4.2}{Herramientas de gesti\363n del proyecto}{section.4.4}% 52
-\BOOKMARK [2][-]{subsection.4.4.3}{Herramientas, tecnolog\355as y frameworks para el desarrollo}{section.4.4}% 53
-\BOOKMARK [2][-]{subsection.4.4.4}{Herramientas para la gesti\363n de bases de datos}{section.4.4}% 54
-\BOOKMARK [2][-]{subsection.4.4.5}{Herramientas documentales}{section.4.4}% 55
-\BOOKMARK [2][-]{subsection.4.4.6}{Herramientas de implantaci\363n}{section.4.4}% 56
-\BOOKMARK [0][-]{appendix.Alph1}{Ejemplo de anexo}{}% 57
-\BOOKMARK [0][-]{appendix*.29}{Referencias}{}% 58
+\BOOKMARK [1][-]{section.4.2}{Desarrollo evolutivo}{chapter.4}% 45
+\BOOKMARK [1][-]{section.4.3}{Kanban}{chapter.4}% 46
+\BOOKMARK [2][-]{subsection.4.3.1}{Mostrar el proceso}{section.4.3}% 47
+\BOOKMARK [2][-]{subsection.4.3.2}{Limitar el trabajo}{section.4.3}% 48
+\BOOKMARK [1][-]{section.4.4}{TDD}{chapter.4}% 49
+\BOOKMARK [2][-]{subsection.4.4.1}{Algoritmo TDD}{section.4.4}% 50
+\BOOKMARK [2][-]{subsection.4.4.2}{Ventajas de usar TDD}{section.4.4}% 51
+\BOOKMARK [1][-]{section.4.5}{Marco tecnol\363gico}{chapter.4}% 52
+\BOOKMARK [2][-]{subsection.4.5.1}{Herramientas de dise\361o}{section.4.5}% 53
+\BOOKMARK [2][-]{subsection.4.5.2}{Herramientas de gesti\363n del proyecto}{section.4.5}% 54
+\BOOKMARK [2][-]{subsection.4.5.3}{Herramientas, tecnolog\355as y frameworks para el desarrollo}{section.4.5}% 55
+\BOOKMARK [2][-]{subsection.4.5.4}{Herramientas para la gesti\363n de bases de datos}{section.4.5}% 56
+\BOOKMARK [2][-]{subsection.4.5.5}{Herramientas documentales}{section.4.5}% 57
+\BOOKMARK [2][-]{subsection.4.5.6}{Herramientas de implantaci\363n}{section.4.5}% 58
+\BOOKMARK [0][-]{appendix.Alph1}{Ejemplo de anexo}{}% 59
+\BOOKMARK [0][-]{appendix*.30}{Referencias}{}% 60
