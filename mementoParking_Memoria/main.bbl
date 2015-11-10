@@ -20,6 +20,22 @@ D.~Adams.
   2014.
 \newblock Consultado: Octubre 2015.
 
+\bibitem[AG15]{Are15}
+Areppim AG.
+\newblock Mobile OS Percent Market Share Worldwide.
+\newblock \url{http://stats.areppim.com/stats/stats_mobiosxsnapshot.htm}, June
+  2015.
+\newblock Consultado: Noviembre 2015.
+
+\bibitem[Agu15]{Agud15}
+S.~Agudo.
+\newblock Elementary OS Freya encuentra grandes seguidores en los usuarios de
+  Windows.
+\newblock
+  \url{http://rootear.com/ubuntu-linux/elementary-os-freya-usuarios-windows},
+  May 2015.
+\newblock Consultado: Noviembre 2015.
+
 \bibitem[Apa]{Apac15}
 Apache. HTTP Server Project.
 \newblock \url{https://httpd.apache.org/}.
@@ -128,6 +144,14 @@ N~Gaiman.
 \newblock \url{https://www.youtube.com/watch?v=uH-sR1uCQ6g}, April 2010.
 \newblock Consultado: Octubre 2015.
 
+\bibitem[Gar15]{Garc15}
+J.~García.
+\newblock Elementary OS ya cuenta con más de cinco millones de usuarios.
+\newblock
+  \url{http://ubunlog.com/elementary-os-ya-cuenta-con-mas-de-cinco-millones-de-usuarios/},
+  September 2015.
+\newblock Consultado: Noviembre 2015.
+
 \bibitem[GGE09]{Glea09}
 S.~Gleason y D.~Gebre-Egziabher.
 \newblock {\em GNSS Applications and Methods}.
@@ -187,6 +211,13 @@ A.~Lindón y D.~Hiernaux.
 Library of Congress.
 \newblock \url{https://www.loc.gov/about/fascinating-facts/}.
 \newblock Consultado: Octubre 2015.
+
+\bibitem[Mat00]{Yuki20}
+Yukihiro Matsumoto.
+\newblock The Ruby Programming Language.
+\newblock \url{http://www.informit.com/articles/article.aspx?p=18225}, January
+  2000.
+\newblock Consultado: Noviembre 2015.
 
 \bibitem[Meu10]{Meuc10}
 S.~Meucci.
