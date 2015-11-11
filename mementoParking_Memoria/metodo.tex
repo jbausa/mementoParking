@@ -64,6 +64,7 @@ Para el desarrollo del \ac{TFG} se utilizarán los siguientes dispositivos:
 	\end{table}
 
 \section{Desarrollo evolutivo}
+\label{section:desarrollo}
 También conocido como prototipado evolutivo, este tipo de desarrollo se basa en exponer una implementación inicial al usuario permitiendo, a través de sus comentarios, refinar el sistema mediante versiones hasta alcanzar el producto final.
 Este tipo de enfoque es más efectivo que un desarrollo en cascada debido a que satisface las necesidades inmediatas del cliente y debido a que utiliza un enfoque evolutivo, la especificación del producto se desarrolla de forma creciente en tanto en cuanto el cliente comienza a mejorar su comprensión y acercamiento al problema que pretende solucionar.
 Debido a su propia naturaleza, el buen funcionamiento de este tipo de desarrollo, requiere de una gran vinculación por parte del cliente, que en este caso estará representado por el director del proyecto, ya que el elemento más importante en este prototipado, es la retroalimentación proveniente de numerosas entrevistas que ayuden a marcar el rumbo del desarrollo \cite{Somm06}.
@@ -182,6 +183,7 @@ En esta sección se incluyen las herramientas y tecnologías utilizadas para el 
 	
 			\subsubsection{Microsoft Windows 10}
 			Este sistema operativo se utilizará de manera auxiliar debido a que algunas de las herramientas software utilizadas únicamente están disponibles para sistemas operativos Windows.
+			La versión 10 del sistema operativo de Microsoft devuelve el protagonismo a los teclados y ratones, perdido en la versión 8 y recuperado parcialmente en la versión 8.1. También destacable es la vuelta del menú inicio a través del conocido botón en la esquina inferior derecha.
 			
 			\begin{figure}[H]
 			\centering
@@ -195,6 +197,7 @@ En esta sección se incluyen las herramientas y tecnologías utilizadas para el 
 		\subsubsection{Visual Paradigm}
 		Visual Paradigm es una herramienta \ac{UML} \ac{Case} para el modelado de sistemas con soporte para \ac{UML} 2.
 		Esta herramienta se utilizará para el modelado de los diagramas \ac{UML} necesarios para la consecución del \ac{TFG}.
+		Las principales características de esta aplicación son la creación de modelos \ac{UML} con compatibilidad con la versión 2.1 del lenguaje de modelado, el modelado de bases de datos, la interoperabilidad con intercambio de modelos con otras herramientas, el modelado de requerimientos y la generación automática de código y documentación.
 		
 		\begin{figure}[H]
 		\centering
@@ -205,6 +208,7 @@ En esta sección se incluyen las herramientas y tecnologías utilizadas para el 
 		
 		\subsubsection{Gantt Project}
 		Es una herramienta utilizada para la creación de diagramas de Gantt, lo que permitirá planificar y organizar el trabajo necesario para la consecución del \ac{TFG}.
+		Sus principales características son la posibilidad de importar y exportar archivos de Microsoft Project, la creación de diagramas PERT y la exportación a archivos \ac{PNG}, \ac{PDF} y \ac{HTML},
 		
 		\begin{figure}[H]
 		\centering
@@ -344,7 +348,7 @@ En esta sección se incluyen las herramientas y tecnologías utilizadas para el 
 		\end{figure}
 		
 		\subsubsection{Rspec}
-		Rspec es una libreria para Ruby diseñada para la realización de pruebas. Actualmente es una de las herramientas más populares para este cometido en Ruby.
+		Rspec es una libreria para Ruby diseñada para la realización de pruebas. Actualmente es una de las herramientas más populares para este cometido en Ruby. Su diseño está enfocado tanto a la productividad como a la comodidad y diversión del desarrollador.
 
 		\begin{figure}[H]
 		\centering
@@ -395,15 +399,39 @@ En esta sección se incluyen las herramientas y tecnologías utilizadas para el 
 		\end{figure}
 		
 		\subsubsection{Midori}
-		Es el navegador web por defecto de Elementary OS. Se utilizará para el acceso a la aplicación web.
+		Es el navegador web ligero por defecto de Elementary OS con un motor principal basado en Webkit, conocido por la estabilidad de los navegadores Safati, Chrome y Opera. Se utilizará para el acceso a la aplicación web. Debido a que usa \ac{GTK} como interfaz gráfica puede ejecutarse sin errores en escritorios basados en  como \ac{GNOME} o Xfce.
+		Ofrece compatibilidad con HTML5 y CSS3.
 		
 		\begin{figure}[H]
 		\centering
 		\includegraphics[width=40mm, fbox={\fboxrule} 4mm]{images/04-metodo/30-midori_logo.png}
 		\caption{Logo Midori}
 		\label{fig:midori-logo}
-		\end{figure}		
-	
+		\end{figure}
+		
+		\subsubsection{Chromium}
+		Es un navegador web de código abierto basado en Google Chrome.
+		Tiene un diseño minimalista y su motor principal está basado en Webkit. La mayor parte de este proyecto está bajo licencia BSD, lo que permite el uso parcial o total de su código fuente. Su punto fuerte consiste en su estabilidad, debido a que usa un proceso para cada pestaña, el bloqueo de uno de ellos no afecta al funcionamiento general del programa.
+		Ofrece compatibilidad con HTML5 y CSS3.
+		
+		\begin{figure}[H]
+		\centering
+		\includegraphics[width=40mm, fbox={\fboxrule} 4mm]{images/04-metodo/39-chromium_logo.png}
+		\caption{Logo Chromium}
+		\label{fig:chromium-logo}
+		\end{figure}
+		
+		\subsubsection{Mozilla Firefox}		
+		Es uno de los navegadores más conocidos y usados, junto con Internet Explorer y Google Chrome, está desarrollado mediante una licencia de código abierto.
+		Es compatible con los principales lenguajes de programación web y destaca su velocidad y estabilidad.
+
+		\begin{figure}[H]
+		\centering
+		\includegraphics[width=40mm, fbox={\fboxrule} 4mm]{images/04-metodo/38-firefox_logo}
+		\caption{Logo Mozilla Firefox}
+		\label{fig:firefox-logo}
+		\end{figure}
+		
 	\subsection{Herramientas para la gestión de bases de datos}
 		\subsubsection{MongoDB}
 		Es una base de datos NoSQL, orientada a documentos, esto es, en vez de guardar los datos en registros los guarda en documentos en una representación binaria de \ac{JSON} conocida como \ac{BSON}. La principal diferencia con las bases de datos relacionales, es que no resulta necesario seguir un mismo esquema para una misma colección (concepto similar a las tablas de las bases de datos relacionales).
@@ -437,7 +465,7 @@ En esta sección se incluyen las herramientas y tecnologías utilizadas para el 
 	
 	\subsection{Herramientas documentales}
 		\subsubsection{TexMaker}
-		TexMaker es un editor gráfico para lenguaje LaTex distribuido bajo licencia \textit{\ac{GPL}}.
+		TexMaker es un editor gráfico para lenguaje LaTex distribuido bajo licencia \textit{\ac{GPL}}. Existen versiones disponibles para Microsoft Windows, Linux / Unix y Mas OsX. Permite la edición de texto automático mediante asistentes configurables y la detección y manejo de los errores es rápida y sencilla.
 				
 		\begin{figure}[H]
 		\centering
@@ -447,7 +475,7 @@ En esta sección se incluyen las herramientas y tecnologías utilizadas para el 
 		\end{figure}
 		
 		\subsubsection{\ac{GIMP}}
-		\ac{GIMP} es un editor de imágenes libre y gratuito. Se utilizará para la modificación, edición y creación de imágenes para el presente \ac{TFG}.
+		\ac{GIMP} es un editor de imágenes tanto en mapa de bits como en dibujos y fotografías, libre y gratuito. Forma parte del proyecto \ac{GNU} y se publica bajo la misma licencia. Es uno de los programas de manipulación e gráficos más utilizado y probablemente el más usado en entornos GNU / Linux. Se utilizará para la modificación, edición y creación de imágenes para el presente \ac{TFG}.
 		
 		\begin{figure}[H]
 		\centering

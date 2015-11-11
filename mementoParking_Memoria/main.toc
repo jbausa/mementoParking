@@ -53,36 +53,39 @@
 \contentsline {section}{\numberline {4.5}Marco tecnol\IeC {\'o}gico}{50}{section.4.5}
 \contentsline {subsection}{\numberline {4.5.1}Sistema Operativo}{50}{subsection.4.5.1}
 \contentsline {subsubsection}{Elementary OS}{50}{subsection.4.5.1}
-\contentsline {subsubsection}{Micorosoft Windows 10}{51}{figure.4.7}
+\contentsline {subsubsection}{Microsoft Windows 10}{51}{figure.4.7}
 \contentsline {subsection}{\numberline {4.5.2}Herramientas de dise\IeC {\~n}o}{52}{subsection.4.5.2}
 \contentsline {subsubsection}{Visual Paradigm}{52}{subsection.4.5.2}
 \contentsline {subsubsection}{Gantt Project}{52}{figure.4.9}
 \contentsline {subsubsection}{Moqups}{52}{figure.4.10}
 \contentsline {subsection}{\numberline {4.5.3}Herramientas de gesti\IeC {\'o}n del proyecto}{53}{subsection.4.5.3}
 \contentsline {subsubsection}{Git}{53}{subsection.4.5.3}
-\contentsline {subsubsection}{Github}{53}{figure.4.13}
+\contentsline {subsubsection}{Github}{54}{figure.4.13}
 \contentsline {subsubsection}{Trello}{54}{figure.4.14}
-\contentsline {subsection}{\numberline {4.5.4}Herramientas, tecnolog\IeC {\'\i }as y frameworks para el desarrollo}{54}{subsection.4.5.4}
-\contentsline {subsubsection}{Ruby}{54}{subsection.4.5.4}
+\contentsline {subsection}{\numberline {4.5.4}Herramientas, tecnolog\IeC {\'\i }as y frameworks para el desarrollo}{55}{subsection.4.5.4}
+\contentsline {subsubsection}{Ruby}{55}{subsection.4.5.4}
 \contentsline {subsubsection}{Rails}{55}{figure.4.17}
 \contentsline {subsubsection}{Android}{56}{figure.4.19}
 \contentsline {subsubsection}{AngularJS}{57}{figure.4.21}
-\contentsline {subsubsection}{Bootstrap}{57}{figure.4.22}
+\contentsline {subsubsection}{Bootstrap}{58}{figure.4.22}
 \contentsline {subsubsection}{Rspec}{58}{figure.4.24}
-\contentsline {subsubsection}{\ac {HTML}}{58}{figure.4.25}
+\contentsline {subsubsection}{\ac {HTML}}{59}{figure.4.25}
 \contentsline {subsubsection}{\ac {CSS}}{59}{figure.4.26}
 \contentsline {subsubsection}{\ac {JSON}}{59}{figure.4.27}
 \contentsline {subsubsection}{Sublime Text 3}{60}{figure.4.28}
 \contentsline {subsubsection}{Midori}{60}{figure.4.29}
-\contentsline {subsection}{\numberline {4.5.5}Herramientas para la gesti\IeC {\'o}n de bases de datos}{60}{subsection.4.5.5}
-\contentsline {subsubsection}{MongoDB}{60}{subsection.4.5.5}
-\contentsline {subsubsection}{MongoLab}{61}{figure.4.31}
-\contentsline {subsubsection}{RoboMongo}{61}{figure.4.32}
-\contentsline {subsection}{\numberline {4.5.6}Herramientas documentales}{61}{subsection.4.5.6}
-\contentsline {subsubsection}{TexMaker}{61}{subsection.4.5.6}
-\contentsline {subsubsection}{\ac {GIMP}}{62}{figure.4.34}
-\contentsline {subsubsection}{Microsoft Visio}{62}{figure.4.35}
-\contentsline {subsection}{\numberline {4.5.7}Herramientas de implantaci\IeC {\'o}n}{62}{subsection.4.5.7}
-\contentsline {subsubsection}{Heroku}{62}{subsection.4.5.7}
-\contentsline {chapter}{\numberline {A}Ejemplo de anexo}{67}{appendix.Alph1}
-\contentsline {chapter}{Referencias}{69}{appendix*.38}
+\contentsline {subsubsection}{Chromium}{61}{figure.4.30}
+\contentsline {subsubsection}{Mozilla Firefox}{61}{figure.4.31}
+\contentsline {subsection}{\numberline {4.5.5}Herramientas para la gesti\IeC {\'o}n de bases de datos}{62}{subsection.4.5.5}
+\contentsline {subsubsection}{MongoDB}{62}{subsection.4.5.5}
+\contentsline {subsubsection}{MongoLab}{62}{figure.4.33}
+\contentsline {subsubsection}{RoboMongo}{63}{figure.4.34}
+\contentsline {subsection}{\numberline {4.5.6}Herramientas documentales}{63}{subsection.4.5.6}
+\contentsline {subsubsection}{TexMaker}{63}{subsection.4.5.6}
+\contentsline {subsubsection}{\ac {GIMP}}{63}{figure.4.36}
+\contentsline {subsubsection}{Microsoft Visio}{64}{figure.4.37}
+\contentsline {subsection}{\numberline {4.5.7}Herramientas de implantaci\IeC {\'o}n}{64}{subsection.4.5.7}
+\contentsline {subsubsection}{Heroku}{64}{subsection.4.5.7}
+\contentsline {chapter}{\numberline {5}Resultados}{65}{chapter.5}
+\contentsline {chapter}{\numberline {A}Ejemplo de anexo}{69}{appendix.Alph1}
+\contentsline {chapter}{Referencias}{71}{appendix*.38}
