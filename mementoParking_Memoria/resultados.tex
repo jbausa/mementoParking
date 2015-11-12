@@ -6,6 +6,75 @@
 
 \drop{E}{n} este capítulo se muestran los resultados obtenidos para la consecución del presente \ac{TFG}. La estructura del capítulo se basa en las iteraciones propias de la metodología elegida y definida en la sección 4 (ver sección \ref{section:desarrollo}). Es necesario llevar a cabo una iteración 0 que servirá para detallar los apartados principales de la gestión del mismo, como los requisitos y el alcance del proyecto, las historias de usuario, la gestión temporal, gestión de usuarios y riesgos y otros apartados necesarios.
 
+Debido al carácter académico del proyecto, los recursos y la gestión de los mismos estarán alejados de los parámetros habituales del mercado laboral, ya que todos los roles necesarios serán desarrollados por dos personas, el autor y el director del proyecto.
+
+\subsection{Iteración 0}
+Esta primera iteración tiene como objetivo definir el alcance del proyecto y su realizar la planificación del mismo, de manera que quede definida una sólida base sobre la que comenzar el desarrollo del mismo. Se estimará el coste temporal y económico, y se abordará la planificación de los recursos que se consideran necesarios para la correcta consecución de los objetivos planteados, tanto técnicos como humanos, y la gestión de los mismos que se pretende llevar a cabo.
+
+	\subsection{Gestión de recursos humanos}
+	Tal y como se comentó en la introducción al capítulo, las personas involucradas en el desarrollo del proyecto son el autor y el director del mismo, que coparán todos los roles disponibles, quedando estos de la siguiente manera:
+	
+	\begin{itemize}[label={$\bullet$},labelindent=\parindent,leftmargin=2cm]
+		\item Autor del \ac{TFG}: Equipo de desarrollo, análisis y pruebas del producto.
+		\item Director del \ac{TFG}: Propietario, usuario y cliente final del producto.
+	\end{itemize}
+	
+	\subsection{Alcance del proyecto}
+		\subsubsection{Descripción del alcance}
+		\label{descripcion-alcance}
+		El proyecto consistirá en la elaboración de una herramienta accesible a través de una página web, asimismo se proporcionará una aplicación móvil para sistemas operativos Android que facilitará el acceso a la mencionada página.
+		La página constará de dos secciones delimitadas por los privilegios necesarios de acceso. 
+		
+		Una primera sección de acceso libre en la que se encuadran las páginas \textit{Inicio}, \textit{Acerca de}, \textit{Contacto} y aquellas páginas auxiliares necesarias para permitir el registro y autenticación a los usuarios que deseen acceder a la segunda sección.
+		Para ganar acceso a la segunda sección será necesario autentificarse mediante un usuario y una contraseña adquiridos mediante un formulario de registro. Esta sección englobará las páginas de gestión de los datos personales del usuario y el acceso a las posiciones geográficas guardadas para este usuario.
+		La herramienta permitirá al usuario definir una localización geográfica como posición de aparcamiento de su vehículo utilizando seleccionando la ubicación mediante un mapa interactivo.
+		La herramienta mostrará al usuario la localización actual de los elementos guardados previamente mediante un mapa interactivo.
+		Los usuarios podrán permitir la compartición de la localización de un elemento con otros usuarios legítimos de la herramienta, llamados \textit{usuarios secundarios}.
+		Los \textit{usuarios secundarios} podrán modificar los elementos compartidos bajo las mismas condiciones que el \textit{usuario primario} o usuario propietario del elemento.
+		El \textit{usuario primario} podrá revocar los derechos de acceso y edición a los \textit{usuarios secundarios}.
+		La herramienta estará diseñada para facilitar el acceso a través de dispositivos móviles mediante los navegadores incorporados.
+		Se pondrá a disposición de los usuarios con sistemas operativos Android una aplicación que permitirá el acceso rápido a la herramienta web.
+	
+		\subsubsection{Criterios de aceptación}
+		\label{criterios-aceptacion}
+		La herramienta se considerará conforme a criterio siempre que cumpla los puntos detallados a continuación.
+		
+		\begin{itemize}[label={$\bullet$},labelindent=\parindent,leftmargin=2cm]
+			\item La herramienta web debe visualizarse correctamente en los navegadores Midori, Chromium,Chrome y Mozilla Firefox.
+			\item La aplicación debe dar acceso a la herramienta web y permitir una correcta visualización de la misma.
+			\item La herramienta web debe garantizar el acceso mediante autenticación a los usuarios legítimos, impidiendo el acceso a la sección restringida a los usuarios no identificados.
+			\item La herramienta web debe contener mecanismos para el alta de nuevos usuarios y contendrá mecanismos para la recuperación de los datos de entrada por parte de los usuarios legítimos.
+			\item La herramienta mostrará un mapa interactivo en el que estarán señalados los elementos guardados por el usuario y permitirá la adición de nuevos elementos o la modificación de los existentes.
+			\item La herramienta incorporará mecanismos para permitir la compartición de elementos entre usuarios legítimos y para revocar está compartición.
+			\item La herramienta permitirá a los \textit{usuarios secundarios} modificar los elementos compartidos con ellos por los\textit{usuarios primarios}.
+			\item La herramienta permitirá a los \textit{usuarios primarios} revocar los derechos de visión y edición de los \textit{usuarios secundarios} a los elementos previamente compartidos.
+		\end{itemize}
+
+		\subsubsection{Entregables del proyecto}
+		Al finalizar cada una de las iteraciones se entregará al cliente un artefacto en forma de página de web con las características añadidas a la herramienta durante la iteración así como la documentación generada durante esta fase.
+		
+	Al termino de las iteraciones se entregará la herramienta completa según lo descrito en la descripción del alcance (ver descripción del alcance \ref{descripcion-alcance}) conforme a criterios (ver criterios \ref{criterios-aceptacion}), un manual de usuario de la herramienta, un manual de instalación y una memoria con los documentos generados durante el proceso de desarrollo.
+	
+		\subsubsection{Suposiciones y restricciones del proyecto}
+		Para asegurar el correcto funcionamiento de la herramienta debe tenerse en cuenta los puntos descritos a continuación:
+		
+		\begin{itemize}[label={$\bullet$},labelindent=\parindent,leftmargin=2cm]
+			\item Se asegura el correcto funcionamiento al acceder desde los siguientes navegadores: Midori, Chromium, Chrome y Mozilla Firefox.
+			\item La aplicación móvil será compatible con versiones Android 4.1 y posteriores.
+		\end{itemize}
+
+	\subsection{Plan del proyecto}
+	
+	\subsection{Gestión temporal del proyecto}
+	
+	\subsection{Gestión de las comunicaciones}
+	
+	\subsection{Gestión de recursos}
+	
+	\subsection{Gestión de riesgos}
+	
+	\subsection{Gestión de costes}
+	
 
 % Local Variables:
 %  coding: utf-8
