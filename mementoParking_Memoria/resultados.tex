@@ -8,7 +8,7 @@
 
 Debido al carácter académico del proyecto, los recursos y la gestión de los mismos estarán alejados de los parámetros habituales del mercado laboral, ya que todos los roles necesarios serán desarrollados por dos personas, el autor y el director del proyecto.
 
-\subsection{Iteración 0}
+\section{Iteración 0}
 Esta primera iteración tiene como objetivo definir el alcance del proyecto y su realizar la planificación del mismo, de manera que quede definida una sólida base sobre la que comenzar el desarrollo del mismo. Se estimará el coste temporal y económico, y se abordará la planificación de los recursos que se consideran necesarios para la correcta consecución de los objetivos planteados, tanto técnicos como humanos, y la gestión de los mismos que se pretende llevar a cabo.
 
 	\subsection{Gestión de recursos humanos}
@@ -21,7 +21,7 @@ Esta primera iteración tiene como objetivo definir el alcance del proyecto y su
 	
 	\subsection{Alcance del proyecto}
 		\subsubsection{Descripción del alcance}
-		\label{descripcion-alcance}
+		\label{subsubsection:descripcion-alcance}
 		El proyecto consistirá en la elaboración de una herramienta accesible a través de una página web, asimismo se proporcionará una aplicación móvil para sistemas operativos Android que facilitará el acceso a la mencionada página.
 		La página constará de dos secciones delimitadas por los privilegios necesarios de acceso. 
 		
@@ -36,7 +36,7 @@ Esta primera iteración tiene como objetivo definir el alcance del proyecto y su
 		Se pondrá a disposición de los usuarios con sistemas operativos Android una aplicación que permitirá el acceso rápido a la herramienta web.
 	
 		\subsubsection{Criterios de aceptación}
-		\label{criterios-aceptacion}
+		\label{subsubsection:criterios-aceptacion}
 		La herramienta se considerará conforme a criterio siempre que cumpla los puntos detallados a continuación.
 		
 		\begin{itemize}[label={$\bullet$},labelindent=\parindent,leftmargin=2cm]
@@ -53,7 +53,7 @@ Esta primera iteración tiene como objetivo definir el alcance del proyecto y su
 		\subsubsection{Entregables del proyecto}
 		Al finalizar cada una de las iteraciones se entregará al cliente un artefacto en forma de página de web con las características añadidas a la herramienta durante la iteración así como la documentación generada durante esta fase.
 		
-	Al termino de las iteraciones se entregará la herramienta completa según lo descrito en la descripción del alcance (ver descripción del alcance \ref{descripcion-alcance}) conforme a criterios (ver criterios \ref{criterios-aceptacion}), un manual de usuario de la herramienta, un manual de instalación y una memoria con los documentos generados durante el proceso de desarrollo.
+	Al termino de las iteraciones se entregará la herramienta completa según lo descrito en la descripción del alcance (ver descripción del alcance \ref{subsubsection:descripcion-alcance}) conforme a criterios (ver criterios \ref{subsubsection:criterios-aceptacion}), un manual de usuario de la herramienta, un manual de instalación y una memoria con los documentos generados durante el proceso de desarrollo.
 	
 		\subsubsection{Suposiciones y restricciones del proyecto}
 		Para asegurar el correcto funcionamiento de la herramienta debe tenerse en cuenta los puntos descritos a continuación:
@@ -64,17 +64,171 @@ Esta primera iteración tiene como objetivo definir el alcance del proyecto y su
 		\end{itemize}
 
 	\subsection{Plan del proyecto}
-	En función de los requisitos del proyecto, definidos en la sección \textit{Objetivos} \ref{chap:objetivos} y teniendo en cuenta el alcance del proyecto (ver subsección \ref{descripcion-alcance}) y los criterios de aceptación del mismo (ver subsección \ref{criterios-aceptacion})se puede crear la pila de producto, que consistirá en una colección de \textit{historias de usuario} del sistema, su valor de negocio y la estimación temporal para llevarlo a cabo. Tanto el valor de negocio como la estimación han sido llevadas a cabo contando con la ayuda del propietario del producto.
+	En función de los requisitos del proyecto, definidos en la sección \textit{Objetivos} \ref{chap:objetivos} y teniendo en cuenta el alcance del proyecto (ver subsección \ref{descripcion-alcance}) y los criterios de aceptación del mismo (ver subsección \ref{subsubsection:criterios-aceptacion})se puede crear la pila de producto, que consistirá en una colección de \textit{historias de usuario} del sistema, su valor de negocio y la estimación temporal para llevarlo a cabo. Tanto el valor de negocio como la estimación han sido llevadas a cabo contando con la ayuda del propietario del producto.
+	En la tabla \ref{tab:historia_usuario} podemos observar las historias de usuario retratadas en una pila de producto priorizada en la que se incluye una estimación temporal y el valor de negocio considerado para la misma.
+	
+	\begin{table}[hp]
+	  \centering 
+	  \rowcolors{1}{gray!25}{white}
+	  \begin{tabular}{p{0.15\linewidth}p{0.5\linewidth}p{0.15\linewidth}p{0.15\linewidth}}
+	    \multicolumn{1}{l}{\cellcolor{black!30}\textbf{Identificador}} & 
+	 	\multicolumn{1}{c}{\cellcolor{black!30}\textbf{Historia de Usuario}} &
+ 	 	\multicolumn{1}{c}{\cellcolor{black!30}\textbf{Estimación temporal}} &
+ 	 	\multicolumn{1}{c}{\cellcolor{black!30}\textbf{Valor de negocio}} 
+	 	\\
+	    \toprule
+		HdU 1	&	Quiero una página web																				&	4 horas	&	Alto	\\
+		HdU 2	&	Quiero que los usuarios puedan comunicarse conmigo a través de la página							&	2 horas	&	Bajo	\\
+		HdU 3	&	Quiero que aparezcan los datos de la empresa en la página web										&	2 horas	&	Bajo	\\
+		HdU 4	&	Quiero que los usuarios se registren para poder acceder 											&	2 horas	&	Alto	\\
+		HdU 5	&	Quiero que los usuarios entren mediante una contraseña												&	2 horas	&	Alto	\\
+		HdU 6	&	Quiero que los usuarios puedan modificar sus datos													&	4 horas	&	Medio	\\
+		HdU 7	& 	Quiero que los usuarios puedan guardar sus posiciones geográficas	mediante un mapa				&	15 horas&	Alto	\\
+		HdU 8	&	Quiero que los usuarios puedan ver sus posiciones guardadas en un mapa							&	4 horas	&	Alto	\\
+		HdU 9	&	Quiero que los usuarios puedan compartir sus posiciones con otros usuarios						&	15 horas&	Medio	\\
+		HdU 10	&	Quiero que los usuarios con acceso a las posiciones guardadas puedan editarlas					&	15 horas&	Bajo	\\
+		HdU 11	&	Quiero que los usuarios puedan dejar de compartir sus posiciones guardadas con otros usuarios		&	4 horas	&	Medio	\\
+		HdU 12	&	Quiero mostrar el recorrido hasta las posiciones guardadas del usuario en un mapa					&	10 horas&	Bajo	\\
+		
+		
+	    \hline
+	  \end{tabular}
+	  \caption{Objetivos parciales del \ac{TFG}}
+	  \label{tab:historia_usuario}
+	\end{table}
 	
 	\subsection{Gestión temporal del proyecto}
 	
 	\subsection{Gestión de las comunicaciones}
+	La comunicación entre el autor del presente \ac{TFG} y el director del proyecto se realizarán para la información puntual del estado del desarrollo y abordar las posibles dudas generadas durante la realización. Generalmente las reuniones se realizarán semanalmente y se concretarán, preferentemente, mediante correo electrónico.
+	Se utilizarán también otro tipo de herramientas para comunicar en todo momento el estado del proyecto y facilitar la comunicación entre los dos actores principales del desarrollo, a saber, el autor y el director. Estas herramientas serán \textit{Trello}, \textit{Github} y \textit{Heroku}.\\
+	Trello, tal y como se explico anteriormente (ver subsección \ref{subsubsection:trello}) es un tablero Kanban virtual que permitirá al director estar informado en todo momento de las tareas que el autor está llevando a cabo en cada momento, así como la modificación de la lista de tareas si así lo considerase necesario. Para ello se crea y permite el acceso al director a un nuevo tablero Kanban iniciado para el presente proyecto.
+	\todo{Añadir imágenes de Trello con las iteraciones a realizar y alguna realizada}
+	
+	Github, tal y como se explico anteriormente (ver subsección \ref{subsubsection:github}) es un servidor para repositorios \textit{Git} que se utilizará para el almacenaje en línea tanto del código del proyecto como de la memoria del mismo. Debido a las restricciones existentes en el servicio gratuito, el repositorio es público, por lo que únicamente se procederá a informar al director del proyecto de la dirección donde se encuentra almacenado. Mediante estos actos, se conseguirá que el director tenga acceso completo a toda la documentación generada para la consecución del proyecto pudiendo revisarla cuando así lo que creyera necesario. Esto mismo es aplicable al código fuente del presente proyecto.
+	
+	Heroku, tal y como se explico anteriormente (ver subsección \ref{subsubsection:heroku}) es el servidor usado para la implantación del presente proyecto, por lo que se utilizará para comprobar los avances en el proyecto mediante la visita a través de un navegador web.
 	
 	\subsection{Gestión de recursos}
+	Tal y como se comentó anteriormente (ver sección %\ref{dispositivos-empleados)
+	, para el desarrollo del proyecto se utilizará un equipo con las características detalladas en la tabla \ref{tab:portatil2}. 
+	
+	\begin{table}[H]
+	  \centering 
+	  \rowcolors{1}{gray!25}{white}
+	  \begin{tabular}{p{0.4\linewidth}p{0.3\linewidth}}
+	    \toprule
+		Procesador 							& Intel i7-5500U								\\
+		Velocidad y Núcleos del Procesador & 2.4 GHz; 2 núcleos 							\\
+		Memoria RAM 						& 16 \ac{GB} \ac{DDR}3L \ac{SDRAM} 			\\
+		Sistema Operativo					& Elementary \ac{OS} 							\\
+	    \hline
+	  \end{tabular}
+	  \caption{Equipo usado para el desarrollo \ac{TFG}}
+	  \label{tab:portatil2}
+	\end{table}
+	
+	Para las pruebas con dispositivos móviles se utilizará un equipo con las características mostradas en la tabla \ref{tab:movil2}.
+	\begin{table}[H]
+	  \centering 
+	  \rowcolors{1}{gray!25}{white}
+	  \begin{tabular}{p{0.4\linewidth}p{0.3\linewidth}}
+	    \toprule
+		Procesador 	& Qualcomm Snapdragon 800		\\
+		Velocidad Procesador 	& 2.26 GHz 			\\
+		Memoria RAM 			& 2 \ac{GB} 		\\
+		Sistema Operativo 		& Android 6.0 		\\
+	    \hline
+	  \end{tabular}
+	  \caption{Equipo usado para las pruebas en dispositivos móviles \ac{TFG}}
+	  \label{tab:movil2}
+	\end{table}
 	
 	\subsection{Gestión de riesgos}
+	Para la gestión de riesgos del presente proyecto se utiliza una modificación de la lista proporcionada por McConnell en \cite{Mcc97} presentando en la tabla 
+	
+	%\ref{tab:riesgos} 
+	
+	los riesgos a los que se podría enfrentar el autor durante el desarrollo, mostrando la probabilidad de que sucedan y el retraso producido en caso de suceso.
+	
+	\begin{table}[H]
+	  \centering 
+	  \rowcolors{1}{gray!25}{white}
+	  \begin{tabular}{p{0.1\linewidth}p{0.5\linewidth}p{0.15\linewidth}p{0.15\linewidth}}
+  	    \multicolumn{1}{l}{\cellcolor{black!30}\textbf{Id}} &
+	    \multicolumn{1}{l}{\cellcolor{black!30}\textbf{Riesgo}} & 
+	 	\multicolumn{1}{c}{\cellcolor{black!30}\textbf{Probabilidad}} &
+ 	 	\multicolumn{1}{c}{\cellcolor{black!30}\textbf{Retraso}}
+	 	\\	 
+	    \toprule
+   	    
+   	    \multicolumn{1}{r}{\cellcolor{black!30}\textbf{A. }} &
+		\multicolumn{3}{l}{\cellcolor{black!30}\textbf{Creación de la planificación}}\\
+		A.1. &El esfuerzo es mayor que el estimado.											&	40\%	&	7 horas\\
+		A.2. &Un retraso en una tarea produce retrasos en cascada en las tareas dependientes 	&	40\%	&	7 horas\\
+		
+		\multicolumn{1}{r}{\cellcolor{black!30}\textbf{B. }} &
+		\multicolumn{3}{l}{\cellcolor{black!30}\textbf{Organización y gestión}}\\
+		B.3. &Afectación por el \textit{Síndrome de la hoja en blanco}							&	20\%	&	10 horas\\
+		
+		\multicolumn{1}{r}{\cellcolor{black!30}\textbf{C. }} &
+		\multicolumn{3}{l}{\cellcolor{black!30}\textbf{Entorno de desarrollo}}\\
+		C.4. &Los espacios no están disponibles en el momento necesario						&	60\%	&	12 horas\\
+		C.5. &Los espacios están disponibles pero no son adecuados								&	35\%	&	18 horas\\
+		C.6. &Los espacios están sobreutilizados, son ruidosos o distraen						&	60\%	&	8 horas\\
+		C.7. &La curva de aprendizaje para la nueva herramienta de desarrollo es más larga de lo esperado	&	20\%	&	6 horas\\
+		
+		\multicolumn{1}{r}{\cellcolor{black!30}\textbf{D. }} &
+		\multicolumn{3}{l}{\cellcolor{black!30}\textbf{Usuarios finales}}\\
+		&No aplicable&&\\
+		
+		\multicolumn{1}{r}{\cellcolor{black!30}\textbf{E. }} &
+		\multicolumn{3}{l}{\cellcolor{black!30}\textbf{Cliente}}\\
+		D.8. &El tiempo de comunicación con el cliente es más lento de lo esperado			&	10\%	&	6 horas\\
+		
+		\multicolumn{1}{r}{\cellcolor{black!30}\textbf{F. }} &
+		\multicolumn{3}{l}{\cellcolor{black!30}\textbf{Personal Contratado}}\\
+		&No aplicable&&\\
+		
+		\multicolumn{1}{r}{\cellcolor{black!30}\textbf{G. }} &
+		\multicolumn{3}{l}{\cellcolor{black!30}\textbf{Requisitos}}\\
+		F.9. &Los requisitos se han adaptado pero continúan cambiando							&	10\%	& 8 horas\\
+		F.10. &Se añaden requisitos extra														&	40\%	& 18 horas\\
+		
+		\multicolumn{1}{r}{\cellcolor{black!30}\textbf{H. }} &
+		\multicolumn{3}{l}{\cellcolor{black!30}\textbf{Producto}}\\ 
+		G.11. &El requisito de trabajar con varios sistemas operativos necesita más tiempo del esperado	&	35\%	& 10 horas\\
+		G.12. &El trabajo con un entorno software desconocido causa problemas no previstos	&	40\%	& 10 horas\\
+		
+		\multicolumn{1}{r}{\cellcolor{black!30}\textbf{I. }} &
+		\multicolumn{3}{l}{\cellcolor{black!30}\textbf{Fuerzas mayores}}\\
+		&No aplicable&&\\	
+		
+		\multicolumn{1}{r}{\cellcolor{black!30}\textbf{J. }} &
+		\multicolumn{3}{l}{\cellcolor{black!30}\textbf{Personal}}\\
+		J.13. &La falta de motivación y de moral reduce la productividad						&	5\%		& 4 horas\\
+		J.14. &El personal necesita un tiempo extra para acostumbrarse a trabajar con herramientas o entornos nuevos	&	30\%	&	10 horas\\
+		J.15. &El personal necesita un tiempo extra para aprender un lenguaje de programación nuevo	&	40\%	&	10 horas\\
+		J.16. &El personal trabaja más lento de lo esperado									&	15\%	&	10 horas\\
+		
+		\multicolumn{1}{r}{\cellcolor{black!30}\textbf{K. }} &
+		\multicolumn{3}{l}{\cellcolor{black!30}\textbf{Diseño e implementación}}\\
+		K.17. &Un mal diseño implica volver a diseñar e implementar							&	5\%		&	30 horas\\
+		K.18. &La utilización de metodologías desconocidas deriva en un periodo extra de formación y tener que volver atrás para corregir los errores iniciales cometidos en la metodología										&	10\%	&	15 horas\\
+		
+		\multicolumn{1}{r}{\cellcolor{black!30}\textbf{L. }} &
+		\multicolumn{3}{l}{\cellcolor{black!30}\textbf{Proceso}}\\	
+		&No aplicable&&\\
+	    \hline
+	  \end{tabular}
+	  \caption{Análisis de riesgos \ac{TFG}}
+	  \label{tab:riesgos}
+	\end{table}
+	
+	Debido a las características particulares del proyecto, ya que sólo consta de dos actores principales, la mayoría de los riesgos pueden ser omitidos y los que deben fijarse se ven limitados temporalmente a la reacción necesaria por parte del autor.
 	
 	\subsection{Gestión de costes}
+	
 	
 
 % Local Variables:
