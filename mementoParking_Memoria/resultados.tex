@@ -64,33 +64,26 @@ Esta primera iteración tiene como objetivo definir el alcance del proyecto y su
 		\end{itemize}
 
 	\subsection{Plan del proyecto}
-	En función de los requisitos del proyecto, definidos en la sección \textit{Objetivos} \ref{chap:objetivos} y teniendo en cuenta el alcance del proyecto (ver subsección \ref{descripcion-alcance}) y los criterios de aceptación del mismo (ver subsección \ref{subsubsection:criterios-aceptacion})se puede crear la pila de producto, que consistirá en una colección de \textit{historias de usuario} del sistema, su valor de negocio y la estimación temporal para llevarlo a cabo. Tanto el valor de negocio como la estimación han sido llevadas a cabo contando con la ayuda del propietario del producto.
+	En función de los requisitos del proyecto, definidos en la sección \textit{Objetivos} \ref{chap:objetivos} y teniendo en cuenta el alcance del proyecto (ver subsección \ref{subsubsection:descripcion-alcance}) y los criterios de aceptación del mismo (ver subsección \ref{subsubsection:criterios-aceptacion})se puede crear la pila de producto, que consistirá en una colección de \textit{historias de usuario} del sistema, su valor de negocio y la estimación temporal para llevarlo a cabo. Tanto el valor de negocio como la estimación han sido llevadas a cabo contando con la ayuda del propietario del producto.
 	En la tabla \ref{tab:historia_usuario} podemos observar las historias de usuario retratadas en una pila de producto priorizada en la que se incluye una estimación temporal y el valor de negocio considerado para la misma.
 	
 	\begin{table}[hp]
 	  \centering 
 	  \rowcolors{1}{gray!25}{white}
-	  \begin{tabular}{p{0.15\linewidth}p{0.5\linewidth}p{0.15\linewidth}p{0.15\linewidth}}
-	    \multicolumn{1}{l}{\cellcolor{black!30}\textbf{Identificador}} & 
+	  \begin{tabular}{p{0.1\linewidth}p{0.4\linewidth}p{0.25\linewidth}p{0.25\linewidth}}
+	    \multicolumn{1}{l}{\cellcolor{black!30}\textbf{Id}} & 
 	 	\multicolumn{1}{c}{\cellcolor{black!30}\textbf{Historia de Usuario}} &
  	 	\multicolumn{1}{c}{\cellcolor{black!30}\textbf{Estimación temporal}} &
  	 	\multicolumn{1}{c}{\cellcolor{black!30}\textbf{Valor de negocio}} 
 	 	\\
 	    \toprule
-		HdU 1	&	Quiero una página web																				&	4 horas	&	Alto	\\
-		HdU 2	&	Quiero que los usuarios puedan comunicarse conmigo a través de la página							&	2 horas	&	Bajo	\\
-		HdU 3	&	Quiero que aparezcan los datos de la empresa en la página web										&	2 horas	&	Bajo	\\
-		HdU 4	&	Quiero que los usuarios se registren para poder acceder 											&	2 horas	&	Alto	\\
-		HdU 5	&	Quiero que los usuarios entren mediante una contraseña												&	2 horas	&	Alto	\\
-		HdU 6	&	Quiero que los usuarios puedan modificar sus datos													&	4 horas	&	Medio	\\
-		HdU 7	& 	Quiero que los usuarios puedan guardar sus posiciones geográficas	mediante un mapa				&	15 horas&	Alto	\\
-		HdU 8	&	Quiero que los usuarios puedan ver sus posiciones guardadas en un mapa							&	4 horas	&	Alto	\\
-		HdU 9	&	Quiero que los usuarios puedan compartir sus posiciones con otros usuarios						&	15 horas&	Medio	\\
-		HdU 10	&	Quiero que los usuarios con acceso a las posiciones guardadas puedan editarlas					&	15 horas&	Bajo	\\
-		HdU 11	&	Quiero que los usuarios puedan dejar de compartir sus posiciones guardadas con otros usuarios		&	4 horas	&	Medio	\\
-		HdU 12	&	Quiero mostrar el recorrido hasta las posiciones guardadas del usuario en un mapa					&	10 horas&	Bajo	\\
-		
-		
+		HdU 1	&	Como cliente quiero que los usuarios se registren antes de acceder a la aplicación y a sus datos				&	20 horas		&	Alto	\\
+		HdU 2	&	Como usuario quiero acceder mediante un nombre y una contraseña para que sólo yo pueda entrar a mi cuenta			&	10 horas	&	Alto	\\
+		HdU 3	& 	Como usuario quiero guardar mis ubicaciones mediante un mapa para poder acceder a ellas más tarde	&	30 horas	&	Alto	\\
+		HdU 4	&	Como usuario quiero recuperar mis ubicaciones guardadas y verlas dibujadas en un mapa					&	12 horas	&	Alto	\\
+		HdU 5	&	Como usuario quiero compartir mis ubicaciones guardadas con otros usuarios de mi elección para que puedan modificarlas			&	30 horas&	Medio	\\
+		HdU 6	&	Como usuario quiero que la aplicación me muestre la ruta a mis posiciones geográficas					&	20 horas	&	Bajo	\\
+			
 	    \hline
 	  \end{tabular}
 	  \caption{Objetivos parciales del \ac{TFG}}
@@ -131,7 +124,7 @@ Esta primera iteración tiene como objetivo definir el alcance del proyecto y su
 	\begin{table}[H]
 	  \centering 
 	  \rowcolors{1}{gray!25}{white}
-	  \begin{tabular}{p{0.4\linewidth}p{0.3\linewidth}}
+	  \begin{tabular}{p{0.3\linewidth}p{0.4\linewidth}}
 	    \toprule
 		Procesador 	& Qualcomm Snapdragon 800		\\
 		Velocidad Procesador 	& 2.26 GHz 			\\
@@ -148,79 +141,89 @@ Esta primera iteración tiene como objetivo definir el alcance del proyecto y su
 	
 	los riesgos a los que se podría enfrentar el autor durante el desarrollo, mostrando la probabilidad de que sucedan y el retraso producido en caso de suceso.
 	
-	\begin{table}[H]
-	  \centering 
-	  \rowcolors{1}{gray!25}{white}
-	  \begin{tabular}{p{0.1\linewidth}p{0.5\linewidth}p{0.15\linewidth}p{0.15\linewidth}}
-  	    \multicolumn{1}{l}{\cellcolor{black!30}\textbf{Id}} &
-	    \multicolumn{1}{l}{\cellcolor{black!30}\textbf{Riesgo}} & 
-	 	\multicolumn{1}{c}{\cellcolor{black!30}\textbf{Probabilidad}} &
- 	 	\multicolumn{1}{c}{\cellcolor{black!30}\textbf{Retraso}}
+	\begin{longtable}{p{1cm} p{8cm} p{3cm} p{2cm}}
+	  	\hline
+  	    \multicolumn{1}{p{1cm}}{\cellcolor{black!30}\textbf{Id}} &
+	    \multicolumn{1}{p{8cm}}{\cellcolor{black!30}\textbf{Riesgo}} & 
+	 	\multicolumn{1}{p{3cm}}{\cellcolor{black!30}\textbf{Probabilidad}} &
+ 	 	\multicolumn{1}{p{2cm}}{\cellcolor{black!30}\textbf{Retraso}}
+	 	\\
+	 	\toprule 
+	   % \toprule
+	   	\endfirsthead
+	     
+	    \hline
+  	    \multicolumn{1}{p{1cm}}{\cellcolor{black!30}\textbf{Id}} &
+	    \multicolumn{1}{p{8cm}}{\cellcolor{black!30}\textbf{Riesgo}} & 
+	 	\multicolumn{1}{p{3cm}}{\cellcolor{black!30}\textbf{Probabilidad}} &
+ 	 	\multicolumn{1}{p{2cm}}{\cellcolor{black!30}\textbf{Retraso}}
 	 	\\	 
-	    \toprule
+	 	\toprule
+	 	\endhead
    	    
-   	    \multicolumn{1}{r}{\cellcolor{black!30}\textbf{A. }} &
-		\multicolumn{3}{l}{\cellcolor{black!30}\textbf{Creación de la planificación}}\\
+		\multicolumn{4}{l}{\cellcolor{gray!25}\textbf{A. Creación de la planificación}}\\
 		A.1. &El esfuerzo es mayor que el estimado.											&	40\%	&	7 días	\\
 		A.2. &Un retraso en una tarea produce retrasos en cascada en las tareas dependientes 	&	40\%	&	7 días	\\
 		
-		\multicolumn{1}{r}{\cellcolor{black!30}\textbf{B. }} &
-		\multicolumn{3}{l}{\cellcolor{black!30}\textbf{Organización y gestión}}\\
+		\multicolumn{4}{l}{\cellcolor{gray!25}\textbf{B. Organización y gestión}}\\
 		B.3. &Afectación por el \textit{Síndrome de la hoja en blanco}							&	20\%	&	2 días	\\
 		
-		\multicolumn{1}{r}{\cellcolor{black!30}\textbf{C. }} &
-		\multicolumn{3}{l}{\cellcolor{black!30}\textbf{Entorno de desarrollo}}\\
+%		\multicolumn{1}{r}{\cellcolor{black!30}\textbf{C. }} &
+		\multicolumn{4}{l}{\cellcolor{gray!25}\textbf{C. Entorno de desarrollo}}\\
 		C.4. &Los espacios no están disponibles en el momento necesario						&	60\%	&	24 horas\\
 		C.5. &Los espacios están disponibles pero no son adecuados								&	35\%	&	24 horas\\
 		C.6. &Los espacios están sobreutilizados, son ruidosos o distraen						&	60\%	&	24 horas\\
 		C.7. &La curva de aprendizaje para la nueva herramienta de desarrollo es más larga de lo esperado	&	20\%	&	2 días	\\
 		
-		\multicolumn{1}{r}{\cellcolor{black!30}\textbf{D. }} &
-		\multicolumn{3}{l}{\cellcolor{black!30}\textbf{Usuarios finales}}\\
+%%		\multicolumn{1}{r}{\cellcolor{black!30}\textbf{D. }} &
+		\multicolumn{4}{l}{\cellcolor{gray!25}\textbf{D. Usuarios finales}}\\
 		&No aplicable&&\\
 		
-		\multicolumn{1}{r}{\cellcolor{black!30}\textbf{E. }} &
-		\multicolumn{3}{l}{\cellcolor{black!30}\textbf{Cliente}}\\
+%		\multicolumn{1}{r}{\cellcolor{black!30}\textbf{E. }} &
+		\multicolumn{4}{l}{\cellcolor{gray!25}\textbf{E. Cliente}}\\
 		D.8. &El tiempo de comunicación con el cliente es más lento de lo esperado			&	10\%	&	6 horas\\
 		
-		\multicolumn{1}{r}{\cellcolor{black!30}\textbf{F. }} &
-		\multicolumn{3}{l}{\cellcolor{black!30}\textbf{Personal Contratado}}\\
+%		\multicolumn{1}{r}{\cellcolor{black!30}\textbf{F. }} &
+		\multicolumn{4}{l}{\cellcolor{gray!25}\textbf{F. Personal Contratado}}\\
 		&No aplicable&&\\
 		
-		\multicolumn{1}{r}{\cellcolor{black!30}\textbf{G. }} &
-		\multicolumn{3}{l}{\cellcolor{black!30}\textbf{Requisitos}}\\
-		F.9. &Los requisitos se han adaptado pero continúan cambiando							&	10\%	& 8 horas\\
-		F.10. &Se añaden requisitos extra														&	40\%	& 18 horas\\
+%		\multicolumn{1}{r}{\cellcolor{black!30}\textbf{G. }} &
+		\multicolumn{4}{l}{\cellcolor{gray!25}\textbf{G. Requisitos}}\\
+		G.9. &Los requisitos se han adaptado pero continúan cambiando							&	10\%	& 8 horas\\
+		G.10. &Se añaden requisitos extra														&	40\%	& 18 horas\\
 		
-		\multicolumn{1}{r}{\cellcolor{black!30}\textbf{H. }} &
-		\multicolumn{3}{l}{\cellcolor{black!30}\textbf{Producto}}\\ 
-		G.11. &El requisito de trabajar con varios sistemas operativos necesita más tiempo del esperado	&	35\%	& 5 horas\\
-		G.12. &El trabajo con un entorno software desconocido causa problemas no previstos	&	40\%	& 10 horas\\
-		
-		\multicolumn{1}{r}{\cellcolor{black!30}\textbf{I. }} &
-		\multicolumn{3}{l}{\cellcolor{black!30}\textbf{Fuerzas mayores}}\\
+%		\multicolumn{1}{r}{\cellcolor{black!30}\textbf{H. }} &
+		\multicolumn{4}{l}{\cellcolor{gray!25}\textbf{H. Producto}}\\ 
+		H.11. &El requisito de trabajar con varios sistemas operativos necesita más tiempo del esperado	&	35\%	& 5 horas\\
+		H.12. &El trabajo con un entorno software desconocido causa problemas no previstos	&	40\%	& 10 horas\\
+	
+%		\multicolumn{1}{r}{\cellcolor{black!30}\textbf{I. }} &
+		\multicolumn{4}{l}{\cellcolor{gray!25}\textbf{I. Fuerzas mayores}}\\
 		&No aplicable&&\\	
 		
-		\multicolumn{1}{r}{\cellcolor{black!30}\textbf{J. }} &
-		\multicolumn{3}{l}{\cellcolor{black!30}\textbf{Personal}}\\
+%		\multicolumn{1}{r}{\cellcolor{black!30}\textbf{J. }} &
+		\multicolumn{4}{l}{\cellcolor{gray!25}\textbf{J. Personal}}\\
 		J.13. &La falta de motivación y de moral reduce la productividad						&	5\%		& 15 horas\\
 		J.14. &El personal necesita un tiempo extra para acostumbrarse a trabajar con herramientas o entornos nuevos	&	30\%	&	20 horas\\
 		J.15. &El personal necesita un tiempo extra para aprender un lenguaje de programación nuevo	&	40\%	&	40 horas\\
 		J.16. &El personal trabaja más lento de lo esperado									&	15\%	&	25 horas\\
 		
-		\multicolumn{1}{r}{\cellcolor{black!30}\textbf{K. }} &
-		\multicolumn{3}{l}{\cellcolor{black!30}\textbf{Diseño e implementación}}\\
+%		\multicolumn{1}{r}{\cellcolor{black!30}\textbf{K. }} &
+		\multicolumn{4}{l}{\cellcolor{gray!25}\textbf{K. Diseño e implementación}}\\
 		K.17. &Un mal diseño implica volver a diseñar e implementar							&	5\%		&	40 horas\\
 		K.18. &La utilización de metodologías desconocidas deriva en un periodo extra de formación y tener que volver atrás para corregir los errores iniciales cometidos en la metodología										&	10\%	&	15 horas\\
 		
-		\multicolumn{1}{r}{\cellcolor{black!30}\textbf{L. }} &
-		\multicolumn{3}{l}{\cellcolor{black!30}\textbf{Proceso}}\\	
+%		\multicolumn{1}{r}{\cellcolor{black!30}\textbf{L. }} &
+		\multicolumn{4}{l}{\cellcolor{gray!25}\textbf{L. Proceso}}\\	
 		&No aplicable&&\\
 	    \hline
-	  \end{tabular}
+%	  \end{tabular}
+		
+		
 	  \caption{Análisis de riesgos \ac{TFG}}
 	  \label{tab:riesgos}
-	\end{table}
+	\end{longtable}
+	
 	
 	Debido a las características particulares del proyecto, ya que sólo consta de dos actores principales, la mayoría de los riesgos pueden ser omitidos y los que deben fijarse se ven limitados temporalmente a la reacción necesaria por parte del autor.
 	
@@ -230,19 +233,19 @@ Esta primera iteración tiene como objetivo definir el alcance del proyecto y su
 	\begin{table}[H]
 	  \centering 
 	  \rowcolors{1}{gray!25}{white}
-	  \begin{tabular}{p{0.7\linewidth}p{0.3\linewidth}p{0.3\linewidth}}
+	  \begin{tabular}{p{0.5\linewidth}p{0.25\linewidth}p{0.15\linewidth}}
 	  	\multicolumn{1}{l}{\cellcolor{black!30}\textbf{Concepto}} &
-	    \multicolumn{1}{r}{\cellcolor{black!30}\textbf{Precio Unitario}} & 
-	 	\multicolumn{1}{r}{\cellcolor{black!30}\textbf{Subtotal}}
+	    \multicolumn{1}{l}{\cellcolor{black!30}\textbf{Precio Unitario}} & 
+	 	\multicolumn{1}{l}{\cellcolor{black!30}\textbf{Subtotal}}
 	 	\\	 
 	    \toprule
 		Equipo de desarrollo 					&	15,00 \euro /hora	&	??? \euro	\\
 		
-		\multicolumn{3}{r}{\cellcolor{black!30}\textbf{Hardware}}						\\			
+		\multicolumn{3}{l}{\cellcolor{black!30}\textbf{Hardware}}						\\			
 		Ordenador portátil						&	1250,00 \euro		&	??? \euro	\\
 		Dispositivo móvil						&	220,00 \euro		&	??? \euro	\\
 
-		\multicolumn{3}{r}{\cellcolor{black!30}\textbf{Software}}						\\
+		\multicolumn{3}{l}{\cellcolor{black!30}\textbf{Software}}						\\
 		Elementary OS							&	0,00 \euro			&	??? \euro	\\
 		Microsoft Windows 10 (\ac{OEM})		&	0,00 \euro			&	???	\euro	\\
 		Visual Paradigm	(Licencia académica)	&	0,00 \euro			&	??? \euro	\\
@@ -258,9 +261,9 @@ Esta primera iteración tiene como objetivo definir el alcance del proyecto y su
 		Microsoft Visio	(Licencia académica)	&	0,00 \euro			&	??? \euro	\\
 		Heroku									&	0,00 \euro			&	???	\euro	\\
 
-		\multicolumn{3}{r}{\cellcolor{black!30}\textbf{Servicios}}						\\			
+		\multicolumn{3}{l}{\cellcolor{black!30}\textbf{Servicios}}						\\			
 		Electricidad							&	30,00 \euro	/mes	&	???	\euro	\\
-		Gas										&	70,00 \euro /me		&	??? \euro	\\
+		Gas										&	70,00 \euro /mes	&	??? \euro	\\
 		Agua									&	10,00 \euro	/mes	&	??? \euro	\\
 		Internet								&	40,00 \euro	/mes	&	??? \euro	\\
 		Alquiler								&	270,00 \euro /mes	&	??? \euro	\\
@@ -271,8 +274,13 @@ Esta primera iteración tiene como objetivo definir el alcance del proyecto y su
 	  \label{tab:costes}
 	\end{table}
 
+
 Los gastos etiquetados bajo la referencia \textit{Servicios}, son los gastos comunes derivados de la zona de desarrollo, que en cualquier caso seguirían existiendo aun cuando el desarrollo no se llevase a cabo.
 Teniendo en cuenta lo comentado en el párrafo anterior y que el gasto asociado a los equipos de desarrollo y el sueldo del equipo no se harán efectivos, puesto que el equipo consta de un único componente que es el autor del presente \ac{TFG} y los equipos están en posesión anterior al inicio del desarrollo el coste total para el desarrollo es de ??? \euro.
+
+
+
+
 
 % Local Variables:
 %  coding: utf-8
