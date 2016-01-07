@@ -3,15 +3,13 @@
 
 \drop{E}{n} este capítulo se detalla la metodología utilizada para el desarrollo del presente \ac{TFG} así como las tecnologías utilizadas para llevar a término el proyecto.
 
-Para la gestión y el desarrollo del \ac{TFG} se utilizará Kanban y \ac{TDD}, haciendo uso del desarrollo evolutivo.
+Para la gestión dek proyecto se usará Scrum y como soporte del \ac{TFG} se utilizará Kanban haciendo uso del desarrollo evolutivo.
 
-Kanban proporciona un método productivo bien delineado en fases que garantiza que el cambio a la siguiente fase no se producirá hasta haberse completado correctamente la fase actual.
+Scrum proporciona elmarco de trabajo Kanban proporciona un método productivo bien delineado en fases que garantiza que el cambio a la siguiente fase no se producirá hasta haberse completado correctamente la fase actual.
 
-El desarrollo del producto software se realizará mediante \ac{TDD}, ya que es una solución que permite asegurarse del correcto funcionamiento de los componentes antes de permitir el siguiente paso.
+El desarrollo del producto software se realizará mediante prototipado evolutivo, ya que es una solución que permite asegurarse del correcto funcionamiento de los componentes antes de permitir el siguiente paso, también conseguiremos de esta manera ir perfilando el producto final mediante un acercamiento por fases terminadas.
 
-Mediante el prototipado evolutivo conseguiremos ir perfilando el producto final mediante un acercamiento por fases terminadas.
-
-Por tanto, el prototipado nos marcará la meta de cada fase, Kanban nos indicará los objetivos individuales necesarios para alcanzar el final de cada una de las fases y \ac{TDD} nos permitirá asegurarnos que los componentes desarrollados poseen la calidad exigida por Kanban para terminar el desarrollo del objetivo individual.
+Por tanto, el prototipado nos marcará la meta de cada fase, Kanban nos indicará los objetivos individuales necesarios para alcanzar el final de cada una de las fases y Scrum nos proporcionará un marco de trabajo adecuado para la consecución de los objetivos.
 
 
 \section{Dispositivos empleados}
@@ -77,6 +75,46 @@ Debido a su propia naturaleza, el buen funcionamiento de este tipo de desarrollo
 \label{fig:prototipado_evolutivo}
 \end{figure}
 
+\section{Scrum}
+Scrum es un marco de trabajo de procesos usado desde principios de los años 90. Al ser un marco de trabajo no puede utilizarse para como una técnica o un proceso para construir algo, si no que nos propone una serie de métodos para alcanzar el objetivo final.
+El marco de trabajo consiste en los \textit{Equipos Scrum}, \textit{roles}, \textit{eventos}, \textit{artefactos} y \textit{reglas}.
+Las reglas son las que relacionan los eventos, roles y artefactos, dotando de orden las interacciones entre estos elementos.
+Scrum se basa en el conocimiento empírico, esto es,el conocimiento se basa en la experiencia y la toma de decisiones debe estar basada en este precepto \cite{Sch13}.
+Los tres pilares básicos de este marco de trabajo son la \textbf{transparencia}, \textbf{inspección} y \textbf{adaptación}.
+La transparencia consiste en permitir que los aspectos significativos sean visibles para los responsables del resultado, que deben tener un lenguaje asociado común y la compartición de los términos importantes, por ejemplo, todos los miembros deben tener el mismo concepto de \textit{producto terminado}.
+La inspección consiste en que los artefactos deben ser frecuentemente revisados en su progreso hacia el objetivo marcado, para detectar posibles problemas, errores o desviaciones. Estas inspecciones no deben entorpecer el trabajo habitual.
+Cuando se detectan desviaciones durante el proceso de inspección, entra en liza la adaptación, que consiste en reconducir la situación hacia los cauces normales y aceptables de calidad marcados previamente.
+
+\subsection{Equipo scrum}
+El \textit{equipo scrum} está formado por un \textit{Product Owner}, \textit{Development Team} y un \textit{Scrum Master}. Los equipos son autoorganizados y multifuncionales, lo que significa que el propio equipo elige la forma de llevar a cabo el trabajo sin ser dirigidos por personas externas y mantienen todas las competencias necesarias para finalizar el trabajo.
+Scrum obliga a realizar entregas de forma iterativa e incremental, de manera que la retroalimentación es constante y permite disponer en todo momento de una versión funcional y potencialmente útil del producto.
+
+El \textit{Product Owner} es el encargado de gestionar el \textit{Product Backlog}, consistente en una lista ordenada de los elementos necesarios para la realización del producto terminado. El \textit{Product Owner} es una única persona física, que en el caso particular del presente trabajo corresponde al director del proyecto.
+
+El \textit{Development Team} es el equipo de profesionales encargado de desarrollar el trabajo que desemboque en el producto \textit{terminado}. En el caso particular del presente trabajo, este rol corresponde al autor del mismo.
+
+El \textit{Scrum Master} es el responsable de que el \textit{Equipo Scrum} entiende y aplica la teoría, prácticas y reglas de Scrum.
+
+\subsection{Eventos de scrum. El sprint}
+Los eventos en Scrum están predefinidos para evitar las reuniones no definidas por el marco. El centro de Scrum son los sprints, un bloque de tiempo improrrogable e inacortable que finaliza con un incremento de producto \textit{Terminado}. Este evento mantiene varios subeventos que lo dotan de alcance: \textit{Sprint Planning Meeting}, \textit{Daily Scrums}, trabajo de desarrollo, \textit{Sprint Review} y \textit{Sprint Retrospective}.
+
+Las reglas aplicables al Sprint no permiten realizar cambios que afecten al objetivo del mismo, ni disminuir los objetivos de calidad, aunque en cambio si permite aclarar y renegociar el alcance del proyecto entre el \textit{Product Owner} y el \textit{Development Team} a medida que van conociéndose con más detalle los objetivos finales.
+
+Los Sprint están limitados temporalmente a un máximo de un mes de trabajo, no pudiéndose alargar este plazo bajo ningún concepto. Pueden ser cancelados únicamente por el \textit{Product Owner} en caso de quedar el objetivo planificado obsoleto.
+
+El \textit{Sprint Planning Meeting} crea un plan de trabajo para el sprint que va a desarrollarse. Al igual que con el sprint, también existe una regla de duración máxima, que lo fija en un total de ocho horas para un sprint de un mes.
+En esta reunión se deben responder a las siguientes cuestiones:
+\begin{itemize}[label={$\bullet$},labelindent=\parindent,leftmargin=2cm]
+	\item ¿Qué se entregará al finalizar el incremento del sprint?
+	\item ¿Qué acciones son necesarias para llevarlo a cabo?
+\end{itemize}
+En este momento se deciden que elementos del \textit{Product Backlog} van a ser tomados para su desarrollo y se traza un plan para conseguirlo.
+
+Durante el \textit{Daily Scrums}, una reunión realizada a diario con un bloque de tiempo máximo de quince minutos, el \textit{Development Team} explica su contribución al objetivo del sprint desde la reunión anterior, cual es la contribución que espera aportar hasta la siguiente reunión e informa sobre posibles razones que puedan impedir alcanzar el objetivo marcado.
+
+Durante el \textit{Sprint Review} se entrega el resultado del sprint terminado y colabora para facilitar la retroalimentación acerca de como optimizar el valor. Durante esta reunión, el\textit{Product Owner} explica que elementos del \textit{Product Backlog} han sido terminados y cuales no, mientras el \textit{Development Team} comenta los problemas aparecidos durante el sprint y contesta a las preguntas acerca del incremento.
+
+
 \section{Kanban}
 Kanban es una palabra japonesa que se deriva de \textit{kan} (visual) y \textit{ban} tarjeta. Se desarrolló como parte de una estrategia industrial japonesa para conseguir adecuar la producción a la demanda. Consiste en un sistema de visualización por medio de tarjetas de los recursos en procesos de producción.
 
@@ -87,12 +125,12 @@ Según Scrum Manager, una comunidad profesional para la difusión de Scrum, podr
 	El término Kanban aplicado a la gestión ágil de proyectos se refiere a técnicas de representación visual de información para mejorar la eficiencia en la ejecución de las tareas de un proyecto.};
 \end{tikzpicture}
 
-Kanban se basa en un sistema de producción que dispara el trabajo solo cuando existe capacidad real para procesarlo \cite{Bahi11}. Este disparador está representado por las tarjetas Kanban, que están limitadas en número. Cada tarjeta representa un trabajo a realizar durante todo el proceso de desarrollo. Al llegar a la última fase, la tarjeta queda liberada para representar un nuevo trabajo.
+Kanban se basa en un sistema de producción que dispara el trabajo sólo cuando existe capacidad real para procesarlo \cite{Bahi11}. Este disparador está representado por las tarjetas Kanban, que están limitadas en número. Cada tarjeta representa un trabajo a realizar durante todo el proceso de desarrollo. Al llegar a la última fase, la tarjeta queda liberada para representar un nuevo trabajo.
 
 Kanban mantiene únicamente tres reglas de funcionamiento, mostrar el proceso, limitar el trabajo en curso y optimizar el flujo de trabajo.
 
 	\subsection{Mostrar el proceso}
-	Consiste en la visualización de todo el proceso de desarrollo mediante un tablero físico (o un tablero virtual accesible por todas las partes, como es el caso de \href{https://trello.com/}{Trello}. El objetivo de este tablero es mejorar el entendimiento del proceso de trabajo actual, anticipar los posibles problemas y ayudar a la toma de decisiones resolutivas.
+	Consiste en la visualización de todo el proceso de desarrollo mediante un tablero físico o un tablero virtual accesible por todas las partes, como es el caso de \href{https://trello.com/}{Trello}. El objetivo de este tablero es mejorar el entendimiento del proceso de trabajo actual, anticipar los posibles problemas y ayudar a la toma de decisiones resolutivas.
 	Los tableros Kanban están formados por tres secciones, tal y como podemos ver en la figura \ref{fig:kanban_table_1}, \textit{To Do}, \textit{Doing} y \textit{Done}, que corresponden a la pila de entrada, el \ac{WIP} y la salida. Estas secciones se dividen en columnas representativas de los procesos de trabajo. En la figura \ref{fig:kanban_table_2} podemos ver un tablero típico con la pila de entrada (pending) y el \ac{WIP} (analysis, development, test y deploy).
 	
 	\begin{figure}[H]
@@ -120,45 +158,7 @@ Kanban mantiene únicamente tres reglas de funcionamiento, mostrar el proceso, l
 	\label{fig:kanban_table_3}
 	\end{figure}
 
-\section{\acs{TDD}}
-	\acf{TDD} es una metodología de desarrollo ágil consistente en escribir primero las pruebas para después implementar el código necesario para pasarlas satisfactoriamente. Según Carlos Blé \cite{Ble10}, podríamos definirlo como:
-	
-	\begin{tikzpicture}
-	\node[shadowBox] {
-	\ac{TDD} es una técnica para diseñar software que se centra en tres pilares fundamentales:
-	\begin{itemize}[label={$\bullet$},labelindent=\parindent,leftmargin=2cm]
-		\item La implementación de las funciones justas que el cliente necesita.
-		\item La minimización del número de defectos que llegan a la fase de producción.
-		\item La producción de software modular, altamente reutilizable y preparado para el cambio.
-	\end{itemize}
-	};
-\end{tikzpicture}
 
-	\subsection{Algoritmo \ac{TDD}}
-	El algoritmo para realizar \ac{TDD} consta únicamente de tres pasos (ver figura \ref{fig:tdd_algorithm}):
-	
-	\begin{enumerate}
-		\item Escribir el test para el requisito a desarrollar elegido
-		\item Implementar el código necesario para pasar el test
-		\item Refactorizar el código para eliminar duplicidades y mejorarlo.
-	\end{enumerate}
-	
-	\begin{figure}[H]
-	\centering
-	\includegraphics[height=80mm, fbox={\fboxrule} 4mm]{images/04-metodo/05-tdd.jpg}
-	\caption{Algoritmo TDD}
-	\label{fig:tdd_algorithm}
-	\end{figure}
-	
-	\subsection{Ventajas de usar \ac{TDD}}
-	Según Kent Beck \cite{Beck04}, creador de TDD, estas son algunas de las principales ventajas de su uso:
-	
-	\begin{itemize}[label={$\bullet$},labelindent=\parindent,leftmargin=2cm]
-		\item La calidad del software aumenta.
-		\item Escribir el test antes que el código obliga a escribir el mínimo de funcionalidad necesaria evitando diseños innecesarios.
-		\item Los test son la mejor documentación técnica para consultar qué misión cumple cada parte del código.
-	\end{itemize}
-	
 
 \section{Marco tecnológico}
 En esta sección se incluyen las herramientas y tecnologías utilizadas para el desarrollo del \ac{TFG}.
@@ -237,7 +237,7 @@ En esta sección se incluyen las herramientas y tecnologías utilizadas para el 
 		
 	\subsection{Herramientas de gestión del proyecto}
 		\subsubsection{Git}
-		Git es un software de control de versiones diseñado por el también creador de Linux, Linus Torvalds. El control de versiones consiste en la gestión y administración de los cambios realizados sobre los archivos involucrados en el desarrollo del presente \ac{TFG}. Permite conocer el estado del proyecto, los cambios que se han realizado, quién los realizó y en qué momento y hacer una regresión completa a cualquier estado anterior entre otras características.
+		Git es un software de control de versiones diseñado por el también creador de Linux, Linus Torvalds. El control de versiones consiste en la gestión y administración de los cambios realizados sobre los archivos involucrados en el desarrollo del presente \ac{TFG}. Permite conocer el estado del proyecto, los cambios que se han realizado, quién los realizó y en qué momento lo hizo y hacer una regresión completa a cualquier estado anterior entre otras características.
 		Git es uno de los gestores de control de versiones más conocidos y utilizados, junto con \textit{\ac{SVN}} y \textit{Mercurial}.
 		
 		\begin{figure}[H]
@@ -279,7 +279,7 @@ En esta sección se incluyen las herramientas y tecnologías utilizadas para el 
 		
 	\subsection{Herramientas, tecnologías y frameworks para el desarrollo}
 		\subsubsection{Ruby}
-		Ruby es un lenguaje de programación orientado a objetos creado por Yukihiro Matsumoto, también conocido como Matz. La principal característica que posee es que absolutamente todo es un objeto, incluso lo que en otros lenguajes se definen como \textit{tipos primitivos}. Al crear el lenguaje, Matz se inspiró en Python y Perl intentando que el protagonismo sea la diversión y la productividad del desarrollador \cite{Yuki20}, enfatizando el hecho de que el diseño de sistemas debe prestar más atención a las necesidades humanas que a las necesidades de las máquinas.
+		Ruby es un lenguaje de programación orientado a objetos creado por Yukihiro Matsumoto, también conocido como \textit{Matz}. La principal característica que posee es que absolutamente todo es un objeto, incluso aquello que en otros lenguajes se define como \textit{tipos primitivos}. Al crear el lenguaje, \textit{Matz} se inspiró en Python y Perl intentando que el protagonismo sea la diversión y la productividad del desarrollador \cite{Yuki20}, enfatizando el hecho de que el diseño de sistemas debe prestar más atención a las necesidades humanas que a las necesidades de las máquinas.
 		
 		\begin{figure}[H]
 		\centering
@@ -306,7 +306,7 @@ En esta sección se incluyen las herramientas y tecnologías utilizadas para el 
 		\end{figure}
 		
 		\subsubsection{Android}
-		Android es un sistema operativo desarrollado inicialmente para móviles que utiliza los kernel de Linux como núcleo del mismo. Durante el año 2014 alcanzo una cuota de mercado del 63 \% (ver figura \ref{fig:os-mobile}. Fuente \cite{Are15})por lo que puede considerarse el más importante de los sistemas operativos móviles. 
+		Android es un sistema operativo desarrollado inicialmente para móviles que utiliza los kernel de Linux como núcleo del mismo. Durante el año 2014 alcanzó una cuota de mercado del 63 \% (ver figura \ref{fig:os-mobile}. Fuente \cite{Are15})por lo que puede considerarse el más importante de los sistemas operativos móviles. 
 		La aplicación móvil se desarrollará para este sistema operativo, utilizando para ello el lenguaje Java.
 		
 		\begin{figure}[h!btp]
@@ -322,19 +322,9 @@ En esta sección se incluyen las herramientas y tecnologías utilizadas para el 
 		\caption{Logo Android y Java}
 		\label{fig:android-java-logo}
 		\end{figure}
-		
-		\subsubsection{AngularJS}
-		AngularJS es un framework de JavaScript utilizado en el lado del cliente de la aplicación. Ha sido desarrollado por Google y es una \textit{ampliación} de la sintaxis existente en \ac{HTML} para mejorar su funcionalidad, ya que los creadores no creen que este lenguaje esté aún preparado para servir vistas dinámicas eficientemente. Utiliza el patrón \ac{MVC}.
-		
-		\begin{figure}[H]
-		\centering
-		\includegraphics[width=40mm, fbox={\fboxrule} 4mm]{images/04-metodo/22-angularjs_logo.png}
-		\caption{Logo AngularJS}
-		\label{fig:angularjs-logo}
-		\end{figure}
 
 		\subsubsection{Bootstrap}
-		Bootstrap es un framework \ac{CSS} desarrollado en el año 2011 por Twitter. El código fue liberado y actualmente está accesible en Github. Permite la creación de interfaces limpias y funcionales y mantiene un diseño \textit{responsive} o adaptativo, esto es, adopta automáticamente el tamaño adecuado al dispositivo en el que debe mostrarse.
+		Bootstrap es un framework \ac{CSS} desarrollado en el año 2011 por Twitter. El código fue liberado y actualmente está accesible en Github. Permite la creación de interfaces limpias y funcionales y mantiene un diseño \textit{responsive} o adaptativo, esto es, adopta automáticamente el tamaño adecuado al dispositivo en el que debe mostrarse la vista.
 		
 		\begin{figure}[H]
 		\centering
@@ -351,7 +341,7 @@ En esta sección se incluyen las herramientas y tecnologías utilizadas para el 
 		\end{figure}
 		
 		\subsubsection{Rspec}
-		Rspec es una libreria para Ruby diseñada para la realización de pruebas. Actualmente es una de las herramientas más populares para este cometido en Ruby. Su diseño está enfocado tanto a la productividad como a la comodidad y diversión del desarrollador.
+		Rspec es una librería para Ruby diseñada para la realización de pruebas. Actualmente es una de las herramientas más populares para este cometido en Ruby. Su diseño está enfocado tanto a la productividad como a la comodidad y diversión del desarrollador.
 
 		\begin{figure}[H]
 		\centering
@@ -361,7 +351,7 @@ En esta sección se incluyen las herramientas y tecnologías utilizadas para el 
 		\end{figure}
 		
 		\subsubsection{\ac{HTML}}
-		\ac{HTML} es un lenguaje de marcado utilizado para la creación y diseño de páginas web. Es un estándar a cargo de \ac{W3C}. La interpretación del código corre a cargo del navegador web. En octubre de 2014 se publico la versión definitiva de la nueva revisión, \ac{HTML}5.
+		\ac{HTML} es un lenguaje de marcado utilizado para la creación y diseño de páginas web. Es un estándar a cargo de \ac{W3C}. La interpretación del código corre a cargo del navegador web. En octubre de 2014 se publicó la versión definitiva de la nueva revisión, \ac{HTML}5.
 		
 		\begin{figure}[H]
 		\centering
@@ -402,7 +392,7 @@ En esta sección se incluyen las herramientas y tecnologías utilizadas para el 
 		\end{figure}
 		
 		\subsubsection{Midori}
-		Es el navegador web ligero por defecto de Elementary OS con un motor principal basado en Webkit, conocido por la estabilidad de los navegadores Safati, Chrome y Opera. Se utilizará para el acceso a la aplicación web. Debido a que usa \ac{GTK} como interfaz gráfica puede ejecutarse sin errores en escritorios basados en  como \ac{GNOME} o Xfce.
+		Es el navegador web por defecto de Elementary OS con un motor principal basado en Webkit, conocido por la estabilidad de los navegadores Safati, Chrome y Opera. Se utilizará para el acceso a la aplicación web. Debido a que usa \ac{GTK} como interfaz gráfica puede ejecutarse sin errores en escritorios basados en \ac{GNOME} o Xfce.
 		Ofrece compatibilidad con HTML5 y CSS3.
 		
 		\begin{figure}[H]
@@ -437,7 +427,7 @@ En esta sección se incluyen las herramientas y tecnologías utilizadas para el 
 		
 	\subsection{Herramientas para la gestión de bases de datos}
 		\subsubsection{MongoDB}
-		Es una base de datos NoSQL, orientada a documentos, esto es, en vez de guardar los datos en registros los guarda en documentos en una representación binaria de \ac{JSON} conocida como \ac{BSON}. La principal diferencia con las bases de datos relacionales, es que no resulta necesario seguir un mismo esquema para una misma colección (concepto similar a las tablas de las bases de datos relacionales).
+		Es una base de datos NoSQL orientada a documentos, esto es, en vez de guardar los datos en registros los guarda en documentos en una representación binaria de \ac{JSON} conocida como \ac{BSON}. La principal diferencia con las bases de datos relacionales, es que no resulta necesario seguir un mismo esquema para una misma colección (concepto similar a las tablas de las bases de datos relacionales).
 		
 		\begin{figure}[H]
 		\centering
@@ -456,19 +446,19 @@ En esta sección se incluyen las herramientas y tecnologías utilizadas para el 
 		\label{fig:mongolab-logo}
 		\end{figure}
 		
-		\subsubsection{RoboMongo}
-		RoboMongo es un administrador gráfico de bases de datos MongoDB que permite mantener múltiples conexiones a las bases de datos, bien a través del servidor local, bien a través de MongoLab.
+		\subsubsection{MongoChef}
+		MongoChef es un administrador gráfico de bases de datos MongoDB que permite mantener múltiples conexiones a las bases de datos, bien a través del servidor local, bien a través de MongoLab.
 		
 		\begin{figure}[H]
 		\centering
-		\includegraphics[width=40mm, fbox={\fboxrule} 4mm]{images/04-metodo/32-robomongo_logo.png}
-		\caption{Logo Robomongo}
-		\label{fig:robomongo-logo}
+		\includegraphics[width=40mm, fbox={\fboxrule} 4mm]{images/04-metodo/32-mongochef_logo.png}
+		\caption{Logo MongoChef}
+		\label{fig:mongochef-logo}
 		\end{figure}
 	
 	\subsection{Herramientas documentales}
 		\subsubsection{TexMaker}
-		TexMaker es un editor gráfico para lenguaje LaTex distribuido bajo licencia \textit{\ac{GPL}}. Existen versiones disponibles para Microsoft Windows, Linux / Unix y Mas OsX. Permite la edición de texto automático mediante asistentes configurables y la detección y manejo de los errores es rápida y sencilla.
+		TexMaker es un editor gráfico para lenguaje LaTex distribuido bajo licencia \textit{\ac{GPL}}. Existen versiones disponibles para Microsoft Windows, Linux / Unix y Mas OsX. Permite la edición de texto automático mediante asistentes configurables y la detección y manejo de los errores de manera rápida y sencilla.
 				
 		\begin{figure}[H]
 		\centering
@@ -478,7 +468,7 @@ En esta sección se incluyen las herramientas y tecnologías utilizadas para el 
 		\end{figure}
 		
 		\subsubsection{\ac{GIMP}}
-		\ac{GIMP} es un editor de imágenes tanto en mapa de bits como en dibujos y fotografías, libre y gratuito. Forma parte del proyecto \ac{GNU} y se publica bajo la misma licencia. Es uno de los programas de manipulación e gráficos más utilizado y probablemente el más usado en entornos GNU / Linux. Se utilizará para la modificación, edición y creación de imágenes para el presente \ac{TFG}.
+		\ac{GIMP} es un editor de imágenes tanto en mapa de bits como en dibujos y fotografías, libre y gratuito. Forma parte del proyecto \ac{GNU} y se publica bajo la misma licencia. Es uno de los programas de manipulación de gráficos más utilizado y probablemente el más usado en entornos GNU / Linux. Se utilizará para la modificación, edición y creación de imágenes para el presente \ac{TFG}.
 		
 		\begin{figure}[H]
 		\centering

@@ -1,71 +1,99 @@
 \BOOKMARK [0][-]{chapter*.1}{Resumen}{}% 1
-\BOOKMARK [0][-]{chapter*.3}{Abstract}{}% 2
-\BOOKMARK [0][-]{chapter*.4}{Agradecimientos}{}% 3
-\BOOKMARK [0][-]{chapter*.5}{\315ndice general}{}% 4
-\BOOKMARK [0][-]{chapter*.9}{\315ndice de cuadros}{}% 5
-\BOOKMARK [0][-]{chapter*.11}{\315ndice de figuras}{}% 6
-\BOOKMARK [0][-]{chapter*.13}{\315ndice de listados}{}% 7
-\BOOKMARK [0][-]{chapter*.14}{Listado de acr\363nimos}{}% 8
-\BOOKMARK [0][-]{chapter.1}{Introducci\363n}{}% 9
-\BOOKMARK [1][-]{section.1.1}{T\355tulo del proyecto}{chapter.1}% 10
-\BOOKMARK [1][-]{section.1.2}{Estructura del documento}{chapter.1}% 11
-\BOOKMARK [1][-]{section.1.3}{M\341s texto para que ocupe varias p\341ginas}{chapter.1}% 12
-\BOOKMARK [0][-]{chapter.2}{Objetivos}{}% 13
-\BOOKMARK [1][-]{section.2.1}{Objetivo general}{chapter.2}% 14
-\BOOKMARK [1][-]{section.2.2}{Objetivos espec\355ficos}{chapter.2}% 15
-\BOOKMARK [2][-]{subsection.2.2.1}{Objetivo 1}{section.2.2}% 16
-\BOOKMARK [2][-]{subsection.2.2.2}{Objetivo 2}{section.2.2}% 17
-\BOOKMARK [2][-]{subsection.2.2.3}{Objetivo 3}{section.2.2}% 18
-\BOOKMARK [2][-]{subsection.2.2.4}{Objetivo 4}{section.2.2}% 19
-\BOOKMARK [2][-]{subsection.2.2.5}{Objetivo 5}{section.2.2}% 20
-\BOOKMARK [2][-]{subsection.2.2.6}{Objetivo 6}{section.2.2}% 21
-\BOOKMARK [1][-]{section.2.3}{Objetivos acad\351micos}{chapter.2}% 22
-\BOOKMARK [0][-]{chapter.3}{Antecedentes}{}% 23
-\BOOKMARK [1][-]{section.3.1}{Localizaci\363n geogr\341fica y Sistemas de Informaci\363n Geogr\341fica \(SIG\)}{chapter.3}% 24
-\BOOKMARK [2][-]{subsection.3.1.1}{Funcionamiento de los gps}{section.3.1}% 25
-\BOOKMARK [2][-]{subsection.3.1.2}{Cartograf\355a y SIG La labor de documentaci\363n est\341 basada en: Diaz15. }{section.3.1}% 26
-\BOOKMARK [1][-]{section.3.2}{Internet y la www}{chapter.3}% 27
-\BOOKMARK [2][-]{subsection.3.2.1}{Tecnolog\355as del lado del servidor}{section.3.2}% 28
-\BOOKMARK [2][-]{subsection.3.2.2}{Tecnolog\355as del lado del cliente}{section.3.2}% 29
-\BOOKMARK [1][-]{section.3.3}{Dispositivos m\363viles}{chapter.3}% 30
-\BOOKMARK [1][-]{section.3.4}{Aplicaciones similares}{chapter.3}% 31
-\BOOKMARK [2][-]{subsection.3.4.1}{Foursquare}{section.3.4}% 32
-\BOOKMARK [2][-]{subsection.3.4.2}{Swarm}{section.3.4}% 33
-\BOOKMARK [2][-]{subsection.3.4.3}{Glympse}{section.3.4}% 34
-\BOOKMARK [2][-]{subsection.3.4.4}{Strava}{section.3.4}% 35
-\BOOKMARK [2][-]{subsection.3.4.5}{Waze}{section.3.4}% 36
-\BOOKMARK [2][-]{subsection.3.4.6}{Ingress}{section.3.4}% 37
-\BOOKMARK [2][-]{subsection.3.4.7}{Life360 Family Locator}{section.3.4}% 38
-\BOOKMARK [2][-]{subsection.3.4.8}{\277D\363nde est\341 mi coche?}{section.3.4}% 39
-\BOOKMARK [2][-]{subsection.3.4.9}{Find my car}{section.3.4}% 40
-\BOOKMARK [0][-]{chapter.4}{M\351todo de Trabajo}{}% 41
-\BOOKMARK [1][-]{section.4.1}{Dispositivos empleados}{chapter.4}% 42
-\BOOKMARK [2][-]{subsection.4.1.1}{Ordenador port\341til}{section.4.1}% 43
-\BOOKMARK [2][-]{subsection.4.1.2}{Tel\351fono m\363vil}{section.4.1}% 44
-\BOOKMARK [1][-]{section.4.2}{Desarrollo evolutivo}{chapter.4}% 45
-\BOOKMARK [1][-]{section.4.3}{Kanban}{chapter.4}% 46
-\BOOKMARK [2][-]{subsection.4.3.1}{Mostrar el proceso}{section.4.3}% 47
-\BOOKMARK [2][-]{subsection.4.3.2}{Limitar el trabajo}{section.4.3}% 48
-\BOOKMARK [1][-]{section.4.4}{TDD}{chapter.4}% 49
-\BOOKMARK [2][-]{subsection.4.4.1}{Algoritmo TDD}{section.4.4}% 50
-\BOOKMARK [2][-]{subsection.4.4.2}{Ventajas de usar TDD}{section.4.4}% 51
-\BOOKMARK [1][-]{section.4.5}{Marco tecnol\363gico}{chapter.4}% 52
-\BOOKMARK [2][-]{subsection.4.5.1}{Sistema Operativo}{section.4.5}% 53
-\BOOKMARK [2][-]{subsection.4.5.2}{Herramientas de dise\361o}{section.4.5}% 54
-\BOOKMARK [2][-]{subsection.4.5.3}{Herramientas de gesti\363n del proyecto}{section.4.5}% 55
-\BOOKMARK [2][-]{subsection.4.5.4}{Herramientas, tecnolog\355as y frameworks para el desarrollo}{section.4.5}% 56
-\BOOKMARK [2][-]{subsection.4.5.5}{Herramientas para la gesti\363n de bases de datos}{section.4.5}% 57
-\BOOKMARK [2][-]{subsection.4.5.6}{Herramientas documentales}{section.4.5}% 58
-\BOOKMARK [2][-]{subsection.4.5.7}{Herramientas de implantaci\363n}{section.4.5}% 59
-\BOOKMARK [0][-]{chapter.5}{Resultados}{}% 60
-\BOOKMARK [1][-]{section.5.1}{Iteraci\363n 0}{chapter.5}% 61
-\BOOKMARK [2][-]{subsection.5.1.1}{Gesti\363n de recursos humanos}{section.5.1}% 62
-\BOOKMARK [2][-]{subsection.5.1.2}{Alcance del proyecto}{section.5.1}% 63
-\BOOKMARK [2][-]{subsection.5.1.3}{Plan del proyecto}{section.5.1}% 64
-\BOOKMARK [2][-]{subsection.5.1.4}{Gesti\363n temporal del proyecto}{section.5.1}% 65
-\BOOKMARK [2][-]{subsection.5.1.5}{Gesti\363n de las comunicaciones}{section.5.1}% 66
-\BOOKMARK [2][-]{subsection.5.1.6}{Gesti\363n de recursos}{section.5.1}% 67
-\BOOKMARK [2][-]{subsection.5.1.7}{Gesti\363n de riesgos}{section.5.1}% 68
-\BOOKMARK [2][-]{subsection.5.1.8}{Gesti\363n de costes}{section.5.1}% 69
-\BOOKMARK [0][-]{appendix.Alph1}{Ejemplo de anexo}{}% 70
-\BOOKMARK [0][-]{appendix*.39}{Referencias}{}% 71
+\BOOKMARK [0][-]{chapter*.2}{Abstract}{}% 2
+\BOOKMARK [0][-]{chapter*.3}{Agradecimientos}{}% 3
+\BOOKMARK [0][-]{chapter*.4}{\315ndice general}{}% 4
+\BOOKMARK [0][-]{chapter*.7}{\315ndice de cuadros}{}% 5
+\BOOKMARK [0][-]{chapter*.9}{\315ndice de figuras}{}% 6
+\BOOKMARK [0][-]{chapter*.11}{\315ndice de listados}{}% 7
+\BOOKMARK [0][-]{chapter.1}{Introducci\363n}{}% 8
+\BOOKMARK [1][-]{section.1.1}{T\355tulo del proyecto}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.2}{Estructura del documento}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.3}{M\341s texto para que ocupe varias p\341ginas}{chapter.1}% 11
+\BOOKMARK [0][-]{chapter.2}{Objetivos}{}% 12
+\BOOKMARK [1][-]{section.2.1}{Objetivo general}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.2}{Objetivos espec\355ficos}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.1}{Objetivo 1}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.2}{Objetivo 2}{section.2.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.3}{Objetivo 3}{section.2.2}% 17
+\BOOKMARK [2][-]{subsection.2.2.4}{Objetivo 4}{section.2.2}% 18
+\BOOKMARK [2][-]{subsection.2.2.5}{Objetivo 5}{section.2.2}% 19
+\BOOKMARK [2][-]{subsection.2.2.6}{Objetivo 6}{section.2.2}% 20
+\BOOKMARK [1][-]{section.2.3}{Objetivos acad\351micos}{chapter.2}% 21
+\BOOKMARK [0][-]{chapter.3}{Antecedentes}{}% 22
+\BOOKMARK [1][-]{section.3.1}{Localizaci\363n geogr\341fica y Sistemas de Informaci\363n Geogr\341fica \(SIG\)}{chapter.3}% 23
+\BOOKMARK [2][-]{subsection.3.1.1}{Funcionamiento de los gps}{section.3.1}% 24
+\BOOKMARK [2][-]{subsection.3.1.2}{Cartograf\355a y SIG La labor de documentaci\363n est\341 basada en: Diaz15. }{section.3.1}% 25
+\BOOKMARK [1][-]{section.3.2}{Internet y la www}{chapter.3}% 26
+\BOOKMARK [2][-]{subsection.3.2.1}{Tecnolog\355as del lado del servidor}{section.3.2}% 27
+\BOOKMARK [2][-]{subsection.3.2.2}{Tecnolog\355as del lado del cliente}{section.3.2}% 28
+\BOOKMARK [1][-]{section.3.3}{Dispositivos m\363viles}{chapter.3}% 29
+\BOOKMARK [1][-]{section.3.4}{Aplicaciones similares}{chapter.3}% 30
+\BOOKMARK [2][-]{subsection.3.4.1}{Foursquare}{section.3.4}% 31
+\BOOKMARK [2][-]{subsection.3.4.2}{Swarm}{section.3.4}% 32
+\BOOKMARK [2][-]{subsection.3.4.3}{Glympse}{section.3.4}% 33
+\BOOKMARK [2][-]{subsection.3.4.4}{Strava}{section.3.4}% 34
+\BOOKMARK [2][-]{subsection.3.4.5}{Waze}{section.3.4}% 35
+\BOOKMARK [2][-]{subsection.3.4.6}{Ingress}{section.3.4}% 36
+\BOOKMARK [2][-]{subsection.3.4.7}{Life360 Family Locator}{section.3.4}% 37
+\BOOKMARK [2][-]{subsection.3.4.8}{\277D\363nde est\341 mi coche?}{section.3.4}% 38
+\BOOKMARK [2][-]{subsection.3.4.9}{Find my car}{section.3.4}% 39
+\BOOKMARK [0][-]{chapter.4}{M\351todo de Trabajo}{}% 40
+\BOOKMARK [1][-]{section.4.1}{Dispositivos empleados}{chapter.4}% 41
+\BOOKMARK [2][-]{subsection.4.1.1}{Ordenador port\341til}{section.4.1}% 42
+\BOOKMARK [2][-]{subsection.4.1.2}{Tel\351fono m\363vil}{section.4.1}% 43
+\BOOKMARK [1][-]{section.4.2}{Desarrollo evolutivo}{chapter.4}% 44
+\BOOKMARK [1][-]{section.4.3}{Scrum}{chapter.4}% 45
+\BOOKMARK [2][-]{subsection.4.3.1}{Equipo scrum}{section.4.3}% 46
+\BOOKMARK [2][-]{subsection.4.3.2}{Eventos de scrum. El sprint}{section.4.3}% 47
+\BOOKMARK [1][-]{section.4.4}{Kanban}{chapter.4}% 48
+\BOOKMARK [2][-]{subsection.4.4.1}{Mostrar el proceso}{section.4.4}% 49
+\BOOKMARK [2][-]{subsection.4.4.2}{Limitar el trabajo}{section.4.4}% 50
+\BOOKMARK [1][-]{section.4.5}{Marco tecnol\363gico}{chapter.4}% 51
+\BOOKMARK [2][-]{subsection.4.5.1}{Sistema Operativo}{section.4.5}% 52
+\BOOKMARK [2][-]{subsection.4.5.2}{Herramientas de dise\361o}{section.4.5}% 53
+\BOOKMARK [2][-]{subsection.4.5.3}{Herramientas de gesti\363n del proyecto}{section.4.5}% 54
+\BOOKMARK [2][-]{subsection.4.5.4}{Herramientas, tecnolog\355as y frameworks para el desarrollo}{section.4.5}% 55
+\BOOKMARK [2][-]{subsection.4.5.5}{Herramientas para la gesti\363n de bases de datos}{section.4.5}% 56
+\BOOKMARK [2][-]{subsection.4.5.6}{Herramientas documentales}{section.4.5}% 57
+\BOOKMARK [2][-]{subsection.4.5.7}{Herramientas de implantaci\363n}{section.4.5}% 58
+\BOOKMARK [0][-]{chapter.5}{Resultados}{}% 59
+\BOOKMARK [1][-]{section.5.1}{Sprint 0}{chapter.5}% 60
+\BOOKMARK [2][-]{subsection.5.1.1}{Gesti\363n de recursos humanos}{section.5.1}% 61
+\BOOKMARK [2][-]{subsection.5.1.2}{Alcance del proyecto}{section.5.1}% 62
+\BOOKMARK [2][-]{subsection.5.1.3}{Plan del proyecto}{section.5.1}% 63
+\BOOKMARK [2][-]{subsection.5.1.4}{Gesti\363n temporal del proyecto}{section.5.1}% 64
+\BOOKMARK [2][-]{subsection.5.1.5}{Gesti\363n de las comunicaciones}{section.5.1}% 65
+\BOOKMARK [2][-]{subsection.5.1.6}{Gesti\363n de recursos}{section.5.1}% 66
+\BOOKMARK [2][-]{subsection.5.1.7}{Gesti\363n de riesgos}{section.5.1}% 67
+\BOOKMARK [2][-]{subsection.5.1.8}{Gesti\363n de costes}{section.5.1}% 68
+\BOOKMARK [1][-]{section.5.2}{Sprint 1}{chapter.5}% 69
+\BOOKMARK [2][-]{subsection.5.2.1}{Refinamiento del Product Backlog}{section.5.2}% 70
+\BOOKMARK [2][-]{subsection.5.2.2}{Planificaci\363n de Sprint}{section.5.2}% 71
+\BOOKMARK [2][-]{subsection.5.2.3}{Sprint Review}{section.5.2}% 72
+\BOOKMARK [1][-]{section.5.3}{Sprint 2}{chapter.5}% 73
+\BOOKMARK [2][-]{subsection.5.3.1}{Refinamiento del Product Backlog}{section.5.3}% 74
+\BOOKMARK [2][-]{subsection.5.3.2}{Planificaci\363n de Sprint}{section.5.3}% 75
+\BOOKMARK [2][-]{subsection.5.3.3}{Sprint Review}{section.5.3}% 76
+\BOOKMARK [1][-]{section.5.4}{Sprint 3}{chapter.5}% 77
+\BOOKMARK [2][-]{subsection.5.4.1}{Refinamiento del Product Backlog}{section.5.4}% 78
+\BOOKMARK [2][-]{subsection.5.4.2}{Planificaci\363n de Sprint}{section.5.4}% 79
+\BOOKMARK [2][-]{subsection.5.4.3}{Sprint Review}{section.5.4}% 80
+\BOOKMARK [1][-]{section.5.5}{Sprint 4}{chapter.5}% 81
+\BOOKMARK [2][-]{subsection.5.5.1}{Refinamiento del Product Backlog}{section.5.5}% 82
+\BOOKMARK [2][-]{subsection.5.5.2}{Planificaci\363n de Sprint}{section.5.5}% 83
+\BOOKMARK [2][-]{subsection.5.5.3}{Sprint Review}{section.5.5}% 84
+\BOOKMARK [1][-]{section.5.6}{Sprint 5}{chapter.5}% 85
+\BOOKMARK [2][-]{subsection.5.6.1}{Refinamiento del Product Backlog}{section.5.6}% 86
+\BOOKMARK [2][-]{subsection.5.6.2}{Planificaci\363n de Sprint}{section.5.6}% 87
+\BOOKMARK [2][-]{subsection.5.6.3}{Sprint Review}{section.5.6}% 88
+\BOOKMARK [1][-]{section.5.7}{Sprint 6}{chapter.5}% 89
+\BOOKMARK [2][-]{subsection.5.7.1}{Refinamiento del Product Backlog}{section.5.7}% 90
+\BOOKMARK [2][-]{subsection.5.7.2}{Planificaci\363n de Sprint}{section.5.7}% 91
+\BOOKMARK [2][-]{subsection.5.7.3}{Sprint Review}{section.5.7}% 92
+\BOOKMARK [1][-]{section.5.8}{Sprint 7}{chapter.5}% 93
+\BOOKMARK [2][-]{subsection.5.8.1}{Refinamiento del Product Backlog}{section.5.8}% 94
+\BOOKMARK [2][-]{subsection.5.8.2}{Planificaci\363n de Sprint}{section.5.8}% 95
+\BOOKMARK [2][-]{subsection.5.8.3}{Sprint Review}{section.5.8}% 96
+\BOOKMARK [0][-]{appendix.Alph1}{Ejemplo de anexo}{}% 97
+\BOOKMARK [0][-]{appendix.Alph2}{Listado de acr\363nimos}{}% 98
+\BOOKMARK [0][-]{appendix*.60}{Referencias}{}% 99

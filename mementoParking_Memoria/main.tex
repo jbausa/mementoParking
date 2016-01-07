@@ -1,5 +1,5 @@
 \documentclass[twoside]{esi-tfg}
-\usepackage{custom, tikz, subfigure, float, todonotes, xr, eurosym, longtable}
+\usepackage{custom, tikz, subfigure, float, todonotes, xr, eurosym, longtable, multirow, graphicx, wrapfig, lscape, rotating}
 
 \usepackage[table]{xcolor}
 \usepackage[export]{adjustbox}
@@ -8,8 +8,8 @@
 \usetikzlibrary{shapes,shadows}
 \tikzstyle{shadowBox} = [draw=black, fill=white, rectangle, inner sep=10pt, style=rounded corners, drop shadow={fill=black,   opacity=1}, text width=14cm]
 
-\input{metadata.tex}
 
+\input{metadata.tex}
 
 \begin{document}
 
@@ -30,8 +30,6 @@
 \listoftables
 \listoffigures
 \lstlistoflistings
-\input{acro.tex}
-
 
 \mainmatter
 
@@ -46,6 +44,7 @@
 \appendixtitle
 \input{anexo1.tex}
 %{\scriptsize \input{GFDL.tex}}
+\input{acro.tex}
 
 
 \backmatter
