@@ -31,7 +31,7 @@
 \contentsline {section}{\numberline {3.4}Aplicaciones similares}{41}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Foursquare}{41}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Swarm}{41}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Glympse}{41}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.3}Glympse}{43}{subsection.3.4.3}
 \contentsline {subsection}{\numberline {3.4.4}Strava}{43}{subsection.3.4.4}
 \contentsline {subsection}{\numberline {3.4.5}Waze}{43}{subsection.3.4.5}
 \contentsline {subsection}{\numberline {3.4.6}Ingress}{45}{subsection.3.4.6}
@@ -47,8 +47,8 @@
 \contentsline {subsection}{\numberline {4.3.1}Equipo scrum}{50}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Eventos de scrum. El sprint}{50}{subsection.4.3.2}
 \contentsline {section}{\numberline {4.4}Kanban}{51}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Mostrar el proceso}{51}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Limitar el trabajo}{52}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.1}Mostrar el proceso}{52}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Limitar el trabajo}{53}{subsection.4.4.2}
 \contentsline {section}{\numberline {4.5}Marco tecnol\IeC {\'o}gico}{53}{section.4.5}
 \contentsline {subsection}{\numberline {4.5.1}Sistema Operativo}{53}{subsection.4.5.1}
 \contentsline {subsubsection}{Elementary OS}{53}{subsection.4.5.1}
@@ -95,47 +95,52 @@
 \contentsline {subsection}{\numberline {5.1.3}Plan del proyecto}{71}{subsection.5.1.3}
 \contentsline {subsection}{\numberline {5.1.4}Gesti\IeC {\'o}n temporal del proyecto}{75}{subsection.5.1.4}
 \contentsline {subsection}{\numberline {5.1.5}Gesti\IeC {\'o}n de las comunicaciones}{75}{subsection.5.1.5}
-\contentsline {subsection}{\numberline {5.1.6}Gesti\IeC {\'o}n de recursos}{76}{subsection.5.1.6}
-\contentsline {subsection}{\numberline {5.1.7}Gesti\IeC {\'o}n de riesgos}{77}{subsection.5.1.7}
-\contentsline {subsection}{\numberline {5.1.8}Gesti\IeC {\'o}n de costes}{78}{subsection.5.1.8}
-\contentsline {section}{\numberline {5.2}Sprint 1}{80}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Refinamiento del Product Backlog}{80}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Planificaci\IeC {\'o}n de Sprint}{80}{subsection.5.2.2}
-\contentsline {subsubsection}{Desarrollo de la Historia de Usuario: Registro de usuarios }{82}{table.5.10}
-\contentsline {subsubsection}{Desarrollo de la Historia de Usuario: Acceso de usuarios }{83}{table.5.10}
-\contentsline {subsubsection}{Desarrollo de la Historia de Usuario: Edici\IeC {\'o}n de datos de usuarios }{83}{table.5.10}
-\contentsline {subsection}{\numberline {5.2.3}Sprint Review}{84}{subsection.5.2.3}
-\contentsline {section}{\numberline {5.3}Sprint 2}{84}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Refinamiento del Product Backlog}{84}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Planificaci\IeC {\'o}n de Sprint}{84}{subsection.5.3.2}
-\contentsline {subsubsection}{Desarrollo de la Historia de Usuario: Mostrar posiciones geoespaciales y direcciones postales}{86}{table.5.11}
-\contentsline {subsection}{\numberline {5.3.3}Sprint Review}{86}{subsection.5.3.3}
-\contentsline {section}{\numberline {5.4}Sprint 3}{86}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Refinamiento del Product Backlog}{86}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Planificaci\IeC {\'o}n de Sprint}{87}{subsection.5.4.2}
-\contentsline {subsubsection}{Desarrollo de la Historia de Usuario: Seleccionar y mostrar un elemento en el mapa}{88}{table.5.13}
-\contentsline {subsubsection}{Desarrollo de la Historia de Usuario: Guardar ubicaciones geoespaciales y postales}{89}{table.5.13}
-\contentsline {subsection}{\numberline {5.4.3}Sprint Review}{89}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.1.6}Gesti\IeC {\'o}n de recursos}{77}{subsection.5.1.6}
+\contentsline {subsection}{\numberline {5.1.7}Gesti\IeC {\'o}n de riesgos}{78}{subsection.5.1.7}
+\contentsline {subsection}{\numberline {5.1.8}Gesti\IeC {\'o}n de costes}{80}{subsection.5.1.8}
+\contentsline {section}{\numberline {5.2}Sprint 1}{81}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Refinamiento del Product Backlog}{81}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Planificaci\IeC {\'o}n de Sprint}{81}{subsection.5.2.2}
+\contentsline {subsubsection}{Desarrollo de la Historia de Usuario: ''Registro de usuarios'' }{83}{table.5.10}
+\contentsline {subsubsection}{Desarrollo de la Historia de Usuario: ''Acceso de usuarios'' }{85}{figure.5.4}
+\contentsline {subsubsection}{Desarrollo de la Historia de Usuario: ''Edici\IeC {\'o}n de datos de usuarios'' }{85}{figure.5.4}
+\contentsline {subsection}{\numberline {5.2.3}Sprint Review}{85}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.3}Sprint 2}{85}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Refinamiento del Product Backlog}{86}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Planificaci\IeC {\'o}n de Sprint}{86}{subsection.5.3.2}
+\contentsline {subsubsection}{Desarrollo de la Historia de Usuario: ''Mostrar posiciones geoespaciales y direcciones postales''}{87}{table.5.11}
+\contentsline {subsection}{\numberline {5.3.3}Sprint Review}{88}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}Sprint 3}{88}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Refinamiento del Product Backlog}{88}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Planificaci\IeC {\'o}n de Sprint}{88}{subsection.5.4.2}
+\contentsline {subsubsection}{Desarrollo de la Historia de Usuario: ''Guardar ubicaciones geoespaciales y postales''}{89}{table.5.12}
+\contentsline {subsection}{\numberline {5.4.3}Sprint Review}{90}{subsection.5.4.3}
 \contentsline {section}{\numberline {5.5}Sprint 4}{90}{section.5.5}
 \contentsline {subsection}{\numberline {5.5.1}Refinamiento del Product Backlog}{90}{subsection.5.5.1}
 \contentsline {subsection}{\numberline {5.5.2}Planificaci\IeC {\'o}n de Sprint}{90}{subsection.5.5.2}
-\contentsline {subsubsection}{Desarrollo de la Historia de Usuario }{90}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}Sprint Review}{90}{subsection.5.5.3}
-\contentsline {section}{\numberline {5.6}Sprint 5}{90}{section.5.6}
-\contentsline {subsection}{\numberline {5.6.1}Refinamiento del Product Backlog}{90}{subsection.5.6.1}
-\contentsline {subsection}{\numberline {5.6.2}Planificaci\IeC {\'o}n de Sprint}{90}{subsection.5.6.2}
-\contentsline {subsubsection}{Desarrollo de la Historia de Usuario }{90}{subsection.5.6.2}
-\contentsline {subsection}{\numberline {5.6.3}Sprint Review}{90}{subsection.5.6.3}
-\contentsline {section}{\numberline {5.7}Sprint 6}{90}{section.5.7}
-\contentsline {subsection}{\numberline {5.7.1}Refinamiento del Product Backlog}{90}{subsection.5.7.1}
-\contentsline {subsection}{\numberline {5.7.2}Planificaci\IeC {\'o}n de Sprint}{90}{subsection.5.7.2}
-\contentsline {subsubsection}{Desarrollo de la Historia de Usuario }{90}{subsection.5.7.2}
-\contentsline {subsection}{\numberline {5.7.3}Sprint Review}{90}{subsection.5.7.3}
-\contentsline {section}{\numberline {5.8}Sprint 7}{90}{section.5.8}
-\contentsline {subsection}{\numberline {5.8.1}Refinamiento del Product Backlog}{90}{subsection.5.8.1}
-\contentsline {subsection}{\numberline {5.8.2}Planificaci\IeC {\'o}n de Sprint}{90}{subsection.5.8.2}
-\contentsline {subsubsection}{Desarrollo de la Historia de Usuario }{90}{subsection.5.8.2}
-\contentsline {subsection}{\numberline {5.8.3}Sprint Review}{90}{subsection.5.8.3}
-\contentsline {chapter}{\numberline {A}Ejemplo de anexo}{97}{appendix.Alph1}
-\contentsline {chapter}{\numberline {B}Listado de acr\IeC {\'o}nimos}{99}{appendix.Alph2}
-\contentsline {chapter}{Referencias}{103}{appendix*.60}
+\contentsline {subsubsection}{Desarrollo de la Historia de Usuario: ''Creaci\IeC {\'o}n y edici\IeC {\'o}n de elementos \textit {coche}''}{91}{table.5.13}
+\contentsline {subsection}{\numberline {5.5.3}Sprint Review}{92}{subsection.5.5.3}
+\contentsline {section}{\numberline {5.6}Sprint 5}{92}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Refinamiento del Product Backlog}{92}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Planificaci\IeC {\'o}n de Sprint}{92}{subsection.5.6.2}
+\contentsline {subsubsection}{Desarrollo de la Historia de Usuario: ''Seleccionar y mostrar un elemento en el mapa''}{93}{table.5.14}
+\contentsline {subsection}{\numberline {5.6.3}Sprint Review}{93}{subsection.5.6.3}
+\contentsline {section}{\numberline {5.7}Sprint 6}{93}{section.5.7}
+\contentsline {subsection}{\numberline {5.7.1}Refinamiento del Product Backlog}{93}{subsection.5.7.1}
+\contentsline {subsection}{\numberline {5.7.2}Planificaci\IeC {\'o}n de Sprint}{93}{subsection.5.7.2}
+\contentsline {subsubsection}{Desarrollo de la Historia de Usuario: ''Editar las propiedades del elemento \textit {coche}'' }{94}{table.5.15}
+\contentsline {subsection}{\numberline {5.7.3}Sprint Review}{94}{subsection.5.7.3}
+\contentsline {section}{\numberline {5.8}Sprint 7}{94}{section.5.8}
+\contentsline {subsection}{\numberline {5.8.1}Refinamiento del Product Backlog}{95}{subsection.5.8.1}
+\contentsline {subsection}{\numberline {5.8.2}Planificaci\IeC {\'o}n de Sprint}{95}{subsection.5.8.2}
+\contentsline {subsubsection}{Desarrollo de la Historia de Usuario: ''Compartir, ver y editar elementos \textit {coche}'' }{97}{table.5.17}
+\contentsline {subsubsection}{Desarrollo de la Historia de Usuario: ''Revocar los permisos de acceso a los elementos \textit {coche} del propietario''}{98}{table.5.17}
+\contentsline {subsection}{\numberline {5.8.3}Sprint Review}{98}{subsection.5.8.3}
+\contentsline {section}{\numberline {5.9}Sprint 8}{98}{section.5.9}
+\contentsline {subsection}{\numberline {5.9.1}Refinamiento del Product Backlog}{98}{subsection.5.9.1}
+\contentsline {subsection}{\numberline {5.9.2}Planificaci\IeC {\'o}n de Sprint}{98}{subsection.5.9.2}
+\contentsline {subsubsection}{Desarrollo de la Historia de Usuario: ''Mostrar una ruta a pie hasta el elemento seleccionado''}{99}{table.5.18}
+\contentsline {subsection}{\numberline {5.9.3}Sprint Review}{99}{subsection.5.9.3}
+\contentsline {chapter}{\numberline {A}Ejemplo de anexo}{103}{appendix.Alph1}
+\contentsline {chapter}{\numberline {B}Listado de acr\IeC {\'o}nimos}{105}{appendix.Alph2}
+\contentsline {chapter}{Referencias}{109}{appendix*.60}

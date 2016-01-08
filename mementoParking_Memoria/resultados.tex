@@ -145,13 +145,14 @@ Una vez tenemos la lista de producto priorizada podemos dividir el trabajo en lo
 	1	& HdU 1, HdU 2 y HdU 3	&	42 horas	&	Prototipo de página web con autenticación, edición y administración de usuarios \\ 
 	2	& HdU 5					&	12 horas	&	Prototipo que muestre en un mapa una serie de ubicaciones geográficas guardadas previamente y sus correspondientes direcciones postales mediante un texto \\
 	\rowcolor{gray!25}
-	3	& HdU 4	y HdU 6				&	40 horas	&	Prototipo que guarde una ubicación geográfica elegida por el usuario mediante la interacción con un mapa \\
+	3	& HdU 4				&	30 horas	&	Prototipo que guarde una ubicación geográfica elegida por el usuario mediante la interacción con un mapa \\
 	4	& HdU 7					&	12 horas	&	Prototipo que permite crear nuevos elementos para almacenar la ubicación geográfica del mismo y muestra la ubicación de un elemento seleccionado \\
 	\rowcolor{gray!25}
-	5	& HdU 8					&	12 horas	&	Prototipo que permite modificar o borrar los datos almacenados de los elementos a mostrar \\
+	5	& HdU 6					& 	10 horas	& 	Prototipo que muestra en un mapa la posición de un elemento seleccionado y su correspondiente dirección postal mediante texto\\
+	6	& HdU 8					&	12 horas	&	Prototipo que permite modificar o borrar los datos almacenados de los elementos a mostrar \\
 	\rowcolor{gray!25}
-	6	& HdU 9 y HdU 10		&	40 horas	&	Prototipo que permite compartir la ubicación de los elementos almacenados con otros usuarios válidos del sistema y revocar este permiso \\
-	7	& HdU 11				&	6 horas		&	Prototipo que muestra la ruta a pie desde la posición actual del usuario hasta el elemento seleccionado \\
+	7	& HdU 9 y HdU 10		&	40 horas	&	Prototipo que permite compartir la ubicación de los elementos almacenados con otros usuarios válidos del sistema y revocar este permiso \\
+	8	& HdU 11				&	6 horas		&	Prototipo que muestra la ruta a pie desde la posición actual del usuario hasta el elemento seleccionado \\
 
 	\hline
 	\caption{Plan de proyecto detallado}
@@ -185,18 +186,18 @@ Una vez tenemos la lista de producto priorizada podemos dividir el trabajo en lo
 	
 	2	& HdU 5		&	12 horas	&	Los usuarios registrados podrán ver en un mapa las ubicaciones guardadas y en un cuadro de 												texto la dirección postal de la misma.\\
 	\rowcolor{gray!25}
-	\multirow{2}{*}{3}	& HdU 4		&	30 horas	&	Los usuarios registrados podrán guardar en la base de datos ubicaciones 																	interactuando con el mapa. \\
-	\rowcolor{gray!25}	& HdU 6		&	10 horas	&	Los usuarios registrados podrán seleccionar uno de los elementos 																			guardados para mostrar únicamente su ubicación en el mapa. \\
+	3	& HdU 4		&	30 horas	&	Los usuarios registrados podrán guardar en la base de datos ubicaciones 																	interactuando con el mapa. \\
 	
 	4	& HdU 7		&	12 horas	&	Los usuarios registrados podrán crear nuevos elementos sobre los que guardar ubicaciones 													geográficas. \\
 	\rowcolor{gray!25}
+	5	& HdU 6		&	10 horas	&	Los usuarios registrados podrán seleccionar uno de los elementos 																			guardados para mostrar únicamente su ubicación en el mapa. \\
 
-	5	& HdU 8		&	12 horas	&	Los usuarios registrados podrán modificar las propiedades de los elementos que hayan creado o 											borrarlos del sistema. \\
+	6	& HdU 8		&	12 horas	&	Los usuarios registrados podrán modificar las propiedades de los elementos que hayan creado o 											borrarlos del sistema. \\
 	\rowcolor{gray!25}
-	\multirow{2}{*}{6}	& HdU 9		&	30 horas	&	Los usuarios registrados podrán ver y modificar las ubicaciones de los elementos 															previamente compartidos con ellos por otros usuarios registrados. \\
+	\multirow{2}{*}{7}	& HdU 9		&	30 horas	&	Los usuarios registrados podrán ver y modificar las ubicaciones de los elementos 															previamente compartidos con ellos por otros usuarios registrados. \\
 	\rowcolor{gray!25}	& HdU 10	&	10 horas	&	Los usuarios registrados no podrán ver ni modificar las ubicaciones de los 																elementos que hayan dejado de compartirse con ellos por otros usuarios 																	registrados. \\
 
-	7	& HdU 11	&	6 horas		&	Los usuarios registrados podrán ver una ruta a pie desde su ubicación actual hasta la ubicación 											almacenada del elemento seleccionado. \\
+	8	& HdU 11	&	6 horas		&	Los usuarios registrados podrán ver una ruta a pie desde su ubicación actual hasta la ubicación 											almacenada del elemento seleccionado. \\
 
 	\hline
 	\caption{Historias de Usuario y validaciones}
@@ -208,9 +209,10 @@ Una vez tenemos la lista de producto priorizada podemos dividir el trabajo en lo
 	Como fecha de inicio para el desarrollo, esto es, para el sprint 0 se elige la fecha de 15 de septiembre de 2015 y para la consecución del mismo se estima una duración aproximada de veinticuatro días. La duración de la jornada laboral se fija en 6 horas diarias de lunes a viernes, observando las fechas marcadas como festivo en el calendario laboral general.
 	Debido a que el equipo de desarrollo está formado por una única persona, la posibilidad de paralelizar trabajo se ve limitada a la elaboración de la presente memoria al tiempo que se realiza el desarrollo de la aplicación, pero no al desarrollo de historias de usuario simultáneamente.
 	Se estima que la realización, revisión y corrección de la memoria necesitará un tiempo total de trabajo de quince días aproximadamente.
+	En la figura \ref{fig:gantt} puede observarse el correspondiente diagrama de Gantt de la planificación.
 
-\begin{sidewaysfigure}[ht]
-	\includegraphics[scale=0.5, fbox={\fboxrule} 4mm]{./images/05-resultados/01-gantt.png}
+\begin{sidewaysfigure}[h!t]
+	\includegraphics[height=80mm, fbox={\fboxrule} 4mm]{./images/05-resultados/01-gantt.png}
 	\caption{Diagrama de Gantt del \ac{TFG}}
 	\label{fig:gantt}
 \end{sidewaysfigure}
@@ -220,9 +222,9 @@ Una vez tenemos la lista de producto priorizada podemos dividir el trabajo en lo
 	Se utilizarán también otro tipo de herramientas para comunicar en todo momento el estado del proyecto y facilitar la comunicación entre los dos actores principales del desarrollo, a saber, el autor y el director. Estas herramientas serán \textit{Trello}, \textit{Github} y \textit{Heroku}.\\
 	Trello, tal y como se explicó anteriormente (ver subsección \ref{subsubsection:trello}) es un tablero Kanban virtual que permitirá al director estar informado en todo momento de las tareas que el autor está llevando a cabo en cada momento, así como la modificación de la lista de tareas si así lo considerase necesario. Para ello se crea y permite el acceso al director a un nuevo tablero Kanban iniciado para el presente proyecto. En la figura \ref{fig:trello} puede observarse una captura de pantalla del panel Kanban en Trello.
 
-\begin{figure}[h!btp]
+\begin{figure}[H]
 \centering
-\includegraphics[scale=0.5, fbox={\fboxrule} 4mm]{images/05-resultados/03-trello.jpg}
+\includegraphics[width=17cm, fbox={\fboxrule} 4mm]{images/05-resultados/03-trello.jpg}
 \caption{Panel Kamban de Trello}
 \label{fig:trello}
 \end{figure}
@@ -230,9 +232,9 @@ Una vez tenemos la lista de producto priorizada podemos dividir el trabajo en lo
 	
 	Github, tal y como se explicó anteriormente (ver subsección \ref{subsubsection:github}) es un servidor para repositorios \textit{Git} que se utilizará para el almacenaje en línea tanto del código del proyecto como de la memoria del mismo. Debido a las restricciones existentes en el servicio gratuito, el repositorio es público, por lo que únicamente se procederá a informar al director del proyecto de la dirección donde se encuentra almacenado. Mediante estos actos, se conseguirá que el director tenga acceso completo a toda la documentación generada para la consecución del proyecto pudiendo revisarla cuando así lo que creyera necesario. Esto mismo es aplicable al código fuente del presente proyecto. En la figura \ref{fig:github} puede verse una captura de pantalla de algunos commit subidos al repositorio.
 	
-\begin{figure}[h!btp]
+\begin{figure}[H]
 \centering
-\includegraphics[scale=0.5, fbox={\fboxrule} 4mm]{images/05-resultados/02-git.jpg}
+\includegraphics[width=15cm, fbox={\fboxrule} 4mm]{images/05-resultados/02-git.jpg}
 \caption{Commits en repositorio en GitHub}
 \label{fig:github}
 \end{figure}
@@ -421,7 +423,7 @@ En el presente sprint se han llevado a cabo las tareas relacionadas con la creac
 	En este sprint no se producen cambios en el Product Backlog.
 	
 	\subsection{Planificación de Sprint}
-	En este sprint se llevarán a cabo las historias de usuario 1, 2 y 3. Al ser la primera iteración del sistema resultará necesario instalar y configurar Ruby on Rails, Git y Github. Para la administración de usuarios se toma la decisión de utilizar las gemas disponibles para esta funcionalidad, en este caso, \href{https://github.com/plataformatec/devise}{Devise}. Para dotar de persistencia al sistema de registro de usuarios, será necesario incorporar una base de datos, en este caso se opta por una base de datos en línea a través del servicio de MongoLab, por lo que será necesario crear y configurar una cuenta en el citado sistema. Para consultar la base de datos, se instalará MongoChef, que permite administrar bases de datos, tanto locales como en línea a través de una interfaz amigable. Existen dos grandes drivers de conexión para MongoDB en Rails, MongoId y MongoMapper. Se elige MongoId, debido a la extensa documentación existente acerca de su utilización. Para conseguir un diseño adaptable a cualquier tamaño de pantalla, se hará uso de Bootstrap, los temas predefinos en \href{https://bootswatch.com/}{bootswatch} y la gema "bootswatch-rails".
+	En este sprint se llevarán a cabo las historias de usuario 1, 2 y 3. Al ser la primera iteración del sistema resultará necesario instalar y configurar Ruby on Rails, Git y Github. Para la administración de usuarios se toma la decisión de utilizar las gemas disponibles para esta funcionalidad, en este caso, \href{https://github.com/plataformatec/devise}{Devise}. Para dotar de persistencia al sistema de registro de usuarios, será necesario incorporar una base de datos, en este caso se opta por una base de datos en línea a través del servicio de MongoLab, por lo que será necesario crear y configurar una cuenta en el citado sistema. Para consultar la base de datos, se instalará MongoChef, que permite administrar bases de datos, tanto locales como en línea a través de una interfaz amigable. Existen dos grandes drivers de conexión para MongoDB en Rails, MongoId y MongoMapper. Se elige MongoId, debido a la extensa documentación existente acerca de su utilización. Para conseguir un diseño adaptable a cualquier tamaño de pantalla, se hará uso de Bootstrap, los temas predefinos en \href{https://bootswatch.com/}{bootswatch} y la gema ''bootswatch-rails''.
 	
 	La pila de sprint es la siguiente:
 	
@@ -476,9 +478,9 @@ En el presente sprint se han llevado a cabo las tareas relacionadas con la creac
 		\textbf{Esfuerzo:} 10 horas				&	\textbf{Sprint asignado: }1 												\\
 		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Programador responsable: }Juan Bausá}									\\
 		\multicolumn{2}{l}{\textbf{Descripción:}}                                                     						\\
-		\multicolumn{2}{l}{	Añadir un mecanismo de acceso para que los usuarios registrados puedan acceder al sistema.} 		\\
+		\multicolumn{2}{l}{\parbox{15cm}{Añadir un mecanismo de acceso para que los usuarios registrados puedan acceder al sistema.}}	\\
 		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Resultado:}}																\\
-		\multicolumn{2}{l}{Los usuarios registrados podrán acceder a las herramientas del sistema vetadas a los usuarios anónimos.} 						\\
+		\multicolumn{2}{l}{\parbox{15cm}{Los usuarios registrados podrán acceder a las herramientas del sistema vetadas a los usuarios anónimos.}} 						\\
 		\multicolumn{2}{l}{\textbf{Tareas:}}																					\\
 		\multicolumn{2}{l}{
 			\begin{minipage}{5in}
@@ -526,25 +528,33 @@ En el presente sprint se han llevado a cabo las tareas relacionadas con la creac
 	  \caption{Historia de Usuario 3}
 	\end{table}
 
-	\subsubsection{Desarrollo de la Historia de Usuario: Registro de usuarios }
+	\subsubsection{Desarrollo de la Historia de Usuario: ''Registro de usuarios'' }
 	Tal y como se ha comentado en el apartado anterior, para la realización de esta primera historia de usuario, será necesario instalar y configurar el lenguaje de programación y algunas de las herramientas secundarias que se utilizarán a lo largo del desarrollo.
 	La primera tarea sería instalar y configurar el sistema operativo sobre el que se desarrollará el trabajo, pero en este caso se omite, puesto que el sistema estaba instalado y preparado previamente. También se omite la instalación y configuración de Git, Github y Sublime Text 3 puesto que se había realizado previamente estas tareas.
 	La instalación de Ruby on Rails se hizo siguiendo el siguiente \href{http://railsapps.github.io/installrubyonrails-ubuntu.html}{tutorial}.
 	Una vez comprobado que el lenguaje queda bien instalado y configurado correctamente, se procede a darse de alta en MongoLab y configurar MongoChef para acceder a la base de datos recién creada.
 	La instalación de las gemas previstas (Devise y MongoId) se realiza añadiendo la orden correspondiente al Gemfile, archivo generado automáticamente por Rails al crear un nuevo proyecto y que es el encargado de controlar las gemas instaladas y sus versiones.
 	
-	La creación de la herramienta en forma de una página web se concreta en crear una estructura básica de página web en la que pueden verse los enlaces clásicos de toda página, esto es, \textit{Inicio}, \textit{Contacto}, \textit{Acerca de} y \textit{Ayuda}.
+	La creación de la herramienta en forma de una página web se concreta en crear una estructura básica de página web en la que pueden verse los enlaces clásicos de toda página, esto es, \textit{Inicio}, \textit{Contacto}, \textit{Acerca de} y \textit{Ayuda} (ver figura \ref{fig:acceso_usuarios_01}).\\
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=15cm, fbox={\fboxrule} 4mm]{images/05-resultados/04-acceso_usuarios_1.png}
+		\caption{Vista previa de la página principal}
+		\label{fig:acceso_usuarios_01}
+	\end{figure}
+
 	Una vez terminado este paso se comienza con la integración de bootstrap a través de la correspondiente gema y su configuración. Dotada ya la página de un marco básico de trabajo se procede a extraer los elementos comunes de los enlaces comentados para evitar la repetición de código (premisa básica de Rails DRY -Don't Repeat Yourself-) por lo que se generan una encabezado y pie de página que será común para todo el desarrollo.
 	A continuación se procede a configurar Devise para permitir el registro de nuevos usuarios, para lo que se creará un nuevo enlace en el encabezado que redirigirá hacia la página de registro que facilita Devise y que será convenientemente modificada.
 	Durante la configuración de Devise resulta necesaria la creación de un modelo para almacenar la información generada y la configuración de MongoId para permitir la comunicación con la base de datos creada en MongoLab.
 	Una vez realizadas estas acciones, se procede a crear un nuevo usuario y comprobar que efectivamente ha sido incorporado a la base de datos.
 	
-	\subsubsection{Desarrollo de la Historia de Usuario: Acceso de usuarios }
+	\subsubsection{Desarrollo de la Historia de Usuario: ''Acceso de usuarios'' }
 	Para el desarrollo de esta historia de usuario es necesario contar con partes del sistema en los que el acceso va a ser restringido para los usuarios anónimos, por lo que el primer paso es crear la página que contendrá el mapa donde se mostrarán las ubicaciones guardadas por el usuario.
 	Una vez realizada esta tarea se creará una página para que los usuarios que hayan completado su registro en el sistema puedan acceder al mismo. Ya que devise proporciona una página que se amolda con bastante exactitud a las necesidades del desarrollo, se hace uso de esta vista \textit{mutatis mutandis}.
 	Una vez realizados estos cambios, se procede a configurar devise para restringir el acceso a los usuarios anónimos a las páginas no relativas a la herramienta.
 	
-	\subsubsection{Desarrollo de la Historia de Usuario: Edición de datos de usuarios }
+	\subsubsection{Desarrollo de la Historia de Usuario: ''Edición de datos de usuarios'' }
 	Ya que devise también proporciona una página para la modificación de los datos de usuarios registrados, se procederá a cambiar los campos necesarios para permitir la edición de los datos personales de los usuarios.
 	
 	\subsection{Sprint Review}
@@ -557,10 +567,9 @@ En el presente sprint se han llevado a cabo las tareas relacionadas con mostrar 
 	
 	\subsection{Planificación de Sprint}
 	En este sprint se llevará a cabo la historia de usuario 5. Debido a que se comenzará a trabajar con los mapas interactivos, será necesario acondicionar la página de manera que se pueda incluir este nuevo elemento. La biblioteca elegida para este cometido es la proporcionada por Google, llamada Google Maps, disponible a través de su página web (\href{https://developers.google.com/maps/?hl=es}{API Google Maps}). Esta biblioteca dispone de dos vertientes, la primera es la encargada de mostrar los mapas tal y como se verán por pantalla y la segunda la encargada de la geolocalización directa e inversa, esto es, el intercambio de la información postal a partir de los datos geoespaciales disponibles (latitud y longitud) y el intercambio de de la información geoespacial a partir de los datos postales facilitados, respectivamente. El uso de estas bibliotecas supone la aceptación de los términos y condiciones de uso de Google y la elección de un plan de pago para la utilización. El autor del presente TFG se decantó por el plan gratuito, ya que las limitaciones de uso que se imponen a este plan no afectaran al desarrollo y puesta en marcha inicial del producto. Algunas de estas condiciones son el uso gratuito hasta las 25.000 peticiones de carga de mapas diarias y 2.500 peticiones de resolución de geolocalización diarias. Debido a que el producto no alcanzará el número máximo antes citado, es la opción elegida.\\
-	Puesto que en este momento del desarrollo los usuarios aún no pueden almacenar las ubicaciones, se editará la base de datos manualmente para incluir los datos necesarios para poder mostrar elementos en el mapa del usuario. Para almacenar en la base de datos los elementos que incluirán los datos geoespaciales, se procederá a crear un nuevo modelo de datos llamado "Cars". Este nuevo modelo quedará embebido dentro del documento "User". Esta decisión de diseño corresponde al incremento de velocidad en las búsquedas que se logra al incorporar el modelo "Cars" al modelo "Users" y que se considera que el número de documentos de este tipo que se incorporarán no pondrá en peligro la integridad del esquema.
-	
-	La pila de sprint es la siguiente:
-	
+	Puesto que en este momento del desarrollo los usuarios aún no pueden almacenar las ubicaciones, se editará la base de datos manualmente para incluir los datos necesarios para poder mostrar elementos en el mapa del usuario. Para almacenar en la base de datos los elementos que incluirán los datos geoespaciales, se procederá a crear un nuevo modelo de datos llamado ''Cars''. Este nuevo modelo quedará embebido dentro del documento ''User''. Esta decisión de diseño corresponde al incremento de velocidad en las búsquedas que se logra al incorporar el modelo ''Cars'' al modelo ''Users'' y que se considera que el número de documentos de este tipo que se incorporarán no pondrá en peligro la integridad del esquema.\\
+	La pila de sprint es la siguiente:\\
+
 	\begin{table}[H]
 	  \centering 
 	 	\begin{tabular}{p{0.4\linewidth}p{0.4\linewidth}}
@@ -580,8 +589,8 @@ En el presente sprint se han llevado a cabo las tareas relacionadas con mostrar 
 			\begin{minipage}{12cm}
 	    		\vskip 4pt
 	    		\begin{itemize}
-	    			\item Crear una nueva página contenedora "map" para la nueva funcionalidad
-	    			\item Creación de un nuevo modelo "Cars" para almacenar los datos relativos a los elementos geoespaciales.
+	    			\item Crear una nueva página contenedora ''map'' para la nueva funcionalidad
+	    			\item Creación de un nuevo modelo ''Cars'' para almacenar los datos relativos a los elementos geoespaciales.
 	    			\item Edición de la base de datos para almacenar datos de nuevos elementos con posición geográfica controlada.
 	    			\item Creación de un elemento contenedor para mostrar el mapa.
 	    			\item Llamada a la API proporcionada por Google para mostrar el mapa.
@@ -597,8 +606,8 @@ En el presente sprint se han llevado a cabo las tareas relacionadas con mostrar 
 	  \caption{Historia de Usuario 5}
 	\end{table}
 		
-	\subsubsection{Desarrollo de la Historia de Usuario: Mostrar posiciones geoespaciales y direcciones postales}
-	Como se ha comentado en apartado anterior, para la realización de esta historia de usuario se comienza añadiendo un nuevo modelo de datos llamado "Cars" y editando manualmente la base de datos a través de MongoChef para incluir los datos relativos al documento "Car" para un usuario existente. Se incorporan unos datos geoespaciales y postales controlados por el desarrollador como datos válidos.
+	\subsubsection{Desarrollo de la Historia de Usuario: ''Mostrar posiciones geoespaciales y direcciones postales''}
+	Como se ha comentado en apartado anterior, para la realización de esta historia de usuario se comienza añadiendo un nuevo modelo de datos llamado ''Cars'' y editando manualmente la base de datos a través de MongoChef para incluir los datos relativos al documento ''Car'' para un usuario existente. Se incorporan unos datos geoespaciales y postales controlados por el desarrollador como datos válidos.
 	A continuación, y una vez dado de alta en la API proporcionada por Google y generadas las claves necesarias para su utilización, se crea un elemento HTML que contendrá el mapa generado y se hace una llamada al API de manera que se muestre el mapa donde se generarán los elementos de marcado. Para el centrado del mapa en la posición del usuario se utiliza la propiedad proporcionada por HTML5 para conocer la ubicación geográfica aproximada del usuario y se modifican las propiedades del mapa para centrarlo en la posición adquirida.
 	Con el mapa centrado en la posición del usuario se realiza una llamada a la base de datos para recuperar los elementos previamente guardados y mediante un bucle se crean dinámicamente los elementos HTML que mostrarán los datos postales  y se hace una llamada a una función JavaScript que será la encargada de utilizar el API de Google Maps para incorporar marcadores en las coordenadas geoespaciales recuperadas de la base de datos, al término de la tarea, se modifican los elementos HTML para que incorporen los datos postales de los marcadores.
 	
@@ -606,13 +615,114 @@ En el presente sprint se han llevado a cabo las tareas relacionadas con mostrar 
 	Al término de este sprint se ha logrado que el usuario registrado pueda ver un mapa interactivo en el que se muestran marcadores correspondientes a los elementos almacenados en la base de datos. De igual manera, se crean tantos elementos contenedores como ubicaciones estuvieran guardadas y se rellenan con los datos postales correspondientes. El usuario podrá ver de esta manera de forma entendible a través del mapa y los cuadros de texto la ubicación de los elementos almacenados. Ha sido necesario reubicar algunas tareas previstas en la historia de usuario 7 en el sprint 4 como condición previa para llevar a término este sprint.
 	
 \section{Sprint 3}
-En el presente sprint se llevarán a cabo las tareas relacionadas con el almacenaje de las coordenadas geoespaciales y postales de los elementos del usuario. Para lograr el objetivo será necesario que el usuario seleccione uno de los elementos existentes para proceder a modificar sus coordenadas, por lo que será imprescindible añadir algún tipo de mecanismo de selección de los mismos.
+En el presente sprint se llevarán a cabo las tareas relacionadas con el almacenaje de las coordenadas geoespaciales y postales de los elementos del usuario. El objetivo completo se logrará en el sprint 5 con la consecución de la historia de usuario 6, ya que en esta primera aproximación el usuario tendrá a su disposición únicamente un elemento sobre el que guardar posiciones geográficas.
 
 	\subsection{Refinamiento del Product Backlog}
-	Se realizará primero la historia de usuario 6 como requisito previo para el correcto desarrollo de la historia de usuario 4.
+	No se modifica el \textit{Product Backlog}.
 	
 	\subsection{Planificación de Sprint}
-	En este sprint se desarrollará la historia de usuario 4, que consiste en permitir al usuario almacenar ubicaciones geográficas usando para ello elementos predeterminados denominados \textit{coches}. Lograr este objetivo requiere que el usuario pueda seleccionar previamente entre sus \textit{coches} aquel que va a modificar su ubicación. La selección de la nueva ubicación se hará pulsando sobre el mapa y confirmando la operación mediante un botón creado al efecto. Una vez realizada la operación se informará al usuario de la correcta o errónea finalización del mismo haciendo uso de los mensajes de respuesta que Rails pone a disposición del desarrollador a través del \textit{helper} correspondiente.
+	En este sprint se desarrollará la historia de usuario 4, que consiste en permitir al usuario almacenar ubicaciones geográficas usando para ello elementos predeterminados denominados \textit{coches}. 
+	%Lograr este objetivo requiere que el usuario pueda seleccionar previamente entre sus \textit{coches} aquel que va a modificar su ubicación. La selección de la nueva ubicación se hará pulsando sobre el mapa y confirmando la operación mediante un botón creado al efecto. 
+	La confirmación para disparar la acción de almacenaje en la base de datos correrá a cargo de un botón creado al efecto.
+	Una vez realizada la operación se informará al usuario de la correcta o errónea finalización de la misma haciendo uso de los mensajes de respuesta que Rails pone a disposición del desarrollador a través del \textit{helper} correspondiente.
+	
+	\begin{table}[H]
+	  \centering 
+	 	\begin{tabular}{p{0.4\linewidth}p{0.4\linewidth}}
+	    \toprule
+	    \multicolumn{2}{c}{\cellcolor{black!30}\textbf{Historia de Usuario}} 													\\
+		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Número: }4}																\\
+		\multicolumn{2}{l}{\textbf{Nombre Historia: } Guardar posiciones geoespaciales y direcciones postales}				\\
+		\cellcolor{gray!25}\textbf{Valor de negocio: Alto}	&	\cellcolor{gray!25}\textbf{Riesgo en desarrollo: Medio}		\\
+		\textbf{Esfuerzo:} 30 horas				&	\textbf{Sprint asignado: }3 												\\
+		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Programador responsable: }Juan Bausá}									\\
+		\multicolumn{2}{l}{\textbf{Descripción:}}                                                     						\\
+		\multicolumn{2}{l}{\parbox{15cm}{Guardar los datos de localización geoespacial seleccionados en el mapa mediante la interacción del usuario.}}				\\
+		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Resultado:}}																\\		
+		\multicolumn{2}{l}{\parbox{15cm}{Los usuarios registrados podrán modificar la ubicación del elemento \textit{coche} haciendo uso del mapa interactivo.}}																									\\
+		\multicolumn{2}{l}{\textbf{Tareas:}}																					\\
+		\multicolumn{2}{l}{
+			\begin{minipage}{12cm}
+	    		\vskip 4pt
+	    		\begin{itemize}
+	    			\item Recuperar la ubicación geoespacial y postal de la posición seleccionada en el mapa por el usuario mediante pulsación del ratón.
+	    			\item Guardar la ubicación en la base de datos al pulsar en el botón correspondiente creado al efecto en la página.
+	    			\item Informar al usuario de la correcta realización de la operación o mostrar un mensaje de error en caso contrario.
+	    			\item Modificación de los mensajes de error, aviso e información por defecto del sistema para hacerlos visualmente homogéneos al resto de la página.
+				\end{itemize}
+			  	\vskip 4pt
+		 	\end{minipage}
+		} \\																				
+	    \hline
+	  \end{tabular}
+	  \caption{Historia de Usuario 4}
+	\end{table}
+	
+	\subsubsection{Desarrollo de la Historia de Usuario: ''Guardar ubicaciones geoespaciales y postales''}
+	
+	Gracias a la API de Google Maps, se puede recuperar fácilmente la ubicación geoespacial de la posición donde se detecta un evento de pulsación sobre el mapa y puede mostrarse en un bloque de texto la información postal recuperada, de forma que el usuario tenga un conocimiento completo de cual es la ubicación seleccionada.
+	El almacenamiento de la ubicación se hará mediante una llamada a una dirección concreta con los parámetros necesarios para que el controlador correspondiente llame a la base de datos para realizar la operación. Una vez realizado esto, se informa al usuario mediante un mensaje de la resolución correcta o incorrecta del mismo. Rails brinda un \textit{helper} que facilita la retroalimentación de este tipo, pero se limita a mensajes de texto plano, lo que rompe con la visualización de la página, por lo que se modifica mediante código para conseguir un aspecto homogéneo mediante bootstrap a estos mensajes.
+		
+	\subsection{Sprint Review}
+	Al término de este sprint se ha conseguido que el usuario pueda seleccionar ubicaciones geográficas mediante pulsaciones de ratón sobre el mapa e informarle de cual es la dirección postal seleccionada mediante su inclusión en cuadros de texto creados al efecto. La confirmación del almacenamiento de la nueva ubicación se ha realizado mediante un botón que dispara la acción. La retroalimentación al usuario se ha conseguido mediante la inclusión de mensajes informativos del estado de la acción. 
+
+\section{Sprint 4}
+	En el presente sprint se realizarán las tareas necesarias para que el usuario pueda crear nuevos elementos sobre los que almacenar ubicaciones.
+	
+	\subsection{Refinamiento del Product Backlog}
+	No se realiza ninguna modificación del \textit{Product Backlog}.
+	
+	\subsection{Planificación de Sprint}
+	En este sprint se desarrollará la historia de usuario 7, consistente en que el usuario pueda generar nuevos elementos sobre los que almacenar posiciones geográficas. Las tareas a llevar a cabo son similares a las implementadas en la historia de usuario 3 durante el sprint 1, puesto que consiste en la creación de elementos de la base de datos. Las diferencias detectadas vienen definidas por el esquema de la base de datos, puesto que en este momento se modificará un documento embebido en lugar del documento principal.
+	
+	\begin{table}[H]
+	  \centering 
+	 	\begin{tabular}{p{0.4\linewidth}p{0.4\linewidth}}
+	    \toprule
+	    \multicolumn{2}{c}{\cellcolor{black!30}\textbf{Historia de Usuario}} 													\\
+		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Número: }7}																\\
+		\multicolumn{2}{l}{\textbf{Nombre Historia: } Crear y editar las propiedades de nuevos elementos \textit{coche}}				\\
+		\cellcolor{gray!25}\textbf{Valor de negocio: Alto}	&	\cellcolor{gray!25}\textbf{Riesgo en desarrollo: Medio}		\\
+		\textbf{Esfuerzo:} 12 horas				&	\textbf{Sprint asignado: }4												\\
+		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Programador responsable: }Juan Bausá}									\\
+		\multicolumn{2}{l}{\textbf{Descripción:}}                                                     						\\
+		\multicolumn{2}{l}{\parbox{15cm}{Crear y editar nuevos elementos \textit{coche} que permitan almacenar nuevas ubicaciones geoespaciales.}}				\\
+		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Resultado:}}																\\		
+		\multicolumn{2}{l}{\parbox{15cm}{Los usuarios registrados podrán crear nuevos elementos \textit{coche} donde podrán almacenar ubicaciones geográficas haciendo uso de las herramientas implementadas en el anterior sprint. Los usuarios registrados podrán editar las propiedades de los elementos \textit{coche} existentes}}.																	\\
+		\multicolumn{2}{l}{\textbf{Tareas:}}																					\\
+		\multicolumn{2}{l}{
+			\begin{minipage}{12cm}
+	    		\vskip 4pt
+	    		\begin{itemize}
+	    			\item Crear una nueva página contenedora ''car'' para la nueva funcionalidad
+	    			\item Añadir un método de selección que permita elegir entre modificar un elemento existente o crear uno nuevo
+	    			\item Añadir un formulario para modificar las propiedades de los elementos existentes a modificar
+	    			\item Añadir un botón de confirmación de los cambios
+	    			\item Añadir mensajes de confirmación o error resultantes de llevar a cabo la acción
+				\end{itemize}
+			  	\vskip 4pt
+		 	\end{minipage}
+		} \\																				
+	    \hline
+	  \end{tabular}
+	  \caption{Historia de Usuario 7}
+	\end{table}
+	
+	\subsubsection{Desarrollo de la Historia de Usuario: ''Creación y edición de elementos \textit{coche}''}
+	Se crea una nueva página contenedora para la funcionalidad. Debido a que se realizaron ciertas tareas concernientes a la historia de usuario que se está desarrollando, no es necesario modificar el esquema de la base de datos. Se añade un elemento que permite seleccionar entre los elementos \textit{coche} que el usuario mantiene almacenados en la base de datos o crear un nuevo elemento.
+	Al hacer efectiva la selección aparece un formulario hasta el momento oculto que permite la edición o creación de las propiedades del elemento, según lo requiera el caso.
+	La confirmación de los cambios se realiza mediante un botón que dispara la acción del controlador, encargado final de comunicar a la base de datos los cambios a realizar. Con la respuesta de la base de datos se envía un mensaje al usuario informando de la terminación correcto o errónea de la acción.
+		
+	\subsection{Sprint Review}
+	Al término de este sprint se consigue que el usuario pueda crear nuevos elementos sobre los que almacenar ubicaciones y editar las propiedades de los ya existentes.
+
+\section{Sprint 5}
+	En el presente sprint se llevarán a cabo las tareas necesarias para que el usuario pueda seleccionar sobre que elemento \textit{coche} desea almacenar la ubicación seleccionada en el mapa.
+	\subsection{Refinamiento del Product Backlog}
+	No se producen cambios en el \textit{Product Backlog}.
+	
+	\subsection{Planificación de Sprint}
+	En este sprint se desarrollará la historia de usuario 6, consistente en permitir al usuario seleccionar sobre que elemento \textit{coche} quiere llevar a cabo la tarea de almacenaje de ubicación. La selección se realizará mediante la inclusión de elementos representativos de los \textit{coches} que el usuario tiene almacenados en la base de datos.
 	
 	\begin{table}[H]
 	  \centering 
@@ -622,7 +732,7 @@ En el presente sprint se llevarán a cabo las tareas relacionadas con el almacen
 		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Número: }6}																\\
 		\multicolumn{2}{l}{\textbf{Nombre Historia: } Seleccionar un elemento y mostrarlo en el mapa}							\\
 		\cellcolor{gray!25}\textbf{Valor de negocio: Alto}	&	\cellcolor{gray!25}\textbf{Riesgo en desarrollo: Bajo}		\\
-		\textbf{Esfuerzo:} 10 horas				&	\textbf{Sprint asignado: }3 												\\
+		\textbf{Esfuerzo:} 10 horas				&	\textbf{Sprint asignado: }5 												\\
 		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Programador responsable: }Juan Bausá}									\\
 		\multicolumn{2}{l}{\textbf{Descripción:}}                                                     						\\
 		\multicolumn{2}{l}{\parbox{15cm}{Seleccionar uno de los elementos disponibles y mostrarlo en el mapa.}}				\\
@@ -644,128 +754,197 @@ En el presente sprint se llevarán a cabo las tareas relacionadas con el almacen
 	  \caption{Historia de Usuario 6}
 	\end{table}
 	
-
-	\begin{table}[H]
-	  \centering 
-	 	\begin{tabular}{p{0.4\linewidth}p{0.4\linewidth}}
-	    \toprule
-	    \multicolumn{2}{c}{\cellcolor{black!30}\textbf{Historia de Usuario}} 													\\
-		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Número: }4}																\\
-		\multicolumn{2}{l}{\textbf{Nombre Historia: } Guardar posiciones geoespaciales y direcciones postales}				\\
-		\cellcolor{gray!25}\textbf{Valor de negocio: Alto}	&	\cellcolor{gray!25}\textbf{Riesgo en desarrollo: Medio}		\\
-		\textbf{Esfuerzo:} 30 horas				&	\textbf{Sprint asignado: }3 												\\
-		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Programador responsable: }Juan Bausá}									\\
-		\multicolumn{2}{l}{\textbf{Descripción:}}                                                     						\\
-		\multicolumn{2}{l}{\parbox{15cm}{Guardar los datos de localización geoespacial seleccionados en el mapa mediante la interacción del usuario.}}				\\
-		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Resultado:}}																\\		
-		\multicolumn{2}{l}{\parbox{15cm}{Los usuarios registrados podrán modificar la ubicación de los elementos seleccionados haciendo uso del mapa interactivo.}}																									\\
-		\multicolumn{2}{l}{\textbf{Tareas:}}																					\\
-		\multicolumn{2}{l}{
-			\begin{minipage}{12cm}
-	    		\vskip 4pt
-	    		\begin{itemize}
-	    			\item Recuperar la ubicación geoespacial y postal de la posición seleccionada en el mapa por el usuario mediante pulsación del ratón.
-	    			\item Guardar la ubicación en la base de datos al pulsar en el botón correspondiente creado al efecto en la página.
-	    			\item Informar al usuario de la correcta realización de la operación o mostrar un mensaje de error en caso contrario.
-	    			\item Modificación de los mensajes de error, aviso e información por defecto del sistema para hacerlos visualmente homogéneos al resto de la página.
-				\end{itemize}
-			  	\vskip 4pt
-		 	\end{minipage}
-		} \\																				
-	    \hline
-	  \end{tabular}
-	  \caption{Historia de Usuario 4}
-	\end{table}
-	
-	\subsubsection{Desarrollo de la Historia de Usuario: Seleccionar y mostrar un elemento en el mapa}
+	\subsubsection{Desarrollo de la Historia de Usuario: ''Seleccionar y mostrar un elemento en el mapa''}
 	Para la selección de los elementos se decide crear una lista con todos los marcadores existentes en la base de datos del usuario y modificar sus propiedades para que al detectar una pulsación, la configuración de colores imite un botón pulsado, de manera que el usuario visualice rápidamente si existe algún elemento seleccionado y en caso afirmativo cual es. \\
-	Al seleccionar un elemento de la lista, la página se reposiciona para que el foco vuelva al mapa y se redibuja el mapa dejando únicamente los marcadores pertenecientes a la ubicación actual del usuario y de la ubicación del elemento seleccionado, logrando de esta manera una funcionalidad secundaria que podría traducirse por "Quiero ver un solo marcador de elemento en el mapa".\\
-	
-	\subsubsection{Desarrollo de la Historia de Usuario: Guardar ubicaciones geoespaciales y postales}
-	
-	Gracias a la API de Google Maps, se puede recuperar fácilmente la ubicación geoespacial de la posición donde se detecta un evento de pulsación sobre el mapa y puede mostrarse en un bloque de texto la información postal recuperada, de forma que el usuario tenga un conocimiento completo de cual es la ubicación seleccionada.
-	El almacenamiento de la ubicación se hará mediante una llamada a una dirección concreta con los parámetros necesarios para que el controlador correspondiente llame a la base de datos para realizar la operación. Una vez realizado esto, se informa al usuario mediante un mensaje de la resolución correcta o incorrecta del mismo. Rails brinda un \textit{helper} que facilita la retroalimentación de este tipo, pero se limita a mensajes de texto plano, lo que rompe con la visualización de la página, por lo que se modifica mediante código para conseguir un aspecto homogéneo mediante bootstrap a estos mensajes.
-		
-	\subsection{Sprint Review}
-	Al término de este sprint se ha conseguido que el usuario pueda seleccionar uno de los elementos y visualizarlo en el mapa mediante el borrado del resto de elementos. Se ha logrado que el usuario pueda seleccionar ubicaciones geográficas mediante pulsaciones de ratón sobre el mapa e informarle de cual es la dirección postal seleccionada mediante su inclusión en cuadros de texto creados al efecto. La confirmación del almacenamiento de la nueva ubicación se ha realizado mediante un botón que dispara la acción. La retroalimentación al usuario se ha conseguido mediante la inclusión de mensajes informativos del estado de la acción. 
-
-\section{Sprint 4}
-	En el presente sprint se realizarán las tareas necesarias para que el usuario pueda crear nuevos elementos sobre los que almacenar ubicaciones.
-	
-	\subsection{Refinamiento del Product Backlog}
-	No se realiza ninguna modificación del \textit{Product Backlog}.
-	
-	\subsection{Planificación de Sprint}
-	En este sprint se desarrollará la historia de usuario 7, consistente en que el usuario pueda generar nuevos elementos sobre los que almacenar posiciones geográficas. Las tareas a llevar a cabo son similares a las implementadas en la historia de usuario 3 durante el sprint 1, puesto que consiste en la creación y edición de elementos de la base de datos. Las diferencias detectadas vienen definidas por el esquema de la base de datos, puesto que en este momento se modificará un documento embebido en lugar del documento principal.
-	
-	\begin{table}[H]
-	  \centering 
-	 	\begin{tabular}{p{0.4\linewidth}p{0.4\linewidth}}
-	    \toprule
-	    \multicolumn{2}{c}{\cellcolor{black!30}\textbf{Historia de Usuario}} 													\\
-		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Número: }7}																\\
-		\multicolumn{2}{l}{\textbf{Nombre Historia: } Crear y editar las propiedades de nuevos elementos \textit{coche}}				\\
-		\cellcolor{gray!25}\textbf{Valor de negocio: Alto}	&	\cellcolor{gray!25}\textbf{Riesgo en desarrollo: Medio}		\\
-		\textbf{Esfuerzo:} 30 horas				&	\textbf{Sprint asignado: }4												\\
-		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Programador responsable: }Juan Bausá}									\\
-		\multicolumn{2}{l}{\textbf{Descripción:}}                                                     						\\
-		\multicolumn{2}{l}{\parbox{15cm}{Crear y editar nuevos elementos \textit{coche} que permitan almacenar nuevas ubicaciones geoespaciales.}}				\\
-		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Resultado:}}																\\		
-		\multicolumn{2}{l}{\parbox{15cm}{Los usuarios registrados podrán crear nuevos elementos \textit{coche} donde podrán almacenar ubicaciones geográficas haciendo uso de las herramientas implementadas en el anterior sprint. Los usuarios registrados podrán editar las propiedades de los elementos \textit{coche} existentes.																	\\
-		\multicolumn{2}{l}{\textbf{Tareas:}}																					\\
-		\multicolumn{2}{l}{
-			\begin{minipage}{12cm}
-	    		\vskip 4pt
-	    		\begin{itemize}
-	    			\item Crear una nueva página contenedora "car" para la nueva funcionalidad
-	    			\item Añadir un método de selección que permita elegir entre modificar un elemento existente o crear uno nuevo
-	    			\item Añadir un formulario para modificar las propiedades de los elementos existentes a modificar
-	    			\item Añadir un botón de confirmación de los cambios
-	    			\item Añadir mensajes de confirmación o error resultantes de llevar a cabo la acción
-				\end{itemize}
-			  	\vskip 4pt
-		 	\end{minipage}
-		} \\																				
-	    \hline
-	  \end{tabular}
-	  \caption{Historia de Usuario 7}
-	\end{table}
-	
-	\subsubsection{Desarrollo de la Historia de Usuario: Creación y edición de elementos \textit{coche}}
-	Se crea una nueva página contenedora para la funcionalidad. Debido a que se realizaron ciertas tareas concernientes a la historia de usuario que se está desarrollando, no es necesario modificar el esquema de la base de datos. Se añade un elemento que permite seleccionar entre los elementos \textit{coche} que el usuario mantiene almacenados en la base de datos o crear un nuevo elemento.
-	Al hacer efectiva la selección aparece un formulario hasta el momento oculto que permite la edición o creación de las propiedades del elemento, según lo requiera el caso.
-	La confirmación de los cambios se realiza mediante un botón que dispara la acción del controlador, encargado final de comunicar a la base de datos los cambios a realizar. Con la respuesta de la base de datos se envía un mensaje al usuario informando de la terminación correcto o errónea de la acción.
-		
-	\subsection{Sprint Review}
-	Al término de este sprint se consigue que el usuario pueda crear nuevos elementos sobre los que almacenar ubicaciones y editar las propiedades de los ya existentes.
-
-\section{Sprint 5}
-	\subsection{Refinamiento del Product Backlog}
-	
-	\subsection{Planificación de Sprint}
-	
-	\subsubsection{Desarrollo de la Historia de Usuario }
+	Al seleccionar un elemento de la lista, la página se reposiciona para que el foco vuelva al mapa y se redibuja el mapa dejando únicamente los marcadores pertenecientes a la ubicación actual del usuario y de la ubicación del elemento seleccionado, logrando de esta manera una funcionalidad secundaria que podría traducirse por ''Quiero ver un solo marcador de elemento en el mapa''.\\
 			
 	\subsection{Sprint Review}
+	Al término de este sprint se ha logrado que el usuario puede elegir sobre cual de los elementos \textit{coche} creados en el anterior sprint desea almacenar la ubicación geográfica, dando la posibilidad de mantener tantos \textit{coches} como se desee.
 
 \section{Sprint 6}
+	En este sprint se llevará a cabo el desarrollo de la historia de usuario 8, consistente en permitir la edición de las propiedades de los elementos \textit{coche}.
 	\subsection{Refinamiento del Product Backlog}
+	No se modifica el \textit{Product Backlog}.
 	
 	\subsection{Planificación de Sprint}
+	En este sprint se desarrollará la historia de usuario 8, que consiste en permitir al usuario modificar las propiedades del elemento \textit{coche}. Es una ampliación de la historia de usuario 7 desarrollada en el sprint 4, puesto que ya se ha desarrollado una página donde poder llevar a cabo estas tareas y una forma de selección del elemento a modificar. La edición de las propiedades, la modificación en la base de datos y la respuesta al usuario en forma de mensaje es similar al llevado a cabo en el sprint 1 con la edición de los datos del propio usuario.
 	
-	\subsubsection{Desarrollo de la Historia de Usuario }
-			
+	\begin{table}[H]
+	  \centering 
+	 	\begin{tabular}{p{0.4\linewidth}p{0.4\linewidth}}
+	    \toprule
+	    \multicolumn{2}{c}{\cellcolor{black!30}\textbf{Historia de Usuario}} 													\\
+		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Número: }8}																\\
+		\multicolumn{2}{l}{\textbf{Nombre Historia: } Seleccionar un elemento \textit{coche} y modificar sus propiedades}							\\
+		\cellcolor{gray!25}\textbf{Valor de negocio: Medio}	&	\cellcolor{gray!25}\textbf{Riesgo en desarrollo: Bajo}		\\
+		\textbf{Esfuerzo:} 12 horas				&	\textbf{Sprint asignado: }6 												\\
+		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Programador responsable: }Juan Bausá}									\\
+		\multicolumn{2}{l}{\textbf{Descripción:}}                                                     						\\
+		\multicolumn{2}{l}{\parbox{15cm}{Seleccionar uno de los elementos \textit{coche} y modificar sus propiedades.}}				\\
+		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Resultado:}}																\\		
+		\multicolumn{2}{l}{\parbox{15cm}{Los usuarios podrán seleccionar un elemento \textit{coche} y modificar sus propiedades.}}																								\\
+		\multicolumn{2}{l}{\textbf{Tareas:}}																					\\
+		\multicolumn{2}{l}{
+			\begin{minipage}{12cm}
+	    		\vskip 4pt
+	    		\begin{itemize}
+	    			\item Crear un formulario que permita modificar los datos del elemento seleccionado
+	    			\item Crear un controlador que lleve a cabo la tarea de modificar el elemento en la base de datos
+	    			\item Informar al usuario del resultado de la acción
+				\end{itemize}
+			  	\vskip 4pt
+		 	\end{minipage}
+		} \\																				
+	    \hline
+	  \end{tabular}
+	  \caption{Historia de Usuario 8}
+	\end{table}
+	
+	\subsubsection{Desarrollo de la Historia de Usuario: ''Editar las propiedades del elemento \textit{coche}'' }
+		Gran parte de lo necesario para el desarrollo de esta funcionalidad ya ha sido realizado, por lo que únicamente habrá que reutilizar el formulario creado anteriormente para generar nuevos elementos \textit{coche} y crear un nuevo controlador encargado de llevar a cabo las acciones requeridas. Tanto el controlador como la información al usuario del resultado mantienen semejanzas con funcionalidades anteriores. 
+		
 	\subsection{Sprint Review}
+	Debido a que ciertas tareas a desarrollar ya habían sido abordadas con anterioridad en este mismo proyecto, el trabajo de investigación ha resultado escaso y se ha podido completar la tarea en un tiempo sustancialmente menor al planificado.
 
 \section{Sprint 7}
+En el presente sprint se llevarán a cabo las tareas relacionadas con la compartición de los elementos \textit{coche} del usuario. Las funcionalidades quedan descritas por las historias de usuario 9 y 10, que consisten en añadir y eliminar permisos para que otros usuarios del sistema puedan modificar la propiedad geoespacial de los elementos del usuario.
+
 	\subsection{Refinamiento del Product Backlog}
+	No se modifica el \textit{Product Backlog}.
 	
 	\subsection{Planificación de Sprint}
+	En este sprint se desarrollarán las historias de usuario 9 y 10, consistentes en la administración de permisos de usuario de tal manera que un usuario registrado \textit{anfitrión} permita que otros usuarios registrados \textit{invitados} puedan ver y modificar la ubicación espacial de los elementos \textit{coche} que hayan sido compartidos. Los permisos adquiridos serán gestionados de manera individual para cada elemento.
+	Una vez alcanzada la primera meta, que consistirá en el desarrollo de la historia de usuario 9, se procederá a completar la historia de usuario 10, es decir, la revocación efectiva de los permisos para modificar los datos de los elementos.
 	
-	\subsubsection{Desarrollo de la Historia de Usuario }
+	\begin{table}[H]
+	  \centering 
+	 	\begin{tabular}{p{0.4\linewidth}p{0.4\linewidth}}
+	    \toprule
+	    \multicolumn{2}{c}{\cellcolor{black!30}\textbf{Historia de Usuario}} 													\\
+		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Número: }9}																\\
+		\multicolumn{2}{l}{\textbf{Nombre Historia: } Compartir, ver y editar elementos \textit{coche}}						\\
+		\cellcolor{gray!25}\textbf{Valor de negocio: Medio}	&	\cellcolor{gray!25}\textbf{Riesgo en desarrollo: Alto}		\\
+		\textbf{Esfuerzo:} 30 horas				&	\textbf{Sprint asignado: }7 												\\
+		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Programador responsable: }Juan Bausá}									\\
+		\multicolumn{2}{l}{\textbf{Descripción:}}                                                     						\\
+		\multicolumn{2}{l}{\parbox{15cm}{Seleccionar un elemento \textit{coche} para añadir usuarios autorizados. Ver y modificar las posiciones de los elementos \textit{coche} compartidos con el usuario.}}				\\
+		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Resultado:}}																\\		
+		\multicolumn{2}{l}{\parbox{15cm}{Los usuarios podrán permitir que otros usuarios designados vean y modifiquen las posiciones de sus elementos \textit{coche.}}}																								\\
+		\multicolumn{2}{l}{\textbf{Tareas:}}																					\\
+		\multicolumn{2}{l}{
+			\begin{minipage}{12cm}
+	    		\vskip 4pt
+	    		\begin{itemize}
+	    			\item Modificar la vista \textit{maps} para mostrar los elementos \textit{coche} pertenecientes a otros usuarios en los que el usuario registrado tiene permisos de acceso
+	    			\item Modificar la vista \textit{maps} para indicar inequívocamente al usuario que los elementos que se muestran son propiedad de otro usuario
+	    			\item Modificar la vista \textit{maps} para mostrar en el mapa mediante marcadores los elementos \textit{coche} pertenecientes a otros usuarios en los que el usuario registrado tiene permisos de acceso
+	    			\item Crear un formulario para los elementos \textit{coche} que permita añadir permisos de acceso a otros usuarios designados
+	    			\item Modificar el modelo \textit{Car} para que incluya un nuevo campo donde almacenar los usuarios con permisos
+	    			\item Modificar el controlador de edición de elementos \textit{coche} para que lleve a cabo la tarea de modificar el elemento en la base de datos para incluir estos permisos
+	    			\item Informar al usuario del resultado de la acción
+				\end{itemize}
+			  	\vskip 4pt
+		 	\end{minipage}
+		} \\																				
+	    \hline
+	  \end{tabular}
+	  \caption{Historia de Usuario 9}
+	\end{table}
+	
+	\begin{table}[H]
+	  \centering 
+	 	\begin{tabular}{p{0.4\linewidth}p{0.4\linewidth}}
+	    \toprule
+	    \multicolumn{2}{c}{\cellcolor{black!30}\textbf{Historia de Usuario}} 													\\
+		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Número: }10}																\\
+		\multicolumn{2}{l}{\textbf{Nombre Historia: } Revocar permisos de acceso a los elementos \textit{coche} del propietario}						\\
+		\cellcolor{gray!25}\textbf{Valor de negocio: Medio}	&	\cellcolor{gray!25}\textbf{Riesgo en desarrollo: Medio}	\\
+		\textbf{Esfuerzo:} 10 horas				&	\textbf{Sprint asignado: }7 												\\
+		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Programador responsable: }Juan Bausá}									\\
+		\multicolumn{2}{l}{\textbf{Descripción:}}                                                     						\\
+		\multicolumn{2}{l}{\parbox{15cm}{Seleccionar un elemento \textit{coche} para visualizar los usuarios autorizados. Revocar los permisos a los usuarios seleccionados }}				\\
+		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Resultado:}}																\\		
+		\multicolumn{2}{l}{\parbox{15cm}{Los usuarios podrán revocar los permisos otorgados a otros usuarios para que no vean y modifiquen las posiciones de sus elementos \textit{coche.}}}																								\\
+		\multicolumn{2}{l}{\textbf{Tareas:}}																					\\
+		\multicolumn{2}{l}{
+			\begin{minipage}{12cm}
+	    		\vskip 4pt
+	    		\begin{itemize}
+	    			\item Modificar el formulario para los elementos \textit{coche} que permita revocar permisos de acceso a los usuarios designados
+	    			\item Modificar el controlador de edición de elementos \textit{coche} para que lleve a cabo la tarea de modificar el elemento en la base de datos para revocar estos permisos
+	    			\item Informar al usuario del resultado de la acción
+				\end{itemize}
+			  	\vskip 4pt
+		 	\end{minipage}
+		} \\																				
+	    \hline
+	  \end{tabular}
+	  \caption{Historia de Usuario 10}
+	\end{table}
+	
+	\subsubsection{Desarrollo de la Historia de Usuario: ''Compartir, ver y editar elementos \textit{coche}'' }
+	Se modifica el modelo de la base de datos \textit{Car} para incluir un nuevo campo en el que se almacenará la información relativa a los usuarios con permisos para ver y editar las posiciones de los elementos \textit{coche} de otros usuarios registrados.
+	Se modifica la base de datos manualmente mediante MongoChef para incluir un nuevo usuario con permisos de edición sobre los coches.
+	Se modifica la vista \textit{maps} para que el usuario con permisos sobre elementos \textit{coche} de los que no son propietarios pueda verlos distinguiendo inequívocamente aquellos de los que es propietario de aquellos que están compartidos por otro usuario.
+	Se modifica la vista \textit{maps} para que en el mapa interactivo se observen mediante marcadores los elementos \textit{coche} compartidos con el usuario.
+	Se crea un nuevo campo en el formulario de edición de los elementos \textit{coche}, de tal manera que se puedan añadir los correos electrónicos de los usuarios con los que se quiere compartir el elemento seleccionado. Se crea un nuevo campo en el formulario de edición de los elementos \textit{coche}, de tal manera que se visualiza de manera inequívoca a los usuarios que actualmente mantienen permisos para ver y modificar el elemento seleccionado. Se crea un elemento personalizado en forma de etiqueta que permita detectar con rapidez a los distintos usuarios con permisos sobre el elemento seleccionado.
+	 Se modifica el controlador de edición de elementos \textit{coche} de manera que incluya la edición de los permisos de compartición.
+	 El disparador de la acción continúa siendo el botón creado durante el desarrollo de la historia de usuario 7 en el sprint 4, por lo que únicamente se modifican los parámetros que se envían al controlador.
+	 Una vez finalizada la acción, se procede a informar al usuario del resultado de la misma.
+
+	\subsubsection{Desarrollo de la Historia de Usuario: ''Revocar los permisos de acceso a los elementos \textit{coche} del propietario''}	
+	Se modifican los elementos personalizados en forma de etiqueta para incluir un nuevo elemento de borrado.
+	Se modifica el controlador de edición de elementos \textit{coche} de manera que incluya la revocación de los permisos de compartición.
+	El disparador de la acción continúa siendo el botón creado durante el desarrollo de la historia de usuario 7 en el sprint 4, por lo que únicamente se modifican los parámetros que se envían al controlador.
+	 Una vez finalizada la acción, se procede a informar al usuario del resultado de la misma.
+	
+	\subsection{Sprint Review}
+	Una vez terminado este sprint, el usuario puede compartir con otros usuarios registrados sus elementos \textit{coche}, de manera que estos últimos pueden ver y editar su posición. También puede revocar los permisos otorgados a estos usuarios.
+	
+\section{Sprint 8}
+	En este sprint se llevará a cabo la historia de usuario 11, consistente en mostrar una ruta a pie desde la ubicación del usuario hasta el elemento \textit{coche} seleccionado.
+
+	\subsection{Refinamiento del Product Backlog}
+	No se producen cambios en el \textit{Product Backlog}
+
+	\subsection{Planificación de Sprint}
+	Se decide no crear una nueva página de soporte a la funcionalidad, si no reutilizar la página \textit{maps} y la selección de los elementos \textit{coche} para añadir una nueva acción secundaria, de forma que al seleccionar un elemento de la lista, automáticamente aparezcan dibujada la ruta hasta el destino en el mapa.
+	
+		\begin{table}[H]
+	  \centering 
+	 	\begin{tabular}{p{0.4\linewidth}p{0.4\linewidth}}
+	    \toprule
+	    \multicolumn{2}{c}{\cellcolor{black!30}\textbf{Historia de Usuario}} 													\\
+		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Número: }11}																\\
+		\multicolumn{2}{l}{\textbf{Nombre Historia: } Mostrar una ruta a pie hasta el elemento seleccionado}						\\
+		\cellcolor{gray!25}\textbf{Valor de negocio: Bajo}	&	\cellcolor{gray!25}\textbf{Riesgo en desarrollo: Bajo}	\\
+		\textbf{Esfuerzo:} 6 horas				&	\textbf{Sprint asignado: }8 												\\
+		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Programador responsable: }Juan Bausá}									\\
+		\multicolumn{2}{l}{\textbf{Descripción:}}                                                     						\\
+		\multicolumn{2}{l}{\parbox{15cm}{Mostrar la ruta más corta a pie desde la ubicación del usuario hasta el elemento \textit{coche} seleccionado}}				\\
+		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Resultado:}}																\\		
+		\multicolumn{2}{l}{\parbox{15cm}{Al seleccionar un elemento \textit{coche} los usuarios verán dibujada una ruta a pie desde su ubicación hasta dicho elemento.}}																								\\
+		\multicolumn{2}{l}{\textbf{Tareas:}}																					\\
+		\multicolumn{2}{l}{
+			\begin{minipage}{12cm}
+	    		\vskip 4pt
+	    		\begin{itemize}
+	    			\item Modificar el script de generación de los marcadores para incluir una ruta a pie
+				\end{itemize}
+			  	\vskip 4pt
+		 	\end{minipage}
+		} \\																				
+	    \hline
+	  \end{tabular}
+	  \caption{Historia de Usuario 10}
+	\end{table}
+	
+	\subsubsection{Desarrollo de la Historia de Usuario: ''Mostrar una ruta a pie hasta el elemento seleccionado''}
+	Para el desarrollo de esta nueva funcionalidad, la API de Google Maps nos brinda una forma rápida y sencilla de dibujar la ruta. Únicamente es necesario hacer una llamada a la API pasando como parámetros el punto inicial, es decir, la ubicación actual del usuario y el punto final, la ubicación del elemento seleccionado.
 			
 	\subsection{Sprint Review}
-
+	Al término de este sprint, cuando el usuario selecciona uno de los elementos \textit{coche} de la lista disponible, se muestra una ruta a pie desde su ubicación detectada y la posición almacenada del elemento.
+	
 % Local Variables:
 %  coding: utf-8
 %  mode: latex
