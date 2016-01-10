@@ -3,7 +3,6 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: es-alpha.bst
 Database file #1: bibliography.bib
-Warning--I didn't find a database entry for "sousa"
 Warning--to sort, need author or key in GPS12
 Warning--to sort, need author or key in Plus14
 Warning--to sort, need author or key in Ori13
@@ -16,45 +15,45 @@ Warning--to sort, need author or key in Data14
 Warning--to sort, need author or key in Worl15
 Warning--empty title in Carb07
 Warning--empty publisher in Meuc10
-You've used 57 entries,
+You've used 56 entries,
             2580 wiz_defined-function locations,
-            867 strings with 11009 characters,
-and the built_in function-call counts, 15703 in all, are:
-= -- 1462
-> -- 441
-< -- 42
-+ -- 117
-- -- 114
-* -- 758
-:= -- 2408
-add.period$ -- 194
-call.type$ -- 57
-change.case$ -- 223
-chr.to.int$ -- 57
-cite$ -- 79
-duplicate$ -- 784
-empty$ -- 1584
+            861 strings with 11023 characters,
+and the built_in function-call counts, 15502 in all, are:
+= -- 1450
+> -- 444
+< -- 40
++ -- 120
+- -- 116
+* -- 751
+:= -- 2374
+add.period$ -- 192
+call.type$ -- 56
+change.case$ -- 220
+chr.to.int$ -- 56
+cite$ -- 78
+duplicate$ -- 761
+empty$ -- 1558
 format.name$ -- 196
-if$ -- 3397
+if$ -- 3356
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 46
-newline$ -- 311
-num.names$ -- 141
-pop$ -- 581
+missing$ -- 42
+newline$ -- 307
+num.names$ -- 138
+pop$ -- 572
 preamble$ -- 1
-purify$ -- 337
+purify$ -- 332
 quote$ -- 0
-skip$ -- 567
+skip$ -- 558
 stack$ -- 0
-substring$ -- 412
-swap$ -- 56
-text.length$ -- 42
-text.prefix$ -- 35
+substring$ -- 406
+swap$ -- 55
+text.length$ -- 40
+text.prefix$ -- 34
 top$ -- 0
 type$ -- 364
 warning$ -- 12
-while$ -- 99
-width$ -- 60
-write$ -- 725
-(There were 13 warnings)
+while$ -- 98
+width$ -- 59
+write$ -- 715
+(There were 12 warnings)

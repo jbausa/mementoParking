@@ -532,8 +532,24 @@ En el presente sprint se han llevado a cabo las tareas relacionadas con la creac
 	Tal y como se ha comentado en el apartado anterior, para la realización de esta primera historia de usuario, será necesario instalar y configurar el lenguaje de programación y algunas de las herramientas secundarias que se utilizarán a lo largo del desarrollo.
 	La primera tarea sería instalar y configurar el sistema operativo sobre el que se desarrollará el trabajo, pero en este caso se omite, puesto que el sistema estaba instalado y preparado previamente. También se omite la instalación y configuración de Git, Github y Sublime Text 3 puesto que se había realizado previamente estas tareas.
 	La instalación de Ruby on Rails se hizo siguiendo el siguiente \href{http://railsapps.github.io/installrubyonrails-ubuntu.html}{tutorial}.
-	Una vez comprobado que el lenguaje queda bien instalado y configurado correctamente, se procede a darse de alta en MongoLab y configurar MongoChef para acceder a la base de datos recién creada.
+	Una vez comprobado que el lenguaje queda bien instalado y configurado correctamente, se procede a crear una cuenta en MongoLab y configurar MongoChef para acceder a la base de datos recién creada.
+	
 	La instalación de las gemas previstas (Devise y MongoId) se realiza añadiendo la orden correspondiente al Gemfile, archivo generado automáticamente por Rails al crear un nuevo proyecto y que es el encargado de controlar las gemas instaladas y sus versiones.
+	
+	\begin{lstlisting}[, frame = single, language = Ruby, caption  = {«Estracto del archivo Gemfile»}, label = code:gemfile]
+		
+		# Use Mongo for DB
+		gem 'mongo'
+		gem 'mongoid', '~> 5.0'
+		gem 'bson_ext'
+		
+			# Use Devise and OmniAuth for autentication
+		gem 'devise'
+		gem 'omniauth'
+		# gem 'omniauth-facebook'
+		# gem 'omniauth-twitter'
+		
+	\end{lstlisting}
 	
 	La creación de la herramienta en forma de una página web se concreta en crear una estructura básica de página web en la que pueden verse los enlaces clásicos de toda página, esto es, \textit{Inicio}, \textit{Contacto}, \textit{Acerca de} y \textit{Ayuda} (ver figura \ref{fig:acceso_usuarios_01}).\\
 	
@@ -544,18 +560,154 @@ En el presente sprint se han llevado a cabo las tareas relacionadas con la creac
 		\label{fig:acceso_usuarios_01}
 	\end{figure}
 
-	Una vez terminado este paso se comienza con la integración de bootstrap a través de la correspondiente gema y su configuración. Dotada ya la página de un marco básico de trabajo se procede a extraer los elementos comunes de los enlaces comentados para evitar la repetición de código (premisa básica de Rails DRY -Don't Repeat Yourself-) por lo que se generan una encabezado y pie de página que será común para todo el desarrollo.
-	A continuación se procede a configurar Devise para permitir el registro de nuevos usuarios, para lo que se creará un nuevo enlace en el encabezado que redirigirá hacia la página de registro que facilita Devise y que será convenientemente modificada.
-	Durante la configuración de Devise resulta necesaria la creación de un modelo para almacenar la información generada y la configuración de MongoId para permitir la comunicación con la base de datos creada en MongoLab.
-	Una vez realizadas estas acciones, se procede a crear un nuevo usuario y comprobar que efectivamente ha sido incorporado a la base de datos.
+	Una vez terminado este paso se comienza con la integración de bootstrap a través de la correspondiente gema y su configuración (ver listado \ref{code:gemfile2}).\\
+
+	\begin{lstlisting}[, frame = single, language = Ruby, caption  = {«Estracto del archivo Gemfile II»}, label = code:gemfile2]
+		
+		# Use Bootstrap for friendly and responsive UI
+		gem 'bootstrap-sass'       # should be already included
+		gem 'bootswatch-rails'
+		gem 'font-awesome-sass'
+		gem 'bootstrap_tokenfield_rails'
+		
+	\end{lstlisting}
+		
+	Dotada ya la página de un marco básico de trabajo se procede a extraer los elementos comunes de los enlaces comentados para evitar la repetición de código (premisa básica de Rails DRY -Don't Repeat Yourself-) por lo que se generan una encabezado y pie de página que será común para todo el desarrollo (ver figuras \ref{fig:acceso_usuarios_02} y \ref{fig:acceso_usuarios_03}. Para el diseño adaptado a pantallas de dispositivos móviles ver figuras \ref{fig:acceso_usuarios_04} y \ref{fig:acceso_usuarios_05}). 
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=15cm, fbox={\fboxrule} 4mm]{images/05-resultados/05-acceso_usuarios_2.png}
+		\caption{Vista previa del encabezado}
+		\label{fig:acceso_usuarios_02}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=15cm, fbox={\fboxrule} 4mm]{images/05-resultados/06-acceso_usuarios_3.png}
+		\caption{Vista previa del pie de página}
+		\label{fig:acceso_usuarios_03}
+	\end{figure}
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=15cm, fbox={\fboxrule} 4mm]{images/05-resultados/07-acceso_usuarios_4.png}
+		\caption{Vista previa del encabezado adaptado}
+		\label{fig:acceso_usuarios_04}
+	\end{figure}
+	
+		\begin{figure}[H]
+		\centering
+		\includegraphics[width=15cm, fbox={\fboxrule} 4mm]{images/05-resultados/08-acceso_usuarios_5.png}
+		\caption{Vista previa del pie de página adaptado}
+		\label{fig:acceso_usuarios_05}
+	\end{figure}
+	
+	
+	A continuación se procede a configurar Devise para permitir el registro de nuevos usuarios, para lo que se creará un nuevo enlace en el encabezado que redirigirá hacia la página de registro que facilita Devise y que será convenientemente modificada (ver figura \ref{fig:acceso_usuarios_06}).
+	
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=15cm, fbox={\fboxrule} 4mm]{images/05-resultados/09-acceso_usuarios_6.png}
+		\caption{Vista previa de la página de registro}
+		\label{fig:acceso_usuarios_06}
+	\end{figure}
+	
+	Durante la configuración de Devise resulta necesaria la creación de un modelo para almacenar la información generada (ver listado \ref{code:UserModel}) y la configuración de MongoId para permitir la comunicación con la base de datos creada en MongoLab (ver listado \ref{code:mongoid.yml}).
+	
+	\begin{lstlisting}[, frame = single, language = Ruby, caption  = {«Archivo de configuración de mongoid»}, label = code:mongoid.yml]
+		
+		development:
+		  clients:
+		    default:
+		      uri: 'mongodb://<Username>:<Password>@ds061374.mongolab.com:61374/memento_parking'
+		      options:
+		  options:
+		test:
+		  clients:
+		    default:
+		      database: memento_parking_test
+		      hosts:
+		        - localhost:27017
+		      options:
+		        read:
+		          mode: :primary
+		        max_pool_size: 1
+		
+		production:
+		  clients:
+		    default:
+		      uri: 'mongodb://<Username>:<Password>@ds061374.mongolab.com:61374/memento_parking'
+		      options:
+		
+	\end{lstlisting}
+	
+	\begin{lstlisting}[, frame = single, language = Ruby, caption  = {«Model User»}, label = code:UserModel]
+		
+		class User
+		  include Mongoid::Document
+		  # Include default devise modules. Others available are:
+		  # :confirmable, :lockable, :timeoutable and :omniauthable
+		  devise :database_authenticatable, :registerable,
+		         :recoverable, :rememberable, :timeoutable, :trackable, :validatable, :omniauthable
+		
+		  ## Database authenticatable
+		  field :email,              type: String, default: ''''
+		  field :encrypted_password, type: String, default: ''''
+		
+		  field :name,               type: String
+		  field :surname,            type: String
+		
+		  ## Recoverable
+		  field :reset_password_token,   type: String
+		  field :reset_password_sent_at, type: Time
+		
+		  ## Rememberable
+		  field :remember_created_at, type: Time
+		
+		  ## Trackable
+		  field :sign_in_count,      type: Integer, default: 0
+		  field :current_sign_in_at, type: Time
+		  field :last_sign_in_at,    type: Time
+		  field :current_sign_in_ip, type: String
+		  field :last_sign_in_ip,    type: String
+		  
+		  embeds_many :car
+		end
+		
+	\end{lstlisting}	
+	
+	Una vez realizadas estas acciones, se procede a crear un nuevo usuario y comprobar que efectivamente ha sido incorporado a la base de datos (ver figura \ref{fig:acceso_usuarios_07}).
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=15cm, fbox={\fboxrule} 4mm]{images/05-resultados/10-acceso_usuarios_7.png}
+		\caption{Creación nuevo usuario}
+		\label{fig:acceso_usuarios_07}
+	\end{figure}
 	
 	\subsubsection{Desarrollo de la Historia de Usuario: ''Acceso de usuarios'' }
 	Para el desarrollo de esta historia de usuario es necesario contar con partes del sistema en los que el acceso va a ser restringido para los usuarios anónimos, por lo que el primer paso es crear la página que contendrá el mapa donde se mostrarán las ubicaciones guardadas por el usuario.
-	Una vez realizada esta tarea se creará una página para que los usuarios que hayan completado su registro en el sistema puedan acceder al mismo. Ya que devise proporciona una página que se amolda con bastante exactitud a las necesidades del desarrollo, se hace uso de esta vista \textit{mutatis mutandis}.
-	Una vez realizados estos cambios, se procede a configurar devise para restringir el acceso a los usuarios anónimos a las páginas no relativas a la herramienta.
+	Una vez realizada esta tarea se creará una página para que los usuarios que hayan completado su registro en el sistema puedan acceder al mismo. Ya que devise proporciona una página que se amolda con bastante exactitud a las necesidades del desarrollo, se hace uso de esta vista \textit{mutatis mutandis} (ver figura \ref{fig:acceso_usuarios_08}).
 	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=15cm, fbox={\fboxrule} 4mm]{images/05-resultados/11-acceso_usuarios_8.png}
+		\caption{Página de acceso a la herrramienta}
+		\label{fig:acceso_usuarios_08}
+	\end{figure}	
+	
+	Una vez realizados estos cambios, se procede a configurar devise para restringir el acceso a los usuarios anónimos a las páginas no relativas a la herramienta.
+		
 	\subsubsection{Desarrollo de la Historia de Usuario: ''Edición de datos de usuarios'' }
-	Ya que devise también proporciona una página para la modificación de los datos de usuarios registrados, se procederá a cambiar los campos necesarios para permitir la edición de los datos personales de los usuarios.
+	Ya que devise también proporciona una página para la modificación de los datos de usuarios registrados, se procederá a cambiar los campos necesarios para permitir la edición de los datos personales de los usuarios (ver figura \ref{fig:edicion_usuarios}).
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=15cm, fbox={\fboxrule} 4mm]{images/05-resultados/12-edicion_usuarios.png}
+		\caption{Página de acceso a la herrramienta}
+		\label{fig:edicion_usuarios}
+	\end{figure}
 	
 	\subsection{Sprint Review}
 	Al término del sprint se ha conseguido una página web de estructura clásica que será el marco de la herramienta, un diseño adaptable a cualquier dispositivo con el que se visite y una gestión básica de usuarios consistente en registro, edición y acceso. También se ha conseguido discriminar a los usuarios anónimos y registrados de manera que el sistema permita o no su acceso a la herramienta. Se crea un primer modelo \textit{User} para la base de datos y se configura gran parte de las herramientas secundarias utilizadas en el desarrollo.
@@ -607,9 +759,99 @@ En el presente sprint se han llevado a cabo las tareas relacionadas con mostrar 
 	\end{table}
 		
 	\subsubsection{Desarrollo de la Historia de Usuario: ''Mostrar posiciones geoespaciales y direcciones postales''}
-	Como se ha comentado en apartado anterior, para la realización de esta historia de usuario se comienza añadiendo un nuevo modelo de datos llamado ''Cars'' y editando manualmente la base de datos a través de MongoChef para incluir los datos relativos al documento ''Car'' para un usuario existente. Se incorporan unos datos geoespaciales y postales controlados por el desarrollador como datos válidos.
-	A continuación, y una vez dado de alta en la API proporcionada por Google y generadas las claves necesarias para su utilización, se crea un elemento HTML que contendrá el mapa generado y se hace una llamada al API de manera que se muestre el mapa donde se generarán los elementos de marcado. Para el centrado del mapa en la posición del usuario se utiliza la propiedad proporcionada por HTML5 para conocer la ubicación geográfica aproximada del usuario y se modifican las propiedades del mapa para centrarlo en la posición adquirida.
-	Con el mapa centrado en la posición del usuario se realiza una llamada a la base de datos para recuperar los elementos previamente guardados y mediante un bucle se crean dinámicamente los elementos HTML que mostrarán los datos postales  y se hace una llamada a una función JavaScript que será la encargada de utilizar el API de Google Maps para incorporar marcadores en las coordenadas geoespaciales recuperadas de la base de datos, al término de la tarea, se modifican los elementos HTML para que incorporen los datos postales de los marcadores.
+	Como se ha comentado en apartado anterior, para la realización de esta historia de usuario se comienza añadiendo un nuevo modelo de datos llamado ''Car'' (ver listado \ref{code:CarModel}) y editando manualmente la base de datos a través de MongoChef para incluir los datos relativos al documento ''car'' (ver listado \ref{code:mostrar_posiciones}) para un usuario existente. Se incorporan unos datos geoespaciales y postales controlados por el desarrollador como datos válidos.
+	
+	\begin{lstlisting}[, frame = single, language = Ruby, caption  = {«Model Car»}, label = code:CarModel]
+		
+		class Car
+		  include Mongoid::Document
+		  embedded_in :user
+		  field :coordinates, type: String
+		  field :description, type: String
+		  field :address, type: String
+		end
+		
+	\end{lstlisting}
+
+	\begin{lstlisting}[, frame = single, language = JSON, caption  = {«Documento JSON relativo a un elemento \textit{coche}»}, label = code:mostrar_posiciones]
+		
+		{ 
+		    "_id" : ObjectId("56839bb2d0c27c0003000000"), 
+		    "email" : "juanbausa@gmail.com", 
+		    "encrypted_password" : "$2a$10$cGKOjD9nOvLT7rlZoEzF.OdenRokm5aSxPynYyvp2tGCF1LmqCVtm", 
+		    "sign_in_count" : NumberInt(12), 
+		    "last_sign_in_at" : ISODate("2016-01-08T16:55:26.390+0000"), 
+		    "current_sign_in_at" : ISODate("2016-01-08T18:33:10.662+0000"), 
+		    "last_sign_in_ip" : "127.0.0.1", 
+		    "current_sign_in_ip" : "127.0.0.1", 
+		    "car" : [
+		        {
+		            "_id" : ObjectId("56839de073e3e125cd000000"), 
+		            "description" : "TOYOTITA", 
+		            "coordinates" : "(38.993038383938284, -3.921668529510498)", 
+		            "address" : "Calle Carlos López Bustos, 1, 13005 Ciudad Real, Cdad. Real, España", 
+		            "shared" : [
+		                "janedoe@gmail.com", 
+		                "johndoe@gmail.com"
+		            ]
+		        }
+		    ]
+		}
+		
+	\end{lstlisting}
+	
+	A continuación, y una vez dado de alta en la API proporcionada por Google y generadas las claves necesarias para su utilización, se crea un elemento HTML que contendrá el mapa generado y se hace una llamada al API de manera que se muestre el mapa donde se generarán los elementos de marcado (ver figura \ref{fig:mostrar_posiciones2}).\\
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=15cm, fbox={\fboxrule} 4mm]{images/05-resultados/14-mostrar_posiciones_2.png}
+		\caption{Elementos \textit{coche} y dirección postal almacenada}
+		\label{fig:mostrar_posiciones2}
+	\end{figure}
+	
+	 Para el centrado del mapa en la posición del usuario se utiliza la propiedad proporcionada por HTML5 para conocer la ubicación geográfica aproximada del usuario y se modifican las propiedades del mapa para centrarlo en la posición adquirida (ver listado \ref{code:geocodeHTML5}).
+	 
+	 	\begin{lstlisting}[, frame = single, language = JavaScript, caption  = {«Geolocalización HTML5»}, label = code:geocodeHTML5]
+		
+		function getLocation() {
+ 		if (navigator.geolocation) {
+ 			coords = null;
+ 			navigator.geolocation.getCurrentPosition(set_map_Location);
+ 		}
+ 	}
+		
+	\end{lstlisting}
+	 
+	Con el mapa centrado en la posición del usuario se realiza una llamada a la base de datos para recuperar los elementos previamente guardados y mediante un bucle se crean dinámicamente los elementos HTML que mostrarán los datos postales  y se hace una llamada a una función JavaScript que será la encargada de utilizar el API de Google Maps para incorporar marcadores en las coordenadas geoespaciales recuperadas de la base de datos (ver listado \ref{code:markerDB}), al término de la tarea, se modifican los elementos HTML para que incorporen los datos postales de los marcadores.
+	
+		\begin{lstlisting}[, frame = single, language = JavaScript, caption  = {«Añadir marcadores desde base de datos»}, label = code:markerDB]
+	/* Add markers stored in DB */
+	 function addMarkerDB(address, description) {
+
+	 	if (markerUserClick) {
+	 		markerUserClick.setMap(null);
+	 		markerUserClick = null;
+	 	}
+
+	 	if(address){
+	 		geocoder.geocode({'address': address}, function(results, status) {
+	 			if (status === google.maps.GeocoderStatus.OK) {
+	 				var markerDB = new google.maps.Marker({
+	 					map: map,
+	 					draggable: true,
+	 					position: results[0].geometry.location
+	 				});
+	 				var infoWindowDB = new google.maps.InfoWindow({size: new google.maps.Size(150,50)});
+	 				infoWindowDB.setContent(''<b>''+description+'':</b><br>''+ results[0].formatted_address);
+	 				setMarkerDB(markerDB);
+	 				google.maps.event.addListener(markerDB, 'click', function(){infoWindowDB.open(map,markerDB);});
+	 			} else {
+	 				alert('Geocode was not successful for the following reason: ' + status);
+	 			}
+	 		});
+	 	}
+	 }
+	 \end{lstlisting}
 	
 	\subsection{Sprint Review}
 	Al término de este sprint se ha logrado que el usuario registrado pueda ver un mapa interactivo en el que se muestran marcadores correspondientes a los elementos almacenados en la base de datos. De igual manera, se crean tantos elementos contenedores como ubicaciones estuvieran guardadas y se rellenan con los datos postales correspondientes. El usuario podrá ver de esta manera de forma entendible a través del mapa y los cuadros de texto la ubicación de los elementos almacenados. Ha sido necesario reubicar algunas tareas previstas en la historia de usuario 7 en el sprint 4 como condición previa para llevar a término este sprint.
@@ -660,8 +902,90 @@ En el presente sprint se llevarán a cabo las tareas relacionadas con el almacen
 	
 	\subsubsection{Desarrollo de la Historia de Usuario: ''Guardar ubicaciones geoespaciales y postales''}
 	
-	Gracias a la API de Google Maps, se puede recuperar fácilmente la ubicación geoespacial de la posición donde se detecta un evento de pulsación sobre el mapa y puede mostrarse en un bloque de texto la información postal recuperada, de forma que el usuario tenga un conocimiento completo de cual es la ubicación seleccionada.
-	El almacenamiento de la ubicación se hará mediante una llamada a una dirección concreta con los parámetros necesarios para que el controlador correspondiente llame a la base de datos para realizar la operación. Una vez realizado esto, se informa al usuario mediante un mensaje de la resolución correcta o incorrecta del mismo. Rails brinda un \textit{helper} que facilita la retroalimentación de este tipo, pero se limita a mensajes de texto plano, lo que rompe con la visualización de la página, por lo que se modifica mediante código para conseguir un aspecto homogéneo mediante bootstrap a estos mensajes.
+	Gracias a la API de Google Maps, se puede recuperar fácilmente la ubicación geoespacial de la posición donde se detecta un evento de pulsación sobre el mapa (ver listado \ref{code:clickMarker}) y puede mostrarse en un bloque de texto la información postal recuperada, de forma que el usuario tenga un conocimiento completo de cual es la ubicación seleccionada (ver figura \ref{fig:guardar_posiciones_1}).
+	
+	\begin{lstlisting}[language = JavaScript, frame = lines, caption  = {«Añadir marcador al mapa cuando el usuario pulsa con el ratón»}, label = code:clickMarker]
+	
+	 // A function to create the marker and set up the event window function 
+	 function createMarkerLatLng(latlng) {
+	 	markerUserClick = new google.maps.Marker(
+	 		{position: latlng, 
+	 			icon: ''https://mt.google.com/vt/icon?psize=20&font=fonts/Roboto-Regular.ttf&color=ff330000&name=icons/spotlight/spotlight-waypoint-blue.png'',
+	 			map: map, 
+	 			zIndex: Math.round(latlng.lat()*-100000)<<5}
+	 			);
+	 	geocoder.geocode({'location': latlng}, function(results, status) {
+	 		if (status === google.maps.GeocoderStatus.OK) {
+	 			if (results[0]) {
+	 				map.setZoom(15);
+	 				address = results[0].formatted_address;
+	 				infowindow.setContent(''<b>Nueva ubicación:</b><br>'' + results[0].formatted_address);
+	 				infowindow.open(map, markerUserClick);
+	 			} else {
+	 				window.alert('No results found');
+	 			}
+	 		} else {
+	 			window.alert('Geocoder failed due to: ' + status);
+	 		}
+	 	});
+	 	google.maps.event.trigger(markerUserClick, 'click');
+	 }
+	 
+	 \end{lstlisting}
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=15cm, fbox={\fboxrule} 4mm]{images/05-resultados/15-guardar_posiciones_1.png}
+		\caption{Marcador personalizado con información de dirección postal}
+		\label{fig:guardar_posiciones_1}
+	\end{figure}
+	 
+	El almacenamiento de la ubicación se hará mediante una llamada a una dirección concreta con los parámetros necesarios para que el controlador correspondiente llame a la base de datos para completar la operación (ver listado \ref{code:coordsController}). 
+	
+	\begin{lstlisting}[, frame = single, language = Ruby, caption  = {«Guardar coordenadas»}, label = code:coordsController]
+	  def coords
+	      @user = User.find_by(email: params[:mailOwner])
+	      @car = @user.car.find(params[:carId])
+	
+	    if @car.update({coordinates: params[:coord], address: params[:address]})
+	      flash[:success] = ''Dirección actualizada correctamente''
+	    else
+	      flash[:alert] = ''Error al actualizar la dirección''
+	    end
+	    redirect_to maps_path
+	  end
+	\end{lstlisting}
+	
+	Una vez realizado esto, se informa al usuario mediante un mensaje de la resolución correcta o incorrecta del mismo. Rails brinda un \textit{helper} que facilita la retroalimentación de este tipo, pero se limita a mensajes de texto plano, lo que rompe con la visualización de la página, por lo que se modifica mediante código para conseguir un aspecto homogéneo mediante bootstrap a estos mensajes (ver figura \ref{fig:guardar_posiciones_2} y listado \ref{code:flashMessages}).
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=15cm, fbox={\fboxrule} 4mm]{images/05-resultados/16-guardar_posiciones_2.png}
+		\caption{Mensaje reenviado por el controlador}
+		\label{fig:guardar_posiciones_2}
+	\end{figure}
+		
+	\begin{lstlisting}[frame = single, language = Ruby, caption  = {«Código para sobreescribir los mensajes flash»}, label = code:flashMessages]
+		# https://gist.github.com/suryart/7418454
+		module ApplicationHelper
+		  def bootstrap_class_for flash_type
+		    { success: "alert-success", error: "alert-error", alert: "alert-warning", notice: "alert-info" }[flash_type.to_sym] || flash_type.to_s
+		end
+		
+		  def flash_messages(opts = {})
+		    #flash.except(:timedout).each do |msg_type, message|
+		    flash.each do |msg_type, message|
+		      if message != true
+		        concat(content_tag(:div, message, class: "alert #{bootstrap_class_for(msg_type)} fade in", style: "margin-top:10px;") do 
+		                concat content_tag(:button, 'x', class: "close", data: { dismiss: 'alert' })
+		                concat message 
+		              end)
+		      end
+		    end
+		    nil
+		  end
+		end
+	\end{lstlisting}	
 		
 	\subsection{Sprint Review}
 	Al término de este sprint se ha conseguido que el usuario pueda seleccionar ubicaciones geográficas mediante pulsaciones de ratón sobre el mapa e informarle de cual es la dirección postal seleccionada mediante su inclusión en cuadros de texto creados al efecto. La confirmación del almacenamiento de la nueva ubicación se ha realizado mediante un botón que dispara la acción. La retroalimentación al usuario se ha conseguido mediante la inclusión de mensajes informativos del estado de la acción. 
@@ -681,22 +1005,21 @@ En el presente sprint se llevarán a cabo las tareas relacionadas con el almacen
 	    \toprule
 	    \multicolumn{2}{c}{\cellcolor{black!30}\textbf{Historia de Usuario}} 													\\
 		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Número: }7}																\\
-		\multicolumn{2}{l}{\textbf{Nombre Historia: } Crear y editar las propiedades de nuevos elementos \textit{coche}}				\\
+		\multicolumn{2}{l}{\textbf{Nombre Historia: } Crear nuevos elementos \textit{coche}}				\\
 		\cellcolor{gray!25}\textbf{Valor de negocio: Alto}	&	\cellcolor{gray!25}\textbf{Riesgo en desarrollo: Medio}		\\
 		\textbf{Esfuerzo:} 12 horas				&	\textbf{Sprint asignado: }4												\\
 		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Programador responsable: }Juan Bausá}									\\
 		\multicolumn{2}{l}{\textbf{Descripción:}}                                                     						\\
 		\multicolumn{2}{l}{\parbox{15cm}{Crear y editar nuevos elementos \textit{coche} que permitan almacenar nuevas ubicaciones geoespaciales.}}				\\
 		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Resultado:}}																\\		
-		\multicolumn{2}{l}{\parbox{15cm}{Los usuarios registrados podrán crear nuevos elementos \textit{coche} donde podrán almacenar ubicaciones geográficas haciendo uso de las herramientas implementadas en el anterior sprint. Los usuarios registrados podrán editar las propiedades de los elementos \textit{coche} existentes}}.																	\\
+		\multicolumn{2}{l}{\parbox{15cm}{Los usuarios registrados podrán crear nuevos elementos \textit{coche} donde podrán almacenar ubicaciones geográficas haciendo uso de las herramientas implementadas en el anterior sprint.}}																	\\
 		\multicolumn{2}{l}{\textbf{Tareas:}}																					\\
 		\multicolumn{2}{l}{
 			\begin{minipage}{12cm}
 	    		\vskip 4pt
 	    		\begin{itemize}
 	    			\item Crear una nueva página contenedora ''car'' para la nueva funcionalidad
-	    			\item Añadir un método de selección que permita elegir entre modificar un elemento existente o crear uno nuevo
-	    			\item Añadir un formulario para modificar las propiedades de los elementos existentes a modificar
+	    			\item Añadir un método de selección que permita crear un nuevo elemento
 	    			\item Añadir un botón de confirmación de los cambios
 	    			\item Añadir mensajes de confirmación o error resultantes de llevar a cabo la acción
 				\end{itemize}
@@ -708,13 +1031,44 @@ En el presente sprint se llevarán a cabo las tareas relacionadas con el almacen
 	  \caption{Historia de Usuario 7}
 	\end{table}
 	
-	\subsubsection{Desarrollo de la Historia de Usuario: ''Creación y edición de elementos \textit{coche}''}
-	Se crea una nueva página contenedora para la funcionalidad. Debido a que se realizaron ciertas tareas concernientes a la historia de usuario que se está desarrollando, no es necesario modificar el esquema de la base de datos. Se añade un elemento que permite seleccionar entre los elementos \textit{coche} que el usuario mantiene almacenados en la base de datos o crear un nuevo elemento.
-	Al hacer efectiva la selección aparece un formulario hasta el momento oculto que permite la edición o creación de las propiedades del elemento, según lo requiera el caso.
-	La confirmación de los cambios se realiza mediante un botón que dispara la acción del controlador, encargado final de comunicar a la base de datos los cambios a realizar. Con la respuesta de la base de datos se envía un mensaje al usuario informando de la terminación correcto o errónea de la acción.
+	\subsubsection{Desarrollo de la Historia de Usuario: ''Creación de elementos \textit{coche}''}
+	Se crea una nueva página contenedora para la funcionalidad (ver figura \ref{fig:crear_coche}). Debido a que ya se realizaron ciertas tareas concernientes a la historia de usuario que se está desarrollando, no es necesario modificar el esquema de la base de datos. Se añade un elemento que permite crear un nuevo elemento.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=15cm, fbox={\fboxrule} 4mm]{images/05-resultados/17-crear_coche.png}
+		\caption{Página de edición de elementos \textit{coche}}
+		\label{fig:crear_coche}
+	\end{figure}	
+	
+	Al hacer efectiva la selección aparece un formulario hasta el momento oculto que permite la creación del elemento indicando el nombre con el que se visualizará.
+	La confirmación de los cambios se realiza mediante un botón que dispara la acción del controlador, encargado final de comunicar a la base de datos los cambios a realizar (ver listado \ref{code:newCar}).
+	
+	\begin{lstlisting}[, frame = single, language = Ruby, caption  = {«Creación elemento \textit{coche}»}, label = code:newCar]
+		def newCar
+		    mail = current_user.email
+		    @user = User.find_by(email: mail)    
+		    if params[:newdescription] != ''''
+		      @user.car.create!(description: params[:newdescription])
+		      flash[:success] = ''Se ha creado un nuevo coche''
+		    else
+		      flash[:alert] = ''Error al crear el nuevo coche. Introduce una descripción.''
+		    end
+		    redirect_to car_path
+		  end	
+	\end{lstlisting}
+	
+	Con la respuesta de la base de datos se envía un mensaje al usuario informando de la terminación correcta o errónea de la acción (ver figura \ref{fig:crear_coche2}).
+		
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=15cm, fbox={\fboxrule} 4mm]{images/05-resultados/18-crear_coche2.png}
+		\caption{Respuesta controlador al crear nuevo coche}
+		\label{fig:crear_coche2}
+	\end{figure}
 		
 	\subsection{Sprint Review}
-	Al término de este sprint se consigue que el usuario pueda crear nuevos elementos sobre los que almacenar ubicaciones y editar las propiedades de los ya existentes.
+	Al término de este sprint se consigue que el usuario pueda crear nuevos elementos sobre los que almacenar ubicaciones.
 
 \section{Sprint 5}
 	En el presente sprint se llevarán a cabo las tareas necesarias para que el usuario pueda seleccionar sobre que elemento \textit{coche} desea almacenar la ubicación seleccionada en el mapa.
@@ -755,19 +1109,27 @@ En el presente sprint se llevarán a cabo las tareas relacionadas con el almacen
 	\end{table}
 	
 	\subsubsection{Desarrollo de la Historia de Usuario: ''Seleccionar y mostrar un elemento en el mapa''}
-	Para la selección de los elementos se decide crear una lista con todos los marcadores existentes en la base de datos del usuario y modificar sus propiedades para que al detectar una pulsación, la configuración de colores imite un botón pulsado, de manera que el usuario visualice rápidamente si existe algún elemento seleccionado y en caso afirmativo cual es. \\
+	Para la selección de los elementos se decide crear una lista con todos los marcadores existentes en la base de datos del usuario y modificar sus propiedades para que al detectar una pulsación, la configuración de colores cambie(ver figura \ref{fig:seleccionar_coche}), de manera que el usuario visualice rápidamente si existe algún elemento seleccionado y en caso afirmativo cual es. \\
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=15cm, fbox={\fboxrule} 4mm]{images/05-resultados/19-seleccionar_coche.png}
+		\caption{Selector de elementos \textit{coche}}
+		\label{fig:seleccionar_coche}
+	\end{figure}	
+		
 	Al seleccionar un elemento de la lista, la página se reposiciona para que el foco vuelva al mapa y se redibuja el mapa dejando únicamente los marcadores pertenecientes a la ubicación actual del usuario y de la ubicación del elemento seleccionado, logrando de esta manera una funcionalidad secundaria que podría traducirse por ''Quiero ver un solo marcador de elemento en el mapa''.\\
 			
 	\subsection{Sprint Review}
 	Al término de este sprint se ha logrado que el usuario puede elegir sobre cual de los elementos \textit{coche} creados en el anterior sprint desea almacenar la ubicación geográfica, dando la posibilidad de mantener tantos \textit{coches} como se desee.
 
 \section{Sprint 6}
-	En este sprint se llevará a cabo el desarrollo de la historia de usuario 8, consistente en permitir la edición de las propiedades de los elementos \textit{coche}.
+	En este sprint se llevará a cabo el desarrollo de la historia de usuario 8, consistente en permitir la edición de las propiedades de los elementos \textit{coche}. De igual manera se permite la eliminación de elementos \textit{coche}.
 	\subsection{Refinamiento del Product Backlog}
 	No se modifica el \textit{Product Backlog}.
 	
 	\subsection{Planificación de Sprint}
-	En este sprint se desarrollará la historia de usuario 8, que consiste en permitir al usuario modificar las propiedades del elemento \textit{coche}. Es una ampliación de la historia de usuario 7 desarrollada en el sprint 4, puesto que ya se ha desarrollado una página donde poder llevar a cabo estas tareas y una forma de selección del elemento a modificar. La edición de las propiedades, la modificación en la base de datos y la respuesta al usuario en forma de mensaje es similar al llevado a cabo en el sprint 1 con la edición de los datos del propio usuario.
+	En este sprint se desarrollará la historia de usuario 8, que consiste en permitir al usuario modificar las propiedades del elemento \textit{coche}. Es una ampliación de la historia de usuario 7 desarrollada en el sprint 4, puesto que ya se ha desarrollado una página donde poder llevar a cabo estas tareas y una forma de selección del elemento a modificar o eliminar. La edición de las propiedades, la modificación o eliminación en la base de datos y la respuesta al usuario en forma de mensaje es similar a lo llevado a cabo en el sprint 1 y 4 con la edición de los datos del propio usuario y la creación de nuevos elementos \textit{coche}.
 	
 	\begin{table}[H]
 	  \centering 
@@ -788,8 +1150,9 @@ En el presente sprint se llevarán a cabo las tareas relacionadas con el almacen
 			\begin{minipage}{12cm}
 	    		\vskip 4pt
 	    		\begin{itemize}
-	    			\item Crear un formulario que permita modificar los datos del elemento seleccionado
+	    			\item Crear un botón para eliminar el elemento \textit{coche} seleccionado
 	    			\item Crear un controlador que lleve a cabo la tarea de modificar el elemento en la base de datos
+	     			\item Crear un controlador que lleve a cabo la tarea de eliminar el elemento en la base de datos
 	    			\item Informar al usuario del resultado de la acción
 				\end{itemize}
 			  	\vskip 4pt
@@ -801,7 +1164,54 @@ En el presente sprint se llevarán a cabo las tareas relacionadas con el almacen
 	\end{table}
 	
 	\subsubsection{Desarrollo de la Historia de Usuario: ''Editar las propiedades del elemento \textit{coche}'' }
-		Gran parte de lo necesario para el desarrollo de esta funcionalidad ya ha sido realizado, por lo que únicamente habrá que reutilizar el formulario creado anteriormente para generar nuevos elementos \textit{coche} y crear un nuevo controlador encargado de llevar a cabo las acciones requeridas. Tanto el controlador como la información al usuario del resultado mantienen semejanzas con funcionalidades anteriores. 
+		Gran parte de lo necesario para el desarrollo de esta funcionalidad ya ha sido realizado, por lo que únicamente habrá que reutilizar el formulario creado anteriormente para generar nuevos elementos \textit{coche} y crear un nuevo controlador encargado de llevar a cabo las acciones requeridas (ver listados \ref{code:editCar} y \ref{code:deleteCar}). Tanto el controlador como la respuesta al usuario del resultado mantienen semejanzas con funcionalidades anteriores. 
+		
+	\begin{lstlisting}[, frame = single, language = Ruby, caption  = {«Editar propiedades elemento \textit{coche}»}, label = code:editCar]
+	  def editCar
+	    mail = current_user.email
+	    @user = User.find_by(email: mail)
+	    @car = @user.car.find_by(_id: params[:id])
+	
+	    @alert = true
+	
+	    @car.set({shared: []})
+	    params[:shared].split('','').each do |sharedUser|
+	      if @car.add_to_set({shared: sharedUser})
+	        flash[:success] = ''Compartido cambiado correctamente''
+	      else
+	        @alert = false
+	      end
+	    end
+	
+	    if params[:newdescription] != ''''
+	      if @car.update({description: params[:newdescription]})
+	        flash[:success] = ''Descripción cambiada correctamente'' + params[:shared]
+	      else
+	        @alert = false
+	      end
+	    end
+	    
+	    if(!@alert)
+	      flash[:alert] = ''Error al realizar los cambios''
+	    end
+	
+	    redirect_to car_path
+	  end
+	\end{lstlisting}
+
+	\begin{lstlisting}[, frame = single, language = Ruby, caption  = {«Eliminación elemento \textit{coche}»}, label = code:deleteCar]
+	  def deleteCar
+	    mail = current_user.email
+	    @user = User.find_by(email: mail)
+	    @car = @user.car.find_by(_id: params[:id])
+	    if @car.delete
+	      flash[:success] = ''Coche eliminado correctamente''
+	    else
+	      flash[:alert] = ''Error al eliminar el coche''
+	    end
+	    redirect_to car_path
+	  end
+	\end{lstlisting}
 		
 	\subsection{Sprint Review}
 	Debido a que ciertas tareas a desarrollar ya habían sido abordadas con anterioridad en este mismo proyecto, el trabajo de investigación ha resultado escaso y se ha podido completar la tarea en un tiempo sustancialmente menor al planificado.
@@ -883,14 +1293,90 @@ En el presente sprint se llevarán a cabo las tareas relacionadas con la compart
 	\end{table}
 	
 	\subsubsection{Desarrollo de la Historia de Usuario: ''Compartir, ver y editar elementos \textit{coche}'' }
-	Se modifica el modelo de la base de datos \textit{Car} para incluir un nuevo campo en el que se almacenará la información relativa a los usuarios con permisos para ver y editar las posiciones de los elementos \textit{coche} de otros usuarios registrados.
-	Se modifica la base de datos manualmente mediante MongoChef para incluir un nuevo usuario con permisos de edición sobre los coches.
-	Se modifica la vista \textit{maps} para que el usuario con permisos sobre elementos \textit{coche} de los que no son propietarios pueda verlos distinguiendo inequívocamente aquellos de los que es propietario de aquellos que están compartidos por otro usuario.
+	Se modifica el modelo de la base de datos \textit{Car} para incluir un nuevo campo en el que se almacenará la información relativa a los usuarios con permisos para ver y editar las posiciones de los elementos \textit{coche} de otros usuarios registrados (ver listado \ref{code:CarModel2}).
+	
+	\begin{lstlisting}[, frame = single, language = Ruby, caption  = {«Model Car actualizado»}, label = code:CarModel2]
+		
+		class Car
+		  include Mongoid::Document
+		  embedded_in :user
+		  field :coordinates, type: String
+		  field :description, type: String
+		  field :address, type: String
+		  field :shared, type: Array
+		end
+		
+	\end{lstlisting}
+	
+	Se modifica la base de datos manualmente mediante MongoChef para incluir un nuevo usuario con permisos de edición sobre los coches (ver listado \ref{code:compartir_coche}).
+	
+%	\begin{figure}[H]
+%		\centering
+%		\includegraphics[width=15cm, fbox={\fboxrule} 4mm]{images/05-resultados/20-compartir_coche.png}
+%		\caption{Documento con elemento \textit{coche} compartido}
+%		\label{fig:compartir_coche}
+%	\end{figure}
+
+	\begin{lstlisting}[frame = single, language = JSON, caption  = {«Documento con elemento \textit{coche} compartido»}, label = code:compartir_coche]
+		
+		{ 
+		    "_id" : ObjectId("56839bb2d0c27c0003000000"), 
+		    "email" : "juanbausa@gmail.com", 
+		    "encrypted_password" : "$2a$10$cGKOjD9nOvLT7rlZoEzF.OdenRokm5aSxPynYyvp2tGCF1LmqCVtm", 
+		    "sign_in_count" : NumberInt(12), 
+		    "last_sign_in_at" : ISODate("2016-01-08T16:55:26.390+0000"), 
+		    "current_sign_in_at" : ISODate("2016-01-08T18:33:10.662+0000"), 
+		    "last_sign_in_ip" : "127.0.0.1", 
+		    "current_sign_in_ip" : "127.0.0.1", 
+		    "car" : [
+		        {
+		            "_id" : ObjectId("56839de073e3e125cd000000"), 
+		            "description" : "TOYOTITA", 
+		            "coordinates" : "(38.993038383938284, -3.921668529510498)", 
+		            "address" : "Calle Carlos López Bustos, 1, 13005 Ciudad Real, Cdad. Real, España", 
+		            "shared" : [
+		                "janedoe@gmail.com", 
+		                "johndoe@gmail.com"
+		            ]
+		        }, 
+		        {
+		            "_id" : ObjectId("568ff73373e3e126d6000000"), 
+		            "description" : "AZULITO"
+		        }
+		    ]
+		}
+		
+	\end{lstlisting}
+	
+	Se modifica la vista \textit{maps} para que el usuario con permisos sobre elementos \textit{coche} de los que no son propietarios pueda verlos distinguiendo inequívocamente aquellos de los que es propietario de aquellos que están compartidos por otro usuario (ver figura \ref{fig:compartir_coche2}).
 	Se modifica la vista \textit{maps} para que en el mapa interactivo se observen mediante marcadores los elementos \textit{coche} compartidos con el usuario.
-	Se crea un nuevo campo en el formulario de edición de los elementos \textit{coche}, de tal manera que se puedan añadir los correos electrónicos de los usuarios con los que se quiere compartir el elemento seleccionado. Se crea un nuevo campo en el formulario de edición de los elementos \textit{coche}, de tal manera que se visualiza de manera inequívoca a los usuarios que actualmente mantienen permisos para ver y modificar el elemento seleccionado. Se crea un elemento personalizado en forma de etiqueta que permita detectar con rapidez a los distintos usuarios con permisos sobre el elemento seleccionado.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=15cm, fbox={\fboxrule} 4mm]{images/05-resultados/21-compartir_coche2.png}
+		\caption{Vista con los elementos \textit{coche} compartidos}
+		\label{fig:compartir_coche2}
+	\end{figure}
+	
+	Se crea un nuevo campo en el formulario de edición de los elementos \textit{coche}, de tal manera que se puedan añadir los correos electrónicos de los usuarios con los que se quiere compartir el elemento seleccionado. Se crea un nuevo campo en el formulario de edición de los elementos \textit{coche}, de tal manera que se visualiza de manera inequívoca a los usuarios que actualmente mantienen permisos para ver y modificar el elemento seleccionado. Se crea un elemento personalizado en forma de etiqueta que permita detectar con rapidez a los distintos usuarios con permisos sobre el elemento seleccionado (ver figura \ref{fig:compartir_coche3}).
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=15cm, fbox={\fboxrule} 4mm]{images/05-resultados/22-compartir_coche3.png}
+		\caption{Vista de edición elementos \textit{coche} compartidos}
+		\label{fig:compartir_coche3}
+	\end{figure}	
+	
 	 Se modifica el controlador de edición de elementos \textit{coche} de manera que incluya la edición de los permisos de compartición.
 	 El disparador de la acción continúa siendo el botón creado durante el desarrollo de la historia de usuario 7 en el sprint 4, por lo que únicamente se modifican los parámetros que se envían al controlador.
-	 Una vez finalizada la acción, se procede a informar al usuario del resultado de la misma.
+	 Una vez finalizada la acción, se procede a informar al usuario del resultado de la misma (ver figura \ref{fig:compartir_coche4}).
+	 
+	 \begin{figure}[H]
+		\centering
+		\includegraphics[width=15cm, fbox={\fboxrule} 4mm]{images/05-resultados/23-compartir_coche4.png}
+		\caption{Respuesta del controlador}
+		\label{fig:compartir_coche4}
+	\end{figure}	
 
 	\subsubsection{Desarrollo de la Historia de Usuario: ''Revocar los permisos de acceso a los elementos \textit{coche} del propietario''}	
 	Se modifican los elementos personalizados en forma de etiqueta para incluir un nuevo elemento de borrado.
@@ -940,7 +1426,14 @@ En el presente sprint se llevarán a cabo las tareas relacionadas con la compart
 	\end{table}
 	
 	\subsubsection{Desarrollo de la Historia de Usuario: ''Mostrar una ruta a pie hasta el elemento seleccionado''}
-	Para el desarrollo de esta nueva funcionalidad, la API de Google Maps nos brinda una forma rápida y sencilla de dibujar la ruta. Únicamente es necesario hacer una llamada a la API pasando como parámetros el punto inicial, es decir, la ubicación actual del usuario y el punto final, la ubicación del elemento seleccionado.
+	Para el desarrollo de esta nueva funcionalidad, la API de Google Maps nos brinda una forma rápida y sencilla de dibujar la ruta. Únicamente es necesario hacer una llamada a la API pasando como parámetros el punto inicial, es decir, la ubicación actual del usuario y el punto final, la ubicación del elemento seleccionado (ver figura \ref{fig:ruta}).
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=15cm, fbox={\fboxrule} 4mm]{images/05-resultados/24-ruta.png}
+		\caption{Vista previa de la ruta a pie}
+		\label{fig:ruta}
+	\end{figure}
 			
 	\subsection{Sprint Review}
 	Al término de este sprint, cuando el usuario selecciona uno de los elementos \textit{coche} de la lista disponible, se muestra una ruta a pie desde su ubicación detectada y la posición almacenada del elemento.

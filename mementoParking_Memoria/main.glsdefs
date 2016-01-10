@@ -1,0 +1,30 @@
+\ifglsentryexists{ajax}{}%
+{%
+\gls@defglossaryentry{ajax}%
+{%
+name={AJAX},%
+sort={AJAX},%
+type={acronym},%
+first={Asynchronous JavaScript And XML (AJAX)},%
+firstplural={Asynchronous JavaScript And XMLs(AJAXs)},%
+text={AJAX},%
+plural={AJAXs},%
+description={Asynchronous JavaScript And XML},%
+descriptionplural={Asynchronous JavaScript And XML\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Asynchronous JavaScript And XML},%
+longplural={Asynchronous JavaScript And XMLs},%
+short={AJAX},%
+shortplural={AJAXs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

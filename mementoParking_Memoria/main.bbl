@@ -60,16 +60,6 @@ BBC.
 \newblock \url{Interview with mobile phone inventor Marty Cooper}, April 2013.
 \newblock Consultado: Noviembre 2015.
 
-\bibitem[Bec04]{Beck04}
-K~Beck.
-\newblock {\em Test-driven Development: By Example}.
-\newblock Pearson Education, 2004.
-
-\bibitem[BJ10]{Ble10}
-C.~Blé~Jurado.
-\newblock {\em Diseño ágil con TDD}.
-\newblock Lulu.com, 2010.
-
 \bibitem[Buz14]{Buzz14}
 Buzzko.
 \newblock Qué es y para qué sirve Swarm, la nueva app de Foursquare.
@@ -320,6 +310,14 @@ United~States Senate.
 I.~Sommerville.
 \newblock {\em Ingeniería del software}.
 \newblock Pearson Addison Wesley, 2006.
+
+\bibitem[SS13]{Sch13}
+K.~Schwaber y J.~Sutherland.
+\newblock The scrum guide.
+\newblock
+  \url{http://www.scrumguides.org/docs/scrumguide/v1/Scrum-Guide-US.pdf}, July
+  2013.
+\newblock Consultado: Enero 2016.
 
 \bibitem[Unk13]{Unk13}
 Unknown.
