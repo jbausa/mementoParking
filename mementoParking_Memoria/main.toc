@@ -1,12 +1,13 @@
 \select@language {spanish}
 \contentsline {chapter}{Resumen}{\es@scroman {v}}{chapter*.1}
-\contentsline {chapter}{Abstract}{\es@scroman {vii}}{chapter*.2}
-\contentsline {chapter}{Agradecimientos}{\es@scroman {ix}}{chapter*.3}
-\contentsline {chapter}{\'Indice general}{\es@scroman {xiii}}{chapter*.4}
-\contentsline {chapter}{\'{I}ndice de cuadros}{\es@scroman {xvii}}{chapter*.7}
+\contentsline {chapter}{Abstract}{\es@scroman {vii}}{chapter*.3}
+\contentsline {chapter}{Agradecimientos}{\es@scroman {ix}}{chapter*.4}
+\contentsline {chapter}{\'Indice general}{\es@scroman {xiii}}{chapter*.5}
+\contentsline {chapter}{\'{I}ndice de cuadros}{\es@scroman {xvii}}{chapter*.8}
 \contentsline {chapter}{\'{I}ndice de figuras}{\es@scroman {xix}}{chapter*.9}
 \contentsline {chapter}{\IeC {\'I}ndice de listados}{\es@scroman {xxiii}}{chapter*.11}
 \contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Estructura del documento}{7}{section.1.1}
 \contentsline {chapter}{\numberline {2}Objetivos}{9}{chapter.2}
 \contentsline {section}{\numberline {2.1}Objetivo general}{9}{section.2.1}
 \contentsline {section}{\numberline {2.2}Objetivos espec\IeC {\'\i }ficos}{10}{section.2.2}
@@ -138,6 +139,16 @@
 \contentsline {subsection}{\numberline {5.9.2}Planificaci\IeC {\'o}n de Sprint}{112}{subsection.5.9.2}
 \contentsline {subsubsection}{Desarrollo de la Historia de Usuario: ''Mostrar una ruta a pie hasta el elemento seleccionado''}{113}{table.5.18}
 \contentsline {subsection}{\numberline {5.9.3}Sprint Review}{113}{subsection.5.9.3}
-\contentsline {chapter}{\numberline {6}Conclusiones}{115}{chapter.6}
-\contentsline {chapter}{\numberline {A}Listado de acr\IeC {\'o}nimos}{119}{appendix.Alph1}
-\contentsline {chapter}{Referencias}{121}{appendix*.60}
+\contentsline {chapter}{\numberline {6}Conclusiones finales}{115}{chapter.6}
+\contentsline {section}{\numberline {6.1}An\IeC {\'a}lisis de consecuci\IeC {\'o}n de objetivos}{115}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Objetivo 1}{115}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Objetivo 2}{115}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Objetivo 3}{116}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}Objetivo 4}{116}{subsection.6.1.4}
+\contentsline {subsection}{\numberline {6.1.5}Objetivo 5}{116}{subsection.6.1.5}
+\contentsline {subsection}{\numberline {6.1.6}Objetivo 6}{116}{subsection.6.1.6}
+\contentsline {section}{\numberline {6.2}Propuestas de trabajo}{116}{section.6.2}
+\contentsline {section}{\numberline {6.3}Recapitulaci\IeC {\'o}n}{117}{section.6.3}
+\contentsline {chapter}{\numberline {A}Manual de Usuario}{121}{appendix.Alph1}
+\contentsline {chapter}{\numberline {B}Listado de acr\IeC {\'o}nimos}{123}{appendix.Alph2}
+\contentsline {chapter}{Referencias}{125}{appendix*.60}
