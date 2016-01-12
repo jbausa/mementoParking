@@ -48,12 +48,14 @@ Esta primera iteración tiene como objetivo definir el alcance del proyecto y su
 			\item La herramienta incorporará mecanismos para permitir la compartición de elementos entre usuarios legítimos y para revocar está compartición.
 			\item La herramienta permitirá a los \textit{usuarios secundarios} modificar los elementos compartidos con ellos por los \textit{usuarios primarios}.
 			\item La herramienta permitirá a los \textit{usuarios primarios} revocar los derechos de visión y edición de los \textit{usuarios secundarios} a los elementos previamente compartidos.
+			\item La aplicación estará desplegada en un servidor accesible a cualquier usuario con acceso a internet.
+			\item La herramienta será accesible a través de una aplicación móvil para sistemas operativos Android.
 		\end{itemize}
 
 		\subsubsection{Entregables del proyecto}
 		Al finalizar cada una de las iteraciones se entregará al cliente un artefacto en forma de página de web con las características añadidas a la herramienta durante la iteración así como la documentación generada durante esta fase.
 		
-	Al termino de las iteraciones se entregará la herramienta completa según lo descrito en la descripción del alcance (ver descripción del alcance \ref{subsubsection:descripcion-alcance}) conforme a criterios (ver criterios \ref{subsubsection:criterios-aceptacion}), un manual de usuario de la herramienta, un manual de instalación y una memoria con los documentos generados durante el proceso de desarrollo.
+	Al termino de las iteraciones se entregará la herramienta completa según lo descrito en la descripción del alcance (ver descripción del alcance \ref{subsubsection:descripcion-alcance}) conforme a criterios (ver criterios \ref{subsubsection:criterios-aceptacion}), un manual de usuario de la herramienta, un manual de instalación, una aplicación móvil y una memoria con los documentos generados durante el proceso de desarrollo.
 	
 		\subsubsection{Suposiciones y restricciones del proyecto}
 		Para asegurar el correcto funcionamiento de la herramienta debe tenerse en cuenta los puntos descritos a continuación:
@@ -114,6 +116,8 @@ Esta primera iteración tiene como objetivo definir el alcance del proyecto y su
 		\rowcolor{gray!25}
 		HdU 11	&	Como usuario quiero que la aplicación me muestre la ruta a pie desde mi posición actual hasta la ubicación seleccionada
 				&	6 horas	&	Bajo	\\
+		HdU 12	&	Como usuario quiero poder acceder a la herramienta a través de una aplicación instalada en mi móvil
+				&	6 horas	&	Bajo	\\
 	    \hline
 	  \caption{Objetivos parciales del \ac{TFG}}
 	  \label{tab:historia_usuario}
@@ -153,7 +157,8 @@ Una vez tenemos la lista de producto priorizada podemos dividir el trabajo en lo
 	\rowcolor{gray!25}
 	7	& HdU 9 y HdU 10		&	40 horas	&	Prototipo que permite compartir la ubicación de los elementos almacenados con otros usuarios válidos del sistema y revocar este permiso \\
 	8	& HdU 11				&	6 horas		&	Prototipo que muestra la ruta a pie desde la posición actual del usuario hasta el elemento seleccionado \\
-
+	\rowcolor{gray!25}
+	9	& HdU 12				&	6 horas		&	Prototipo que permite el acceso a la herramienta a través de una aplicación instalada en dispositivos móviles \\
 	\hline
 	\caption{Plan de proyecto detallado}
 	\label{tab:plan_proyecto}
@@ -199,6 +204,8 @@ Una vez tenemos la lista de producto priorizada podemos dividir el trabajo en lo
 
 	8	& HdU 11	&	6 horas		&	Los usuarios registrados podrán ver una ruta a pie desde su ubicación actual hasta la ubicación 											almacenada del elemento seleccionado. \\
 
+	\rowcolor{gray!25}
+	9	& HdU 12	&	6 horas		&	Los usuarios podrán acceder a la herramienta usando una aplicación instalada en sus dispositivos móviles. \\
 	\hline
 	\caption{Historias de Usuario y validaciones}
 	\label{tab:validaciones_HdU}
@@ -224,7 +231,7 @@ Una vez tenemos la lista de producto priorizada podemos dividir el trabajo en lo
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=17cm, fbox={\fboxrule} 4mm]{images/05-resultados/03-trello.jpg}
+\includegraphics[width=15cm, fbox={\fboxrule} 4mm]{images/05-resultados/03-trello.jpg}
 \caption{Panel Kamban de Trello}
 \label{fig:trello}
 \end{figure}
@@ -376,7 +383,7 @@ Una vez tenemos la lista de producto priorizada podemos dividir el trabajo en lo
 	 	\multicolumn{1}{l}{\cellcolor{black!30}\textbf{Subtotal}}
 	 	\\	 
 	    \toprule
-		Equipo de desarrollo 					&	15,00 \euro /hora	&	10.710,00 \euro	\\
+		Equipo de desarrollo 					&	15,00 \euro /hora	&	10.800,00 \euro	\\
 		
 		\multicolumn{3}{l}{\cellcolor{black!30}\textbf{Hardware}}						\\			
 		Ordenador portátil						&	1250,00 \euro		&	1250,00 \euro	\\
@@ -1437,6 +1444,58 @@ En el presente sprint se llevarán a cabo las tareas relacionadas con la compart
 			
 	\subsection{Sprint Review}
 	Al término de este sprint, cuando el usuario selecciona uno de los elementos \textit{coche} de la lista disponible, se muestra una ruta a pie desde su ubicación detectada y la posición almacenada del elemento.
+	
+\section{Sprint 9}
+En este sprint se llevará a cabo la historia de usuario 12 y el despliegue de la herramienta en el servidor elegido (Heroku).
+
+	\subsection{Refinamiento del Product Backlog}
+	Se realizará primero el despliegue en el servidor, debido a que la herramienta móvil quedará configurada con los datos de trabajo finales.
+
+	\subsection{Planificación de Sprint}
+	En este último sprint se crea una aplicación móvil que permita el acceso a los usuarios a través de sus dispositivos móviles y se completa el despliegue de la herramienta al servidor elegido durante la fase de planificación, esto es, Heroku.
+	
+		\begin{table}[H]
+	  \centering 
+	 	\begin{tabular}{p{0.4\linewidth}p{0.4\linewidth}}
+	    \toprule
+	    \multicolumn{2}{c}{\cellcolor{black!30}\textbf{Historia de Usuario}} 													\\
+		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Número: }12}																\\
+		\multicolumn{2}{l}{\textbf{Nombre Historia: } Crear una aplicación de acceso para móviles}						\\
+		\cellcolor{gray!25}\textbf{Valor de negocio: Bajo}	&	\cellcolor{gray!25}\textbf{Riesgo en desarrollo: Bajo}	\\
+		\textbf{Esfuerzo:} 6 horas				&	\textbf{Sprint asignado: }9 												\\
+		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Programador responsable: }Juan Bausá}									\\
+		\multicolumn{2}{l}{\textbf{Descripción:}}                                                     						\\
+		\multicolumn{2}{l}{\parbox{15cm}{Crear una aplicación de acceso a la herramienta para móviles Android que permita interactuar al margen de los navegadores instalados en el dispositivo. Despliegue en el servidor elegido.}}				\\
+		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Resultado:}}																\\		
+		\multicolumn{2}{l}{\parbox{15cm}{Los usuarios de dispositivos móviles podrán acceder a la herramienta a través de una aplicación dedicada en sus teléfonos que permitirá el acceso sin necesidad de utilizar los navegadores del dispositivo.}}																								\\
+		\multicolumn{2}{l}{\textbf{Tareas:}}																					\\
+		\multicolumn{2}{l}{
+			\begin{minipage}{12cm}
+	    		\vskip 4pt
+	    		\begin{itemize}
+	    			\item Desplegar el proyecto en el servidor
+	    			\item Crear una aplicación móvil
+				\end{itemize}
+			  	\vskip 4pt
+		 	\end{minipage}
+		} \\																				
+	    \hline
+	  \end{tabular}
+	  \caption{Historia de Usuario 10}
+	\end{table}
+	
+	\subsubsection{Desarrollo de la Historia de Usuario: ''Crear una aplicación de acceso para móviles''}
+La última funcionalidad prevista consiste en implementar una aplicación para móviles que permita el acceso a la página web con la herramienta. Se ha optado por crear una aplicación haciendo uso de la biblioteca \textit{Webview} que permite la carga de páginas web dentro de aplicaciones independendientemente de los navegadores instalados en el sistema.
+	
+%	\begin{figure}[H]
+%		\centering
+%		\includegraphics[width=15cm, fbox={\fboxrule} 4mm]{images/05-resultados/24-ruta.png}
+%		\caption{Vista previa de la ruta a pie}
+%		\label{fig:ruta}
+%	\end{figure}
+			
+	\subsection{Sprint Review}
+Con la conclusión de este sprint se considera terminado el desarrollo de la herramienta propuesta.
 	
 % Local Variables:
 %  coding: utf-8
