@@ -1,3 +1,0 @@
-db.users.update({email:"juanbausa@gmail.com"}, { $set: {coordinates: "3"} })
-
-db.users.update({email:"juanbausa@gmail.com"}, {$push:{car:{coordinates:"223"}}})
