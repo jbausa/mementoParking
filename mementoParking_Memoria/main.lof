@@ -21,147 +21,152 @@
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Prototipo. Home}}{11}{figure.2.3}
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Prototipo. Localizaci\IeC {\'o}n}}{12}{figure.2.4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Primeros instrumentos de navegaci\IeC {\'o}n}}{16}{figure.3.1}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Sextante}}}{16}{figure.3.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Astrolabio}}}{16}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Br\IeC {\'u}jula china}}{17}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Sir William Thomson y su br\IeC {\'u}jula}}{17}{figure.3.3}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Sextante}}}{17}{figure.3.3}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Astrolabio}}}{17}{figure.3.3}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Jones Live Map}}{18}{figure.3.4}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Plus Fours Routefinder}}{18}{figure.3.5}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Iter Avto}}{19}{figure.3.6}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Triangulaci\IeC {\'o}n satelital}}{21}{figure.3.7}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Tablilla babil\IeC {\'o}nica y reconstrucci\IeC {\'o}n}}{22}{figure.3.8}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Mapa Ptolem\IeC {\'a}ico}}{23}{figure.3.9}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Mapamundi de Beato de Li\IeC {\'e}bana}}{23}{figure.3.10}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Mapamundi de Abu Abd Allah Muhammad al-Idrisi. 1154}}{24}{figure.3.11}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Primeros mapas de Am\IeC {\'e}rica}}{25}{figure.3.12}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Mapamundi de Juan de la Cosa. 1500}}}{25}{figure.3.12}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Mapamundi de Martin Waldseem\IeC {\"u}ller. 1507}}}{25}{figure.3.12}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Doctor Sir John Snow}}{26}{figure.3.13}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Mapa del Soho con los casos de fallecimiento por c\IeC {\'o}lera}}{26}{figure.3.14}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Detalle del mapa del Doctor Snow}}{27}{figure.3.15}
-\contentsline {figure}{\numberline {3.16}{\ignorespaces M\IeC {\'o}dem Bell. 1958}}{29}{figure.3.16}
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Modelo cliente-servidor}}{29}{figure.3.17}
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Comunicaci\IeC {\'o}n con servidor DNS}}{30}{figure.3.18}
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Petici\IeC {\'o}n a servidor est\IeC {\'a}tico}}{31}{figure.3.19}
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Petici\IeC {\'o}n a servidor din\IeC {\'a}mico}}{31}{figure.3.20}
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Tecnolog\IeC {\'\i }as utilizadas en servidores}}{32}{figure.3.21}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MySQL}}}{32}{figure.3.21}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {PHP}}}{32}{figure.3.21}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Apache}}}{32}{figure.3.21}
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Tel\IeC {\'e}grafo \IeC {\'o}ptico}}{34}{figure.3.22}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Tel\IeC {\'e}grafo \IeC {\'o}ptico de Claude Chappe}}}{34}{figure.3.22}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Claude Chappe}}}{34}{figure.3.22}
-\contentsline {figure}{\numberline {3.23}{\ignorespaces Tel\IeC {\'e}grafo}}{35}{figure.3.23}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Samuel Morse}}}{35}{figure.3.23}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {C\IeC {\'o}digo morse}}}{35}{figure.3.23}
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Primer telegrama}}{35}{figure.3.24}
-\contentsline {figure}{\numberline {3.25}{\ignorespaces Inventores del tel\IeC {\'e}fono}}{36}{figure.3.25}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Antonio Meucci}}}{36}{figure.3.25}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Alexander Graham Bell}}}{36}{figure.3.25}
-\contentsline {figure}{\numberline {3.26}{\ignorespaces Primeros tel\IeC {\'e}fonos}}{37}{figure.3.26}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Tel\IeC {\'e}fono de Meucci}}}{37}{figure.3.26}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tel\IeC {\'e}fono de Bell}}}{37}{figure.3.26}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Espato de Islandia}}{16}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Primeros instrumentos de navegaci\IeC {\'o}n}}{17}{figure.3.2}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Sextante}}}{17}{figure.3.2}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Astrolabio}}}{17}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Br\IeC {\'u}jula china}}{18}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Sir William Thomson y su br\IeC {\'u}jula}}{18}{figure.3.4}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Sextante}}}{18}{figure.3.4}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Astrolabio}}}{18}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Jones Live Map}}{19}{figure.3.5}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Plus Fours Routefinder}}{19}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Iter Avto}}{20}{figure.3.7}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Triangulaci\IeC {\'o}n satelital}}{22}{figure.3.8}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Tablilla babil\IeC {\'o}nica y reconstrucci\IeC {\'o}n}}{23}{figure.3.9}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Mapa Ptolem\IeC {\'a}ico}}{24}{figure.3.10}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Mapamundi de Beato de Li\IeC {\'e}bana}}{24}{figure.3.11}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Mapamundi de Abu Abd Allah Muhammad al-Idrisi. 1154}}{25}{figure.3.12}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Primeros mapas de Am\IeC {\'e}rica}}{26}{figure.3.13}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Mapamundi de Juan de la Cosa. 1500}}}{26}{figure.3.13}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Mapamundi de Martin Waldseem\IeC {\"u}ller. 1507}}}{26}{figure.3.13}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Doctor Sir John Snow}}{27}{figure.3.14}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Mapa del Soho con los casos de fallecimiento por c\IeC {\'o}lera}}{27}{figure.3.15}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Detalle del mapa del Doctor Snow}}{28}{figure.3.16}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces M\IeC {\'o}dem Bell. 1958}}{30}{figure.3.17}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Modelo cliente-servidor}}{30}{figure.3.18}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Comunicaci\IeC {\'o}n con servidor DNS}}{31}{figure.3.19}
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Petici\IeC {\'o}n a servidor est\IeC {\'a}tico}}{32}{figure.3.20}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Petici\IeC {\'o}n a servidor din\IeC {\'a}mico}}{32}{figure.3.21}
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Tecnolog\IeC {\'\i }as utilizadas en servidores}}{33}{figure.3.22}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MySQL}}}{33}{figure.3.22}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {PHP}}}{33}{figure.3.22}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Apache}}}{33}{figure.3.22}
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Tel\IeC {\'e}grafo \IeC {\'o}ptico}}{35}{figure.3.23}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Tel\IeC {\'e}grafo \IeC {\'o}ptico de Claude Chappe}}}{35}{figure.3.23}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Claude Chappe}}}{35}{figure.3.23}
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Tel\IeC {\'e}grafo}}{36}{figure.3.24}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Samuel Morse}}}{36}{figure.3.24}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {C\IeC {\'o}digo morse}}}{36}{figure.3.24}
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Primer telegrama}}{36}{figure.3.25}
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Inventores del tel\IeC {\'e}fono}}{37}{figure.3.26}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Antonio Meucci}}}{37}{figure.3.26}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Alexander Graham Bell}}}{37}{figure.3.26}
 \contentsline {figure}{\numberline {3.27}{\ignorespaces Primeros tel\IeC {\'e}fonos}}{38}{figure.3.27}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Motorola DynaTAC 8000X}}}{38}{figure.3.27}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Martin Cooper}}}{38}{figure.3.27}
-\contentsline {figure}{\numberline {3.28}{\ignorespaces Tel\IeC {\'e}fono de segunda generaci\IeC {\'o}n. Siemens A56}}{39}{figure.3.28}
-\contentsline {figure}{\numberline {3.29}{\ignorespaces iPhone de Apple}}{39}{figure.3.29}
-\contentsline {figure}{\numberline {3.30}{\ignorespaces Foursquare}}{40}{figure.3.30}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Aplicaci\IeC {\'o}n Foursquare en funcionamiento}}}{40}{figure.3.30}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Logo de Foursquare}}}{40}{figure.3.30}
-\contentsline {figure}{\numberline {3.31}{\ignorespaces Logo de Swarm}}{40}{figure.3.31}
-\contentsline {figure}{\numberline {3.32}{\ignorespaces Glympse}}{41}{figure.3.32}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Aplicaci\IeC {\'o}n Glympse en funcionamiento}}}{41}{figure.3.32}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Logo Glympse}}}{41}{figure.3.32}
-\contentsline {figure}{\numberline {3.33}{\ignorespaces Strava}}{42}{figure.3.33}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Aplicaci\IeC {\'o}n Strava en funcionamiento}}}{42}{figure.3.33}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Logo Strava}}}{42}{figure.3.33}
-\contentsline {figure}{\numberline {3.34}{\ignorespaces Waze}}{42}{figure.3.34}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Aplicaci\IeC {\'o}n Waze en funcionamiento}}}{42}{figure.3.34}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Logo Waze}}}{42}{figure.3.34}
-\contentsline {figure}{\numberline {3.35}{\ignorespaces Ingress}}{43}{figure.3.35}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Aplicaci\IeC {\'o}n Ingress en funcionamiento}}}{43}{figure.3.35}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Logo Ingress}}}{43}{figure.3.35}
-\contentsline {figure}{\numberline {3.36}{\ignorespaces Life360 Family Locator}}{44}{figure.3.36}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Aplicaci\IeC {\'o}n Life360 Family Locator en funcionamiento}}}{44}{figure.3.36}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Logo Life360 Family Locator}}}{44}{figure.3.36}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Tel\IeC {\'e}fono de Meucci}}}{38}{figure.3.27}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tel\IeC {\'e}fono de Bell}}}{38}{figure.3.27}
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Primeros tel\IeC {\'e}fonos}}{39}{figure.3.28}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Motorola DynaTAC 8000X}}}{39}{figure.3.28}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Martin Cooper}}}{39}{figure.3.28}
+\contentsline {figure}{\numberline {3.29}{\ignorespaces Tel\IeC {\'e}fono de segunda generaci\IeC {\'o}n. Siemens A56}}{40}{figure.3.29}
+\contentsline {figure}{\numberline {3.30}{\ignorespaces iPhone de Apple}}{40}{figure.3.30}
+\contentsline {figure}{\numberline {3.31}{\ignorespaces Foursquare}}{41}{figure.3.31}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Aplicaci\IeC {\'o}n Foursquare en funcionamiento}}}{41}{figure.3.31}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Logo de Foursquare}}}{41}{figure.3.31}
+\contentsline {figure}{\numberline {3.32}{\ignorespaces Logo de Swarm}}{41}{figure.3.32}
+\contentsline {figure}{\numberline {3.33}{\ignorespaces Glympse}}{42}{figure.3.33}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Aplicaci\IeC {\'o}n Glympse en funcionamiento}}}{42}{figure.3.33}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Logo Glympse}}}{42}{figure.3.33}
+\contentsline {figure}{\numberline {3.34}{\ignorespaces Strava}}{43}{figure.3.34}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Aplicaci\IeC {\'o}n Strava en funcionamiento}}}{43}{figure.3.34}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Logo Strava}}}{43}{figure.3.34}
+\contentsline {figure}{\numberline {3.35}{\ignorespaces Waze}}{43}{figure.3.35}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Aplicaci\IeC {\'o}n Waze en funcionamiento}}}{43}{figure.3.35}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Logo Waze}}}{43}{figure.3.35}
+\contentsline {figure}{\numberline {3.36}{\ignorespaces Ingress}}{44}{figure.3.36}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Aplicaci\IeC {\'o}n Ingress en funcionamiento}}}{44}{figure.3.36}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Logo Ingress}}}{44}{figure.3.36}
+\contentsline {figure}{\numberline {3.37}{\ignorespaces Life360 Family Locator}}{45}{figure.3.37}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Aplicaci\IeC {\'o}n Life360 Family Locator en funcionamiento}}}{45}{figure.3.37}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Logo Life360 Family Locator}}}{45}{figure.3.37}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Prototipado Evolutivo}}{47}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Secciones tablero Kanban}}{50}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Columnas tablero Kanban}}{50}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Cuello de botella en Kanban}}{51}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Previsualizaci\IeC {\'o}n de Elementary OS}}{52}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Logo Elementary OS}}{52}{figure.4.6}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Logo Microsoft Windows 10}}{52}{figure.4.7}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Logo Visual Paradigm}}{53}{figure.4.8}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Logo Gantt Project}}{53}{figure.4.9}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Logo Moqups}}{54}{figure.4.10}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Previsualizaci\IeC {\'o}n Moqups}}{54}{figure.4.11}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Logo Git}}{54}{figure.4.12}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Logo Github}}{55}{figure.4.13}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Previsualizaci\IeC {\'o}n de Trello}}{55}{figure.4.14}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Logo Trello}}{56}{figure.4.15}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Logo Ruby}}{56}{figure.4.16}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Modelo Vista Controlador}}{57}{figure.4.17}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Logo Rails}}{57}{figure.4.18}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Cuota de mercado de los sistemas operativos m\IeC {\'o}viles}}{58}{figure.4.19}
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Logo Android y Java}}{58}{figure.4.20}
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Logo Bootstrap}}{58}{figure.4.21}
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Previsualizaci\IeC {\'o}n de Bootstrap}}{59}{figure.4.22}
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Logo Rspec}}{59}{figure.4.23}
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Logo HTML5}}{60}{figure.4.24}
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Logo CSS3}}{60}{figure.4.25}
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Logo JSON}}{60}{figure.4.26}
-\contentsline {figure}{\numberline {4.27}{\ignorespaces Logo Sublime Text 3}}{61}{figure.4.27}
-\contentsline {figure}{\numberline {4.28}{\ignorespaces Logo Midori}}{61}{figure.4.28}
-\contentsline {figure}{\numberline {4.29}{\ignorespaces Logo Chromium}}{62}{figure.4.29}
-\contentsline {figure}{\numberline {4.30}{\ignorespaces Logo Mozilla Firefox}}{62}{figure.4.30}
-\contentsline {figure}{\numberline {4.31}{\ignorespaces Logo MongoDB}}{62}{figure.4.31}
-\contentsline {figure}{\numberline {4.32}{\ignorespaces Logo MongoLab}}{63}{figure.4.32}
-\contentsline {figure}{\numberline {4.33}{\ignorespaces Logo MongoChef}}{63}{figure.4.33}
-\contentsline {figure}{\numberline {4.34}{\ignorespaces Logo Texmaker}}{64}{figure.4.34}
-\contentsline {figure}{\numberline {4.35}{\ignorespaces Logo \ac {GIMP}}}{64}{figure.4.35}
-\contentsline {figure}{\numberline {4.36}{\ignorespaces Logo Microsoft Visio}}{64}{figure.4.36}
-\contentsline {figure}{\numberline {4.37}{\ignorespaces Logo Heroku}}{65}{figure.4.37}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Prototipado Evolutivo}}{49}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Secciones tablero Kanban}}{52}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Columnas tablero Kanban}}{52}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Cuello de botella en Kanban}}{53}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Previsualizaci\IeC {\'o}n de Elementary OS}}{54}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Logo Elementary OS}}{54}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Logo Microsoft Windows 10}}{54}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Logo Visual Paradigm}}{55}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Logo Gantt Project}}{55}{figure.4.9}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Logo Moqups}}{56}{figure.4.10}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Previsualizaci\IeC {\'o}n Moqups}}{56}{figure.4.11}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Logo Git}}{56}{figure.4.12}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Logo Github}}{57}{figure.4.13}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Previsualizaci\IeC {\'o}n de Trello}}{57}{figure.4.14}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Logo Trello}}{58}{figure.4.15}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Logo Ruby}}{58}{figure.4.16}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Modelo Vista Controlador}}{59}{figure.4.17}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Logo Rails}}{59}{figure.4.18}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Cuota de mercado de los sistemas operativos m\IeC {\'o}viles}}{60}{figure.4.19}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Logo Android y Java}}{60}{figure.4.20}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Logo Bootstrap}}{60}{figure.4.21}
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Previsualizaci\IeC {\'o}n de Bootstrap}}{61}{figure.4.22}
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Logo Rspec}}{61}{figure.4.23}
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Logo HTML5}}{62}{figure.4.24}
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Logo Selenium IDE}}{62}{figure.4.25}
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Logo CSS3}}{62}{figure.4.26}
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Logo JSON}}{63}{figure.4.27}
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Logo Sublime Text 3}}{63}{figure.4.28}
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Logo Midori}}{64}{figure.4.29}
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Logo Chromium}}{64}{figure.4.30}
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Logo Mozilla Firefox}}{65}{figure.4.31}
+\contentsline {figure}{\numberline {4.32}{\ignorespaces Logo MongoDB}}{65}{figure.4.32}
+\contentsline {figure}{\numberline {4.33}{\ignorespaces Logo MongoLab}}{65}{figure.4.33}
+\contentsline {figure}{\numberline {4.34}{\ignorespaces Logo MongoChef}}{66}{figure.4.34}
+\contentsline {figure}{\numberline {4.35}{\ignorespaces Logo Texmaker}}{66}{figure.4.35}
+\contentsline {figure}{\numberline {4.36}{\ignorespaces Logo \ac {GIMP}}}{67}{figure.4.36}
+\contentsline {figure}{\numberline {4.37}{\ignorespaces Logo Microsoft Visio}}{67}{figure.4.37}
+\contentsline {figure}{\numberline {4.38}{\ignorespaces Logo Heroku}}{67}{figure.4.38}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Panel Kamban de Trello}}{75}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Commits en repositorio en GitHub}}{76}{figure.5.3}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Vista previa de la p\IeC {\'a}gina principal}}{84}{figure.5.4}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Vista previa del encabezado}}{84}{figure.5.5}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Vista previa del pie de p\IeC {\'a}gina}}{85}{figure.5.6}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Vista previa del encabezado adaptado}}{85}{figure.5.7}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Vista previa del pie de p\IeC {\'a}gina adaptado}}{85}{figure.5.8}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Vista previa de la p\IeC {\'a}gina de registro}}{86}{figure.5.9}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Creaci\IeC {\'o}n nuevo usuario}}{88}{figure.5.10}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces P\IeC {\'a}gina de acceso a la herrramienta}}{89}{figure.5.11}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces P\IeC {\'a}gina de acceso a la herrramienta}}{89}{figure.5.12}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Elementos \textit {coche} y direcci\IeC {\'o}n postal almacenada}}{94}{figure.5.13}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Marcador personalizado con informaci\IeC {\'o}n de direcci\IeC {\'o}n postal}}{98}{figure.5.14}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Mensaje reenviado por el controlador}}{99}{figure.5.15}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces P\IeC {\'a}gina de edici\IeC {\'o}n de elementos \textit {coche}}}{102}{figure.5.16}
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Respuesta controlador al crear nuevo coche}}{102}{figure.5.17}
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Selector de elementos \textit {coche}}}{104}{figure.5.18}
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Vista con los elementos \textit {coche} compartidos}}{111}{figure.5.19}
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Vista de edici\IeC {\'o}n elementos \textit {coche} compartidos}}{112}{figure.5.20}
-\contentsline {figure}{\numberline {5.21}{\ignorespaces Respuesta del controlador}}{112}{figure.5.21}
-\contentsline {figure}{\numberline {5.22}{\ignorespaces Vista previa de la ruta a pie}}{114}{figure.5.22}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Diagrama de Gantt del \ac {TFG}}}{116}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Panel Kamban de Trello}}{77}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Commits en repositorio en GitHub}}{78}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Vista previa de la p\IeC {\'a}gina principal}}{86}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Vista previa del encabezado}}{86}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Vista previa del pie de p\IeC {\'a}gina}}{87}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Vista previa del encabezado adaptado}}{87}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Vista previa del pie de p\IeC {\'a}gina adaptado}}{87}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Vista previa de la p\IeC {\'a}gina de registro}}{88}{figure.5.9}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Creaci\IeC {\'o}n nuevo usuario}}{90}{figure.5.10}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces P\IeC {\'a}gina de acceso a la herrramienta}}{91}{figure.5.11}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces P\IeC {\'a}gina de acceso a la herrramienta}}{91}{figure.5.12}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Elementos \textit {coche} y direcci\IeC {\'o}n postal almacenada}}{96}{figure.5.13}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Marcador personalizado con informaci\IeC {\'o}n de direcci\IeC {\'o}n postal}}{100}{figure.5.14}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Mensaje reenviado por el controlador}}{101}{figure.5.15}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces P\IeC {\'a}gina de edici\IeC {\'o}n de elementos \textit {coche}}}{104}{figure.5.16}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Respuesta controlador al crear nuevo coche}}{104}{figure.5.17}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Selector de elementos \textit {coche}}}{106}{figure.5.18}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Vista con los elementos \textit {coche} compartidos}}{113}{figure.5.19}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Vista de edici\IeC {\'o}n elementos \textit {coche} compartidos}}{114}{figure.5.20}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Respuesta del controlador}}{114}{figure.5.21}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Vista previa de la ruta a pie}}{116}{figure.5.22}
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Vista previa de la aplicaci\IeC {\'o}n}}{119}{figure.5.24}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Diagrama de Gantt del \ac {TFG}}}{120}{figure.5.1}
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Logotipo de la aplicaci\IeC {\'o}n}}{121}{figure.5.23}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces P\IeC {\'a}gina principal}}{123}{figure.Alph1.1}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces P\IeC {\'a}gina registro}}{124}{figure.Alph1.2}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces P\IeC {\'a}gina acceso}}{124}{figure.Alph1.3}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces P\IeC {\'a}gina inicio autenticado}}{125}{figure.Alph1.4}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Men\IeC {\'u} usuario}}{126}{figure.Alph1.5}
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Edici\IeC {\'o}n usuario}}{126}{figure.Alph1.6}
-\contentsline {figure}{\numberline {A.7}{\ignorespaces Seleccionar coche}}{127}{figure.Alph1.7}
-\contentsline {figure}{\numberline {A.8}{\ignorespaces Edici\IeC {\'o}n coche}}{127}{figure.Alph1.8}
-\contentsline {figure}{\numberline {A.9}{\ignorespaces Edici\IeC {\'o}n usuarios compartidos}}{127}{figure.Alph1.9}
-\contentsline {figure}{\numberline {A.10}{\ignorespaces Vista previa del mapa}}{128}{figure.Alph1.10}
-\contentsline {figure}{\numberline {A.11}{\ignorespaces Vista previa del apartado \textit {MIS UBICACIONES}}}{128}{figure.Alph1.11}
-\contentsline {figure}{\numberline {A.12}{\ignorespaces Mapa con un coche seleccionado}}{129}{figure.Alph1.12}
-\contentsline {figure}{\numberline {A.13}{\ignorespaces Mapa con un coche seleccionado}}{129}{figure.Alph1.13}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces P\IeC {\'a}gina principal}}{129}{figure.Alph1.1}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces P\IeC {\'a}gina registro}}{130}{figure.Alph1.2}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces P\IeC {\'a}gina acceso}}{130}{figure.Alph1.3}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces P\IeC {\'a}gina inicio autenticado}}{131}{figure.Alph1.4}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Men\IeC {\'u} usuario}}{132}{figure.Alph1.5}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Edici\IeC {\'o}n usuario}}{132}{figure.Alph1.6}
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Seleccionar coche}}{133}{figure.Alph1.7}
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Edici\IeC {\'o}n coche}}{133}{figure.Alph1.8}
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Edici\IeC {\'o}n usuarios compartidos}}{133}{figure.Alph1.9}
+\contentsline {figure}{\numberline {A.10}{\ignorespaces Vista previa del mapa}}{134}{figure.Alph1.10}
+\contentsline {figure}{\numberline {A.11}{\ignorespaces Vista previa del apartado \textit {MIS UBICACIONES}}}{134}{figure.Alph1.11}
+\contentsline {figure}{\numberline {A.12}{\ignorespaces Mapa con un coche seleccionado}}{135}{figure.Alph1.12}
+\contentsline {figure}{\numberline {A.13}{\ignorespaces Mapa con un coche seleccionado}}{135}{figure.Alph1.13}
+\addvspace {10\p@ }
 \addvspace {10\p@ }

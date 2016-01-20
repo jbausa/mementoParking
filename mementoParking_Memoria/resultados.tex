@@ -92,27 +92,27 @@ Esta primera iteración tiene como objetivo definir el alcance del proyecto y su
 
 		\rowcolor{gray!25}
 		HdU 1	&	Como cliente quiero que los usuarios se registren antes de acceder a la aplicación y a sus datos	
-				&	20 horas		&	Alto	\\
-		HdU 2	&	Como usuario quiero acceder mediante un nombre y una contraseña para que sólo yo pueda entrar a mi cuenta							&	10 horas	&	Alto	\\
+				&	36 horas		&	Alto	\\
+		HdU 2	&	Como usuario quiero acceder mediante un nombre y una contraseña para que sólo yo pueda entrar a mi cuenta							&	18 horas	&	Alto	\\
 		\rowcolor{gray!25}
 		HdU 3	&	Como usuario quiero modificar mis datos guardados	o eliminar mi cuenta												
-				&	12 horas	&	Alto	\\ 
+				&	18 horas	&	Alto	\\ 
 		HdU 4	& 	Como usuario quiero guardar mis ubicaciones mediante un mapa para poder acceder a ellas más tarde	
-				&	30 horas	&	Alto	\\
+				&	36 horas	&	Alto	\\
 		\rowcolor{gray!25}
 		HdU 5	&	Como usuario quiero recuperar todas mis ubicaciones guardadas, verlas dibujadas en un mapa y ver el nombre y el número de la calle donde están aparcados
-				&	12 horas	&	Alto	\\
+				&	18 horas	&	Alto	\\
 		HdU 6	&	Como usuario quiero recuperar y ver en el mapa una de mis ubicaciones guardadas, también quiero ver la dirección postal completa
-				&	10 horas	&	Alto	\\
+				&	24 horas	&	Alto	\\
 		\rowcolor{gray!25}
-		HdU 7	&	Como usuario quiero poder añadir mis coches para poder guardar su ubicación															&	12 horas	&	Alto	\\
+		HdU 7	&	Como usuario quiero poder añadir mis coches para poder guardar su ubicación															&	24 horas	&	Alto	\\
 		HdU 8	&	Como usuario quiero poder borrar o editar los datos guardados de mis coches
-				&	12 horas	&	Medio	\\	
+				&	24 horas	&	Medio	\\	
 		\rowcolor{gray!25}
 		HdU 9	&	Como usuario quiero compartir mis ubicaciones guardadas con otros usuarios de mi elección para que puedan modificarlas			
-				&	30 horas&	Medio	\\
+				&	36 horas&	Medio	\\
 		HdU 10	&	Como usuario quiero dejar de compartir mis ubicaciones guardadas con otros usuarios de mi elección para que puedan modificarlas			
-				&	10 horas&	Medio	\\
+				&	12 horas&	Medio	\\
 		\rowcolor{gray!25}
 		HdU 11	&	Como usuario quiero que la aplicación me muestre la ruta a pie desde mi posición actual hasta la ubicación seleccionada
 				&	6 horas	&	Bajo	\\
@@ -146,16 +146,16 @@ Una vez tenemos la lista de producto priorizada podemos dividir el trabajo en lo
  	\endhead
 
 	\rowcolor{gray!25}
-	1	& HdU 1, HdU 2 y HdU 3	&	42 horas	&	Prototipo de página web con autenticación, edición y administración de usuarios \\ 
-	2	& HdU 5					&	12 horas	&	Prototipo que muestre en un mapa una serie de ubicaciones geográficas guardadas previamente y sus correspondientes direcciones postales mediante un texto \\
+	1	& HdU 1, HdU 2 y HdU 3	&	72 horas	&	Prototipo de página web con autenticación, edición y administración de usuarios \\ 
+	2	& HdU 5					&	24 horas	&	Prototipo que muestre en un mapa una serie de ubicaciones geográficas guardadas previamente y sus correspondientes direcciones postales mediante un texto \\
 	\rowcolor{gray!25}
-	3	& HdU 4				&	30 horas	&	Prototipo que guarde una ubicación geográfica elegida por el usuario mediante la interacción con un mapa \\
-	4	& HdU 7					&	12 horas	&	Prototipo que permite crear nuevos elementos para almacenar la ubicación geográfica del mismo y muestra la ubicación de un elemento seleccionado \\
+	3	& HdU 4					&	36 horas	&	Prototipo que guarde una ubicación geográfica elegida por el usuario mediante la interacción con un mapa \\
+	4	& HdU 7					&	24 horas	&	Prototipo que permite crear nuevos elementos para almacenar la ubicación geográfica del mismo y muestra la ubicación de un elemento seleccionado \\
 	\rowcolor{gray!25}
-	5	& HdU 6					& 	10 horas	& 	Prototipo que muestra en un mapa la posición de un elemento seleccionado y su correspondiente dirección postal mediante texto\\
-	6	& HdU 8					&	12 horas	&	Prototipo que permite modificar o borrar los datos almacenados de los elementos a mostrar \\
+	5	& HdU 6					& 	24 horas	& 	Prototipo que muestra en un mapa la posición de un elemento seleccionado y su correspondiente dirección postal mediante texto\\
+	6	& HdU 8					&	24 horas	&	Prototipo que permite modificar o borrar los datos almacenados de los elementos a mostrar \\
 	\rowcolor{gray!25}
-	7	& HdU 9 y HdU 10		&	40 horas	&	Prototipo que permite compartir la ubicación de los elementos almacenados con otros usuarios válidos del sistema y revocar este permiso \\
+	7	& HdU 9 y HdU 10		&	48 horas	&	Prototipo que permite compartir la ubicación de los elementos almacenados con otros usuarios válidos del sistema y revocar este permiso \\
 	8	& HdU 11				&	6 horas		&	Prototipo que muestra la ruta a pie desde la posición actual del usuario hasta el elemento seleccionado \\
 	\rowcolor{gray!25}
 	9	& HdU 12				&	6 horas		&	Prototipo que permite el acceso a la herramienta a través de una aplicación instalada en dispositivos móviles \\
@@ -185,21 +185,21 @@ Una vez tenemos la lista de producto priorizada podemos dividir el trabajo en lo
  	\endhead
 
 	\rowcolor{gray!25}
-	\multirow{3}{*}{1}	& HdU 1	&	20 horas	&	Los usuarios anónimos pueden darse de alta en el sistema. \\ 
-	\rowcolor{gray!25}	& HdU 2	&	10 horas	&	Los usuarios anónimos no pueden acceder a la aplicación. Los usuarios registrados 														pueden acceder a la aplicación. \\ 
-	\rowcolor{gray!25}	& HdU 3	&	12 horas	&	Los usuarios registrados pueden modificar los datos de su cuenta o darse de baja en 														la aplicación.  \\                      
+	\multirow{3}{*}{1}	& HdU 1	&	36 horas	&	Los usuarios anónimos pueden darse de alta en el sistema. \\ 
+	\rowcolor{gray!25}	& HdU 2	&	18 horas	&	Los usuarios anónimos no pueden acceder a la aplicación. Los usuarios registrados 														pueden acceder a la aplicación. \\ 
+	\rowcolor{gray!25}	& HdU 3	&	18 horas	&	Los usuarios registrados pueden modificar los datos de su cuenta o darse de baja en 														la aplicación.  \\                      
 	
-	2	& HdU 5		&	12 horas	&	Los usuarios registrados podrán ver en un mapa las ubicaciones guardadas y en un cuadro de 												texto la dirección postal de la misma.\\
+	2	& HdU 5		&	24 horas	&	Los usuarios registrados podrán ver en un mapa las ubicaciones guardadas y en un cuadro de 												texto la dirección postal de la misma.\\
 	\rowcolor{gray!25}
-	3	& HdU 4		&	30 horas	&	Los usuarios registrados podrán guardar en la base de datos ubicaciones 																	interactuando con el mapa. \\
+	3	& HdU 4		&	36 horas	&	Los usuarios registrados podrán guardar en la base de datos ubicaciones 																	interactuando con el mapa. \\
 	
-	4	& HdU 7		&	12 horas	&	Los usuarios registrados podrán crear nuevos elementos sobre los que guardar ubicaciones 													geográficas. \\
+	4	& HdU 7		&	24 horas	&	Los usuarios registrados podrán crear nuevos elementos sobre los que guardar ubicaciones 													geográficas. \\
 	\rowcolor{gray!25}
-	5	& HdU 6		&	10 horas	&	Los usuarios registrados podrán seleccionar uno de los elementos 																			guardados para mostrar únicamente su ubicación en el mapa. \\
+	5	& HdU 6		&	24 horas	&	Los usuarios registrados podrán seleccionar uno de los elementos 																			guardados para mostrar únicamente su ubicación en el mapa. \\
 
-	6	& HdU 8		&	12 horas	&	Los usuarios registrados podrán modificar las propiedades de los elementos que hayan creado o 											borrarlos del sistema. \\
+	6	& HdU 8		&	24 horas	&	Los usuarios registrados podrán modificar las propiedades de los elementos que hayan creado o 											borrarlos del sistema. \\
 	\rowcolor{gray!25}
-	\multirow{2}{*}{7}	& HdU 9		&	30 horas	&	Los usuarios registrados podrán ver y modificar las ubicaciones de los elementos 															previamente compartidos con ellos por otros usuarios registrados. \\
+	\multirow{2}{*}{7}	& HdU 9		&	36 horas	&	Los usuarios registrados podrán ver y modificar las ubicaciones de los elementos 															previamente compartidos con ellos por otros usuarios registrados. \\
 	\rowcolor{gray!25}	& HdU 10	&	10 horas	&	Los usuarios registrados no podrán ver ni modificar las ubicaciones de los 																elementos que hayan dejado de compartirse con ellos por otros usuarios 																	registrados. \\
 
 	8	& HdU 11	&	6 horas		&	Los usuarios registrados podrán ver una ruta a pie desde su ubicación actual hasta la ubicación 											almacenada del elemento seleccionado. \\
@@ -442,7 +442,7 @@ En el presente sprint se han llevado a cabo las tareas relacionadas con la creac
 		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Número: }1}																\\
 		\multicolumn{2}{l}{\textbf{Nombre Historia: } Registro de usuarios}													\\
 		\cellcolor{gray!25}\textbf{Valor de negocio: Alto}	&	\cellcolor{gray!25}\textbf{Riesgo en desarrollo: Bajo}			\\
-		\textbf{Esfuerzo:} 20 horas				&	\textbf{Sprint asignado: }1 												\\
+		\textbf{Esfuerzo:} 36 horas				&	\textbf{Sprint asignado: }1 												\\
 		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Programador responsable: }Juan Bausá}									\\
 		\multicolumn{2}{l}{\textbf{Descripción:}}                                                     						\\
 		\multicolumn{2}{l}{	Añadir un mecanismo de registro para que los usuarios puedan darse de alta en el sistema.} 		\\
@@ -473,7 +473,6 @@ En el presente sprint se han llevado a cabo las tareas relacionadas con la creac
 	  \end{tabular}
 	  \caption{Historia de Usuario 1}
 	\end{table}
-	
 	\begin{table}[H]
 	  \centering 
 	  \begin{tabular}{p{0.4\linewidth}p{0.4\linewidth}}
@@ -482,7 +481,7 @@ En el presente sprint se han llevado a cabo las tareas relacionadas con la creac
 		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Número: }2}																\\
 		\multicolumn{2}{l}{\textbf{Nombre Historia: } Acceso de usuarios registrados}													\\
 		\cellcolor{gray!25}\textbf{Valor de negocio: Alto}	&	\cellcolor{gray!25}\textbf{Riesgo en desarrollo: Bajo}			\\
-		\textbf{Esfuerzo:} 10 horas				&	\textbf{Sprint asignado: }1 												\\
+		\textbf{Esfuerzo:} 18 horas				&	\textbf{Sprint asignado: }1 												\\
 		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Programador responsable: }Juan Bausá}									\\
 		\multicolumn{2}{l}{\textbf{Descripción:}}                                                     						\\
 		\multicolumn{2}{l}{\parbox{15cm}{Añadir un mecanismo de acceso para que los usuarios registrados puedan acceder al sistema.}}	\\
@@ -513,7 +512,7 @@ En el presente sprint se han llevado a cabo las tareas relacionadas con la creac
 		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Número: }3}																\\
 		\multicolumn{2}{l}{\textbf{Nombre Historia: } Edición de los datos de usuarios registrados}							\\
 		\cellcolor{gray!25}\textbf{Valor de negocio: Alto}	&	\cellcolor{gray!25}\textbf{Riesgo en desarrollo: Bajo}			\\
-		\textbf{Esfuerzo:} 12 horas				&	\textbf{Sprint asignado: }1 												\\
+		\textbf{Esfuerzo:} 18 horas				&	\textbf{Sprint asignado: }1 												\\
 		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Programador responsable: }Juan Bausá}									\\
 		\multicolumn{2}{l}{\textbf{Descripción:}}                                                     						\\
 		\multicolumn{2}{l}{	Añadir un mecanismo para que los usuarios registrados puedan editar sus datos.} 					\\
@@ -737,7 +736,7 @@ En el presente sprint se han llevado a cabo las tareas relacionadas con mostrar 
 		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Número: }5}																\\
 		\multicolumn{2}{l}{\textbf{Nombre Historia: } Mostrar posiciones geoespaciales y direcciones postales}				\\
 		\cellcolor{gray!25}\textbf{Valor de negocio: Alto}	&	\cellcolor{gray!25}\textbf{Riesgo en desarrollo: Medio}		\\
-		\textbf{Esfuerzo:} 12 horas				&	\textbf{Sprint asignado: }2 												\\
+		\textbf{Esfuerzo:} 24 horas				&	\textbf{Sprint asignado: }2 												\\
 		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Programador responsable: }Juan Bausá}									\\
 		\multicolumn{2}{l}{\textbf{Descripción:}}                                                     						\\
 		\multicolumn{2}{l}{\parbox{15cm}{Mostrar los datos de localización geoespacial en un mapa mediante la inclusión de elementos visuales adecuados a la representación. Mostrar los datos de localización postal en un elemento de texto adecuado.}}				\\
@@ -883,7 +882,7 @@ En el presente sprint se llevarán a cabo las tareas relacionadas con el almacen
 		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Número: }4}																\\
 		\multicolumn{2}{l}{\textbf{Nombre Historia: } Guardar posiciones geoespaciales y direcciones postales}				\\
 		\cellcolor{gray!25}\textbf{Valor de negocio: Alto}	&	\cellcolor{gray!25}\textbf{Riesgo en desarrollo: Medio}		\\
-		\textbf{Esfuerzo:} 30 horas				&	\textbf{Sprint asignado: }3 												\\
+		\textbf{Esfuerzo:} 36 horas				&	\textbf{Sprint asignado: }3 												\\
 		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Programador responsable: }Juan Bausá}									\\
 		\multicolumn{2}{l}{\textbf{Descripción:}}                                                     						\\
 		\multicolumn{2}{l}{\parbox{15cm}{Guardar los datos de localización geoespacial seleccionados en el mapa mediante la interacción del usuario.}}				\\
@@ -1014,7 +1013,7 @@ En el presente sprint se llevarán a cabo las tareas relacionadas con el almacen
 		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Número: }7}																\\
 		\multicolumn{2}{l}{\textbf{Nombre Historia: } Crear nuevos elementos \textit{coche}}				\\
 		\cellcolor{gray!25}\textbf{Valor de negocio: Alto}	&	\cellcolor{gray!25}\textbf{Riesgo en desarrollo: Medio}		\\
-		\textbf{Esfuerzo:} 12 horas				&	\textbf{Sprint asignado: }4												\\
+		\textbf{Esfuerzo:} 24 horas				&	\textbf{Sprint asignado: }4												\\
 		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Programador responsable: }Juan Bausá}									\\
 		\multicolumn{2}{l}{\textbf{Descripción:}}                                                     						\\
 		\multicolumn{2}{l}{\parbox{15cm}{Crear y editar nuevos elementos \textit{coche} que permitan almacenar nuevas ubicaciones geoespaciales.}}				\\
@@ -1093,7 +1092,7 @@ En el presente sprint se llevarán a cabo las tareas relacionadas con el almacen
 		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Número: }6}																\\
 		\multicolumn{2}{l}{\textbf{Nombre Historia: } Seleccionar un elemento y mostrarlo en el mapa}							\\
 		\cellcolor{gray!25}\textbf{Valor de negocio: Alto}	&	\cellcolor{gray!25}\textbf{Riesgo en desarrollo: Bajo}		\\
-		\textbf{Esfuerzo:} 10 horas				&	\textbf{Sprint asignado: }5 												\\
+		\textbf{Esfuerzo:} 24 horas				&	\textbf{Sprint asignado: }5 												\\
 		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Programador responsable: }Juan Bausá}									\\
 		\multicolumn{2}{l}{\textbf{Descripción:}}                                                     						\\
 		\multicolumn{2}{l}{\parbox{15cm}{Seleccionar uno de los elementos disponibles y mostrarlo en el mapa.}}				\\
@@ -1146,7 +1145,7 @@ En el presente sprint se llevarán a cabo las tareas relacionadas con el almacen
 		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Número: }8}																\\
 		\multicolumn{2}{l}{\textbf{Nombre Historia: } Seleccionar un elemento \textit{coche} y modificar sus propiedades}							\\
 		\cellcolor{gray!25}\textbf{Valor de negocio: Medio}	&	\cellcolor{gray!25}\textbf{Riesgo en desarrollo: Bajo}		\\
-		\textbf{Esfuerzo:} 12 horas				&	\textbf{Sprint asignado: }6 												\\
+		\textbf{Esfuerzo:} 24 horas				&	\textbf{Sprint asignado: }6 												\\
 		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Programador responsable: }Juan Bausá}									\\
 		\multicolumn{2}{l}{\textbf{Descripción:}}                                                     						\\
 		\multicolumn{2}{l}{\parbox{15cm}{Seleccionar uno de los elementos \textit{coche} y modificar sus propiedades.}}				\\
@@ -1241,7 +1240,7 @@ En el presente sprint se llevarán a cabo las tareas relacionadas con la compart
 		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Número: }9}																\\
 		\multicolumn{2}{l}{\textbf{Nombre Historia: } Compartir, ver y editar elementos \textit{coche}}						\\
 		\cellcolor{gray!25}\textbf{Valor de negocio: Medio}	&	\cellcolor{gray!25}\textbf{Riesgo en desarrollo: Alto}		\\
-		\textbf{Esfuerzo:} 30 horas				&	\textbf{Sprint asignado: }7 												\\
+		\textbf{Esfuerzo:} 36 horas				&	\textbf{Sprint asignado: }7 												\\
 		\multicolumn{2}{l}{\cellcolor{gray!25}\textbf{Programador responsable: }Juan Bausá}									\\
 		\multicolumn{2}{l}{\textbf{Descripción:}}                                                     						\\
 		\multicolumn{2}{l}{\parbox{15cm}{Seleccionar un elemento \textit{coche} para añadir usuarios autorizados. Ver y modificar las posiciones de los elementos \textit{coche} compartidos con el usuario.}}				\\
@@ -1449,7 +1448,7 @@ En el presente sprint se llevarán a cabo las tareas relacionadas con la compart
 En este sprint se llevará a cabo la historia de usuario 12 y el despliegue de la herramienta en el servidor elegido (Heroku).
 
 	\subsection{Refinamiento del Product Backlog}
-	Se realizará primero el despliegue en el servidor, debido a que la herramienta móvil quedará configurada con los datos de trabajo finales.
+	Se realizará primero el despliegue en el servidor, debido a que la herramienta móvil se conectará con la página web desplegada en el servidor.
 
 	\subsection{Planificación de Sprint}
 	En este último sprint se crea una aplicación móvil que permita el acceso a los usuarios a través de sus dispositivos móviles y se completa el despliegue de la herramienta al servidor elegido durante la fase de planificación, esto es, Heroku.
@@ -1485,14 +1484,72 @@ En este sprint se llevará a cabo la historia de usuario 12 y el despliegue de l
 	\end{table}
 	
 	\subsubsection{Desarrollo de la Historia de Usuario: ''Crear una aplicación de acceso para móviles''}
-La última funcionalidad prevista consiste en implementar una aplicación para móviles que permita el acceso a la página web con la herramienta. Se ha optado por crear una aplicación haciendo uso de la biblioteca \textit{Webview} que permite la carga de páginas web dentro de aplicaciones independendientemente de los navegadores instalados en el sistema.
+La última funcionalidad prevista consiste en implementar una aplicación para móviles que permita el acceso a la página web desde los dispositivos móviles. Se ha optado por crear una aplicación que funcione como un acceso directo a la página web en donde se encuentra la herramienta desplegada. De esta forma, al abrirla, redirigirá el navegador predeterminado hacia la dirección indicada (ver listado \ref{code:appAndroid}). También se crea una funcionalidad de \textit{splash screen}, por la que al arrancar la aplicación durante unos segundos se podrá ver el logotipo en pantalla (ver figura \ref{fig:app-Android2}) antes de iniciar la apertura del navegador (ver listado \ref{code:appAndroid2}).
+
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[height=3cm, fbox={\fboxrule} 4mm]{images/05-resultados/26-app_Android2.jpg}
+		\caption{Logotipo de la aplicación}
+		\label{fig:app-Android2}
+	\end{figure}
+
+	\begin{lstlisting}[, frame = single, language = Java, caption  = {«Código fuente aplicación móvil»}, label = code:appAndroid]
+		public class MainActivity extends AppCompatActivity {
+		    @Override
+		    protected void onCreate(Bundle savedInstanceState) {
+		        super.onCreate(savedInstanceState);
+		        openWebPage("http://mementoparking.herokuapp.com");
+		    }
+		    @Override
+		    public void onResume() {
+		        super.onResume();
+		        openWebPage("http://mementoparking.herokuapp.com");
+		    }
+		    public void openWebPage(String url) {
+		        Uri webpage = Uri.parse(url);
+		        Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
+		        if (intent.resolveActivity(getPackageManager()) != null) {
+		            startActivity(intent);
+		        }
+		    }
+		}
+	\end{lstlisting}
 	
-%	\begin{figure}[H]
-%		\centering
-%		\includegraphics[width=15cm, fbox={\fboxrule} 4mm]{images/05-resultados/24-ruta.png}
-%		\caption{Vista previa de la ruta a pie}
-%		\label{fig:ruta}
-%	\end{figure}
+		\begin{lstlisting}[, frame = single, language = Java, caption  = {«Código fuente aplicación móvil. Splash Screen»}, label = code:appAndroid2]
+		public class SplashScreen extends Activity {
+		    @Override
+		    protected void onCreate(Bundle savedInstanceState) {
+		        super.onCreate(savedInstanceState);
+		        setContentView(R.layout.splash);
+		
+		        Thread timerThread = new Thread(){
+		            public void run(){
+		                try{
+		                    sleep(5000);
+		                }catch(InterruptedException e){
+		                    e.printStackTrace();
+		                }finally{
+		                    Intent intent = new Intent(SplashScreen.this,MainActivity.class);
+		                    startActivity(intent);
+		                }
+		            }
+		        };
+		        timerThread.start();
+		    }
+		    @Override
+		    protected void onPause() {
+		        super.onPause();
+		        finish();
+		    }
+		}
+	\end{lstlisting}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[height=5cm, fbox={\fboxrule} 4mm]{images/05-resultados/25-app_Android.png}
+		\caption{Vista previa de la aplicación}
+		\label{fig:app-Android}
+	\end{figure}
 			
 	\subsection{Sprint Review}
 Con la conclusión de este sprint se considera terminado el desarrollo de la herramienta propuesta.

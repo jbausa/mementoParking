@@ -16,9 +16,13 @@
 \usetikzlibrary{shapes,shadows}
 \tikzstyle{shadowBox} = [draw=black, fill=white, rectangle, inner sep=10pt, style=rounded corners, drop shadow={fill=black,   opacity=1}, text width=14cm]
 
+
+
 \input{metadata.tex}
 
 \begin{document}
+
+\renewcommand\bibname{Bibliografía}
 
 \cover
 \bastardtitle
@@ -49,13 +53,13 @@
 
 \appendix
 \appendixtitle
-%\input{anexo1.tex}
-%{\scriptsize \input{GFDL.tex}}
 
 %ANEXO A
 \input{manual.tex}
 %ANEXO B
 \input{acro.tex}
+%ANEXO C
+\input{source.tex}
 
 \backmatter
 \bibliography{bibliography}
