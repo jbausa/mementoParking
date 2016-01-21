@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.10.20)  20 JAN 2016 08:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.10.20)  21 JAN 2016 10:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3715,12 +3715,7 @@ Package pdftex.def Info: images/03-antecedentes/33-mapa_ptolomeo.jpg used on in
 put line 194.
 (pdftex.def)             Requested size: 341.43306pt x 243.78671pt.
 
-
-LaTeX Warning: Reference `fig:mapa-beato-li\IeC {\'e}bana' on page 23 undefined
- on input line 201.
-
-
-<images/03-antecedentes/34-mapa_beato_liebana.jpg, id=1539, 1086.30844pt x 684.
+<images/03-antecedentes/34-mapa_beato_liebana.jpg, id=1540, 1086.30844pt x 684.
 30656pt>
 File: images/03-antecedentes/34-mapa_beato_liebana.jpg Graphic file (type jpg)
  <use images/03-antecedentes/34-mapa_beato_liebana.jpg>
@@ -3767,7 +3762,7 @@ Package babel Info: Redefining spanish shorthand "?
                                                   \fi \fi 
 l.208 \end{figure}
                    <./images/03-antecedentes/32-mapa_babilonio.jpg>]
-<images/03-antecedentes/35-mapa_al_idrisi.jpg, id=1548, 13040.72pt x 5974.32pt>
+<images/03-antecedentes/35-mapa_al_idrisi.jpg, id=1549, 13040.72pt x 5974.32pt>
 File: images/03-antecedentes/35-mapa_al_idrisi.jpg Graphic file (type jpg)
 <use images/03-antecedentes/35-mapa_al_idrisi.jpg>
 Package pdftex.def Info: images/03-antecedentes/35-mapa_al_idrisi.jpg used on i
@@ -3820,7 +3815,7 @@ name{figure.3.11}) has been already used, duplicate ignored
 l.217 \end{figure}
                    <./images/03-antecedentes/33-mapa_ptolomeo.jpg> <./images/03
 -antecedentes/34-mapa_beato_liebana.jpg>]
-<./images/03-antecedentes/36-mapa_juan_de_la_cosa.jpg, id=1555, 712.6625pt x 45
+<./images/03-antecedentes/36-mapa_juan_de_la_cosa.jpg, id=1556, 712.6625pt x 45
 1.6875pt>
 File: ./images/03-antecedentes/36-mapa_juan_de_la_cosa.jpg Graphic file (type j
 pg)
@@ -3829,7 +3824,7 @@ Package pdftex.def Info: ./images/03-antecedentes/36-mapa_juan_de_la_cosa.jpg u
 sed on input line 226.
 (pdftex.def)             Requested size: 356.33038pt x 225.84319pt.
 
-<./images/03-antecedentes/37-mapa_martin_waldseemuller.jpg, id=1556, 731.73375p
+<./images/03-antecedentes/37-mapa_martin_waldseemuller.jpg, id=1557, 731.73375p
 t x 410.53375pt>
 File: ./images/03-antecedentes/37-mapa_martin_waldseemuller.jpg Graphic file (t
 ype jpg)
@@ -3922,7 +3917,7 @@ Package babel Info: Redefining spanish shorthand "?
 l.244 
        <./images/03-antecedentes/36-mapa_juan_de_la_cosa.jpg> <./images/03-ante
 cedentes/37-mapa_martin_waldseemuller.jpg>]
-<images/03-antecedentes/02-john_snow.jpg, id=1582, 89.133pt x 144.54pt>
+<images/03-antecedentes/02-john_snow.jpg, id=1583, 89.133pt x 144.54pt>
 File: images/03-antecedentes/02-john_snow.jpg Graphic file (type jpg)
 
 <use images/03-antecedentes/02-john_snow.jpg>
@@ -3930,7 +3925,7 @@ Package pdftex.def Info: images/03-antecedentes/02-john_snow.jpg used on input
 line 249.
 (pdftex.def)             Requested size: 89.13277pt x 144.53963pt.
 
-<images/03-antecedentes/01-cholera_map.jpg, id=1583, 321.24014pt x 314.01315pt>
+<images/03-antecedentes/01-cholera_map.jpg, id=1584, 321.24014pt x 314.01315pt>
 File: images/03-antecedentes/01-cholera_map.jpg Graphic file (type jpg)
 <use images/03-antecedentes/01-cholera_map.jpg>
 Package pdftex.def Info: images/03-antecedentes/01-cholera_map.jpg used on inpu
@@ -3980,7 +3975,7 @@ l.263 E
        ste ejemplo temprano, combinado con la geolocalización nos permite i...
  <./images/03-antecedentes/02-john_snow.jpg> <./images/03-antecedentes/01-chole
 ra_map.jpg>]
-<images/03-antecedentes/03-cholera_map_detail.png, id=1593, 537.00626pt x 393.4
+<images/03-antecedentes/03-cholera_map_detail.png, id=1594, 537.00626pt x 393.4
 7pt>
 File: images/03-antecedentes/03-cholera_map_detail.png Graphic file (type png)
  <use images/03-antecedentes/03-cholera_map_detail.png>
@@ -4055,7 +4050,7 @@ although it is yet undefined on input line 291.
 Package acronym Info: Label `acro:UCLA' newly defined as it shall be overridden
 
 although it is yet undefined on input line 291.
-<images/03-antecedentes/09-modem_bell.jpg, id=1614, 552.0625pt x 271.0125pt>
+<images/03-antecedentes/09-modem_bell.jpg, id=1615, 552.0625pt x 271.0125pt>
 File: images/03-antecedentes/09-modem_bell.jpg Graphic file (type jpg)
 
 <use images/03-antecedentes/09-modem_bell.jpg>
@@ -4104,7 +4099,7 @@ Package acronym Info: Label `acro:HTTP' newly defined as it shall be overridden
 
 although it is yet undefined on input line 306.
 
-<images/03-antecedentes/10-client_server.png, id=1637, 354.26471pt x 141.70589p
+<images/03-antecedentes/10-client_server.png, id=1638, 354.26471pt x 141.70589p
 t>
 File: images/03-antecedentes/10-client_server.png Graphic file (type png)
  <use images/03-antecedentes/10-client_server.png>
@@ -4153,7 +4148,7 @@ l.316
 l.316 
        <./images/03-antecedentes/09-modem_bell.jpg> <./images/03-antecedentes/1
 0-client_server.png>]
-<images/03-antecedentes/11-dns_server.png, id=1659, 692.5875pt x 336.25626pt>
+<images/03-antecedentes/11-dns_server.png, id=1660, 692.5875pt x 336.25626pt>
 File: images/03-antecedentes/11-dns_server.png Graphic file (type png)
 
 <use images/03-antecedentes/11-dns_server.png>
@@ -4173,7 +4168,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 328.
 
-<images/03-antecedentes/12-html_request.png, id=1662, 944.02687pt x 383.93437pt
+<images/03-antecedentes/12-html_request.png, id=1663, 944.02687pt x 383.93437pt
 >
 File: images/03-antecedentes/12-html_request.png Graphic file (type png)
  <use images/03-antecedentes/12-html_request.png>
@@ -4215,7 +4210,7 @@ Package babel Info: Redefining spanish shorthand "?
                                                   \fi \fi 
 l.337 \end{figure}
                    <./images/03-antecedentes/11-dns_server.png>]
-<images/03-antecedentes/13-html_dynamic_request.png, id=1669, 910.15031pt x 423
+<images/03-antecedentes/13-html_dynamic_request.png, id=1670, 910.15031pt x 423
 .83344pt>
 File: images/03-antecedentes/13-html_dynamic_request.png Graphic file (type png
 )
@@ -4272,7 +4267,7 @@ l.352 M
        ySQL es un sistema de gestión de bases de datos relacionales desarro...
  <./images/03-antecedentes/12-html_request.png (PNG copy)> <./images/03-anteced
 entes/13-html_dynamic_request.png (PNG copy)>]
-<./images/03-antecedentes/14-mysql.png, id=1679, 200.75pt x 200.75pt>
+<./images/03-antecedentes/14-mysql.png, id=1680, 200.75pt x 200.75pt>
 File: ./images/03-antecedentes/14-mysql.png Graphic file (type png)
 
 <use ./images/03-antecedentes/14-mysql.png>
@@ -4280,7 +4275,7 @@ Package pdftex.def Info: ./images/03-antecedentes/14-mysql.png used on input li
 ne 357.
 (pdftex.def)             Requested size: 100.37474pt x 100.37474pt.
 
-<./images/03-antecedentes/15-php.png, id=1680, 301.125pt x 180.675pt>
+<./images/03-antecedentes/15-php.png, id=1681, 301.125pt x 180.675pt>
 File: ./images/03-antecedentes/15-php.png Graphic file (type png)
 
 <use ./images/03-antecedentes/15-php.png>
@@ -4288,7 +4283,7 @@ Package pdftex.def Info: ./images/03-antecedentes/15-php.png used on input line
  359.
 (pdftex.def)             Requested size: 150.56212pt x 90.33727pt.
 
-<./images/03-antecedentes/16-apache.png, id=1681, 321.2pt x 220.825pt>
+<./images/03-antecedentes/16-apache.png, id=1682, 321.2pt x 220.825pt>
 File: ./images/03-antecedentes/16-apache.png Graphic file (type png)
 
 <use ./images/03-antecedentes/16-apache.png>
@@ -4378,7 +4373,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 405.
 
-<./images/03-antecedentes/17-telegrafo_optico.jpg, id=1718, 772.8875pt x 1049.9
+<./images/03-antecedentes/17-telegrafo_optico.jpg, id=1719, 772.8875pt x 1049.9
 225pt>
 File: ./images/03-antecedentes/17-telegrafo_optico.jpg Graphic file (type jpg)
  <use ./images/03-antecedentes/17-telegrafo_optico.jpg>
@@ -4386,7 +4381,7 @@ Package pdftex.def Info: ./images/03-antecedentes/17-telegrafo_optico.jpg used
 on input line 416.
 (pdftex.def)             Requested size: 167.55917pt x 227.62204pt.
 
-<./images/03-antecedentes/18-claude_chappe.jpg, id=1719, 803.0pt x 1071.00125pt
+<./images/03-antecedentes/18-claude_chappe.jpg, id=1720, 803.0pt x 1071.00125pt
 >
 File: ./images/03-antecedentes/18-claude_chappe.jpg Graphic file (type jpg)
  <use ./images/03-antecedentes/18-claude_chappe.jpg>
@@ -4427,7 +4422,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 422.
 [34]
-<./images/03-antecedentes/20-samuel_morse.jpg, id=1744, 359.9046pt x 393.1488pt
+<./images/03-antecedentes/20-samuel_morse.jpg, id=1745, 359.9046pt x 393.1488pt
 >
 File: ./images/03-antecedentes/20-samuel_morse.jpg Graphic file (type jpg)
  <use ./images/03-antecedentes/20-samuel_morse.jpg>
@@ -4435,7 +4430,7 @@ Package pdftex.def Info: ./images/03-antecedentes/20-samuel_morse.jpg used on i
 nput line 429.
 (pdftex.def)             Requested size: 208.37686pt x 227.62204pt.
 
-<./images/03-antecedentes/21-codigo_morse.jpg, id=1745, 264.99pt x 401.5pt>
+<./images/03-antecedentes/21-codigo_morse.jpg, id=1746, 264.99pt x 401.5pt>
 File: ./images/03-antecedentes/21-codigo_morse.jpg Graphic file (type jpg)
 
 <use ./images/03-antecedentes/21-codigo_morse.jpg>
@@ -4448,7 +4443,7 @@ Overfull \hbox (6.79999pt too wide) in paragraph at lines 432--433
  []
 
 
-<images/03-antecedentes/19-primer_telegrama.jpg, id=1748, 3874.475pt x 190.7125
+<images/03-antecedentes/19-primer_telegrama.jpg, id=1749, 3874.475pt x 190.7125
 pt>
 File: images/03-antecedentes/19-primer_telegrama.jpg Graphic file (type jpg)
  <use images/03-antecedentes/19-primer_telegrama.jpg>
@@ -4536,7 +4531,7 @@ l.450 H
        istóricamente, la invención del teléfono se atribuyó a Alexander ...
  <./images/03-antecedentes/20-samuel_morse.jpg> <./images/03-antecedentes/21-co
 digo_morse.jpg> <./images/03-antecedentes/19-primer_telegrama.jpg>]
-<./images/03-antecedentes/22-antonio_meucci.jpg, id=1765, 89.79547pt x 108.405p
+<./images/03-antecedentes/22-antonio_meucci.jpg, id=1766, 89.79547pt x 108.405p
 t>
 File: ./images/03-antecedentes/22-antonio_meucci.jpg Graphic file (type jpg)
  <use ./images/03-antecedentes/22-antonio_meucci.jpg>
@@ -4544,7 +4539,7 @@ Package pdftex.def Info: ./images/03-antecedentes/22-antonio_meucci.jpg used on
  input line 455.
 (pdftex.def)             Requested size: 188.57056pt x 227.62204pt.
 
-<./images/03-antecedentes/23-alexander_graham_bell.jpg, id=1766, 333.1647pt x 4
+<./images/03-antecedentes/23-alexander_graham_bell.jpg, id=1767, 333.1647pt x 4
 32.8973pt>
 File: ./images/03-antecedentes/23-alexander_graham_bell.jpg Graphic file (type 
 jpg)
@@ -4594,7 +4589,7 @@ l.469 A
        nte las reclamaciones de Meucci de la autoría del invento, y gracias...
  <./images/03-antecedentes/22-antonio_meucci.jpg> <./images/03-antecedentes/23-
 alexander_graham_bell.jpg>]
-<./images/03-antecedentes/24-telefono_meucci.jpg, id=1780, 306.14375pt x 233.87
+<./images/03-antecedentes/24-telefono_meucci.jpg, id=1781, 306.14375pt x 233.87
 375pt>
 File: ./images/03-antecedentes/24-telefono_meucci.jpg Graphic file (type jpg)
  <use ./images/03-antecedentes/24-telefono_meucci.jpg>
@@ -4602,7 +4597,7 @@ Package pdftex.def Info: ./images/03-antecedentes/24-telefono_meucci.jpg used o
 n input line 474.
 (pdftex.def)             Requested size: 153.07149pt x 116.93657pt.
 
-<./images/03-antecedentes/25-telefono_bell.png, id=1781, 451.6875pt x 299.1175p
+<./images/03-antecedentes/25-telefono_bell.png, id=1782, 451.6875pt x 299.1175p
 t>
 File: ./images/03-antecedentes/25-telefono_bell.png Graphic file (type png)
  <use ./images/03-antecedentes/25-telefono_bell.png>
@@ -4620,7 +4615,7 @@ although it is yet undefined on input line 485.
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 7.29996pt on input line 487.
 
-<./images/03-antecedentes/27-motorola-dynatac_8000x.jpg, id=1786, 400.49625pt x
+<./images/03-antecedentes/27-motorola-dynatac_8000x.jpg, id=1787, 400.49625pt x
  980.66376pt>
 File: ./images/03-antecedentes/27-motorola-dynatac_8000x.jpg Graphic file (type
  jpg)
@@ -4633,7 +4628,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 492--492
 \T1/ptm/m/n/10 Dy-na-TAC
  []
 
-<./images/03-antecedentes/28-martin_cooper.jpg, id=1787, 770.88pt x 433.62pt>
+<./images/03-antecedentes/28-martin_cooper.jpg, id=1788, 770.88pt x 433.62pt>
 File: ./images/03-antecedentes/28-martin_cooper.jpg Graphic file (type jpg)
 
 <use ./images/03-antecedentes/28-martin_cooper.jpg>
@@ -4684,7 +4679,7 @@ l.498 \end{figure}
 Package acronym Info: Label `acro:SMS' newly defined as it shall be overridden
 although it is yet undefined on input line 504.
 
-<images/03-antecedentes/29-siemens_a56.jpg, id=1800, 301.125pt x 301.125pt>
+<images/03-antecedentes/29-siemens_a56.jpg, id=1801, 301.125pt x 301.125pt>
 File: images/03-antecedentes/29-siemens_a56.jpg Graphic file (type jpg)
 
 <use images/03-antecedentes/29-siemens_a56.jpg>
@@ -4692,7 +4687,7 @@ Package pdftex.def Info: images/03-antecedentes/29-siemens_a56.jpg used on inpu
 t line 508.
 (pdftex.def)             Requested size: 113.81297pt x 113.81102pt.
 
-<images/03-antecedentes/30-iphone.jpg, id=1801, 618.31pt x 426.59375pt>
+<images/03-antecedentes/30-iphone.jpg, id=1802, 618.31pt x 426.59375pt>
 File: images/03-antecedentes/30-iphone.jpg Graphic file (type jpg)
 
 <use images/03-antecedentes/30-iphone.jpg>
@@ -4760,7 +4755,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 525.
 
-<./images/03-antecedentes/50-foursquare_app.jpg, id=1819, 321.2pt x 481.8pt>
+<./images/03-antecedentes/50-foursquare_app.jpg, id=1820, 321.2pt x 481.8pt>
 File: ./images/03-antecedentes/50-foursquare_app.jpg Graphic file (type jpg)
 
 <use ./images/03-antecedentes/50-foursquare_app.jpg>
@@ -4768,7 +4763,7 @@ Package pdftex.def Info: ./images/03-antecedentes/50-foursquare_app.jpg used on
  input line 533.
 (pdftex.def)             Requested size: 192.72148pt x 289.08221pt.
 
-<images/03-antecedentes/38-foursquare.png, id=1820, 656.4525pt x 327.2225pt>
+<images/03-antecedentes/38-foursquare.png, id=1821, 656.4525pt x 327.2225pt>
 File: images/03-antecedentes/38-foursquare.png Graphic file (type png)
 
 <use images/03-antecedentes/38-foursquare.png>
@@ -4792,7 +4787,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 541.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 541.
-<images/03-antecedentes/39-swarm.png, id=1826, 558.085pt x 329.23pt>
+<images/03-antecedentes/39-swarm.png, id=1827, 558.085pt x 329.23pt>
 File: images/03-antecedentes/39-swarm.png Graphic file (type png)
 
 <use images/03-antecedentes/39-swarm.png>
@@ -4854,7 +4849,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 553.
 
-<./images/03-antecedentes/40-glympse_app.png, id=1839, 803.0pt x 711.65875pt>
+<./images/03-antecedentes/40-glympse_app.png, id=1840, 803.0pt x 711.65875pt>
 File: ./images/03-antecedentes/40-glympse_app.png Graphic file (type png)
 
 <use ./images/03-antecedentes/40-glympse_app.png>
@@ -4862,7 +4857,7 @@ Package pdftex.def Info: ./images/03-antecedentes/40-glympse_app.png used on in
 put line 561.
 (pdftex.def)             Requested size: 240.90186pt x 213.49927pt.
 
-<./images/03-antecedentes/41-glympse_logo.png, id=1840, 1027.84pt x 232.87pt>
+<./images/03-antecedentes/41-glympse_logo.png, id=1841, 1027.84pt x 232.87pt>
 File: ./images/03-antecedentes/41-glympse_logo.png Graphic file (type png)
 
 <use ./images/03-antecedentes/41-glympse_logo.png>
@@ -4930,7 +4925,7 @@ l.572 E
        sta aplicación está disponible para \href{https://play.google.com/s...
  <./images/03-antecedentes/50-foursquare_app.jpg> <./images/03-antecedentes/38-
 foursquare.png (PNG copy)> <./images/03-antecedentes/39-swarm.png>]
-<./images/03-antecedentes/42-strava_app.jpg, id=1852, 2168.1pt x 1284.8pt>
+<./images/03-antecedentes/42-strava_app.jpg, id=1853, 2168.1pt x 1284.8pt>
 File: ./images/03-antecedentes/42-strava_app.jpg Graphic file (type jpg)
 
 <use ./images/03-antecedentes/42-strava_app.jpg>
@@ -4938,7 +4933,7 @@ Package pdftex.def Info: ./images/03-antecedentes/42-strava_app.jpg used on inp
 ut line 577.
 (pdftex.def)             Requested size: 341.43306pt x 202.31786pt.
 
-<./images/03-antecedentes/43-strava_logo.png, id=1853, 432.4155pt x 90.8193pt>
+<./images/03-antecedentes/43-strava_logo.png, id=1854, 432.4155pt x 90.8193pt>
 File: ./images/03-antecedentes/43-strava_logo.png Graphic file (type png)
 
 <use ./images/03-antecedentes/43-strava_logo.png>
@@ -4963,7 +4958,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 585.
 
-<./images/03-antecedentes/45-waze_app.jpg, id=1861, 681.54625pt x 500.87125pt>
+<./images/03-antecedentes/45-waze_app.jpg, id=1862, 681.54625pt x 500.87125pt>
 File: ./images/03-antecedentes/45-waze_app.jpg Graphic file (type jpg)
 
 <use ./images/03-antecedentes/45-waze_app.jpg>
@@ -4971,7 +4966,7 @@ Package pdftex.def Info: ./images/03-antecedentes/45-waze_app.jpg used on input
  line 593.
 (pdftex.def)             Requested size: 204.46545pt x 150.26253pt.
 
-<./images/03-antecedentes/44-waze_logo.png, id=1862, 301.125pt x 301.125pt>
+<./images/03-antecedentes/44-waze_logo.png, id=1863, 301.125pt x 301.125pt>
 File: ./images/03-antecedentes/44-waze_logo.png Graphic file (type png)
 
 <use ./images/03-antecedentes/44-waze_logo.png>
@@ -5077,7 +5072,7 @@ l.605 D
  <./images/03-antecedentes/42-strava_app.jpg> <./images/03-antecedentes/43-stra
 va_logo.png> <./images/03-antecedentes/45-waze_app.jpg> <./images/03-antecedent
 es/44-waze_logo.png>]
-<./images/03-antecedentes/46-ingress_app.png, id=1890, 396.48125pt x 661.47125p
+<./images/03-antecedentes/46-ingress_app.png, id=1891, 396.48125pt x 661.47125p
 t>
 File: ./images/03-antecedentes/46-ingress_app.png Graphic file (type png)
  <use ./images/03-antecedentes/46-ingress_app.png>
@@ -5085,7 +5080,7 @@ Package pdftex.def Info: ./images/03-antecedentes/46-ingress_app.png used on in
 put line 610.
 (pdftex.def)             Requested size: 136.42923pt x 227.62204pt.
 
-<./images/03-antecedentes/47-ingress_logo.png, id=1891, 513.92pt x 513.92pt>
+<./images/03-antecedentes/47-ingress_logo.png, id=1892, 513.92pt x 513.92pt>
 File: ./images/03-antecedentes/47-ingress_logo.png Graphic file (type png)
 
 <use ./images/03-antecedentes/47-ingress_logo.png>
@@ -5116,7 +5111,7 @@ Overfull \hbox (12.24301pt too wide) in paragraph at lines 619--620
  []
 
 
-<./images/03-antecedentes/48-life360_app.jpg, id=1897, 308.15125pt x 513.92pt>
+<./images/03-antecedentes/48-life360_app.jpg, id=1898, 308.15125pt x 513.92pt>
 File: ./images/03-antecedentes/48-life360_app.jpg Graphic file (type jpg)
 
 <use ./images/03-antecedentes/48-life360_app.jpg>
@@ -5129,7 +5124,7 @@ Underfull \hbox (badness 3724) in paragraph at lines 626--626
  []
 
 
-<./images/03-antecedentes/49-life360_logo.png, id=1898, 301.125pt x 301.125pt>
+<./images/03-antecedentes/49-life360_logo.png, id=1899, 301.125pt x 301.125pt>
 File: ./images/03-antecedentes/49-life360_logo.png Graphic file (type png)
 
 <use ./images/03-antecedentes/49-life360_logo.png>
@@ -5437,7 +5432,7 @@ l.70
                                                   \fi \fi 
 l.70 
      ]
-<images/04-metodo/01-protipado_evolutivo.jpg, id=1967, 609.24387pt x 318.60968p
+<images/04-metodo/01-protipado_evolutivo.jpg, id=1968, 609.24387pt x 318.60968p
 t>
 File: images/04-metodo/01-protipado_evolutivo.jpg Graphic file (type jpg)
  <use images/04-metodo/01-protipado_evolutivo.jpg>
@@ -5603,7 +5598,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 135.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 135.
-[51] <images/04-metodo/02-kanban_table_1.png, id=1993, 722.7pt x 350.30875pt>
+[51] <images/04-metodo/02-kanban_table_1.png, id=1994, 722.7pt x 350.30875pt>
 File: images/04-metodo/02-kanban_table_1.png Graphic file (type png)
 
 <use images/04-metodo/02-kanban_table_1.png>
@@ -5611,7 +5606,7 @@ Package pdftex.def Info: images/04-metodo/02-kanban_table_1.png used on input l
 ine 138.
 (pdftex.def)             Requested size: 341.43306pt x 165.50037pt.
 
-<images/04-metodo/03-kanban_table_2.png, id=1994, 513.92pt x 252.945pt>
+<images/04-metodo/03-kanban_table_2.png, id=1995, 513.92pt x 252.945pt>
 File: images/04-metodo/03-kanban_table_2.png Graphic file (type png)
 
 <use images/04-metodo/03-kanban_table_2.png>
@@ -5631,7 +5626,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 150.
 
-<images/04-metodo/04-kanban_table_3.jpg, id=1996, 602.25pt x 220.825pt>
+<images/04-metodo/04-kanban_table_3.jpg, id=1997, 602.25pt x 220.825pt>
 File: images/04-metodo/04-kanban_table_3.jpg Graphic file (type jpg)
 
 <use images/04-metodo/04-kanban_table_3.jpg>
@@ -5708,7 +5703,7 @@ Package acronym Info: Label `acro:GNOME' newly defined as it shall be overridde
 n
 although it is yet undefined on input line 168.
 
-<images/04-metodo/11-elementary_preview.png, id=2009, 1606.0pt x 903.375pt>
+<images/04-metodo/11-elementary_preview.png, id=2010, 1606.0pt x 903.375pt>
 File: images/04-metodo/11-elementary_preview.png Graphic file (type png)
 
 <use images/04-metodo/11-elementary_preview.png>
@@ -5750,7 +5745,7 @@ Package babel Info: Redefining spanish shorthand "?
                                                   \fi \fi 
 l.177 
        <./images/04-metodo/04-kanban_table_3.jpg>]
-<images/04-metodo/12-elementary_logo.jpg, id=2018, 553.06625pt x 390.45876pt>
+<images/04-metodo/12-elementary_logo.jpg, id=2019, 553.06625pt x 390.45876pt>
 File: images/04-metodo/12-elementary_logo.jpg Graphic file (type jpg)
 
 <use images/04-metodo/12-elementary_logo.jpg>
@@ -5758,7 +5753,7 @@ Package pdftex.def Info: images/04-metodo/12-elementary_logo.jpg used on input
 line 180.
 (pdftex.def)             Requested size: 113.81102pt x 80.3484pt.
 
-<images/04-metodo/13-windows_logo.png, id=2019, 1365.1pt x 594.22pt>
+<images/04-metodo/13-windows_logo.png, id=2020, 1365.1pt x 594.22pt>
 File: images/04-metodo/13-windows_logo.png Graphic file (type png)
 
 <use images/04-metodo/13-windows_logo.png>
@@ -5783,7 +5778,7 @@ Package acronym Info: Label `acro:Case' newly defined as it shall be overridden
 
 although it is yet undefined on input line 199.
 
-<images/04-metodo/14-visual_paradigm_logo.jpg, id=2026, 180.675pt x 62.8749pt>
+<images/04-metodo/14-visual_paradigm_logo.jpg, id=2027, 180.675pt x 62.8749pt>
 File: images/04-metodo/14-visual_paradigm_logo.jpg Graphic file (type jpg)
 
 <use images/04-metodo/14-visual_paradigm_logo.jpg>
@@ -5843,7 +5838,7 @@ although it is yet undefined on input line 212.
 Package acronym Info: Label `acro:PDF' newly defined as it shall be overridden
 although it is yet undefined on input line 212.
 
-<images/04-metodo/15-gantt_project_logo.png, id=2036, 401.5pt x 301.125pt>
+<images/04-metodo/15-gantt_project_logo.png, id=2037, 401.5pt x 301.125pt>
 File: images/04-metodo/15-gantt_project_logo.png Graphic file (type png)
 
 <use images/04-metodo/15-gantt_project_logo.png>
@@ -5851,7 +5846,7 @@ Package pdftex.def Info: images/04-metodo/15-gantt_project_logo.png used on inp
 ut line 216.
 (pdftex.def)             Requested size: 113.81102pt x 85.35744pt.
 
-<images/04-metodo/16-moqups_logo.png, id=2038, 326.21875pt x 260.975pt>
+<images/04-metodo/16-moqups_logo.png, id=2039, 326.21875pt x 260.975pt>
 File: images/04-metodo/16-moqups_logo.png Graphic file (type png)
 
 <use images/04-metodo/16-moqups_logo.png>
@@ -5900,7 +5895,7 @@ l.230
 l.230 
        <./images/04-metodo/14-visual_paradigm_logo.jpg> <./images/04-metodo/15-
 gantt_project_logo.png>]
-<images/04-metodo/17-moqups_preview.jpg, id=2053, 939.51pt x 581.17125pt>
+<images/04-metodo/17-moqups_preview.jpg, id=2054, 939.51pt x 581.17125pt>
 File: images/04-metodo/17-moqups_preview.jpg Graphic file (type jpg)
 
 <use images/04-metodo/17-moqups_preview.jpg>
@@ -5922,7 +5917,7 @@ Package babel Info: Redefining spanish shorthand "?
 Package acronym Info: Label `acro:SVN' newly defined as it shall be overridden
 although it is yet undefined on input line 241.
 
-<images/04-metodo/18-git_logo.png, id=2056, 590.205pt x 200.75pt>
+<images/04-metodo/18-git_logo.png, id=2057, 590.205pt x 200.75pt>
 File: images/04-metodo/18-git_logo.png Graphic file (type png)
 
 <use images/04-metodo/18-git_logo.png>
@@ -5930,7 +5925,7 @@ Package pdftex.def Info: images/04-metodo/18-git_logo.png used on input line 24
 5.
 (pdftex.def)             Requested size: 113.81102pt x 38.70958pt.
 
-<images/04-metodo/19-github_logo.jpg, id=2059, 494.59781pt x 277.78781pt>
+<images/04-metodo/19-github_logo.jpg, id=2060, 494.59781pt x 277.78781pt>
 File: images/04-metodo/19-github_logo.jpg Graphic file (type jpg)
 
 <use images/04-metodo/19-github_logo.jpg>
@@ -5985,7 +5980,7 @@ l.260 		\end{figure}
 l.260 		\end{figure}
                      <./images/04-metodo/16-moqups_logo.png (PNG copy)> <./imag
 es/04-metodo/17-moqups_preview.jpg> <./images/04-metodo/18-git_logo.png>]
-<images/04-metodo/20-trello_preview.png, id=2068, 1020.06094pt x 582.67688pt>
+<images/04-metodo/20-trello_preview.png, id=2069, 1020.06094pt x 582.67688pt>
 File: images/04-metodo/20-trello_preview.png Graphic file (type png)
 
 <use images/04-metodo/20-trello_preview.png>
@@ -5993,7 +5988,7 @@ Package pdftex.def Info: images/04-metodo/20-trello_preview.png used on input l
 ine 268.
 (pdftex.def)             Requested size: 341.43306pt x 195.03125pt.
 
-<images/04-metodo/21-trello_logo.jpg, id=2069, 702.625pt x 259.97125pt>
+<images/04-metodo/21-trello_logo.jpg, id=2070, 702.625pt x 259.97125pt>
 File: images/04-metodo/21-trello_logo.jpg Graphic file (type jpg)
 
 <use images/04-metodo/21-trello_logo.jpg>
@@ -6055,7 +6050,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 280.
 
-<images/04-metodo/06-ruby_logo.png, id=2075, 352.31625pt x 345.29pt>
+<images/04-metodo/06-ruby_logo.png, id=2076, 352.31625pt x 345.29pt>
 File: images/04-metodo/06-ruby_logo.png Graphic file (type png)
 
 <use images/04-metodo/06-ruby_logo.png>
@@ -6067,14 +6062,14 @@ although it is yet undefined on input line 292.
 Package acronym Info: Label `acro:DRY' newly defined as it shall be overridden
 although it is yet undefined on input line 292.
 
-<images/04-metodo/07-mvc.jpg, id=2079, 1063.975pt x 679.53876pt>
+<images/04-metodo/07-mvc.jpg, id=2080, 1063.975pt x 679.53876pt>
 File: images/04-metodo/07-mvc.jpg Graphic file (type jpg)
 
 <use images/04-metodo/07-mvc.jpg>
 Package pdftex.def Info: images/04-metodo/07-mvc.jpg used on input line 296.
 (pdftex.def)             Requested size: 341.43306pt x 218.05824pt.
 
-<images/04-metodo/08-rails_logo.png, id=2080, 317.185pt x 377.41pt>
+<images/04-metodo/08-rails_logo.png, id=2081, 317.185pt x 377.41pt>
 File: images/04-metodo/08-rails_logo.png Graphic file (type png)
 
 <use images/04-metodo/08-rails_logo.png>
@@ -6122,7 +6117,7 @@ l.307
                                                   \fi \fi 
 l.307 
        <./images/04-metodo/21-trello_logo.jpg> <./images/04-metodo/06-ruby_logo
-.png>] <images/04-metodo/09-os_mobile.png, id=2092, 462.72874pt x 462.72874pt>
+.png>] <images/04-metodo/09-os_mobile.png, id=2093, 462.72874pt x 462.72874pt>
 File: images/04-metodo/09-os_mobile.png Graphic file (type png)
 
 <use images/04-metodo/09-os_mobile.png>
@@ -6130,7 +6125,7 @@ Package pdftex.def Info: images/04-metodo/09-os_mobile.png used on input line 3
 14.
 (pdftex.def)             Requested size: 170.71652pt x 170.71977pt.
 
-<images/04-metodo/10-android_java.jpg, id=2093, 178.41656pt x 234.8775pt>
+<images/04-metodo/10-android_java.jpg, id=2094, 178.41656pt x 234.8775pt>
 File: images/04-metodo/10-android_java.jpg Graphic file (type jpg)
 
 <use images/04-metodo/10-android_java.jpg>
@@ -6178,7 +6173,7 @@ l.325
                                                   \fi \fi 
 l.325 
        <./images/04-metodo/07-mvc.jpg> <./images/04-metodo/08-rails_logo.png>]
-<images/04-metodo/23-bootstrap_logo.png, id=2101, 391.4625pt x 180.675pt>
+<images/04-metodo/23-bootstrap_logo.png, id=2102, 391.4625pt x 180.675pt>
 File: images/04-metodo/23-bootstrap_logo.png Graphic file (type png)
 
 <use images/04-metodo/23-bootstrap_logo.png>
@@ -6186,7 +6181,7 @@ Package pdftex.def Info: images/04-metodo/23-bootstrap_logo.png used on input l
 ine 331.
 (pdftex.def)             Requested size: 113.81102pt x 52.52673pt.
 
-<images/04-metodo/24-bootstrap_preview.jpg, id=2102, 803.0pt x 602.25pt>
+<images/04-metodo/24-bootstrap_preview.jpg, id=2103, 803.0pt x 602.25pt>
 File: images/04-metodo/24-bootstrap_preview.jpg Graphic file (type jpg)
 
 <use images/04-metodo/24-bootstrap_preview.jpg>
@@ -6241,7 +6236,7 @@ l.342
 l.342 
        <./images/04-metodo/09-os_mobile.png> <./images/04-metodo/10-android_jav
 a.jpg> <./images/04-metodo/23-bootstrap_logo.png>]
-<images/04-metodo/25-rspec_logo.png, id=2109, 208.78pt x 81.30376pt>
+<images/04-metodo/25-rspec_logo.png, id=2110, 208.78pt x 81.30376pt>
 File: images/04-metodo/25-rspec_logo.png Graphic file (type png)
 
 <use images/04-metodo/25-rspec_logo.png>
@@ -6251,7 +6246,7 @@ Package pdftex.def Info: images/04-metodo/25-rspec_logo.png used on input line
 LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <10> not available
 (Font)              Font shape `T1/ptm/b/sc' tried instead on input line 353.
 
-<images/04-metodo/26-html_logo.png, id=2114, 256.96pt x 256.96pt>
+<images/04-metodo/26-html_logo.png, id=2115, 256.96pt x 256.96pt>
 File: images/04-metodo/26-html_logo.png Graphic file (type png)
 
 <use images/04-metodo/26-html_logo.png>
@@ -6300,7 +6295,7 @@ l.362
 l.362 
        <./images/04-metodo/24-bootstrap_preview.jpg> <./images/04-metodo/25-rsp
 ec_logo.png>]
-<images/04-metodo/40-selenium_logo.png, id=2121, 166.13792pt x 150.35483pt>
+<images/04-metodo/40-selenium_logo.png, id=2122, 166.13792pt x 150.35483pt>
 File: images/04-metodo/40-selenium_logo.png Graphic file (type png)
 
 <use images/04-metodo/40-selenium_logo.png>
@@ -6308,7 +6303,7 @@ Package pdftex.def Info: images/04-metodo/40-selenium_logo.png used on input li
 ne 368.
 (pdftex.def)             Requested size: 113.81102pt x 103.0016pt.
 
-<images/04-metodo/27-css3_logo.png, id=2125, 566.115pt x 377.41pt>
+<images/04-metodo/27-css3_logo.png, id=2126, 566.115pt x 377.41pt>
 File: images/04-metodo/27-css3_logo.png Graphic file (type png)
 
 <use images/04-metodo/27-css3_logo.png>
@@ -6321,7 +6316,7 @@ although it is yet undefined on input line 383.
 Package acronym Info: Label `acro:XML' newly defined as it shall be overridden
 although it is yet undefined on input line 384.
 
-<images/04-metodo/28-json_logo.png, id=2129, 602.25pt x 602.25pt>
+<images/04-metodo/28-json_logo.png, id=2130, 602.25pt x 602.25pt>
 File: images/04-metodo/28-json_logo.png Graphic file (type png)
 
 <use images/04-metodo/28-json_logo.png>
@@ -6376,7 +6371,7 @@ l.391 		\end{figure}
 l.391 		\end{figure}
                      <./images/04-metodo/26-html_logo.png> <./images/04-metodo/
 40-selenium_logo.png> <./images/04-metodo/27-css3_logo.png>]
-<images/04-metodo/29-sublime_text_logo.png, id=2137, 256.96pt x 256.96pt>
+<images/04-metodo/29-sublime_text_logo.png, id=2138, 256.96pt x 256.96pt>
 File: images/04-metodo/29-sublime_text_logo.png Graphic file (type png)
 
 <use images/04-metodo/29-sublime_text_logo.png>
@@ -6386,7 +6381,7 @@ t line 399.
 Package acronym Info: Label `acro:GTK' newly defined as it shall be overridden
 although it is yet undefined on input line 405.
 
-<images/04-metodo/30-midori_logo.png, id=2140, 197.73875pt x 200.75pt>
+<images/04-metodo/30-midori_logo.png, id=2141, 197.73875pt x 200.75pt>
 File: images/04-metodo/30-midori_logo.png Graphic file (type png)
 
 <use images/04-metodo/30-midori_logo.png>
@@ -6435,7 +6430,7 @@ l.414
 l.414 
        <./images/04-metodo/28-json_logo.png> <./images/04-metodo/29-sublime_tex
 t_logo.png>]
-<images/04-metodo/39-chromium_logo.png, id=2153, 256.96pt x 256.96pt>
+<images/04-metodo/39-chromium_logo.png, id=2154, 256.96pt x 256.96pt>
 File: images/04-metodo/39-chromium_logo.png Graphic file (type png)
 
 <use images/04-metodo/39-chromium_logo.png>
@@ -6443,7 +6438,7 @@ Package pdftex.def Info: images/04-metodo/39-chromium_logo.png used on input li
 ne 422.
 (pdftex.def)             Requested size: 113.81102pt x 113.81163pt.
 
-<images/04-metodo/38-firefox_logo.png, id=2154, 50.1875pt x 53.19875pt>
+<images/04-metodo/38-firefox_logo.png, id=2155, 50.1875pt x 53.19875pt>
 File: images/04-metodo/38-firefox_logo.png Graphic file (type png)
 
 <use images/04-metodo/38-firefox_logo.png>
@@ -6508,7 +6503,7 @@ Package acronym Info: Label `acro:BSON' newly defined as it shall be overridden
 
 although it is yet undefined on input line 440.
 
-<images/04-metodo/31-mongodb_logo.png, id=2164, 301.125pt x 100.375pt>
+<images/04-metodo/31-mongodb_logo.png, id=2165, 301.125pt x 100.375pt>
 File: images/04-metodo/31-mongodb_logo.png Graphic file (type png)
 
 <use images/04-metodo/31-mongodb_logo.png>
@@ -6519,7 +6514,7 @@ Package acronym Info: Label `acro:SaaS' newly defined as it shall be overridden
 
 although it is yet undefined on input line 450.
 
-<images/04-metodo/33-mongolab-logo.png, id=2166, 232.87pt x 200.75pt>
+<images/04-metodo/33-mongolab-logo.png, id=2167, 232.87pt x 200.75pt>
 File: images/04-metodo/33-mongolab-logo.png Graphic file (type png)
 
 <use images/04-metodo/33-mongolab-logo.png>
@@ -6527,7 +6522,7 @@ Package pdftex.def Info: images/04-metodo/33-mongolab-logo.png used on input li
 ne 454.
 (pdftex.def)             Requested size: 113.81102pt x 98.11104pt.
 
-<images/04-metodo/32-mongochef_logo.png, id=2167, 128.48pt x 128.48pt>
+<images/04-metodo/32-mongochef_logo.png, id=2168, 128.48pt x 128.48pt>
 File: images/04-metodo/32-mongochef_logo.png Graphic file (type png)
 
 <use images/04-metodo/32-mongochef_logo.png>
@@ -6597,7 +6592,7 @@ Package babel Info: Redefining spanish shorthand "?
 Package acronym Info: Label `acro:GPL' newly defined as it shall be overridden
 although it is yet undefined on input line 471.
 
-<images/04-metodo/34-texmaker_logo.png, id=2181, 150.5625pt x 150.5625pt>
+<images/04-metodo/34-texmaker_logo.png, id=2182, 150.5625pt x 150.5625pt>
 File: images/04-metodo/34-texmaker_logo.png Graphic file (type png)
 
 <use images/04-metodo/34-texmaker_logo.png>
@@ -6607,7 +6602,7 @@ ne 475.
 Package acronym Info: Label `acro:GNU' newly defined as it shall be overridden
 although it is yet undefined on input line 481.
 
-<images/04-metodo/35-gimp_logo.png, id=2187, 205.568pt x 205.568pt>
+<images/04-metodo/35-gimp_logo.png, id=2188, 205.568pt x 205.568pt>
 File: images/04-metodo/35-gimp_logo.png Graphic file (type png)
 
 <use images/04-metodo/35-gimp_logo.png>
@@ -6656,7 +6651,7 @@ l.489
 l.489 
        <./images/04-metodo/32-mongochef_logo.png> <./images/04-metodo/34-texmak
 er_logo.png>]
-<images/04-metodo/36-visio_logo.jpg, id=2198, 200.75pt x 82.3075pt>
+<images/04-metodo/36-visio_logo.jpg, id=2199, 200.75pt x 82.3075pt>
 File: images/04-metodo/36-visio_logo.jpg Graphic file (type jpg)
 
 <use images/04-metodo/36-visio_logo.jpg>
@@ -6679,7 +6674,7 @@ Package acronym Info: Label `acro:PaaS' newly defined as it shall be overridden
 
 although it is yet undefined on input line 503.
 
-<images/04-metodo/37-heroku_logo.png, id=2200, 198.7425pt x 69.25874pt>
+<images/04-metodo/37-heroku_logo.png, id=2201, 198.7425pt x 69.25874pt>
 File: images/04-metodo/37-heroku_logo.png Graphic file (type png)
 
 <use images/04-metodo/37-heroku_logo.png>
@@ -7158,7 +7153,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 214.
 
-<./images/05-resultados/01-gantt.png, id=2257, 4065.1875pt x 554.07pt>
+<./images/05-resultados/01-gantt.png, id=2258, 4065.1875pt x 554.07pt>
 File: ./images/05-resultados/01-gantt.png Graphic file (type png)
 
 <use ./images/05-resultados/01-gantt.png>
@@ -7182,7 +7177,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 227.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 227.
-<images/05-resultados/03-trello.jpg, id=2262, 1362.08875pt x 539.01375pt>
+<images/05-resultados/03-trello.jpg, id=2263, 1362.08875pt x 539.01375pt>
 File: images/05-resultados/03-trello.jpg Graphic file (type jpg)
 
 <use images/05-resultados/03-trello.jpg>
@@ -7222,7 +7217,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 238.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 238.
-[76] <images/05-resultados/02-git.jpg, id=2269, 1020.81375pt x 647.41875pt>
+[76] <images/05-resultados/02-git.jpg, id=2270, 1020.81375pt x 647.41875pt>
 File: images/05-resultados/02-git.jpg Graphic file (type jpg)
 
 <use images/05-resultados/02-git.jpg>
@@ -7623,7 +7618,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 560--561
  []
 
 
-<images/05-resultados/04-acceso_usuarios_1.png, id=2331, 1371.1225pt x 655.4487
+<images/05-resultados/04-acceso_usuarios_1.png, id=2332, 1371.1225pt x 655.4487
 5pt>
 File: images/05-resultados/04-acceso_usuarios_1.png Graphic file (type png)
  <use images/05-resultados/04-acceso_usuarios_1.png>
@@ -7669,7 +7664,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 569--570
  []
 
 
-<images/05-resultados/05-acceso_usuarios_2.png, id=2353, 1367.1075pt x 66.2475p
+<images/05-resultados/05-acceso_usuarios_2.png, id=2354, 1367.1075pt x 66.2475p
 t>
 File: images/05-resultados/05-acceso_usuarios_2.png Graphic file (type png)
  <use images/05-resultados/05-acceso_usuarios_2.png>
@@ -7682,7 +7677,7 @@ Overfull \hbox (9.33577pt too wide) in paragraph at lines 585--586
  []
 
 
-<images/05-resultados/06-acceso_usuarios_3.png, id=2354, 1371.1225pt x 655.4487
+<images/05-resultados/06-acceso_usuarios_3.png, id=2355, 1371.1225pt x 655.4487
 5pt>
 File: images/05-resultados/06-acceso_usuarios_3.png Graphic file (type png)
  <use images/05-resultados/06-acceso_usuarios_3.png>
@@ -7736,7 +7731,7 @@ l.596
 l.596 
        <./images/05-resultados/04-acceso_usuarios_1.png> <./images/05-resultado
 s/05-acceso_usuarios_2.png>]
-<images/05-resultados/07-acceso_usuarios_4.png, id=2366, 599.23875pt x 62.2325p
+<images/05-resultados/07-acceso_usuarios_4.png, id=2367, 599.23875pt x 62.2325p
 t>
 File: images/05-resultados/07-acceso_usuarios_4.png Graphic file (type png)
  <use images/05-resultados/07-acceso_usuarios_4.png>
@@ -7749,7 +7744,7 @@ Overfull \hbox (9.33577pt too wide) in paragraph at lines 599--600
  []
 
 
-<images/05-resultados/08-acceso_usuarios_5.png, id=2367, 600.2425pt x 70.2625pt
+<images/05-resultados/08-acceso_usuarios_5.png, id=2368, 600.2425pt x 70.2625pt
 >
 File: images/05-resultados/08-acceso_usuarios_5.png Graphic file (type png)
  <use images/05-resultados/08-acceso_usuarios_5.png>
@@ -7762,7 +7757,7 @@ Overfull \hbox (9.33577pt too wide) in paragraph at lines 606--607
  []
 
 
-<images/05-resultados/09-acceso_usuarios_6.png, id=2369, 1184.425pt x 420.57124
+<images/05-resultados/09-acceso_usuarios_6.png, id=2370, 1184.425pt x 420.57124
 pt>
 File: images/05-resultados/09-acceso_usuarios_6.png Graphic file (type png)
  <use images/05-resultados/09-acceso_usuarios_6.png>
@@ -7859,7 +7854,7 @@ Package babel Info: Redefining spanish shorthand "?
 l.647 		      options:
                        <./images/05-resultados/09-acceso_usuarios_6.png (PNG co
 py)>]
-<images/05-resultados/10-acceso_usuarios_7.png, id=2403, 1371.1225pt x 715.6737
+<images/05-resultados/10-acceso_usuarios_7.png, id=2404, 1371.1225pt x 715.6737
 5pt>
 File: images/05-resultados/10-acceso_usuarios_7.png Graphic file (type png)
  <use images/05-resultados/10-acceso_usuarios_7.png>
@@ -7900,7 +7895,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 693.
 [89]
-<images/05-resultados/11-acceso_usuarios_8.png, id=2442, 1201.48875pt x 437.635
+<images/05-resultados/11-acceso_usuarios_8.png, id=2443, 1201.48875pt x 437.635
 pt>
 File: images/05-resultados/11-acceso_usuarios_8.png Graphic file (type png)
  <use images/05-resultados/11-acceso_usuarios_8.png>
@@ -7947,7 +7942,7 @@ Package babel Info: Redefining spanish shorthand "?
                                                   \fi \fi 
 l.705 
        <./images/05-resultados/10-acceso_usuarios_7.png>]
-<images/05-resultados/12-edicion_usuarios.png, id=2448, 1201.48875pt x 760.8425
+<images/05-resultados/12-edicion_usuarios.png, id=2449, 1201.48875pt x 760.8425
 pt>
 File: images/05-resultados/12-edicion_usuarios.png Graphic file (type png)
  <use images/05-resultados/12-edicion_usuarios.png>
@@ -8181,7 +8176,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 809--810
  []
 
 
-<images/05-resultados/14-mostrar_posiciones_2.png, id=2502, 1012.78375pt x 472.
+<images/05-resultados/14-mostrar_posiciones_2.png, id=2503, 1012.78375pt x 472.
 76625pt>
 File: images/05-resultados/14-mostrar_posiciones_2.png Graphic file (type png)
  <use images/05-resultados/14-mostrar_posiciones_2.png>
@@ -8371,7 +8366,7 @@ Package babel Info: Redefining spanish shorthand "?
                                                   \fi \fi 
 l.921 	 			zIndex:
                    Math.round(latlng.lat()*-100000)<<5}]
-<images/05-resultados/15-guardar_posiciones_1.png, id=2568, 973.6375pt x 433.62
+<images/05-resultados/15-guardar_posiciones_1.png, id=2569, 973.6375pt x 433.62
 pt>
 File: images/05-resultados/15-guardar_posiciones_1.png Graphic file (type png)
  <use images/05-resultados/15-guardar_posiciones_1.png>
@@ -8419,7 +8414,7 @@ Package babel Info: Redefining spanish shorthand "?
 l.951 ...enadas»}, label = code:coordsController]
                                                    <./images/05-resultados/15-g
 uardar_posiciones_1.png (PNG copy)>]
-<images/05-resultados/16-guardar_posiciones_2.png, id=2596, 1183.42125pt x 63.2
+<images/05-resultados/16-guardar_posiciones_2.png, id=2597, 1183.42125pt x 63.2
 3625pt>
 File: images/05-resultados/16-guardar_posiciones_2.png Graphic file (type png)
  <use images/05-resultados/16-guardar_posiciones_2.png>
@@ -8547,7 +8542,7 @@ Package babel Info: Redefining spanish shorthand "?
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 1040.
 
-<images/05-resultados/17-crear_coche.png, id=2636, 1050.92625pt x 327.2225pt>
+<images/05-resultados/17-crear_coche.png, id=2637, 1050.92625pt x 327.2225pt>
 File: images/05-resultados/17-crear_coche.png Graphic file (type png)
 
 <use images/05-resultados/17-crear_coche.png>
@@ -8594,7 +8589,7 @@ Package babel Info: Redefining spanish shorthand "?
                                                   \fi \fi 
 l.1049 
        ]
-<images/05-resultados/18-crear_coche2.png, id=2645, 1168.365pt x 69.25874pt>
+<images/05-resultados/18-crear_coche2.png, id=2646, 1168.365pt x 69.25874pt>
 File: images/05-resultados/18-crear_coche2.png Graphic file (type png)
 
 <use images/05-resultados/18-crear_coche2.png>
@@ -8702,7 +8697,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1118--1119
  []
 
 
-<images/05-resultados/19-seleccionar_coche.png, id=2662, 719.68875pt x 250.9375
+<images/05-resultados/19-seleccionar_coche.png, id=2663, 719.68875pt x 250.9375
 pt>
 File: images/05-resultados/19-seleccionar_coche.png Graphic file (type png)
  <use images/05-resultados/19-seleccionar_coche.png>
@@ -9048,7 +9043,7 @@ Package babel Info: Redefining spanish shorthand "?
                                                   \fi \fi 
 l.1326 ...artido»}, label = code:compartir_coche]
                                                   ]
-<images/05-resultados/21-compartir_coche2.png, id=2748, 1056.94875pt x 569.1262
+<images/05-resultados/21-compartir_coche2.png, id=2749, 1056.94875pt x 569.1262
 5pt>
 File: images/05-resultados/21-compartir_coche2.png Graphic file (type png)
  <use images/05-resultados/21-compartir_coche2.png>
@@ -9089,7 +9084,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1366.
 [112]
-<images/05-resultados/22-compartir_coche3.png, id=2782, 1081.03876pt x 602.25pt
+<images/05-resultados/22-compartir_coche3.png, id=2783, 1081.03876pt x 602.25pt
 >
 File: images/05-resultados/22-compartir_coche3.png Graphic file (type png)
  <use images/05-resultados/22-compartir_coche3.png>
@@ -9136,7 +9131,7 @@ Package babel Info: Redefining spanish shorthand "?
                                                   \fi \fi 
 l.1375 
         <./images/05-resultados/21-compartir_coche2.png (PNG copy)>]
-<images/05-resultados/23-compartir_coche4.png, id=2788, 1165.35374pt x 67.25125
+<images/05-resultados/23-compartir_coche4.png, id=2789, 1165.35374pt x 67.25125
 pt>
 File: images/05-resultados/23-compartir_coche4.png Graphic file (type png)
  <use images/05-resultados/23-compartir_coche4.png>
@@ -9239,7 +9234,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1402.
 
-<images/05-resultados/24-ruta.png, id=2794, 1045.9075pt x 566.115pt>
+<images/05-resultados/24-ruta.png, id=2795, 1045.9075pt x 566.115pt>
 File: images/05-resultados/24-ruta.png Graphic file (type png)
 
 <use images/05-resultados/24-ruta.png>
@@ -9369,7 +9364,7 @@ Package babel Info: Redefining spanish shorthand "?
                                                   \fi \fi 
 l.1484 	\end{table}
                     <./images/05-resultados/24-ruta.png (PNG copy)>]
-<images/05-resultados/26-app_Android2.jpg, id=2807, 371.3875pt x 463.7325pt>
+<images/05-resultados/26-app_Android2.jpg, id=2808, 371.3875pt x 463.7325pt>
 File: images/05-resultados/26-app_Android2.jpg Graphic file (type jpg)
 
 <use images/05-resultados/26-app_Android2.jpg>
@@ -9447,7 +9442,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1543.
  [118]
-<images/05-resultados/25-app_Android.png, id=2858, 440.39531pt x 772.38562pt>
+<images/05-resultados/25-app_Android.png, id=2859, 440.39531pt x 772.38562pt>
 File: images/05-resultados/25-app_Android.png Graphic file (type png)
 
 <use images/05-resultados/25-app_Android.png>
@@ -9926,7 +9921,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 1.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1.
-<images/06-manual/01-home.png, id=2912, 1924.18875pt x 996.72375pt>
+<images/06-manual/01-home.png, id=2913, 1924.18875pt x 996.72375pt>
 File: images/06-manual/01-home.png Graphic file (type png)
 
 <use images/06-manual/01-home.png>
@@ -9937,7 +9932,7 @@ Overfull \hbox (9.33577pt too wide) in paragraph at lines 7--8
  [][] 
  []
 
-<images/06-manual/02-register.png, id=2914, 1927.2pt x 999.735pt>
+<images/06-manual/02-register.png, id=2915, 1927.2pt x 999.735pt>
 File: images/06-manual/02-register.png Graphic file (type png)
 
 <use images/06-manual/02-register.png>
@@ -9952,7 +9947,7 @@ Overfull \hbox (9.33577pt too wide) in paragraph at lines 16--17
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/06-manual/03-sign_in.png, id=2917, 1440.88312pt x 749.80125pt>
+<images/06-manual/03-sign_in.png, id=2918, 1440.88312pt x 749.80125pt>
 File: images/06-manual/03-sign_in.png Graphic file (type png)
 
 <use images/06-manual/03-sign_in.png>
@@ -9995,7 +9990,7 @@ ph1.1}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.28 	\end{figure}
                    <./images/06-manual/01-home.png (PNG copy)>]
-<images/06-manual/04-home_sign_in.png, id=2922, 1445.4pt x 748.29562pt>
+<images/06-manual/04-home_sign_in.png, id=2923, 1445.4pt x 748.29562pt>
 File: images/06-manual/04-home_sign_in.png Graphic file (type png)
 
 <use images/06-manual/04-home_sign_in.png>
@@ -10010,7 +10005,7 @@ Overfull \hbox (9.33577pt too wide) in paragraph at lines 32--33
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/06-manual/05-lateral_menu.png, id=2925, 304.13625pt x 165.61874pt>
+<images/06-manual/05-lateral_menu.png, id=2926, 304.13625pt x 165.61874pt>
 File: images/06-manual/05-lateral_menu.png Graphic file (type png)
 
 <use images/06-manual/05-lateral_menu.png>
@@ -10067,7 +10062,7 @@ l.44 	\end{figure}
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/06-manual/06-edit_user.png, id=2930, 1445.4pt x 748.29562pt>
+<images/06-manual/06-edit_user.png, id=2931, 1445.4pt x 748.29562pt>
 File: images/06-manual/06-edit_user.png Graphic file (type png)
 
 <use images/06-manual/06-edit_user.png>
@@ -10082,7 +10077,7 @@ Overfull \hbox (9.33577pt too wide) in paragraph at lines 48--49
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/06-manual/07-my_car.png, id=2934, 921.4425pt x 325.215pt>
+<images/06-manual/07-my_car.png, id=2935, 921.4425pt x 325.215pt>
 File: images/06-manual/07-my_car.png Graphic file (type png)
 
 <use images/06-manual/07-my_car.png>
@@ -10096,7 +10091,7 @@ Overfull \hbox (9.33577pt too wide) in paragraph at lines 57--58
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/06-manual/08-my_car2.png, id=2935, 959.08313pt x 548.0475pt>
+<images/06-manual/08-my_car2.png, id=2936, 959.08313pt x 548.0475pt>
 File: images/06-manual/08-my_car2.png Graphic file (type png)
 
 <use images/06-manual/08-my_car2.png>
@@ -10111,7 +10106,7 @@ Overfull \hbox (9.33577pt too wide) in paragraph at lines 64--65
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/06-manual/09-my_car3.png, id=2936, 515.67656pt x 54.9553pt>
+<images/06-manual/09-my_car3.png, id=2937, 515.67656pt x 54.9553pt>
 File: images/06-manual/09-my_car3.png Graphic file (type png)
 
 <use images/06-manual/09-my_car3.png>
@@ -10126,7 +10121,7 @@ Overfull \hbox (9.33577pt too wide) in paragraph at lines 71--72
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/06-manual/10-my_maps.png, id=2940, 786.68906pt x 426.84468pt>
+<images/06-manual/10-my_maps.png, id=2941, 786.68906pt x 426.84468pt>
 File: images/06-manual/10-my_maps.png Graphic file (type png)
 
 <use images/06-manual/10-my_maps.png>
@@ -10141,7 +10136,7 @@ Overfull \hbox (9.33577pt too wide) in paragraph at lines 81--82
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/06-manual/11-my_maps2.png, id=2941, 789.70032pt x 426.09187pt>
+<images/06-manual/11-my_maps2.png, id=2942, 789.70032pt x 426.09187pt>
 File: images/06-manual/11-my_maps2.png Graphic file (type png)
 
 <use images/06-manual/11-my_maps2.png>
@@ -10191,7 +10186,7 @@ ph1.4}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.96 
       <./images/06-manual/04-home_sign_in.png (PNG copy)>]
-<images/06-manual/12-my_maps3.png, id=2948, 794.97pt x 645.91313pt>
+<images/06-manual/12-my_maps3.png, id=2949, 794.97pt x 645.91313pt>
 File: images/06-manual/12-my_maps3.png Graphic file (type png)
 
 <use images/06-manual/12-my_maps3.png>
@@ -10296,7 +10291,7 @@ l.102 	\end{figure}
 l.102 	\end{figure}
                     <./images/06-manual/07-my_car.png (PNG copy)> <./images/06-
 manual/08-my_car2.png (PNG copy)> <./images/06-manual/09-my_car3.png (PNG copy)
->] <images/06-manual/13-my_maps4.png, id=2958, 789.70032pt x 424.58624pt>
+>] <images/06-manual/13-my_maps4.png, id=2959, 789.70032pt x 424.58624pt>
 File: images/06-manual/13-my_maps4.png Graphic file (type png)
 
 <use images/06-manual/13-my_maps4.png>
@@ -11047,16 +11042,13 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
  ) 
 Here is how much of TeX's memory you used:
- 26805 strings out of 494925
- 471169 string characters out of 6178543
- 681183 words of memory out of 5000000
- 28237 multiletter control sequences out of 15000+600000
+ 26804 strings out of 494925
+ 471145 string characters out of 6178543
+ 681146 words of memory out of 5000000
+ 28236 multiletter control sequences out of 15000+600000
  130858 words of font info for 105 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
  56i,13n,74p,1501b,2066s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -11071,10 +11063,10 @@ f/fonts/type1/public/lm/lmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
 rw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8
 a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (178 pages, 45070381 bytes).
+Output written on main.pdf (178 pages, 45070464 bytes).
 PDF statistics:
- 3344 PDF objects out of 3580 (max. 8388607)
- 2918 compressed objects within 30 object streams
+ 3345 PDF objects out of 3580 (max. 8388607)
+ 2919 compressed objects within 30 object streams
  991 named destinations out of 1000 (max. 500000)
  1778 words of extra memory for PDF output out of 10000 (max. 10000000)
 
