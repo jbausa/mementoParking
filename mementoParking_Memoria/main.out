@@ -113,6 +113,14 @@
 \BOOKMARK [1][-]{section.6.2}{Propuestas de trabajo}{chapter.6}% 113
 \BOOKMARK [1][-]{section.6.3}{Recapitulaci\363n}{chapter.6}% 114
 \BOOKMARK [0][-]{appendix.Alph1}{Manual de Usuario}{}% 115
-\BOOKMARK [0][-]{appendix.Alph2}{Listado de acr\363nimos}{}% 116
-\BOOKMARK [0][-]{appendix.Alph3}{C\363digo fuente}{}% 117
-\BOOKMARK [0][-]{appendix*.60}{Bibliograf\355a}{}% 118
+\BOOKMARK [0][-]{appendix.Alph2}{Manual de instalaci\363n}{}% 116
+\BOOKMARK [1][-]{section.Alph2.1}{Herramienta Web}{appendix.Alph2}% 117
+\BOOKMARK [2][-]{subsection.Alph2.1.1}{Instalaci\363n de Ruby on Rails}{section.Alph2.1}% 118
+\BOOKMARK [2][-]{subsection.Alph2.1.2}{Clonar repositorio herramienta e iniciar Rails}{section.Alph2.1}% 119
+\BOOKMARK [1][-]{section.Alph2.2}{Despliegue en Heroku}{appendix.Alph2}% 120
+\BOOKMARK [1][-]{section.Alph2.3}{Instalaci\363n de Android Studio}{appendix.Alph2}% 121
+\BOOKMARK [1][-]{section.Alph2.4}{Clonar repositorio Aplicaci\363n e iniciar Android}{appendix.Alph2}% 122
+\BOOKMARK [1][-]{section.Alph2.5}{Archivo aplicaci\363n}{appendix.Alph2}% 123
+\BOOKMARK [0][-]{appendix.Alph3}{C\363digo fuente}{}% 124
+\BOOKMARK [0][-]{appendix.Alph4}{Listado de acr\363nimos}{}% 125
+\BOOKMARK [0][-]{appendix*.60}{Bibliograf\355a}{}% 126

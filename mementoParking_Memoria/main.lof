@@ -27,8 +27,8 @@
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Astrolabio}}}{17}{figure.3.2}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Br\IeC {\'u}jula china}}{18}{figure.3.3}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Sir William Thomson y su br\IeC {\'u}jula}}{18}{figure.3.4}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Sextante}}}{18}{figure.3.4}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Astrolabio}}}{18}{figure.3.4}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Sir William Thomson}}}{18}{figure.3.4}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Br\IeC {\'u}jula}}}{18}{figure.3.4}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Jones Live Map}}{19}{figure.3.5}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Plus Fours Routefinder}}{19}{figure.3.6}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Iter Avto}}{20}{figure.3.7}
@@ -55,7 +55,7 @@
 \contentsline {figure}{\numberline {3.23}{\ignorespaces Tel\IeC {\'e}grafo \IeC {\'o}ptico}}{35}{figure.3.23}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Tel\IeC {\'e}grafo \IeC {\'o}ptico de Claude Chappe}}}{35}{figure.3.23}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Claude Chappe}}}{35}{figure.3.23}
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Tel\IeC {\'e}grafo}}{36}{figure.3.24}
+\contentsline {figure}{\numberline {3.24}{\ignorespaces C\IeC {\'o}digo Morse}}{36}{figure.3.24}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Samuel Morse}}}{36}{figure.3.24}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {C\IeC {\'o}digo morse}}}{36}{figure.3.24}
 \contentsline {figure}{\numberline {3.25}{\ignorespaces Primer telegrama}}{36}{figure.3.25}
@@ -114,8 +114,8 @@
 \contentsline {figure}{\numberline {4.22}{\ignorespaces Previsualizaci\IeC {\'o}n de Bootstrap}}{61}{figure.4.22}
 \contentsline {figure}{\numberline {4.23}{\ignorespaces Logo Rspec}}{61}{figure.4.23}
 \contentsline {figure}{\numberline {4.24}{\ignorespaces Logo HTML5}}{62}{figure.4.24}
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Logo Selenium IDE}}{62}{figure.4.25}
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Logo CSS3}}{62}{figure.4.26}
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Logo CSS3}}{62}{figure.4.25}
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Logo Selenium IDE}}{62}{figure.4.26}
 \contentsline {figure}{\numberline {4.27}{\ignorespaces Logo JSON}}{63}{figure.4.27}
 \contentsline {figure}{\numberline {4.28}{\ignorespaces Logo Sublime Text 3}}{63}{figure.4.28}
 \contentsline {figure}{\numberline {4.29}{\ignorespaces Logo Midori}}{64}{figure.4.29}
@@ -129,44 +129,46 @@
 \contentsline {figure}{\numberline {4.37}{\ignorespaces Logo Microsoft Visio}}{67}{figure.4.37}
 \contentsline {figure}{\numberline {4.38}{\ignorespaces Logo Heroku}}{67}{figure.4.38}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Panel Kamban de Trello}}{77}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Commits en repositorio en GitHub}}{78}{figure.5.3}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Vista previa de la p\IeC {\'a}gina principal}}{86}{figure.5.4}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Vista previa del encabezado}}{86}{figure.5.5}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Vista previa del pie de p\IeC {\'a}gina}}{87}{figure.5.6}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Vista previa del encabezado adaptado}}{87}{figure.5.7}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Vista previa del pie de p\IeC {\'a}gina adaptado}}{87}{figure.5.8}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Vista previa de la p\IeC {\'a}gina de registro}}{88}{figure.5.9}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Creaci\IeC {\'o}n nuevo usuario}}{90}{figure.5.10}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces P\IeC {\'a}gina de acceso a la herramienta}}{91}{figure.5.11}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces P\IeC {\'a}gina de acceso a la herrramienta}}{91}{figure.5.12}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Elementos \textit {coche} y direcci\IeC {\'o}n postal almacenada}}{96}{figure.5.13}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Marcador personalizado con informaci\IeC {\'o}n de direcci\IeC {\'o}n postal}}{100}{figure.5.14}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Mensaje reenviado por el controlador}}{101}{figure.5.15}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces P\IeC {\'a}gina de edici\IeC {\'o}n de elementos \textit {coche}}}{104}{figure.5.16}
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Respuesta controlador al crear nuevo coche}}{104}{figure.5.17}
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Selector de elementos \textit {coche}}}{106}{figure.5.18}
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Vista con los elementos \textit {coche} compartidos}}{113}{figure.5.19}
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Vista de edici\IeC {\'o}n elementos \textit {coche} compartidos}}{114}{figure.5.20}
-\contentsline {figure}{\numberline {5.21}{\ignorespaces Respuesta del controlador}}{114}{figure.5.21}
-\contentsline {figure}{\numberline {5.22}{\ignorespaces Vista previa de la ruta a pie}}{116}{figure.5.22}
-\contentsline {figure}{\numberline {5.24}{\ignorespaces Vista previa de la aplicaci\IeC {\'o}n}}{119}{figure.5.24}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Diagrama de Gantt del \ac {TFG}}}{120}{figure.5.1}
-\contentsline {figure}{\numberline {5.23}{\ignorespaces Logotipo de la aplicaci\IeC {\'o}n}}{121}{figure.5.23}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Diagrama de Gantt del \ac {TFG}}}{77}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Panel Kamban de Trello}}{78}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Commits en repositorio en GitHub}}{79}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Vista previa de la p\IeC {\'a}gina principal}}{87}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Vista previa del encabezado}}{87}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Vista previa del pie de p\IeC {\'a}gina}}{88}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Vista previa del encabezado adaptado}}{88}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Vista previa del pie de p\IeC {\'a}gina adaptado}}{88}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Vista previa de la p\IeC {\'a}gina de registro}}{89}{figure.5.9}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Creaci\IeC {\'o}n nuevo usuario}}{91}{figure.5.10}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces P\IeC {\'a}gina de acceso a la herramienta}}{92}{figure.5.11}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces P\IeC {\'a}gina de acceso a la herrramienta}}{92}{figure.5.12}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Elementos \textit {coche} y direcci\IeC {\'o}n postal almacenada}}{97}{figure.5.13}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Marcador personalizado con informaci\IeC {\'o}n de direcci\IeC {\'o}n postal}}{101}{figure.5.14}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Mensaje reenviado por el controlador}}{102}{figure.5.15}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces P\IeC {\'a}gina de edici\IeC {\'o}n de elementos \textit {coche}}}{105}{figure.5.16}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Respuesta controlador al crear nuevo coche}}{105}{figure.5.17}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Selector de elementos \textit {coche}}}{107}{figure.5.18}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Vista con los elementos \textit {coche} compartidos}}{114}{figure.5.19}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Vista de edici\IeC {\'o}n elementos \textit {coche} compartidos}}{115}{figure.5.20}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Respuesta del controlador}}{115}{figure.5.21}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Vista previa de la ruta a pie}}{117}{figure.5.22}
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Vista previa de la aplicaci\IeC {\'o}n}}{119}{figure.5.23}
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Logotipo de la aplicaci\IeC {\'o}n}}{120}{figure.5.24}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces P\IeC {\'a}gina principal}}{129}{figure.Alph1.1}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces P\IeC {\'a}gina registro}}{130}{figure.Alph1.2}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces P\IeC {\'a}gina acceso}}{130}{figure.Alph1.3}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces P\IeC {\'a}gina inicio autenticado}}{131}{figure.Alph1.4}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Men\IeC {\'u} usuario}}{132}{figure.Alph1.5}
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Edici\IeC {\'o}n usuario}}{132}{figure.Alph1.6}
-\contentsline {figure}{\numberline {A.7}{\ignorespaces Seleccionar coche}}{133}{figure.Alph1.7}
-\contentsline {figure}{\numberline {A.8}{\ignorespaces Edici\IeC {\'o}n coche}}{133}{figure.Alph1.8}
-\contentsline {figure}{\numberline {A.9}{\ignorespaces Edici\IeC {\'o}n usuarios compartidos}}{133}{figure.Alph1.9}
-\contentsline {figure}{\numberline {A.10}{\ignorespaces Vista previa del mapa}}{134}{figure.Alph1.10}
-\contentsline {figure}{\numberline {A.11}{\ignorespaces Vista previa del apartado \textit {MIS UBICACIONES}}}{134}{figure.Alph1.11}
-\contentsline {figure}{\numberline {A.12}{\ignorespaces Mapa con un coche seleccionado}}{135}{figure.Alph1.12}
-\contentsline {figure}{\numberline {A.13}{\ignorespaces Mapa con un coche seleccionado}}{135}{figure.Alph1.13}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces P\IeC {\'a}gina principal}}{127}{figure.Alph1.1}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces P\IeC {\'a}gina registro}}{128}{figure.Alph1.2}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces P\IeC {\'a}gina acceso}}{128}{figure.Alph1.3}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces P\IeC {\'a}gina inicio autenticado}}{129}{figure.Alph1.4}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Men\IeC {\'u} usuario}}{130}{figure.Alph1.5}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Edici\IeC {\'o}n usuario}}{130}{figure.Alph1.6}
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Seleccionar coche}}{131}{figure.Alph1.7}
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Edici\IeC {\'o}n coche}}{131}{figure.Alph1.8}
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Edici\IeC {\'o}n usuarios compartidos}}{131}{figure.Alph1.9}
+\contentsline {figure}{\numberline {A.10}{\ignorespaces Vista previa del mapa}}{132}{figure.Alph1.10}
+\contentsline {figure}{\numberline {A.11}{\ignorespaces Vista previa del apartado \textit {MIS UBICACIONES}}}{132}{figure.Alph1.11}
+\contentsline {figure}{\numberline {A.12}{\ignorespaces Mapa con un coche seleccionado}}{133}{figure.Alph1.12}
+\contentsline {figure}{\numberline {A.13}{\ignorespaces Mapa con un coche seleccionado}}{133}{figure.Alph1.13}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Importar proyecto}}{137}{figure.Alph2.1}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.10.20)  22 OCT 2015 11:15
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.10.20)  21 JAN 2016 16:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -729,8 +729,10 @@ File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
-)) (./metadata.tex)
-No file main.aux.
+)) (./metadata.tex) (./main.aux
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -749,7 +751,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 6.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 6.
-(/usr/share/texmf/tex/latex/tipa/t3cmr.fd
+ (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 6.
@@ -945,19 +947,34 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 6.
 LaTeX Info: Redefining \pageref on input line 6.
 LaTeX Info: Redefining \nameref on input line 6.
+
+(./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 8.
 
-</usr/share/arco/figures/informatica.pdf, id=4, 618.11432pt x 737.07487pt>
-File: /usr/share/arco/figures/informatica.pdf Graphic file (type pdf)
 
-<use /usr/share/arco/figures/informatica.pdf>
-Package pdftex.def Info: /usr/share/arco/figures/informatica.pdf used on input 
-line 8.
-(pdftex.def)             Requested size: 76.82234pt x 91.60553pt.
+LaTeX Warning: File `informatica.pdf' not found on input line 8.
+
+
+! Package pdftex.def Error: File `informatica.pdf' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \cover
+          
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Font shape `T1/fvm/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/fvm/b/n' tried instead on input line 8.
+LaTeX Font Info:    Font shape `T1/fvm/b/n' will be
+(Font)              scaled to size 12.61432pt on input line 8.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
@@ -986,10 +1003,9 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 8.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 8.
- [1
+[1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </usr/share/arco/figures/in
-formatica.pdf>]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 8.
 Package babel Info: Redefining spanish shorthand >>
@@ -1066,27 +1082,46 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 9.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 9.
-
-[4
+ [4
 
 ]
-File: /usr/share/arco/figures/informatica.pdf Graphic file (type pdf)
- <use /usr/share/arco/figures/informatica.pdf>
-Package pdftex.def Info: /usr/share/arco/figures/informatica.pdf used on input 
-line 10.
-(pdftex.def)             Requested size: 85.35826pt x 101.78392pt.
+
+LaTeX Warning: File `informatica.pdf' not found on input line 10.
+
+
+! Package pdftex.def Error: File `informatica.pdf' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \frontpage
+               
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 10.
 
-</usr/share/arco/figures/uclm-A4.pdf, id=191, 118.39479pt x 98.00206pt>
-File: /usr/share/arco/figures/uclm-A4.pdf Graphic file (type pdf)
+LaTeX Warning: File `uclm-A4.pdf' not found on input line 10.
 
-<use /usr/share/arco/figures/uclm-A4.pdf>
-Package pdftex.def Info: /usr/share/arco/figures/uclm-A4.pdf used on input line
- 10.
-(pdftex.def)             Requested size: 103.12186pt x 85.35826pt.
 
-</usr/share/arco/figures/esi.pdf, id=192, 989.60603pt x 308.23795pt>
+! Package pdftex.def Error: File `uclm-A4.pdf' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \frontpage
+               
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
+(Font)              scaled to size 7.99344pt on input line 10.
+</usr/share/arco/figures/esi.pdf, id=132, 989.60603pt x 308.23795pt>
 File: /usr/share/arco/figures/esi.pdf Graphic file (type pdf)
 
 <use /usr/share/arco/figures/esi.pdf>
@@ -1117,36 +1152,33 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 10.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 10.
- [5 </usr/share/arco/figures/uclm-A4.pdf> </usr/share/arco/figures/esi.pdf
+ [5 </usr/share/arco/figures/esi.pdf>]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 10.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 10.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 10.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 10.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 10.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 10.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 10.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 10.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 10.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 10.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 10.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 10.
 
-pdfTeX warning: pdflatex (file /usr/share/arco/figures/esi.pdf): PDF inclusion:
- multiple pdfs with page group included in a single page
->]
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 10.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 10.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 10.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 10.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 10.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 10.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 10.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 10.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 10.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 10.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 10.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 10.
- [6
+[6
 
 ]
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 13.
@@ -1557,6 +1589,39 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 21.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 21.
+
+(./main.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <12> not available
+(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 2.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 25.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 25.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 25.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 25.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 25.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 25.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 25.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 25.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 25.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 25.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 25.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 25.
+ [13
+
+])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
@@ -1584,10 +1649,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 22.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 22.
-
-[13
-
-]
+ [14]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 22.
 Package babel Info: Redefining spanish shorthand >>
@@ -1600,33 +1662,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 22.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 22.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 22.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 22.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 22.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 22.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 22.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 22.
- [14
-
-]
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 22.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 22.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 22.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 22.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 22.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 22.
+ (./main.lot
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
@@ -1654,7 +1693,9 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 23.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 23.
- [15]
+ [15
+
+]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 23.
 Package babel Info: Redefining spanish shorthand >>
@@ -1694,6 +1735,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 23.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 23.
+ (./main.lof
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
@@ -1761,6 +1806,8 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 24.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 24.
+
+(./main.lol)
 \tf@lol=\write8
 \openout8 = `main.lol'.
 
@@ -1831,6 +1878,11 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 4.
+
+
+LaTeX Font Warning: Font shape `T1/lmss/bx/sc' undefined
+(Font)              using `T1/lmss/bx/n' instead on input line 7.
+
 )
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 28.
@@ -1926,22 +1978,6 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 23.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 23.
-
-LaTeX Warning: Reference `chap:antecedentes' on page 1 undefined on input line 
-31.
-
-
-LaTeX Warning: Reference `chap:antecedentes' on page 1 undefined on input line 
-31.
-
-
-LaTeX Warning: Reference `chap:objetivos' on page 1 undefined on input line 33.
-
-
-
-LaTeX Warning: Reference `chap:objetivos' on page 1 undefined on input line 33.
-
-
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 38.
 Package babel Info: Redefining spanish shorthand >>
@@ -2341,16 +2377,20 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 59.
 
 
-LaTeX Warning: Reference `fig:informatica' on page 8 undefined on input line 61
-.
+LaTeX Warning: File `/informatica.pdf' not found on input line 68.
 
-</usr/share/arco/figures//informatica.pdf, id=361, 618.11432pt x 737.07487pt>
-File: /usr/share/arco/figures//informatica.pdf Graphic file (type pdf)
 
-<use /usr/share/arco/figures//informatica.pdf>
-Package pdftex.def Info: /usr/share/arco/figures//informatica.pdf used on input
- line 68.
-(pdftex.def)             Requested size: 88.2022pt x 105.16922pt.
+! Package pdftex.def Error: File `/informatica.pdf' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...ics[width=0.2\textwidth]{/informatica.pdf}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
 LaTeX Warning: Citation `sousa' on page 8 undefined on input line 75.
@@ -2370,21 +2410,12 @@ Package babel Info: Redefining spanish shorthand "?
 
 LaTeX Warning: Citation `sousa' on page 8 undefined on input line 83.
 
-
-LaTeX Warning: Reference `tab:rpc-semantics' on page 8 undefined on input line 
-85.
-
 (./tables/RPC-semantics.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 4.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8.76003> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 6.
 )
-
-Package acronym Warning: Acronym `RPC' is not defined on input line 94.
-
-LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <10> not available
-(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 94.
 
 LaTeX Warning: Citation `puder05:_distr_system_archit' on page 8 undefined on i
 nput line 94.
@@ -2401,9 +2432,6 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 99.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 99.
-
-LaTeX Warning: Reference `code:hello' on page 8 undefined on input line 102.
-
 LaTeX Info: Redefining \. on input line 106.
 LaTeX Info: Redefining \% on input line 106.
 LaTeX Info: Redefining \. on input line 106.
@@ -2432,8 +2460,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 106.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 106.
-[8 </usr/share/arco/figures//informatica.pdf>]
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+[8] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
@@ -2452,10 +2479,6 @@ LaTeX Font Info:    Font shape `T1/fvm/bx/n' in size <8> not available
 (Font)              Font shape `T1/fvm/b/n' tried instead on input line 127.
 LaTeX Font Info:    Font shape `T1/fvm/b/n' will be
 (Font)              scaled to size 5.83997pt on input line 127.
-
-LaTeX Warning: Reference `code:custom-listings' on page 9 undefined on input li
-ne 134.
-
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 153.
 Package babel Info: Redefining spanish shorthand >>
@@ -2471,9 +2494,6 @@ Package babel Info: Redefining spanish shorthand "?
 
 LaTeX Warning: Citation `design_patterns' on page 9 undefined on input line 155
 .
-
-
-LaTeX Warning: Reference `sec:uncuadro' on page 9 undefined on input line 156.
 
 LaTeX Info: Redefining \. on input line 160.
 LaTeX Info: Redefining \% on input line 160.
@@ -2752,39 +2772,30 @@ LaTeX Info: Redefining \% on input line 25.
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 47.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 1866AC875A5F15B21B3C843E0DF901B5;1618.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  1866AC875A5F15B21B3C843E0DF901B5;1618.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 47.
  ) 
 Here is how much of TeX's memory you used:
- 12514 strings out of 494925
- 173724 string characters out of 6178543
- 341522 words of memory out of 5000000
- 15340 multiletter control sequences out of 15000+600000
- 119872 words of font info for 102 fonts, out of 8000000 for 9000
+ 12553 strings out of 494925
+ 173809 string characters out of 6178543
+ 342522 words of memory out of 5000000
+ 15363 multiletter control sequences out of 15000+600000
+ 125541 words of font info for 107 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
  48i,13n,50p,905b,1325s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{chap:GFDL} has been referenced but does not exist
 , replaced by a fixed one
 
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fo
-nts/enc/dvips/lm/lm-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/am
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texlive/texmf-dist/f
+onts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 mi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
@@ -2796,13 +2807,14 @@ st/fonts/type1/public/bera/fvmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/bera/fvmr8a.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></
 usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (44 pages, 369534 bytes).
+hare/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
+imes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pf
+b>
+Output written on main.pdf (44 pages, 262684 bytes).
 PDF statistics:
- 686 PDF objects out of 1000 (max. 8388607)
- 612 compressed objects within 7 object streams
- 93 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 490 PDF objects out of 1000 (max. 8388607)
+ 416 compressed objects within 5 object streams
+ 94 named destinations out of 1000 (max. 500000)
+ 222 words of extra memory for PDF output out of 10000 (max. 10000000)
 

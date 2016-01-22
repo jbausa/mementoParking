@@ -164,12 +164,12 @@ Una vez tenemos la lista de producto priorizada podemos dividir el trabajo en lo
 	\label{tab:plan_proyecto}
 \end{longtable}
 
-\begin{longtable}{p{1cm} p{4cm} p{4cm} p{6cm}}
+\begin{longtable}{p{1cm} p{4cm} p{3cm} p{7cm}}
   	\hline  	    
   	\multicolumn{1}{p{1cm}}{\cellcolor{black!30}\textbf{Sprint}} &
     \multicolumn{1}{p{4cm}}{\cellcolor{black!30}\textbf{Historia de Usuario}} & 
- 	\multicolumn{1}{p{4cm}}{\cellcolor{black!30}\textbf{Estimación temporal}} &
- 	\multicolumn{1}{p{6cm}}{\cellcolor{black!30}\textbf{Validación}}
+ 	\multicolumn{1}{p{3cm}}{\cellcolor{black!30}\textbf{Estimación}} &
+ 	\multicolumn{1}{p{7cm}}{\cellcolor{black!30}\textbf{Validación}}
  	\\
  	\toprule 
    	\endfirsthead
@@ -178,8 +178,8 @@ Una vez tenemos la lista de producto priorizada podemos dividir el trabajo en lo
     \hline
   	\multicolumn{1}{p{1cm}}{\cellcolor{black!30}\textbf{Sprint}} &
     \multicolumn{1}{p{4cm}}{\cellcolor{black!30}\textbf{Historia de Usuario}} & 
- 	\multicolumn{1}{p{4cm}}{\cellcolor{black!30}\textbf{Estimación temporal}} &
- 	\multicolumn{1}{p{6cm}}{\cellcolor{black!30}\textbf{Validación}}
+ 	\multicolumn{1}{p{3cm}}{\cellcolor{black!30}\textbf{Estimación}} &
+ 	\multicolumn{1}{p{7cm}}{\cellcolor{black!30}\textbf{Validación}}
  	\\	 
  	\toprule
  	\endhead
@@ -205,7 +205,7 @@ Una vez tenemos la lista de producto priorizada podemos dividir el trabajo en lo
 	8	& HdU 11	&	6 horas		&	Los usuarios registrados podrán ver una ruta a pie desde su ubicación actual hasta la ubicación 											almacenada del elemento seleccionado. \\
 
 	\rowcolor{gray!25}
-	9	& HdU 12	&	6 horas		&	Los usuarios podrán acceder a la herramienta usando una aplicación instalada en sus dispositivos móviles. \\
+	9	& HdU 12	&	6 horas		&	Los usuarios podrán acceder a la herramienta usando una aplicación instalada en sus dispositivos móviles.\\
 	\hline
 	\caption{Historias de Usuario y validaciones}
 	\label{tab:validaciones_HdU}
@@ -218,11 +218,13 @@ Una vez tenemos la lista de producto priorizada podemos dividir el trabajo en lo
 	Se estima que la realización, revisión y corrección de la memoria necesitará un tiempo total de trabajo de quince días aproximadamente.
 	En la figura \ref{fig:gantt} puede observarse el correspondiente diagrama de Gantt de la planificación.
 
-\begin{sidewaysfigure}[h!t]
-	\includegraphics[height=80mm, fbox={\fboxrule} 4mm]{./images/05-resultados/01-gantt.png}
-	\caption{Diagrama de Gantt del \ac{TFG}}
-	\label{fig:gantt}
-\end{sidewaysfigure}
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[height=240mm, fbox={\fboxrule} 4mm]{images/05-resultados/01-gantt.png}
+		\caption{Diagrama de Gantt del \ac{TFG}}
+		\label{fig:gantt}
+	\end{figure}
 	
 	\subsection{Gestión de las comunicaciones}
 	La comunicación entre el autor del presente \ac{TFG} y el director del proyecto se realizará para la información puntual del estado del desarrollo y abordar las posibles dudas generadas durante el desarrollo. Generalmente las reuniones se realizarán semanalmente y se concretarán, preferentemente, mediante correo electrónico.
@@ -536,7 +538,7 @@ En el presente sprint se han llevado a cabo las tareas relacionadas con la creac
 
 	\subsubsection{Desarrollo de la Historia de Usuario: ''Registro de usuarios'' }
 	Tal y como se ha comentado en el apartado anterior, para la realización de esta primera historia de usuario, será necesario instalar y configurar el lenguaje de programación y algunas de las herramientas secundarias que se utilizarán a lo largo del desarrollo.
-	La primera tarea sería instalar y configurar el sistema operativo sobre el que se desarrollará el trabajo, pero en este caso se omite, puesto que el sistema estaba instalado y preparado previamente. También se omite la instalación y configuración de Git, Github y Sublime Text 3 puesto que se había realizado previamente estas tareas.
+	La primera tarea sería instalar y configurar el sistema operativo sobre el que se desarrollará el trabajo, pero en este caso se omite, puesto que el sistema estaba instalado y preparado previamente. También se omite la instalación y configuración de Git, Github y Sublime Text 3 puesto que se habían realizado previamente estas tareas.
 	La instalación de Ruby on Rails se hizo siguiendo el siguiente \href{http://railsapps.github.io/installrubyonrails-ubuntu.html}{tutorial}.
 	Una vez comprobado que el lenguaje queda bien instalado y configurado correctamente, se procede a crear una cuenta en MongoLab y configurar MongoChef para acceder a la base de datos recién creada.
 	
@@ -694,7 +696,7 @@ En el presente sprint se han llevado a cabo las tareas relacionadas con la creac
 	
 	\subsubsection{Desarrollo de la Historia de Usuario: ''Acceso de usuarios'' }
 	Para el desarrollo de esta historia de usuario es necesario contar con partes del sistema en los que el acceso va a ser restringido para los usuarios anónimos, por lo que el primer paso es crear la página que contendrá el mapa donde se mostrarán las ubicaciones guardadas por el usuario.
-	Una vez realizada esta tarea se creará una página para que los usuarios que hayan completado su registro en el sistema puedan acceder al mismo. Ya que devise proporciona una página que se amolda con bastante exactitud a las necesidades del desarrollo, se hace uso de esta vista \textit{mutatis mutandis} (ver figura \ref{fig:acceso_usuarios_08}).
+	Una vez realizada esta tarea se creará una página para que los usuarios que hayan completado su registro en el sistema puedan acceder al mismo. Ya que Devise proporciona una página que se amolda con bastante exactitud a las necesidades del desarrollo, se hace uso de esta vista \textit{mutatis mutandis} (ver figura \ref{fig:acceso_usuarios_08}).
 	
 	\begin{figure}[H]
 		\centering
@@ -703,7 +705,7 @@ En el presente sprint se han llevado a cabo las tareas relacionadas con la creac
 		\label{fig:acceso_usuarios_08}
 	\end{figure}	
 	
-	Una vez realizados estos cambios, se procede a configurar devise para restringir el acceso a los usuarios anónimos a las páginas no relativas a la herramienta.
+	Una vez realizados estos cambios, se procede a configurar Devise para restringir el acceso a los usuarios anónimos a las páginas no relativas a la herramienta.
 		
 	\subsubsection{Desarrollo de la Historia de Usuario: ''Edición de datos de usuarios'' }
 	Ya que devise también proporciona una página para la modificación de los datos de usuarios registrados, se procederá a cambiar los campos necesarios para permitir la edición de los datos personales de los usuarios (ver figura \ref{fig:edicion_usuarios}).
@@ -716,7 +718,7 @@ En el presente sprint se han llevado a cabo las tareas relacionadas con la creac
 	\end{figure}
 	
 	\subsection{Sprint Review}
-	Al término del sprint se ha conseguido una página web de estructura clásica que será el marco de la herramienta, un diseño adaptable a cualquier dispositivo con el que se visite y una gestión básica de usuarios consistente en registro, edición y acceso. También se ha conseguido discriminar a los usuarios anónimos y registrados de manera que el sistema permita o no su acceso a la herramienta. Se crea un primer modelo \textit{User} para la base de datos y se configura gran parte de las herramientas secundarias utilizadas en el desarrollo.
+	Al término del sprint se ha conseguido una página web de estructura clásica que será el marco de la herramienta, un diseño adaptable a cualquier dispositivo y una gestión básica de usuarios consistente en registro, edición y acceso. También se ha conseguido discriminar a los usuarios anónimos y registrados de manera que el sistema permita o no su acceso a la herramienta. Se crea un primer modelo \textit{User} para la base de datos y se configura gran parte de las herramientas secundarias utilizadas en el desarrollo.
 
 \section{Sprint 2}
 En el presente sprint se han llevado a cabo las tareas relacionadas con mostrar al usuario las ubicaciones de sus elementos. Para ello se elige hacerlo en dos formatos, gráficamente a través de un mapa interactivo en el que se mostrarán una serie de marcadores que corresponderán con los elementos del usuario y a través de una serie de cuadros de texto en el que aparecerán las direcciones postales de los elementos del usuario.
@@ -724,7 +726,7 @@ En el presente sprint se han llevado a cabo las tareas relacionadas con mostrar 
 	Se realizarán previamente algunas tareas propias de la historia de usuario 7, que se terminará de desarrollar en el sprint 4. Las tareas reubicadas son la creación de un modelo en el esquema de la base de datos para almacenar las ubicaciones geográficas.
 	
 	\subsection{Planificación de Sprint}
-	En este sprint se llevará a cabo la historia de usuario 5. Debido a que se comenzará a trabajar con los mapas interactivos, será necesario acondicionar la página de manera que se pueda incluir este nuevo elemento. La biblioteca elegida para este cometido es la proporcionada por Google, llamada Google Maps, disponible a través de su página web (\href{https://developers.google.com/maps/?hl=es}{API Google Maps}). Esta biblioteca dispone de dos vertientes, la primera es la encargada de mostrar los mapas tal y como se verán por pantalla y la segunda la encargada de la geolocalización directa e inversa, esto es, el intercambio de la información postal a partir de los datos geoespaciales disponibles (latitud y longitud) y el intercambio de de la información geoespacial a partir de los datos postales facilitados, respectivamente. El uso de estas bibliotecas supone la aceptación de los términos y condiciones de uso de Google y la elección de un plan de pago para la utilización. El autor del presente TFG se decantó por el plan gratuito, ya que las limitaciones de uso que se imponen a este plan no afectaran al desarrollo y puesta en marcha inicial del producto. Algunas de estas condiciones son el uso gratuito hasta las 25.000 peticiones de carga de mapas diarias y 2.500 peticiones de resolución de geolocalización diarias. Debido a que el producto no alcanzará el número máximo antes citado, es la opción elegida.\\
+	En este sprint se llevará a cabo la historia de usuario 5. Debido a que se comenzará a trabajar con los mapas interactivos, será necesario acondicionar la página de manera que se pueda incluir este nuevo elemento. La biblioteca elegida para este cometido es la proporcionada por Google, llamada Google Maps, disponible a través de su página web (\href{https://developers.google.com/maps/?hl=es}{API Google Maps}). Esta biblioteca dispone de dos vertientes, la primera es la encargada de mostrar los mapas tal y como se verán por pantalla y la segunda la encargada de la geolocalización directa e inversa, esto es, el intercambio de la información postal a partir de los datos geoespaciales disponibles (latitud y longitud) y el intercambio de de la información geoespacial a partir de los datos postales facilitados, respectivamente. El uso de estas bibliotecas supone la aceptación de los términos y condiciones de uso de Google y la elección de un plan de pago para la utilización. El autor del presente TFG se decantó por el plan gratuito, ya que las limitaciones de uso que se imponen a este plan no afectarán al desarrollo y puesta en marcha inicial del producto. Algunas de estas condiciones son el uso gratuito hasta las 25.000 peticiones de carga de mapas diarias y 2.500 peticiones de resolución de geolocalización diarias. Debido a que el producto no alcanzará el número máximo antes citado, es la opción elegida.\\
 	Puesto que en este momento del desarrollo los usuarios aún no pueden almacenar las ubicaciones, se editará la base de datos manualmente para incluir los datos necesarios para poder mostrar elementos en el mapa del usuario. Para almacenar en la base de datos los elementos que incluirán los datos geoespaciales, se procederá a crear un nuevo modelo de datos llamado ''Cars''. Este nuevo modelo quedará embebido dentro del documento ''User''. Esta decisión de diseño corresponde al incremento de velocidad en las búsquedas que se logra al incorporar el modelo ''Cars'' al modelo ''Users'' y que se considera que el número de documentos de este tipo que se incorporarán no pondrá en peligro la integridad del esquema.\\
 	La pila de sprint es la siguiente:\\
 
@@ -781,8 +783,7 @@ En el presente sprint se han llevado a cabo las tareas relacionadas con mostrar 
 
 	\begin{lstlisting}[, frame = single, language = JSON, caption  = {«Documento JSON relativo a un elemento \textit{coche}»}, label = code:mostrar_posiciones]
 		
-		{ 
-		    "_id" : ObjectId("56839bb2d0c27c0003000000"), 
+		{   "_id" : ObjectId("56839bb2d0c27c0003000000"), 
 		    "email" : "juanbausa@gmail.com", 
 		    "encrypted_password" : "$2a$10$cGKOjD9nOvLT7rlZoEzF.OdenRokm5aSxPynYyvp2tGCF1LmqCVtm", 
 		    "sign_in_count" : NumberInt(12), 
@@ -790,20 +791,14 @@ En el presente sprint se han llevado a cabo las tareas relacionadas con mostrar 
 		    "current_sign_in_at" : ISODate("2016-01-08T18:33:10.662+0000"), 
 		    "last_sign_in_ip" : "127.0.0.1", 
 		    "current_sign_in_ip" : "127.0.0.1", 
-		    "car" : [
-		        {
-		            "_id" : ObjectId("56839de073e3e125cd000000"), 
-		            "description" : "TOYOTITA", 
-		            "coordinates" : "(38.993038383938284, -3.921668529510498)", 
-		            "address" : "Calle Carlos López Bustos, 1, 13005 Ciudad Real, Cdad. Real, España", 
-		            "shared" : [
-		                "janedoe@gmail.com", 
-		                "johndoe@gmail.com"
-		            ]
-		        }
-		    ]
-		}
-		
+		    "car" : [	{   "_id" : ObjectId("56839de073e3e125cd000000"), 
+			            "description" : "TOYOTITA", 
+			            "coordinates" : "(38.993038383938284, -3.921668529510498)", 
+			            "address" : "Calle Carlos López Bustos, 1, 13005 Ciudad Real, Cdad. Real, España", 
+			            "shared" : [	"janedoe@gmail.com", 
+			                			"johndoe@gmail.com"	]
+			        	}	]	
+		}		
 	\end{lstlisting}
 	
 	A continuación, y una vez dado de alta en la API proporcionada por Google y generadas las claves necesarias para su utilización, se crea un elemento HTML que contendrá el mapa generado y se hace una llamada al API de manera que se muestre el mapa donde se generarán los elementos de marcado (ver figura \ref{fig:mostrar_posiciones2}).\\
@@ -1486,13 +1481,8 @@ En este sprint se llevará a cabo la historia de usuario 12 y el despliegue de l
 	\subsubsection{Desarrollo de la Historia de Usuario: ''Crear una aplicación de acceso para móviles''}
 La última funcionalidad prevista consiste en implementar una aplicación para móviles que permita el acceso a la página web desde los dispositivos móviles. Se ha optado por crear una aplicación que funcione como un acceso directo a la página web en donde se encuentra la herramienta desplegada. De esta forma, al abrirla, redirigirá el navegador predeterminado hacia la dirección indicada (ver listado \ref{code:appAndroid}). También se crea una funcionalidad de \textit{splash screen}, por la que al arrancar la aplicación durante unos segundos se podrá ver el logotipo en pantalla (ver figura \ref{fig:app-Android2}) antes de iniciar la apertura del navegador (ver listado \ref{code:appAndroid2}).
 
-	\begin{figure}[h!]
-		\centering
-		\includegraphics[height=3cm, fbox={\fboxrule} 4mm]{images/05-resultados/26-app_Android2.jpg}
-		\caption{Logotipo de la aplicación}
-		\label{fig:app-Android2}
-	\end{figure}
 
+	
 	\begin{lstlisting}[, frame = single, language = Java, caption  = {«Código fuente aplicación móvil»}, label = code:appAndroid]
 		public class MainActivity extends AppCompatActivity {
 		    @Override
@@ -1515,7 +1505,14 @@ La última funcionalidad prevista consiste en implementar una aplicación para m
 		}
 	\end{lstlisting}
 	
-		\begin{lstlisting}[, frame = single, language = Java, caption  = {«Código fuente aplicación móvil. Splash Screen»}, label = code:appAndroid2]
+	\begin{figure}[H]
+		\centering
+		\includegraphics[height=5cm, fbox={\fboxrule} 4mm]{images/05-resultados/25-app_Android.png}
+		\caption{Vista previa de la aplicación}
+		\label{fig:app-Android}
+	\end{figure}
+	
+	\begin{lstlisting}[, frame = single, language = Java, caption  = {«Código fuente aplicación móvil. Splash Screen»}, label = code:appAndroid2]
 		public class SplashScreen extends Activity {
 		    @Override
 		    protected void onCreate(Bundle savedInstanceState) {
@@ -1546,9 +1543,9 @@ La última funcionalidad prevista consiste en implementar una aplicación para m
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[height=5cm, fbox={\fboxrule} 4mm]{images/05-resultados/25-app_Android.png}
-		\caption{Vista previa de la aplicación}
-		\label{fig:app-Android}
+		\includegraphics[height=3cm, fbox={\fboxrule} 4mm]{images/05-resultados/26-app_Android2.jpg}
+		\caption{Logotipo de la aplicación}
+		\label{fig:app-Android2}
 	\end{figure}
 			
 	\subsection{Sprint Review}
