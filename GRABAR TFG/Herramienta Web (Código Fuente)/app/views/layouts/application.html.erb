@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MementoParking | <%= yield(:title) %></title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVdlyqpDfn1sXmYcY9WJS4cfU0jnkIWao"></script>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true  %>
+  <%= csrf_meta_tags %>
+  <%= render 'layouts/shim' %>
+</head>
+<body style="padding-top = 70px">
+	<%= render 'layouts/header' %>
+	<div class="container">
+	    <%= flash_messages %>
+	    <%= yield %>
+	</div>
+	<%= render 'layouts/footer' %>
+</body>
+</html>

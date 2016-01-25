@@ -1,0 +1,59 @@
+<% provide(:title, "Mis datos") %>
+<div class="jumbotron fixed-top">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+    <h3 class="panel-title"><span class="glyphicon glyphicon-edit" aria-hidden="true" style="margin-right: 10px"></span>Mis datos personales</h3>
+    </div>
+
+    <div class="panel-body">
+      <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
+      <%= devise_error_messages! %>
+
+      <div class="field">
+        <%= f.text_field :name, placeholder: "Nombre", style: "margin-top: 10px;" %>
+      </div>
+
+      <div class="field">
+        <%= f.text_field :surname, placeholder: "Apellidos", style: "margin-top: 10px;"%>
+      </div>
+
+      <div class="field", style="margin-bottom: 10px;">
+        <%= f.email_field :email, autofocus: true, placeholder: "Email", style: "margin-top: 10px;" %>
+      </div>
+
+      <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
+      <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
+      <% end %>
+
+      <div class="field">
+        <i>(Deja este campo en blanco si no quieres cambiar la contraseña)</i><br />
+        <%= f.password_field :password, autocomplete: "off", placeholder: "Contraseña"%>
+      </div>
+
+      <div class="field", style="margin-bottom: 10px;">
+        <%= f.password_field :password_confirmation, autocomplete: "off", placeholder: "Confirmar contraseña", style: "margin-top: 10px;" %>
+      </div>
+
+      <div class="field">
+        <i>(Introduce tu contraseña actual para confirmar los cambios)</i><br />
+        <%= f.password_field :current_password, autocomplete: "off", placeholder: "Contraseña actual", required: true %>
+      </div>
+
+
+      <div class="actions">
+        <%= f.submit "Confirmar cambios", :class => "btn-primary btn", style: "margin-top: 10px;" %>
+      </div>
+      <% end %>
+
+    </div>
+  </div> <!-- End of first panel-->
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title"><span class="fa fa-trash" aria-hidden="true" style="margin-right: 10px"></span>Borrar mi cuenta</h3>
+    </div>
+    <div class="panel-body">
+      <p><%= button_to "Borrar mi cuenta", registration_path(resource_name), data: { confirm: "¿Estás seguro?" }, method: :delete, :class => "btn-danger btn" %></p>
+    </div>
+  </div> <!-- End ofsecond panel -->
+</div> <!-- End of jumbotron -->
+

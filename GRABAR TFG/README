@@ -1,0 +1,95 @@
+-------------------------------------------------------------------------------------------------
+
+#     #                                             ######                                       
+##   ## ###### #    # ###### #    # #####  ####     #     #   ##   #####  #    # # #    #  ####  
+# # # # #      ##  ## #      ##   #   #   #    #    #     #  #  #  #    # #   #  # ##   # #    # 
+#  #  # #####  # ## # #####  # #  #   #   #    #    ######  #    # #    # ####   # # #  # #      
+#     # #      #    # #      #  # #   #   #    #    #       ###### #####  #  #   # #  # # #  ### 
+#     # #      #    # #      #   ##   #   #    #    #       #    # #   #  #   #  # #   ## #    # 
+#     # ###### #    # ###### #    #   #    ####     #       #    # #    # #    # # #    #  ####  
+
+
+-------------------------------------------------------------------------------------------------
+
+MANUAL DE INSTALACIÓN
+
+Debido a que la herramienta se ha desarrollado en forma de una página web, para ponerla 
+en funcionamiento únicamente hará falta instalar Ruby on Rails en el sistema anfitrión y
+lanzar el servidor que instala el entorno de programación, de esta manera podremos acceder
+al desarrollo desde nuestra máquina local.
+Este manual está destinado a la instalación del lenguaje de programación Ruby on Rails, la
+descarga de la herramienta y su puesta en funcionamiento bajo el sistema operativo Elementary
+OS.
+
+A.1 HERRAMIENTA WEB
+
+A.1.1 INSTALACIÓN DE RUBY ON RAILS
+
+Primero se prepara el sistema instalando los paquetes auxiliares necesarios para la descarga
+de Ruby, para lo cual se abre una terminal y se escriben los siguientes comandos:
+
+	$ sudo apt-get update
+	$ sudo apt-get install build-essential git
+
+A continuación se instala la firma necesaria para la descarga de RVM escribiendo en la
+terminal:
+
+	$ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+
+Por último, para instalar las últimas versiones estables de RVM, Ruby y Rails se ejecuta
+la siguiente orden en el terminal:
+
+	$ \curl -sSL https://get.rvm.io | bash -s stable
+
+Una vez instalado se reinicia la terminal y se lanza el siguiente comando para completar
+la instalación de Ruby en la versión 2.1.2:
+
+	$ rvm install ruby 2.1.2
+
+Indicamos a RVM que esta es la versión de Ruby que usaremos por defecto:
+
+	$ rvm use 2.1.2 --default
+
+El siguiente paso consiste en descargar e instalar Rails y un entorno de ejecución para
+JavaScript, en este caso NodeJS:
+
+	$ gem install rails
+	$ sudo apt-get install nodejs
+
+A.1.2 CLONAR REPOSITORIO HERRAMIENTA E INICIAR RAILS
+
+Para descargar el código fuente desde el repositorio se debe clonar el repositorio de Github,
+ejecutar el administrador de gemas e iniciar el servidor Rails:
+
+	$ git clone https://github.com/jbausa/mementoParking_CODE.git
+	$ cd mementoParking_CODE
+	$ bundle install
+	$ rails s
+
+Una vez realizados estos pasos, se podrá abrir un navegador y acceder a la aplicación desde
+la dirección http://localhost:3000.
+
+A.2 DESPLIEGUE EN HEROKU
+
+La herramienta ha sido desplegada en un servidor externo, de manera que se puede acceder
+a la misma desde un navegador utilizando la dirección http://mementoparking.herokuapp.
+com/.
+
+A.3 INSTALACIÓN DE ANDROID STUDIO
+
+Para la instalación de Android Studio se accede a la página oficial y se descarga el archivo
+continente del programa. Una vez descomprimido se podrá acceder mediante la terminal,
+desde la carpeta bin/ del programa ejecutando el comando ./studio.sh.
+
+A.4 CLONAR REPOSITORIO APLICACIÓN E INICIAR ANDROID
+
+Una vez dentro de la aplicación seleccionando la opción GitHub dentro de Project from
+Version Control en el menú New y escribiendo la dirección del repositorio.
+
+Para lanzar la aplicación será necesario instalar previamente los SDK necesarios y configurar
+un dispositivo virtual sobre el que mostrarla.
+
+A.5 ARCHIVO APLICACIÓN
+
+En el repositorio correspondiente se encuentra un archivo APK con la aplicación preparada
+para la instalación en los dispositivos compatibles.
